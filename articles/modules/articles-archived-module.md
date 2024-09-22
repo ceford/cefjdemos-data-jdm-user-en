@@ -85,7 +85,7 @@ list of links dictated by the number of months to display set the module.
 
 ![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png "Archived Articles Module Example")
 
-## Quick Tips
+## Tips
 
 The more archived articles you have the greater the number of the links
 displayed by the module. It may be more appropriate to limit the number

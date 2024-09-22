@@ -162,7 +162,7 @@ saved.
 - You will see an error message if the article has an alias that already
   exists. You can overcome this by amending the alias field.
 
-## Quick Tips
+## Tips
 
 - If you are not the Super User or Administrator, take time to
   understand how the website is set up. Just because you have saved an

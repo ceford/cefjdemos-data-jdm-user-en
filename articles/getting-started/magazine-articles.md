@@ -1,3 +1,5 @@
+<!-- Filename: J6.x:Magazine_Articles / Display title: Magazine Articles -->
+
 ## Magazine Articles
 
 Articles with tutorial type content related to Joomla 4 from 2020 to March 2023.)

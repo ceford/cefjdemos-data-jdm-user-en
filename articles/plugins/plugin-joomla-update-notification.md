@@ -67,7 +67,7 @@ website.
 - Selecting a language other than Auto (default) forces the update
   notification emails to be sent in this specific language.
 
-## Quick Tips
+## Tips
 
 - To turn off Joomla! update email notifications simply disable the
   plugin.

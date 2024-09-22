@@ -65,7 +65,7 @@ the article.
 Once you have the set the relevant access level select the
 **Save & Close** button in the Toolbar.
 
-## Quick Tips
+## Tips
 
 - Instead of on the article itself, you can set the access level on the
   menu item for the article.

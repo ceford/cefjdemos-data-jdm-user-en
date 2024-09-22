@@ -78,7 +78,7 @@ this:
 6.  Select the **Clear** button at the side of **Filter Options** and
     this will remove the filter and return to the **Article List**.
 
-## Quick Tips
+## Tips
 
 - Remember, deleting an article is not the same as archiving an article.
   Once it has been emptied from Trash it has gone for good.

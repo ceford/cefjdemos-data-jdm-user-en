@@ -107,7 +107,7 @@ alt="front end logout" />
 To logout go to the position you logged in then click the **Log out**
 button.
 
-## Quick Tips
+## Tips
 
 - Some Joomla website administrators install extensions that hide or
   restrict access to the backend Administrator Dashboard. You may have

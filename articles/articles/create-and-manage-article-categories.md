@@ -159,7 +159,7 @@ sub-categories (grouped and shown offset to the right below the parent).
 Once you have created your categories they are available for use in your
 articles.
 
-## Quick Tips
+## Tips
 
 - You can also create article categories from within an article.
 - Remember that you can only assign one category to an article.

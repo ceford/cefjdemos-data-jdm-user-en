@@ -51,7 +51,7 @@ Pagination is displayed at the bottom of the page depending on the number of
 articles and menu item settings. Select the **Filter** button to apply the
 filter.
 
-## Quick Tips
+## Tips
 
 Remember, use the Menu Item **Options** tab to tailor the output to your
 needs.

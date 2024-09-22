@@ -118,7 +118,7 @@ Follow the steps above at **Viewing Archived Articles** to view from
 the backend. Filter for archived articles, select the relevant
 articles and change status to **Published**.
 
-## Quick Tips
+## Tips
 
 * Remember, archived articles are filtered from view in the Articles
 list. You must change the status filter to **Archived** to view them.

@@ -254,7 +254,7 @@ Tags**. Click the **Options** button in the upper toolbar.
 
 Global configuration can be overridden at menu item level.
 
-## Quick Tips
+## Tips
 
 - Remember that Tags are used across multiple content types
 - You can add more than one Tag to an item
