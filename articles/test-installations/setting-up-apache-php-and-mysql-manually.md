@@ -111,7 +111,7 @@ above...)
         Variables and in the System Variables list locate and select the
         Variable PATH and click on Edit and add a trailing a semi-colon,
         if not already there, followed by the absolute path to your bin
-        directory. Click out from the System Properties dialogue by
+        directory. Click out from the System Properties dalog by
         accepting.
         1.  *httpd.exe* which is the Apache webserver itself, which is
             spawned to several child processes while serving as many

@@ -11,59 +11,44 @@ Frontend access is an easy and efficient way to allow content writers to
 quickly add or edit articles without the need to go to the Administrator
 Dashboard.
 
-Your Joomla login is configured to control what you can see and do (or
-can't) using Joomla's User Manager and powerful Access Control Levels
+Joomla login is configured to control what users can see and do (or
+can't) using Joomla's User component and powerful Access Control Levels
 (ACL). This means that a Joomla website may have users that only use the
 backend, some that only use the frontend and others that use both.
 
 The following covers logging in and out from both the backend and
-frontend of your Joomla website.
+frontend of a Joomla website.
 
-**Note:** Your Joomla Administrator may have disabled frontend access,
+**Note:** A Joomla Administrator may have disabled frontend access,
 requiring all tasks to be carried out using the backend Administrator
 Dashboard.
-
-The steps covered in this tutorial are based on a standard Joomla!
-installation.
 
 ### Administrator Login
 
 Navigate to the Administrator Login page. This is the web address for
-your website appended with /administrator, for example,
-my-joomla-website.com/administrator
+the website appended with /administrator, for example,
+my-joomla-website.com/administrator which invokes the Joomla Administrator 
+login page:
 
-This will take you to the Joomla Administrator Login:
+![Administrator login form](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
 
-<img
-src="https://docs.joomla.org/images/thumb/2/2a/J4x_administrator_login_en.png/800px-J4x_administrator_login_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/2/2a/J4x_administrator_login_en.png 1.5x"
-data-file-width="1000" data-file-height="562" width="800" height="450"
-alt="Administrator login" />
+1.  Add your **Username**
+2.  Add your **Password**
 
-1.  Add your **Username**.
-2.  Add your **Password**.
-
-Click the **Log in** button and you will be taken to the Joomla! Home
-Dashboard.
+Select the **Log in** button to be taken to the Joomla! Home Dashboard.
 
 **Note:**
 
-1.  Joomla provides you with the option to set up and use Web
-    Authentication - this is not within the scope of this tutorial.
-2.  If the website has other languages installed you will be able to
-    select the relevant language from a dropdown list before logging in.
+1.  Joomla provides an option to set up and use Web Authentication. 
+    This is not within the scope of this tutorial.
+2.  If a website has several languages installed you will be able to
+    select a language to use from a dropdown list before logging in.
 
 ### Administrator Logout
 
-To log out click the **User Menu** then **Log out**.
+To log out select the **User Menu** then **Log out**.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/89/J4x_administrator_logout_en.png/800px-J4x_administrator_logout_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/89/J4x_administrator_logout_en.png 1.5x"
-data-file-width="1000" data-file-height="159" width="800" height="127"
-alt="Administrator logout" />
+![Administrator logout link](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
 
 ### Site Login
 
@@ -74,38 +59,26 @@ may find a link has been added to the website menu, or perhaps in the
 footer. In some cases a *Create Page* link may exist. The design of the
 website will dictate where you access the login form.
 
-In this example we use a login form on the website that is located in
-the sidebar.
+This example uses a login form located in the right sidebar.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/ae/J4x_front_end_login_en.png/800px-J4x_front_end_login_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/ae/J4x_front_end_login_en.png 1.5x"
-data-file-width="1000" data-file-height="548" width="800" height="438"
-alt="front end login" />
+![Site login form module](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
 
-In the **Login Form**:
+In the **Login Form**
 
-1.  Add your **Username**.
-2.  Add your **Password**.
+1.  Add your **Username**
+2.  Add your **Password**
 
-Click the **Log in** button.
+Select the **Log in** button.
 
-When logging in from the frontend of the website, you will be kept on
-the same page that you logged in on. You will notice the login form will
-also be replaced with a **Log out** button.
+When logging in from the frontend of the website, you may be kept on
+the same page that you logged in from or you may be taken to your Profile page. 
+You will notice the login form will also contain a **Log out** button.
 
 ### Site Logout
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a9/J4x_front_end_logout_en.png/800px-J4x_front_end_logout_en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a9/J4x_front_end_logout_en.png 1.5x"
-data-file-width="1000" data-file-height="233" width="800" height="186"
-alt="front end logout" />
+![Site logout form module](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
 
-To logout go to the position you logged in then click the **Log out**
-button.
+To logout go to the login form and select the **Log out** button.
 
 ## Tips
 

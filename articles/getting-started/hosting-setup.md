@@ -18,16 +18,16 @@ version numbers are indicated in the following tables:
 
 ### Requirements for Joomla! 5.x
 
-| Software                                  | Recommended     | Minimum     |
-|-------------------------------------------|-----------------|-------------|
-| PHP                    | 8.3             | 8.1.0       |
-| **Databases**                             |                 |             |
-| MySQL                | 8.1             | 8.0.13      |
+| Software           | Recommended     | Minimum     |
+|--------------------|-----------------|-------------|
+| PHP                | 8.3             | 8.1.0       |
+| **Databases**      |                 |             |
+| MySQL              | 8.1             | 8.0.13      |
 | MariaDB            | 11.1.0          | 10.4.0      |
-| PostgreSQL      | 16.0            | 12.0        |
-| **Web Servers**                           |                 |             |
-| Apache        | 2.4             | 2.4         |
-| Nginx                | 1.25            | 1.21        |
+| PostgreSQL         | 16.0            | 12.0        |
+| **Web Servers**    |                 |             |
+| Apache             | 2.4             | 2.4         |
+| Nginx              | 1.25            | 1.21        |
 | Microsoft IIS      | 10              | 10          |
 
 ### Requirements for Joomla! 4.x
@@ -103,14 +103,12 @@ Also check the control panel and platform offered. Judging from Forum
 posts, most use cPanel on Linux. The hosting service should provide all
 of the basic website support software:
 
-- Apache web server 2.4+ - *directory indexes* should be disabled. Also
-  supported:
+- Apache web server 2.4+ - *directory indexes* should be disabled. Also supported:
   - Nginx 1.18+ (fewer users so less Forum support)
   - Microsoft IIS\[6\] (fewer users so less Forum support)
-- MySQLi database 5.6+ or MariaDB clone with InnoDB support. Also
-  supported:
+- MySQLi database 8.1+ or MariaDB clone with InnoDB support. Also supported:
   - PostgreSQL 11.0+ (fewer users so less Forum support).
-- PHP 8+ is recommended, the minimum is 7.2.5.
+- PHP 8+ is recommended.
 - phpMyAdmin database management tool.
 
 Before buying, check the following minimal PHP requirements for Joomla:

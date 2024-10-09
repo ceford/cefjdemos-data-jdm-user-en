@@ -13,26 +13,26 @@ but not others.
 ## The Site Modules List
 
 It is worth looking at the Modules (Site) list. Select
-**Content **→** Site Modules** from the Administrator menu. You will see
-the Breadcrumbs, Main Menu and Login Form modules listed. The column
+**Content → Site Modules** from the Administrator menu. You will see
+the *Breadcrumbs*, *Main Menu* and *Login Form* modules listed. The column
 headings are:
 
-- **Checkbox.** Select or Deselect all visible items in the list.
-- **Order Symbol.** After selection, used to drag modules up or down to
+- **Checkbox** Select or Deselect all visible items in the list.
+- **Order Symbol** After selection, used to drag modules up or down to
   change their order in their assigned positions.
-- **Status.** Published or Unpublished controls whether a module will be
+- **Status** Published or Unpublished controls whether a module will be
   seen at all.
-- **Title.** Select a Title link to edit the module.
-- **Position.** This is the position defined in the template. The
+- **Title** Select a Title link to edit the module.
+- **Position** This is the position defined in the template. The
   obvious positions are breadcrumbs and sidebar-right. There are many
   more.
-- **Type.** The type of module is given because it may not be obvious
+- **Type** The type of module is given because it may not be obvious
   from the Title.
-- **Pages.** **On All Pages** is obvious. It may be *On Selected Pages*
-  or *Not on Selected Pages*.
-- **Access.** Public means everyone. But this may be restricted by User
+- **Pages** An indicator of the pages on which a module will be displayed. It 
+  may be *All*, *On Selected Pages*, *All except Selected Pages* or *No Pages*.
+- **Access** Public means everyone. But this may be restricted by User
   Group, for example Super User.
-- **ID.** An identification number allocated by Joomla.
+- **ID** An identification number allocated by Joomla.
 
 ## Add a New Module
 
@@ -45,12 +45,12 @@ display arbitrary content such as a message or announcement.
 - Enter a **Title**, for example *Announcement*.
 - Enter the **Module** text, for example *This site is closing for a
   software update at 20:00 on Friday*.
-- Select a **Position** from the drop-down list. In this case it will be
-  *Sidebar-right* along with the other modules.
+- Select a **Position** from the drop-down list. In this case it could be
+  *sidebar-right* along with the other modules.
 - Set a **Finish Publishing** date. This is optional but an obvious
   thing to do to make the module disappear after the event announced has
   passed.
-- Save and Close. Reload the Site and see the result. Is it in the order
+- **Save & Close** Reload the Site and see the result. Is it in the order
   you want? If not:
   - In the Modules list select the Order Symbol in the column headings.
   - Hover on the grab handle symbol for the new module and then select

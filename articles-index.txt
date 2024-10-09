@@ -4,21 +4,23 @@ getting-started=hosting-setup.md=https://docs.joomla.org/J4.x:Hosting_Setup
 getting-started=installing-joomla.md=https://docs.joomla.org/J4.x:Installing_Joomla
 getting-started=logging-in-to-joomla.md=https://docs.joomla.org/J4.x:Logging_in_to_Joomla
 getting-started=articles-and-categories.md=https://docs.joomla.org/J4.x:Articles_and_categories
-getting-started=adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
 getting-started=adding-a-category.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category
+getting-started=adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
 getting-started=adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Getting Started: Adding a Menu mw
 getting-started=adding-a-module.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module
 getting-started=keyboard-shortcuts.md=https://docs.joomla.org/J4.x:Keyboard_Shortcuts
 
-articles=create-and-manage-article-categories.md=https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories
-articles=adding-a-new-article.md=https://docs.joomla.org/J4.x:Adding_a_New_Article
-articles=version-history.md=jdocmanual?manual=user&heading=articles&filename=version-history.md
-articles=deleting-an-article.md=https://docs.joomla.org/J4.x:Deleting_an_Article
-articles=featured-articles.md=https://docs.joomla.org/J4.x:Featured_Articles
-articles=how-to-archive-an-article.md=https://docs.joomla.org/J4.x:How_to_Archive_an_Article
+articles=articles-categories.md=https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories
+articles=articles-filter-options.md=J6.x:Articles:_List_Filter_Options
+articles=articles-featured.md=https://docs.joomla.org/J4.x:Featured_Articles
+articles=articles-archive.md=https://docs.joomla.org/J4.x:How_to_Archive_an_Article
+articles=articles-delete.md=https://docs.joomla.org/J4.x:Deleting_an_Article
+articles=article-content.md=https://docs.joomla.org/J4.x:Adding_a_New_Article
 articles=article-headings.md=https://docs.joomla.org/J4.x:Article_Headings
-articles=adding-an-image-to-an-article.md=https://docs.joomla.org/J4.x:Adding_an_image_to_an_article
+articles=article-images.md=https://docs.joomla.org/J4.x:Adding_an_image_to_an_article
 articles=article-links.md=https://docs.joomla.org/J4.x:Article_Links
+articles=article-images-and-links.md=https://docs.joomla.org/J6.x:Article_Images_and_Links
+articles=version-history.md=jdocmanual?manual=user&heading=articles&filename=version-history.md
 articles=adding-a-menu-link-in-an-article.md=https://docs.joomla.org/J4.x:Adding_a_menu_link_in_an_article
 articles=read-more-links.md=https://docs.joomla.org/J4.x:Read_More_Links
 articles=article-lists.md=https://docs.joomla.org/J4.x:Article_Lists

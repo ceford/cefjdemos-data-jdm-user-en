@@ -33,7 +33,7 @@ This template has all you need to get started with your own website. It
 can be customised with template settings and user specified features
 such as images and colours.
 
-![The Cassiopeia Template](../../../en/images/getting-started/getting-started-introduction-cassiopeia.png "The Cassiopeia Template")
+![The Cassiopeia Template](../../../en/images/getting-started/introduction-to-joomla-cassiopeia.png "The Cassiopeia Template")
 
 If Cassiopeia is not quite right for your site, there are hundreds of
 other templates available from third party suppliers, both free and
@@ -48,16 +48,16 @@ commercial.
   examples of modules. The grey bar containing *You are here:* is a
   *Breadcrumb* module. It shows where you are in a page tree, useful in
   complex sites.
-- *Home* is where the content appears. In a new installation this is a
-  list of *Featured Articles*. But there are no articles yet so it is
-  empty. First job: create an article and mark it *Featured*.
+- The main area of the page is where the content appears. In a new installation 
+  it may be empty but in an established site it typically contains a single
+  article or a *Blog* layout containing tasters for several recent articles.
 
 ### Administrator Template - Atum
 
 This template is not seen by the public so it is rarely necessary to
 seek an alternative.
 
-![The Atum Template](../../../en/images/getting-started/getting-started-introduction-atum.png "The Atum Template")
+![The Atum Template](../../../en/images/getting-started/introduction-to-joomla-atum.png "The Atum Template")
 
 You can configure what appears on various dashboards but that is best
 left until experience warrants a change.
@@ -66,8 +66,7 @@ left until experience warrants a change.
 
 - At the top is the Title bar containing the Joomla Logo, the Title of
   the page on display and a group of Information icons. They are on
-  every page but disabled on Edit pages. To find out what they do: try
-  them.
+  every page except *Edit* pages. To find out what they do: try them.
 - The default page is the *Home Dashboard*. It contains panels grouping
   together often used Management features. You can add and remove panels
   as you please. And you can add items to panels and remove items too.
@@ -99,5 +98,3 @@ Joomla! code consists of several different types of Extension:
 Joomla! has all the core Extensions you need for most types of personal
 and community websites. You only need to look for third party Extensions
 for more complex requirements such as sales and marketing.
-
-Ready to start?

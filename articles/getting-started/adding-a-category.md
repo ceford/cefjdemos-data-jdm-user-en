@@ -17,81 +17,61 @@ tree-like structure. Example :
 | Reptiles   | Snakes, Lizards, Crocodiles, Turtles   |
 | Amphibians | Frogs, Toads                           |
 | Birds      | Raptors, Ducks, Gulls, Finches, Tits   |
-| Insects    | Spiders, Butterflies, Bees, Locusts    |
+| Arthropods | Spiders, Butterflies, Bees, Locusts    |
 | Fish       | Sharks, Salmon, Cod, Herring, Mackerel |
 
-Sub-categories may have further sub-categories too. An optimal number
-seems to be about seven.
+Sub-categories may have further sub-categories too. A maximum manageable depth
+seems to be about seven. For the table above, a museum might add more 
+parent categories:
+
+```text
+nature -> life -> animals -> mammals...
+nature -> life -> plants -> trees...
+nature -> minerals...
+history -> egypt...
+science -> astronomy...
+science -> chemistry...
+```
+
+Imagine how many specimens a national or small town museum holds!
 
 ## Menu Item Types
 
-There are two menu item types designed to work with Categories:
+There are several menu item types designed to work with Categories:
 
-- **Category Blog.** This is a page layout that has one or two leading
-  article tasters, often full page width, then several more tasters in
+- **Category Blog** This is a page layout that has one or two leading
+  article tasters, often full page width, then several more article tasters in
   two or three columns, and finally a pagination mechanism to link to
   more articles in the same category. The taster is the content before
-  the page-break. The Site Home page is a category blog that includes
-  All Categories.
-- **Category List.** This is a list layout that displays a list of
-  article titles in a category.
+  a page-break, often the first one or two paragraphs. A site *Home* page is 
+  often a category blog that includes *All Categories*. A *Featured Articles* 
+  layout is similar to a category blog and often used as a Home page too.
+- **Category List** This is a list layout that displays a list of
+  articles in a category. It can be displayed with a Search filter to allow
+  searching for articles by Title, Author, Hits, Tags or Month published.
+- **List All Categories in an Article Category Tree** This layout lists a 
+  category tree starting from a chosen parent. Each branch is collapsible and
+  is most useful for large, complex category tree structures.
+
+Menu items are covered in a later article.
 
 ## Create a Category
 
-The article mentioned in this Getting Started series, *My First
-Article*, was a bit of an experiment. There may be more experiments so
-why not create an Experiments category? Proceed as follows:
+The following example uses a Mammals category inspired by the list above to
+demonstrate how to create a new Category:
 
-- Expand the Content item in the Administrator menu and select the **+**
-  icon alongside the Categories menu item. Note that other components,
-  such as Banners and Contacts, can have categories too. They are kept
-  separate from Content Categories.
-- The **Articles: New Category.** form has only one compulsory field:
-  the Title, in this case Experiments.
-- The **Description.** field is optional but it is best to fill it in as
-  it used in some lists.
-- The **Parent.** field specifies whether this is category, -No Parent-,
-  or a sub-category, selected from the list of categories.
+![Category edit form](../../../en/images/getting-started/article-category-edit.png)
 
-<img
-src="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/800px-J4.x-getting-started-category-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/1200px-J4.x-getting-started-category-screenshot-en.png 1.5x, https://docs.joomla.org/images/0/01/J4.x-getting-started-category-screenshot-en.png 2x"
-data-file-width="1440" data-file-height="1134" width="800" height="630"
-alt="Screenshot of new category form" />
+- Select the **Content** item from the Administrator menu to expand it.
+- Select the **+** icon alongside the *Categories* menu item to open the 
+  Category edit form. 
+- The **Articles: New Category** form has only one compulsory field:
+  the *Title*, in this case *Mammals*.
+- The **Description** field is optional but it is best to fill it in as
+  it used in some lists. Suggestion:<br>
+  *Mammals are warm-blooded animals that give birth to live young.*
+- The **Parent** field specifies whether this is a primary category 
+  (-No Parent-) or a sub-category selected from the list of categories.
+- **Save and Close** to return to the **Articles: Categories** list page.
 
-Save and Close! This takes you to the **Articles: Categories** list
-screen.
-
-## Change Article Category
-
-- Select the **Articles** item from the **Administrator **→** Content**
-  menu.
-- Select the article title link the **Title** column to open the article
-  for editing.
-- In the **Category** field select the Experiments category from the
-  drop-down list.
-- **Save and Close.** There is no change in the Site Home page because
-  the article is still marked as featured and the Home page is a
-  category blog for All Categories.
-
-## Create Category List Menu Item
-
-- Select **Menus **→** Main Menu **→** +** from the Administrator menu
-  to open the Menus: New Item form.
-- Select **Articles **→** Category List** in the Menu Item Type field.
-- Select **Select **→** Experiments** in the Choose a Category field.
-- Enter a Title, Experiments in this case.
-- Save and Close.
-
-Go to the Site Home page and reload. Select the new Experiments menu
-item.
-
-<img
-src="https://docs.joomla.org/images/thumb/0/07/J4.x-getting-started-category-list-screenshot-en.png/800px-J4.x-getting-started-category-list-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/07/J4.x-getting-started-category-list-screenshot-en.png 1.5x"
-data-file-width="852" data-file-height="272" width="800" height="255"
-alt="Screenshot of site category list page" />
-
-Not too pretty at this stage but the layout can be improved. Later...
+This category is now available for use with articles.

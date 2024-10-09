@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Deleting an Article -->
+<!-- Filename: J4.x:Deleting_an_Article / Display title: Articles: Delete -->
 
 ## Introduction
 

@@ -2,73 +2,67 @@
 
 ## Introduction
 
-You have installed Joomla! but don't have a clue what to do next! Let us
-assume you are looking at the Home Dashboard. Select the **Home
-Dashboard** item in the **Administrator** menu just to be sure.
+After login, starting from the Home Dashboard, there are several ways to create
+a new article:
 
-There are several ways to create a new article:
+- Select the **+** icon adjacent to the *Articles* button in the Home Dashboard 
+  *Site* panel.
+- Expand the *Content* menu and select the **+** button adjacent to
+  *Articles* there.
+- In either location, select the **Articles** item and in the Articles
+  list page select the **New** button the Toolbar.
 
-- Select the **+** icon adjacent to Articles in the Home Dashboard Site
-  panel.
-- Expand the Content menu and select the **+** button adjacent to
-  Articles there.
-- In either location select the **Articles** item and in the Articles
-  list screen select the **New** button the Toolbar.
+Until an article has been created the Articles page shows a placeholder page
+saying *No Articles have been created yet.*
 
 ## The Toolbar
 
 On almost every page, immediately beneath the title bar, is a bar
 containing action buttons. This is known as the Toolbar. The buttons
 differ from page to page and sometimes are inactive, appearing grey,
-until an item is selected in the list of items. Example, containing New,
-Action, Options and Help buttons:
+until an item is selected in the list of items. The following screenshot shows
+the *Articles* list with an article checkbox selected. The *Action* button is a 
+drop-down list that has been selected to show the options available.
 
-<img
-src="https://docs.joomla.org/images/thumb/9/9c/J4.x-getting-started-toolbar-screenshot-en.png/800px-J4.x-getting-started-toolbar-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/9/9c/J4.x-getting-started-toolbar-screenshot-en.png/1200px-J4.x-getting-started-toolbar-screenshot-en.png 1.5x, https://docs.joomla.org/images/9/9c/J4.x-getting-started-toolbar-screenshot-en.png 2x"
-data-file-width="1440" data-file-height="356" width="800" height="198"
-alt="Screenshot of articles toolbar" />
+![Articles list with actions button enabled](../../../en/images/getting-started/articles-list.png)
 
-## The Articles Edit Page
+Select the *New* button in the *Articles* page *Toolbar* to open an article
+edit form. 
+
+## The Articles: Edit page
+
+Until an article has been saved the *Title bar* label is *Articles: New* and it 
+has few Toolbar buttons. The *Cancel* button can be used to cancel creation of 
+an article. There is no warning message. Any content entered is discarded. 
+After saving, the Title bar label is *Articles: Edit* and the Toolbar has many 
+more buttons.
+
+![Article edit form](../../../en/images/getting-started/article-edit-form.png)
 
 There are a bewildering number of form fields in the Edit page but all
-but except two have sensible defaults that you can forget about for now.
-The fields to fill in:
+except two have sensible defaults. The fields to fill in:
 
-- **Title.** This is compulsory and should be something short and
-  simple.
+- **Title** This is **required** and should be something short and
+  simple. In Joomla, any form item marked as required must be filled in
+  or the form contents cannot be saved. You could use *My First Article* to get
+  started. In the following examples the word *Article* followed by language 
+  code was used for demonstration purposes in several different languages.
 - **Content** The article text. This is optional but it would not make
   much sense to have an article with no content. So start typing. If you
   just want something to try out copy the following paragraph:
 
->Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus
-eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
-sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec
-vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit
-amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris
-sit amet nibh.
-
-- **Featured.** To the right of the edit box (on laptop or bigger
+  >Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senseritdefiniebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latineequidem dolores. Quo no falli viris intellegam, ut fugit veritus placeratper. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eosdebet libris consulatu.
+- **Featured** To the right of the edit box (on laptop or larger
   screens and below on smaller screens) there is a field to select to
-  make this a Featured article. Select it and then select the **Save**
-  button in the Toolbar.
+  make this a *Featured* article. Select it and then select the **Save**
+  button in the Toolbar. Featured articles may be given priority in site
+  layouts and several may appear together in a *Featured* blog layout.
 
-## Site View
+## Preview
 
-To see what it looks like you can select the Site view icon in the Title
-bar. If the site view is already open just reload it.
+To see what it looks like you can select the *Preview* button in the Toolbar.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ea/J4.x-getting-started-my-first-article-screenshot-en.png/800px-J4.x-getting-started-my-first-article-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/ea/J4.x-getting-started-my-first-article-screenshot-en.png 1.5x"
-data-file-width="854" data-file-height="480" width="800" height="450"
-alt="Screenshot of article in the site" />
+![Articles list with actions button enabled](../../../en/images/getting-started/article-edit-preview.png)
 
 Note the article metadata: the information between the Title and the
 Content. You can configure what information appears and where it appears
@@ -78,8 +72,8 @@ with those other article form fields. Later...
 
 If your article is several paragraphs long and you wish to show a number
 of featured articles on the Home page of your website, you should insert
-a Read More break after the first paragraph. If you click the Editor CMS
-Content button you will find it at the bottom of the list. The break
+a *Read More...* break after the first paragraph. If you select the Editor 
+*CMS Content* button you will find it at the bottom of the list. The break
 appears as a horizontal dashed red line. Here is another paragraph of
 test text to insert below the page break:
 
@@ -94,8 +88,29 @@ suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
 ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget,
 posuere ut, mauris.
 
-The result is that only the text before the page break appears on the
-Home page. Click the Article Title or the Read More button to see the
-full article on its own.
+The result is that only the text before the page break appears on a 
+Category Blog or Featured Articles page (the Home page). Select the 
+Article Title or the Read More button to see the full article on its own.
 
-And notice the Breadcrumbs!
+- Select **Save & Close** to close the edit form and go back to the *Articles* 
+  list page.
+
+A new Joomla installation has a Site menu with a single menu item labelled 
+*Home*. It uses a *Featured Articles* blog layout. Select the *Site name* link 
+at the top right of the Joomla Administrator page to open a new tab showing
+the site Home page with your new article.
+
+## Site View
+
+The following screenshot shows a site view of the first part of the article 
+described above. Your new Joomla! site will have just the *Main Menu*, 
+*Login Form* and your article. This screenshot is for a multi-lingual site
+that shows the same page in many different languages and has other content
+used in later tutorials.
+
+![Site view using category blog layout](../../../en/images/getting-started/article-site-view.png)
+
+### Breadcrumbs
+
+The pale grey line that says *You are here: Home* is a configurable module 
+showing where you are in the category tree.
