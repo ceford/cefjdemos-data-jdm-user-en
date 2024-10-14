@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Article: Content -->
+<!-- Filename: J4.x:Adding_a_New_Article / Display title: Article: Edit - Content -->
 
 ## Introduction
 

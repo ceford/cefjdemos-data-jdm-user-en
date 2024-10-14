@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Read_More_Links / Display title: Read More Links -->
+<!-- Filename: J4.x:Read_More_Links / Display title: Article: Edit - Read More -->
 
 ## Blog and Featured Article Layouts
 

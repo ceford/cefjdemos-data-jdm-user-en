@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Article_Headings / Display title: Article Headings -->
+<!-- Filename: J4.x:Article_Headings / Display title: Article: Edit - Headings -->
 
 ## Heading Semantics
 

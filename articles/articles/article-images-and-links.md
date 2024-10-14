@@ -1,4 +1,4 @@
-<!-- Filename: Article_Images_and_Links / Display title: Article: Images and Links -->
+<!-- Filename: Article_Images_and_Links / Display title: Article: Edit - Images and Links -->
 
 ## Introduction
 

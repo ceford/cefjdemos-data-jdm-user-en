@@ -1,4 +1,4 @@
-<!-- Filename: Adding_an_image_to_an_article / Display title: Article Images -->
+<!-- Filename: Adding_an_image_to_an_article / Display title: Article: Edit - Images -->
 
 ## Introduction
 

@@ -19,14 +19,19 @@ articles=article-content.md=https://docs.joomla.org/J4.x:Adding_a_New_Article
 articles=article-headings.md=https://docs.joomla.org/J4.x:Article_Headings
 articles=article-images.md=https://docs.joomla.org/J4.x:Adding_an_image_to_an_article
 articles=article-links.md=https://docs.joomla.org/J4.x:Article_Links
-articles=article-images-and-links.md=https://docs.joomla.org/J6.x:Article_Images_and_Links
-articles=version-history.md=jdocmanual?manual=user&heading=articles&filename=version-history.md
-articles=adding-a-menu-link-in-an-article.md=https://docs.joomla.org/J4.x:Adding_a_menu_link_in_an_article
-articles=read-more-links.md=https://docs.joomla.org/J4.x:Read_More_Links
 articles=article-lists.md=https://docs.joomla.org/J4.x:Article_Lists
-articles=article-pagination.md=https://docs.joomla.org/J4.x:Article_Pagination
 articles=article-tables.md=https://docs.joomla.org/J4.x:Article_Tables
+articles=article-pagination.md=https://docs.joomla.org/J4.x:Article_Pagination
+articles=article-read-more.md=https://docs.joomla.org/J4.x:Read_More_Links
+articles=article-images-and-links.md=https://docs.joomla.org/J6.x:Article_Images_and_Links
+articles=article-options.md=https://docs.joomla.org/J6.x:Article_Options
+articles=article-publishing.md=jdocmanual?manual=user&heading=articles&filename=article-publishing.md
 articles=article-metadata.md=jdocmanual?manual=user&heading=articles&filename=article-metadata.md
+articles=article-configure-edit-screen.md=jdocmanual?manual=user&heading=articles&filename=article-configure-edit-screen.md
+articles=article-permissions.md=jdocmanual?manual=user&heading=articles&filename=article-permissions.md
+articles=article-save-to-menu.md=https://docs.joomla.org/J4.x:Adding_a_menu_link_in_an_article
+articles=article-versions.md=jdocmanual?manual=user&heading=articles&filename=article-versions.md
+articles=article-accessibility-check.md=jdocmanual?manual=user&heading=articles&filename=article-accessibility-check.md
 
 articles-access=article-check-out-and-check-in.md=https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in
 articles-access=article-preview.md=https://docs.joomla.org/J4.x:Article_Preview

@@ -25,14 +25,19 @@ user=articles=article-content.md
 user=articles=article-headings.md
 user=articles=article-images.md
 user=articles=article-links.md
-user=articles=article-images-and-links.md
-user=articles=version-history.md
-user=articles=adding-a-menu-link-in-an-article.md
-user=articles=read-more-links.md
 user=articles=article-lists.md
-user=articles=article-pagination.md
 user=articles=article-tables.md
+user=articles=article-pagination.md
+user=articles=article-read-more.md
+user=articles=article-images-and-links.md
+user=articles=article-options.md
+user=articles=article-publishing.md
 user=articles=article-metadata.md
+user=articles=article-configure-edit-screen.md
+user=articles=article-permissions.md
+user=articles=article-save-to-menu.md
+user=articles=article-versions.md
+user=articles=article-accessibility-check.md
 
 heading=articles-access=Articles - Access
 user=articles-access=article-check-out-and-check-in.md

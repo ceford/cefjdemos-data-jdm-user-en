@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:Article_Links / Display title: Article Links -->
+<!-- Filename: J4.x:Article_Links / Display title: Article: Edit - Links -->
 
 ## Accessible Links
 
