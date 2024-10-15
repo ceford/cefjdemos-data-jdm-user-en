@@ -1,13 +1,13 @@
-<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Check-out and Check-in -->
+<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Article: Check-in -->
 
-## About Check-out
+## Introduction
 
 Many Joomla websites have multiple users who have permission to edit
 articles. To prevent two users from trying to edit the same article at
 the same time each article has a **checked_out** database field to
 indicate whether or not it is in use. It is set when an article is
 opened for editing and unset when the edit form is closed using either
-the `Save & Close` or `Close` buttons.
+the *Save & Close* or *Close* buttons.
 
 Sometimes an article edit form is not closed properly, for example by
 using the browser back button or by having the user session time out. In
@@ -30,6 +30,8 @@ There are several methods available to check-in an article.
   article.
 - If you are a Super User or Administrator you can select the padlock
   icon to check in this one item.
+- You can also select several articles and use the *Check-in* item from the
+  *Actions* button in the Toolbar
 - If you cannot check-in the item yourself ask a Super User or
   Administrator to do it.
 
@@ -51,20 +53,15 @@ editing and accidentally left in that state.
 
 From the Administrator menu:
 
-- Select **Home Dashboard **→** Global Check-in** or
-  **System **→** Maintenance panel **→** Global Check-in**.
+- Select **Home Dashboard → Global Check-in** or
+  **System → Maintenance panel → Global Check-in**.
 - The list shows the number of items checked out.
 
-<img
-src="https://docs.joomla.org/images/thumb/6/65/J4x-global-checkin-en.png/800px-J4x-global-checkin-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/65/J4x-global-checkin-en.png 1.5x"
-data-file-width="1000" data-file-height="296" width="800" height="237"
-alt="Global Check-in" />
+![Global checkin page](../../../en/images/articles/global-checkin.png)
 
 - From the list of database tables select the checkbox for the type of
   item to be checked in.
-- Select `Check-in` from the Toolbar.
+- Select *Check-in* from the Toolbar.
 
 All of the checked out items in that table will be checked in.
 

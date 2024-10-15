@@ -31,13 +31,10 @@ articles=article-configure-edit-screen.md=jdocmanual?manual=user&heading=article
 articles=article-permissions.md=jdocmanual?manual=user&heading=articles&filename=article-permissions.md
 articles=article-save-to-menu.md=https://docs.joomla.org/J4.x:Adding_a_menu_link_in_an_article
 articles=article-versions.md=jdocmanual?manual=user&heading=articles&filename=article-versions.md
+articles=article-preview.md=https://docs.joomla.org/J4.x:Article_Preview
 articles=article-accessibility-check.md=jdocmanual?manual=user&heading=articles&filename=article-accessibility-check.md
-
-articles-access=article-check-out-and-check-in.md=https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in
-articles-access=article-preview.md=https://docs.joomla.org/J4.x:Article_Preview
-articles-access=scheduling-the-publication-of-an-article.md=https://docs.joomla.org/J4.x:Scheduling_the_publication_of_an_article
-articles-access=restricting-access-to-an-article.md=https://docs.joomla.org/J4.x:Restricting_access_to_an_Article
-articles-access=restricting-access-to-read-more.md=https://docs.joomla.org/J4.x:Restricting_access_to_read_more
+articles=article-access-restriction.md=J6.x:Article_Access_Restriction
+articles=article-check-in.md=https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in
 
 articles-metadata=entering-search-engine-meta-data.md=https://docs.joomla.org/J4.x:Entering_search_engine_meta-data
 articles-metadata=using-the-meta-description.md=https://docs.joomla.org/J4.x:Using_The_Meta_Description

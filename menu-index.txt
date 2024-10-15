@@ -37,14 +37,10 @@ user=articles=article-configure-edit-screen.md
 user=articles=article-permissions.md
 user=articles=article-save-to-menu.md
 user=articles=article-versions.md
+user=articles=article-preview.md
 user=articles=article-accessibility-check.md
-
-heading=articles-access=Articles - Access
-user=articles-access=article-check-out-and-check-in.md
-user=articles-access=article-preview.md
-user=articles-access=scheduling-the-publication-of-an-article.md
-user=articles-access=restricting-access-to-an-article.md
-user=articles-access=restricting-access-to-read-more.md
+user=articles=article-access-restriction.md
+user=articles=article-check-in.md
 
 heading=banners=Banners
 user=banners=banners.md
