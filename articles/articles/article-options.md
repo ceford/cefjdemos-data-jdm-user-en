@@ -32,15 +32,18 @@ The options in this panel have no effect in blog layouts unless the
 Otherwise, these options affect the single article appearance of the article 
 being edited. 
 
-- **Layout** In a default installation two choices are offered: 
+- **Layout** In a default installation the first two choices are offered: 
   - **---From Global Options--- / Use Global** This refers to the 
     *Articles: Options* setting available from the *Options* button in the
     Toolbar of the *Articles* list view. Its *Choose a Layout* value is set
-    to *Default*, the only choice available although more may be available in
-    custom layouts.
+    to *Default*.
   - **---From Component--- / Default** This refers to the setting in the
-    *Articles: Options* settings. As above, but ...
-  - **Neither setting has any effect!**
+    *Articles: Options* settings. In a default installation it is effectively
+    the same as the *Use Global* option. But if an override exists that is
+    named default.php then that override is used for layout.
+  - **---From cassiopeia Template--- / overridename** If a template override
+    has been created with a name other than *default* it will appear here and
+    can be selected as an alternative layout.
 - **Title** It is normal to show the title of an article but there may be
   circumstances where that is not appropriate. Select *Hide* to omit the
   article title from the page display.
