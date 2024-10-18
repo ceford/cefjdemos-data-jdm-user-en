@@ -38,16 +38,16 @@ For most extensions and most users, the procedure will be:
 - Download the extension to your local machine as a zip file package.
 - From the backend of your Joomla site (administration) select
   **System → Install → Extensions**.
-- From the **Upload Package File** tab Select the `Browse for file` button
+- From the **Upload Package File** tab Select the *Browse for file* button
   and select the extension package on your local computer or drag and drop
   the file from your file manager.
 - The upload and install process begins automatically,
 - Some extensions may provide further instructions on installation.
-- Note that modules and plugins Usuall need to be enabled before they will work.
+- Note that modules and plugins usually need to be enabled before they will work.
 
 ### Install from Folder
 
-Some extensions may be to large to use the Upload Package File method, usually
+Some extensions may be too large to use the Upload Package File method, usually
 a limit on the *Maximum File Upload Size* set by your host. In this case
 you can use the Install from Folder method.
 

@@ -50,17 +50,15 @@ user=command-line-interface=using-the-cli.md
 user=command-line-interface=joomla-cli-installation.md
 
 heading=configuration=Configuration
-user=configuration=system-setup.md
 user=configuration=global-configuration.md
 user=configuration=site-offline.md
-user=configuration=how-do-i-use-gmail-as-my-mail-server-3f.md
-user=configuration=how-to-debug-smtp-mail-in-joomla-4.md
-user=configuration=preconfigured-htaccess.md
+user=configuration=smtp-mail-gmail.md
+user=configuration=the-htaccess-file.md
 user=configuration=robots-txt-file.md
 user=configuration=adding-www-to-a-url.md
-user=configuration=how-do-you-block-direct-hot-linking-to-image-files-using-htaccess-3f.md
-user=configuration=how-do-you-block-directory-scans-using-htaccess-3f.md
-user=configuration=how-do-you-password-protect-directories-using-htaccess-3f.md
+user=configuration=disallow-image-hotlinking.md
+user=configuration=disallow-directory-listing.md
+user=configuration=password-protect-directories.md
 
 heading=contacts=Contacts
 user=contacts=contacts.md
@@ -73,10 +71,12 @@ user=dashboards=menu-dashboard.md
 user=dashboards=components-dashboard.md
 user=dashboards=users-dashboard.md
 user=dashboards=system-dashboard.md
-user=dashboards=help.md
+user=dashboards=help-dashboard.md
 
 heading=editors=Editors
 user=editors=content-editors.md
+user=editors=tinymce-plugin.md
+user=editors=codemirror-plugin.md
 user=editors=html-filters.md
 
 heading=extensions=Extensions

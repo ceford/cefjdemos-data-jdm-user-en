@@ -19,8 +19,4 @@ Individual items are covered in other tutorials.
 
 ## Screenshot
 
-<img
-src="https://docs.joomla.org/images/9/9b/J4.x-system-dashboard-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="483" width="800" height="483"
-alt="screenshot of system dashboard" />
+![System dashboard](../../../en/images/dashboards/system-dashboard.png)

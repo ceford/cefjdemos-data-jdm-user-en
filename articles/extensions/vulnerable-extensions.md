@@ -32,12 +32,12 @@ extension. In use, it accepts an extension zip file and examines its contents
 for compliance with JED standards. It is extremely useful even for extensions
 that do not appear in the JED list. Here is an example screenshot:
 
-![jed checker result](../../../en/images/extensions/extensions-jed-checker.png "JED Checker Result")
+![jed checker result](../../../en/images/extensions/extensions-jed-checker.png)
 
 The 400 PHP files with missing GPL Licence Notice are in third party libraries
 with a different Licence. The 30 files identified by the Joomla Anti-Malware
 Scan Script are also in those third party libraries. There is work to do on
-the files mising JEXEC security!
+the files missing JEXEC security!
 
 ## Removing a Vulnerable Extension
 

@@ -29,8 +29,4 @@ elsewhere.
 
 ## Screenshot
 
-<img
-src="https://docs.joomla.org/images/3/32/J4.x-home-dashboard-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="884" width="800" height="884"
-alt="screenshot of home dashboard" />
+![Home dashboard](../../../en/images/dashboards/home-dashboard.png)

@@ -11,8 +11,4 @@ Toolbar in Joomla component list or edit pages.
 
 ## Screenshot
 
-<img
-src="https://docs.joomla.org/images/f/f0/J4.x-help-dashboard-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="314" width="800" height="314"
-alt="screenshot of help dashboard" />
+![Help dashboard](../../../en/images/dashboards/help-dashboard.png)

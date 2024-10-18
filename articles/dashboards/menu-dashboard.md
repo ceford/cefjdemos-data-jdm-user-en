@@ -13,8 +13,4 @@ menus to different User Groups after login.
 
 ## Screenshot
 
-<img
-src="https://docs.joomla.org/images/8/8b/J4.x-menu-dashboard-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="321" width="800" height="321"
-alt="screenshot of menu dashboard" />
+![Menu dashboard](../../../en/images/dashboards/menus-dashboard.png)

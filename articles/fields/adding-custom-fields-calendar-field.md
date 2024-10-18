@@ -29,7 +29,7 @@ format or select a date using the date picker. Care is needed in typing dates.
 An error in the date is corrected on save to a new date. For example, a date
 of 2024-14-02 is corrected to 2025-02-02.
 
-The following screebshot shows an Acquisition date:
+The following screenshot shows an Acquisition date:
 
 ![acquisition date entry](../../../en/images/fields/fields-date-entry.png "Acquisition Date")
 

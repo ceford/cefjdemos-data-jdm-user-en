@@ -2,12 +2,11 @@
 
 ## Overview
 
-On installation, a Joomla site creates a file named
-**configuration.php** in the root of the site. This file contains the
-values of configuration variables that apply to the site as a whole.
-Examples include the site name and database credentials that were
-entered during the installation process. There are many more variables
-that are given suitable initial values.
+On installation, a Joomla site creates a file named **configuration.php** in 
+the root of the site. This file contains the values of configuration variables 
+that apply to the site as a whole. Examples include the site name and database 
+credentials that were entered during the installation process. There are many 
+more variables that are given suitable initial values.
 
 The Global Configuration form allows a Super User to change the
 configuration variables to suit the needs of the site. In addition to
@@ -18,19 +17,14 @@ stored in the database.
 ## Screenshot
 
 The Global Configuration form has six tabs some of which have long lists
-of parameters. Use the `Toggle Inline Help` button to see more or less
-information on each parameter.
+of parameters. Use the *Toggle Inline Help* button in the Toolbar to see 
+more or less information on each parameter.
 
-<img
-src="https://docs.joomla.org/images/thumb/3/32/J4x-global-configuration-en.png/800px-J4x-global-configuration-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/3/32/J4x-global-configuration-en.png 1.5x"
-data-file-width="1000" data-file-height="714" width="800" height="571"
-alt="Global Configuration" />
+![Global configuration site tab](../../../en/images/configuration/global-configuration-site-tab.png)
 
 Some parameters show or hide other parameters when selected. For
-example, the **Site Offline** button shows more fields when set to `Yes`
-than it does when set to `No`. With inline help expanded most fields are
+example, the **Site Offline** button shows more fields when set to *Yes*
+than it does when set to *No*. With inline help expanded most fields are
 sufficiently well documented to need no further explanation here, other
 than some additional user notes on each tab.
 
@@ -38,6 +32,9 @@ than some additional user notes on each tab.
 
 ### Site panel
 
+- **Site Name** This is the name of the site that appears in the Administrator
+  login form and in the Site link in the Title bar. Change it as required.
+- **Site Offline** There is a separate [tutorial](jdocmanual?article=user/configuration/site-offline) on this item.
 - **Default List Limit** sets the default maximum number of items per
   page in list views. By default, this parameter is set to 20 but list
   views usually include a drop-down list to select other values ranging
@@ -46,7 +43,7 @@ than some additional user notes on each tab.
 
 ### Metadata panel
 
-- **Site Metadata Description** is the default metadata description used
+- **Site Metadata Description** This is the default metadata description used
   if such a description is not specified in an article Meta Description
   field or a menu Meta Description field. If all three are empty the
   metadata description is omitted from the page output. Search engines
@@ -57,10 +54,8 @@ than some additional user notes on each tab.
 - **Content Rights** sets the *rights* metadata entry. If appropriate,
   describe here what rights others have to use this content. This
   metadata entry is omitted from web pages if this entry is blank.
-  Example: Creative Commons Attribution 4.0 International License. (See:
-  <a href="https://creativecommons.org/choose/" class="external free"
-  rel="nofollow noreferrer noopener">https://creativecommons.org/choose/</a>
-  for Creative Commons licences.)
+  Example: Creative Commons Attribution 4.0 International License (see the
+  [Creative Commons Licence Chooser](https://creativecommons.org/choose/)).
 
 ### SEO panel
 
@@ -69,13 +64,13 @@ group alter the format of URLs for pages in the website and this may
 have a significant effect on the search rankings of individual pages and
 the site as a whole. SEO URLs are more human-readable.
 
-**Tip:** After making any changes to the settings in this group, refresh
+**Tip** After making any changes to the settings in this group, refresh
 any of the website's pages already open in your web browser (usually
 Ctrl+R or Cmd+R will do this). Failure to refresh may mean that the
 format of web links internal to the site no longer match that which
 Joomla is expecting and thus give the appearance of broken links.
 
-**Tip:** If at all possible, avoid altering the SEO Settings once a
+**Tip** If at all possible, avoid altering the SEO Settings once a
 website is established. Doing so may result in broken links from other
 sites and perhaps a temporary drop in search engine rankings.
 
@@ -99,6 +94,8 @@ sites and perhaps a temporary drop in search engine rankings.
 
 ## System tab
 
+![Global configuration system tab](../../../en/images/configuration/global-configuration-system-tab.png)
+
 ### Debug panel
 
 The items in this panel are well explained by the inline help. However,
@@ -107,11 +104,15 @@ Administrator interface you may need to set Debug System by editing
 configuration.php with a text editor. On most Linux based hosting
 systems the file permissions are set to 444 which prevents saving from a
 text editor. Change the permission to 644 before editing. Then set
-\$debug = true; and set \$error_reporting = 'maximum'; and save. You
+\$debug = `true`; and set \$error_reporting = `'maximum'`; and save. You
 should then get a stack trace identifying exactly where the problem
 occurs. You can use that to seek help in the Forums. Most problems arise
 from incompatible third party extensions or from problems with the
 hosting environment.
+
+## Server tab
+
+![Global configuration server tab](../../../en/images/configuration/global-configuration-server-tab.png)
 
 ### Mail panel
 
@@ -121,7 +122,7 @@ are available. However, some hosting services restrict methods by which
 outgoing mail may be sent. Using your own private email address in the
 From Email field:
 
-- Try PHP Mail first and select the `Send Test Mail` button. If the
+- Try PHP Mail first and select the *Send Test Mail* button. If the
   email arrives you are good to go. Otherwise:
 - Try the Sendmail option. If that does not work:
 - Try the SMTP option. This needs to be set up for a specific mail
@@ -130,7 +131,7 @@ From Email field:
 - **SMTP Host** The hostname of the SMTP server (e.g.
   *smtp.example.com*).
   - **SMTP Port** The port to use when connecting to the SMTP server.
-    This will usually be *25* when SMTP Security is set to `None`, or
+    This will usually be *25* when SMTP Security is set to *None*, or
     *465* or *587* when SMTP Security is set to `SSL/TLS` or `STARTTLS`.
     Ask your SMTP service provider which port to use.
   - **SMTP Security** The form of security required by the SMTP server:
@@ -169,18 +170,15 @@ The following are also working combinations:
 - SMTP Port 25
 - SMTP Security: STARTTLS
 
-**Notes:**
+#### Notes
 
 - The SSL module does not need to be enabled in Apache.
 - The OpenSSL extension needs to be enabled in PHP. The details can be
-  found at the
-  <a href="https://www.php.net/manual/en/openssl.installation.php"
-  rel="nofollow noreferrer noopener">php.net Installation page</a>.
+  found at the [php.net Installation page](https://www.php.net/manual/en/openssl.installation.php).
 - If you are using WAMP on Windows, the openssl module is not enabled by
   default and you need to enable it. To do this:
-  - Open the php.ini file and uncomment the line
-    `extension=php_openssl.dll` by removing the semicolon ; from the
-    beginning of the line.
+  - Open the php.ini file and uncomment the line `extension=php_openssl.dll` by 
+    removing the semicolon ; from the beginning of the line.
   - Save the php.ini file and restart the Apache service.
 - If you use 2-step verification in Gmail, you need to add a new
   password in Settings - Accounts - Change accounts settings - Other
@@ -190,16 +188,13 @@ The following are also working combinations:
   groups of four characters separated by spaces, make sure that you **do
   NOT enter the spaces** into the SMTP password in the mail server
   settings in Joomla.
-- Application Specific Passwords (ASPs): See the Google Support
-  <a href="https://support.google.com/accounts/answer/185833"
-  rel="nofollow noreferrer noopener">Sign in with App Passwords</a>
-  page.
-- 2-Step Verification: See the Google Support
-  <a href="https://support.google.com/accounts/answer/185839"
-  rel="nofollow noreferrer noopener">Turn on 2-Step Verification</a>
-  page.
+- Application Specific Passwords (ASPs): See the Google Support page on how to
+  [Sign in with App Passwords](https://support.google.com/accounts/answer/185833).
+- 2-Step Verification: See the Google Support page on how to [Turn on 2-Step Verification](https://support.google.com/accounts/answer/185839).
 
 ## Logging tab
+
+![Global configuration site tab](../../../en/images/configuration/global-configuration-logging-tab.png)
 
 In normal operation a Joomla site should have logging disabled. If there
 are problems you can enable logging by setting the **Log Almost
@@ -209,7 +204,9 @@ look for logs if you have set up logging to help with debugging. The
 error logs you find there are only those trapped by Joomla. There may be
 other errors that will only appear in your server error logs.
 
-## The Text Filters Tab
+## The Text Filters tab
+
+![Global configuration site tab](../../../en/images/configuration/global-configuration-filters-tab.png)
 
 The text filter settings will be applied to all text editor fields
 submitted by users in the selected groups. These filtering options give
@@ -220,9 +217,11 @@ against markup commonly associated with website attacks.
 
 ## Permissions tab
 
-Permissions control what users in each User Group can do and see. The
+![Global configuration site tab](../../../en/images/configuration/global-configuration-permissions-tab.png)
+
+Permissions control what users in each User Group can see and do. The
 entries in the Permissions tab set the default permissions for the site.
 
 There are comprehensive descriptions of the use of the settings under
 this tab and the general principles of operation and set-up of
-permissions in an Access Control List Tutorial.
+permissions in an [Access Control List Tutorial](jdocmanual?article=user/users/access-control).

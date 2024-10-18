@@ -1,20 +1,21 @@
-<!-- Filename: Preconfigured_htaccess / Display title: Preconfigured htaccess -->
+<!-- Filename: Preconfigured_htaccess / Display title: The htaccess.txt file -->
 
-## Apache and .htaccess
+## Introduction
 
-An Apache webserver uses an .htaccess file in for site specific configuration.
+An Apache web server uses an .htaccess file for site specific configuration.
 A preconfigured htaccess file (`htaccess.txt`) is delivered with Joomla. It is
 located in the Joomla root directory and contains instructions to avoid common
 hacker exploits and implement SEF urls. If Joomla is installed in a
-sub-directory there may be an additional .htacess file in the parent
+sub-directory there may be an additional `.htaccess` file in the parent
 directory. Apache processes each of them in turn.
 
-The normal practice is to rename `htaccess.txt` to `.htaccess` in conjuction
-with selection of SEO settings in the Global Configuration panel. Your
-hosting service may add further settings to .htaccess so it may be best to
-merge htaccess.txt with any existing system supplied .htaccess file.
+The normal practice is to rename the Joomla supplied `htaccess.txt` to 
+`.htaccess` in conjunction with selection of SEO settings in the Global 
+Configuration panel. Your hosting service may add further settings to 
+.htaccess so it may be best to merge your .htaccess file with any existing 
+system supplied .htaccess file.
 
-**Note:**
+### Platform configuration
 
 The active file is set in one of the httpd.conf files with:
 ```
@@ -29,10 +30,10 @@ On the Windows platform you might change it to:
 
 so you can edit it more easily.
 
-Don't use `htaccess.txt` here because when updating Joomla, it will be
-overwritten and changes will be lost.
+Do not make changes to `htaccess.txt` because it could be overwritten by a 
+Joomla update and any changes will be lost.
 
-## Updates
+## Joomla Updates
 
 The htaccess.txt file may change from one Joomla version to the next. If in
 doubt, or strange problems occur after update make sure your .htaccess file

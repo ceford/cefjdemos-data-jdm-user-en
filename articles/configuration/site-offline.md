@@ -3,36 +3,29 @@
 ## Site Users Only
 
 There may be occasions when you need to make your Joomla! website
-unavailable to visitors for a short time. There is a simple **Site
-Offline** configuration switch for this purposes that can be changed
-from **No** to **Yes** as required. When set to Yes all site visitors
-see an offline message page with login form:
+unavailable to visitors for a short time. There is a simple **Site Offline** 
+configuration switch for this purposes that can be changed from **No** to 
+**Yes** as required. When set to *Yes* all site visitors
+see an offline message page with login form. The default Offline form can be 
+customised with an image:
 
-<img
-src="https://docs.joomla.org/images/8/84/J4x-configuration-site-offline-en.png"
-class="thumbborder" decoding="async" data-file-width="495"
-data-file-height="643" width="495" height="643"
-alt="screenshot of frontend site off line notice" />
+![Site offline screen](../../../en/images/configuration/site-offline.png)
 
 The Site Offline switch does not apply to the administrator interface
-and users who can login to the back end can continue to login to the
-front end. Frontend login is denied only to users in the Registered,
+and users who can login to the backend can continue to login to the
+frontend. Frontend login is denied only to users in the Registered,
 Author, Editor and Publisher user groups.
 
 ## To Toggle Offline
 
-- Select **Home Dashboard **→** Global Configuration** from the
-  Administrator menu.
+- Select **Home Dashboard → Global Configuration** from the Administrator menu.
 - In the **Site** tab set the **Site Offline** switch to **Yes**.
 - You can then choose to use either
-  - A custom message, which is the text in the Custom Message box. Or
-    ...
-  - The Site Language Default message, which is **This site is down for
-    maintenance.
-    Please check back again soon.** in English or the equivalent in the
-    selected Site language. Or ...
+  - **Use Custom Message** which is the text in the Custom Message box. Or...
+  - **The Site Language Default Message** which is **This site is down for
+    maintenance. Please check back again soon.** in English or the equivalent 
+    in the selected Site language. This also allows selection of an image. Or...
   - **Hide** to show no message at all.
-- Optional: choose a banner image as in the screenshot above.
 - Select **Save & Close** from the Toolbar.
 - Do whatever maintenance needs to be done.
 - Return to the Global Configuration form.
@@ -44,7 +37,7 @@ Author, Editor and Publisher user groups.
 You can limit access to your website by password protecting the Joomla
 directory. Only users who know the directory access username and
 password will be able to access the site. You can set up more than one
-such user. With cPanel Hosting Control Panel:
+such user. With the cPanel Hosting Control Panel:
 
 - Login into your cPanel account.
 - In the Files section select **Directory Privacy**.

@@ -1,4 +1,4 @@
-<!-- Filename: How_do_you_password_protect_directories_using_htaccess%3F / Display title: Password protect directories -->
+<!-- Filename: How_do_you_password_protect_directories_using_htaccess%3F / Display title: Password Protect Directories -->
 
 ## Introduction
 

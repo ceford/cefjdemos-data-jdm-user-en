@@ -21,7 +21,7 @@ save the content of a textarea or edit field.
 
 This is caused by filtering mechanisms, either in the Joomla! Global
 Configuration or in the editor configuration. An editor filter can be
-bypassed by selecting No Editor in your User Profile settings. You cannot
+bypassed by selecting *No Editor* in your *User Profile* settings. You cannot
 bypass the global filters but you can change them to suit the purposes of
 your site.
 
@@ -30,12 +30,12 @@ your site.
 You can select one of the available editors, including None, from your User
 Profile available via the User Account / Edit Profile menu at the top right of
 the Administrator screen. The Edit: Profile form contains a Basic Settings
-tab with a field to select an Editor. It is normally set to `- Use Default -`,
-which is usually TinyMCE. You can select `Editor None`. That will bypass any
+tab with a field to select an Editor. It is normally set to *- Use Default -*,
+which is usually TinyMCE. You can select *Editor None*. That will bypass any
 filtering of HTML tags and attributes not allowed by TinyMCE configuration
 settings.
 
-**Warning:** if you select `Editor - None` to create content containing HTML
+**Warning:** if you select *Editor - None* to create content containing HTML
 tags disallowed by an editor filter and then switch back to the default editor
 you should be careful not to edit and save that content again or you will lose
 any filtered tags and attributes. It is easy to do this by mistake and there
@@ -44,14 +44,14 @@ is no warning.
 ## Global Configuration: Text Filters
 
 From the Home Dashboard select Global Configuration and then the Text Filters
-tab. The default settings have `No HTML` selected for Guest, Public and
+tab. The default settings have *No HTML* selected for Guest, Public and
 Registered user groups. Any of these groups might have an opportunity
 to fill out a text area field, for example in a contact form that seeks
 extra information about a problem, so automatic removal of all HTML tags is
 usually appropriate. Other groups, except Super Users, are restricted by the
 Default Forbidden List. Super Users have no filtering.
 
-![global configuration of text filters](../../../en/images/editors/text-filters-global-configuration.png "Global Configuration of Text Filters")
+![global configuration of text filters](../../../en/images/configuration/global-configuration-filters-tab.png)
 
 The notes explain what is included in the default forbidden list and how to
 use the other lists.

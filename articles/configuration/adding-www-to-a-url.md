@@ -1,4 +1,4 @@
-<!-- Filename: Adding_www_to_a_url / Display title: Adding www to a url -->
+<!-- Filename: Adding_www_to_a_url / Display title: Adding www to a URL -->
 
 ## Apache .htaccess Regular Expressions
 
@@ -52,5 +52,5 @@ the same time:
 If you would like to understand what all of this means you could read these
 articles:
 
-* Apache mod_rewrite Introduction
-* Introduction to .htaccess Redirects
+* [Apache mod_rewrite Introduction](https://httpd.apache.org/docs/2.4/rewrite/intro.html)
+* [Introduction to .htaccess Redirects](https://www.danielmorell.com/guides/htaccess-seo/redirects/introduction-to-redirects)

@@ -10,8 +10,4 @@ can be edited or unpublished.
 
 ## Screenshot
 
-<img
-src="https://docs.joomla.org/images/4/49/J4.x-componsnts-dashboard-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="421" width="800" height="421"
-alt="screenshot of componsnts dashboard" />
+![Components dashboard](../../../en/images/dashboards/components-dashboard.png)

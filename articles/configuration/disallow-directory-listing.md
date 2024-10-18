@@ -1,4 +1,4 @@
-<!-- Filename: How_do_you_block_directory_scans_using_htaccess%3F / Display title: How to block directory listing -->
+<!-- Filename: How_do_you_block_directory_scans_using_htaccess%3F / Display title: Disallow Directory Listing -->
 
 ## Background
 
@@ -15,7 +15,7 @@ former is preferred as it is applied to all websites on the server.
 
 However, sites in a shared hosting environment may expect each site to modify
 the server configuration using .htaccess files. The server must be set to
-AllowOverride Options" or "AllowOverride All" to enable oveerides in .htaccess.
+AllowOverride Options" or "AllowOverride All" to enable overrides in .htaccess.
 
 ## Using .htaccess
 
@@ -40,3 +40,4 @@ browser URL bar: `https://yourdomain.com/images/`. As the images folder does
 not normally contain an index.html or index.php file you should see a
 completely empty page. If you see a list of all files and folders then you are
 not preventing directory scans for any part of your site. Fix it!
+

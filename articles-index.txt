@@ -45,19 +45,15 @@ banners=banners.md=https://docs.joomla.org/J4.x:Banners
 command-line-interface=using-the-cli.md=https://docs.joomla.org/J4.x:Using_the_CLI
 command-line-interface=joomla-cli-installation.md=https://docs.joomla.org/J4.x:Joomla_CLI_Installation
 
-configuration=system-setup.md=https://docs.joomla.org/J4.x:System_Setup
 configuration=global-configuration.md=https://docs.joomla.org/J4.x:Global_Configuration
 configuration=site-offline.md=https://docs.joomla.org/J4.x:Site_Offline
-configuration=how-do-i-use-gmail-as-my-mail-server-3f.md=https://docs.joomla.org/J4.x:How_do_I_use_Gmail_as_my_mail_server?
-configuration=how-to-debug-smtp-mail-in-joomla-4.md=https://docs.joomla.org/J4.x:How_to_debug_SMTP_mail_in_Joomla_4
-configuration=preconfigured-htaccess.md=https://docs.joomla.org/J4.x:Preconfigured_htaccess
+configuration=smtp-mail-gmail.md=https://docs.joomla.org/J4.x:How_to_debug_SMTP_mail_in_Joomla_4
+configuration=the-htaccess-file.md=https://docs.joomla.org/J4.x:Preconfigured_htaccess
 configuration=robots-txt-file.md=https://docs.joomla.org/J4.x:Robots.txt_file
 configuration=adding-www-to-a-url.md=https://docs.joomla.org/J4.x:Adding_www_to_a_url
-configuration=how-do-you-block-direct-hot-linking-to-image-files-using-htaccess-3f.md=https://docs.joomla.org/J4.x:How_do_you_block_direct_hot_linking_to_image_files_using_htaccess?
-configuration=how-do-you-block-directory-scans-using-htaccess-3f.md=https://docs.joomla.org/J4.x:How_do_you_block_directory_scans_using_htaccess?
-configuration=what-are-the-recommended-file-and-directory-permissions-3f.md=https://docs.joomla.org/J4.x:What_are_the_recommended_file_and_directory_permissions?
-configuration=how-do-you-convert-an-htaccess-txt-file-into-a-htaccess-file-3f.md=https://docs.joomla.org/J4.x:How_do_you_convert_an_htaccess.txt_file_into_a_.htaccess_file?
-configuration=how-do-you-password-protect-directories-using-htaccess-3f.md=https://docs.joomla.org/J4.x:How_do_you_password_protect_directories_using_htaccess?
+configuration=disallow-image-hotlinking.md=https://docs.joomla.org/J4.x:How_do_you_block_direct_hot_linking_to_image_files_using_htaccess?
+configuration=disallow-directory-listing.md=https://docs.joomla.org/J4.x:How_do_you_block_directory_scans_using_htaccess?
+configuration=password-protect-directories.md=https://docs.joomla.org/J4.x:How_do_you_password_protect_directories_using_htaccess?
 
 contacts=contacts.md=jdocmanual?manual=user&heading=contacts&filename=contacts.md
 contacts=category-list-override.md=jdocmanual?manual=user&heading=contacts&filename=contacts.md
@@ -70,9 +66,11 @@ dashboards=menu-dashboard.md=https://docs.joomla.org/J4.x:Menu_Dashboard
 dashboards=components-dashboard.md=https://docs.joomla.org/J4.x:Components_Dashboard
 dashboards=users-dashboard.md=https://docs.joomla.org/J4.x:Users_Dashboard
 dashboards=system-dashboard.md=https://docs.joomla.org/J4.x:System_Dashboard
-dashboards=help.md=https://docs.joomla.org/J4.x:Help
+dashboards=help-dashboard.md=https://docs.joomla.org/J4.x:Help
 
 editors=content-editors.md=https://docs.joomla.org/J4.x:Content_editors
+editors=tinymce-plugin.md=https://docs.joomla.org/J6.x:TinyMCE_Plugin
+editors=codemirror-plugin.md=https://docs.joomla.org/J6.x:Codemirror_Plugin
 editors=html-filters.md=jdocmanual?manual=user&heading=editors&filename=html-filters.md
 
 extensions=installing-an-extension.md=https://docs.joomla.org/J4.x:Installing_an_extension
