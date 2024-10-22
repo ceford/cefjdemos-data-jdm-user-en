@@ -37,7 +37,7 @@ media list.
 
 Select the item you wish to delete. Select the **Delete** button in the Media
 Toolbar or the dropdown menu of the item to be deleted. A dialog box will ask
-you to confrim that you wish to delete the selected item.
+you to confirm that you wish to delete the selected item.
 
 ## Rename
 

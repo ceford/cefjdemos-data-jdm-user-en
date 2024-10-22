@@ -104,16 +104,8 @@ will be saved in siteroot/language/overrides.
 - Save & Close the form.
 - Repeat the translation process for each language.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7c/J4x-language-overrides-form-en.png/800px-J4x-language-overrides-form-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7c/J4x-language-overrides-form-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="language overrides form" />
+![languages edit override form](../../../en/images/languages/language-overrides-edit.png)
 
 Finally, check that the translation has been implemented.
 
-<img
-src="https://docs.joomla.org/images/c/c0/J4x-cassiopeia-template-customisation-logout-override-result-en.png"
-decoding="async" data-file-width="318" data-file-height="218"
-width="318" height="218" alt="Override Result in site login form" />
+![Override Result in site login form](../../../en/images/languages/language-overrides-custom-logout.png)

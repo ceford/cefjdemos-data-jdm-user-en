@@ -10,7 +10,7 @@ If you are new to Joomla and would like to see it in action without downloading 
 
 ### Step 1: Enter a suitable subdomain name
 
-<img alt="Screenshot of Launch Joomla start page" src="https://docs.joomla.org/images/thumb/f/f6/Launch-Joomla-homepage-information.png/800px-Launch-Joomla-homepage-information.png" decoding="async" width="800" height="384" srcset="https://docs.joomla.org/images/thumb/f/f6/Launch-Joomla-homepage-information.png/1200px-Launch-Joomla-homepage-information.png 1.5x, https://docs.joomla.org/images/f/f6/Launch-Joomla-homepage-information.png 2x" data-file-width="1440" data-file-height="691" class="border">
+![Launch Joomla start page](../../../en/images/hosting/free-hosting-launch.png)
 
 Alice and Bob are probably taken but you can choose any name that is easy to type and to remember.
 
@@ -18,13 +18,13 @@ Alice and Bob are probably taken but you can choose any name that is easy to typ
 
 As this is a new installation it is best to select the latest stable version.
 
-<img alt="Launch Joomla select version dialog" src="https://docs.joomla.org/images/7/73/Launch-Joomla-select-version.png" decoding="async" width="292" height="333" data-file-width="292" data-file-height="333" class="border">
+![Launch Joomla select version dialog](../../../en/images/hosting/free-hosting-select-version.png)
 
 ### Step 3: Create an account
 
 Fill in your personal details and select the Register button.
 
-<img alt="Launch Joomla create account dialog" src="https://docs.joomla.org/images/3/32/Launch-Joomla-personal-details.png" decoding="async" width="292" height="491" data-file-width="292" data-file-height="491" class="border">
+![Launch Joomla personal details dialog](../../../en/images/hosting/free-hosting-personal-details.png)
 
 #### Notes
 
@@ -41,13 +41,13 @@ You will shortly receive a 6 digit token on the phone number that you entered.
 
 ### Step 5: Verify Account
 
-<img alt="Launch-Joomla verify account dialog" src="https://docs.joomla.org/images/c/c8/Launch-Joomla-verify-account.png" decoding="async" width="300" height="267" data-file-width="300" data-file-height="267" class="border">
+![Launch Joomla verify account dialog](../../../en/images/hosting/free-hosting-verify-account.png)
 
 Use the token to complete the process - you will be logged in to the CloudAccess.net control panel (CCP).
 
 ### Step 6: CloudAccess.net Control Panel
 
-<img alt="cloud access control panel" src="https://docs.joomla.org/images/0/0f/Launch-Joomla-cloud-access-control-panel.png" decoding="async" width="720" height="346" data-file-width="720" data-file-height="346" class="border">
+![Launch Joomla cloud access control panel](../../../en/images/hosting/free-hosting-cloud-access-control-panel.png)
 
 You will also receive an email with your free site login credentials. It may take a few minutes for your free Joomla site to become available. If you have any problems, open a New Ticket in the CPP and the support team will fix whatever needs fixing.
 
@@ -63,7 +63,7 @@ It is a simple as that and once your site is up and running, you can start creat
 
 Joomla is managed almost entirely from its Administrator pages. However, from time to time it is useful to have access to system tools for problem solving purposes. Select the Manage button in the CPP Your Products page for access to these tools.
 
-<img alt="cloud access cpp tools" src="https://docs.joomla.org/images/3/3a/Launch-Joomla-cpp-manage.png" decoding="async" width="720" height="346" data-file-width="720" data-file-height="346" class="border">
+![Launch Joomla cloud access cpp tools](../../../en/images/hosting/free-hosting-cpp-manage.png)
 
 ### phpMyAdmin
 
@@ -85,8 +85,6 @@ Since most of the platform’s functionality overlaps with that of the Joomla! C
 
 Tests are important in an open source project like Joomla as they provide quality assurance for upcoming releases. You can help with testing of new features and bug fixes by installing the Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) extension in your free Joomla site. No special skills are required to become a tester! If you have never tested pull requests, the Joomla Documentation provides all the [tutorials you need. So be part of it, start testing Joomla today.
 
-<p class="center">
-<img alt="Joomla patch tester" src="https://docs.joomla.org/images/thumb/a/ab/Launch-Joomla-patch-tester.png/800px-Launch-Joomla-patch-tester.png" decoding="async" width="800" height="384" srcset="https://docs.joomla.org/images/thumb/a/ab/Launch-Joomla-patch-tester.png/1200px-Launch-Joomla-patch-tester.png 1.5x, https://docs.joomla.org/images/a/ab/Launch-Joomla-patch-tester.png 2x" data-file-width="1440" data-file-height="691" class="border">
-</p>
+![Launch Joomla cloud access cpp tools](../../../en/images/hosting/free-hosting-patch-tester.png)
 
 Caveats: You will need a GitHub account and a GitHub token. You will not be able to test pull requests involving CSS and JavaScript changes requiring NPM Resource Changes.

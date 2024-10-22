@@ -25,12 +25,7 @@ The following items can be included in associations:
 The following screenshot shows an example list of articles in English
 with their equivalents in other languages.
 
-<img
-src="https://docs.joomla.org/images/thumb/f/fa/J4x-multilingual-associations-list-en.png/800px-J4x-multilingual-associations-list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/f/fa/J4x-multilingual-associations-list-en.png 1.5x"
-data-file-width="1000" data-file-height="455" width="800" height="364"
-alt="multilingual associations list" />
+![multilingual associations list](../../../en/images/languages/multilingual-associations-list.png)
 
 The last article on Mountains has not yet had equivalent articles
 created in other languages. The missing articles can be translated from
@@ -60,12 +55,7 @@ Google Translate.
 - Select **Close**.
 - Repeat for the other languages.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/8f/J4x-multilingual-associations-edit-en.png/800px-J4x-multilingual-associations-edit-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/8f/J4x-multilingual-associations-edit-en.png 1.5x"
-data-file-width="1000" data-file-height="594" width="800" height="475"
-alt="multilingual associations edit" />
+![multilingual associations edit](../../../en/images/languages/multilingual-associations-edit.png)
 
 ## Creating a Menu Translation
 
@@ -94,9 +84,4 @@ Continuing with the Mountains example:
 Open or reload the site view to check that your menus and articles are
 displayed as expected.
 
-<img
-src="https://docs.joomla.org/images/thumb/f/f5/J4x-multilingual-associations-site-en.png/800px-J4x-multilingual-associations-site-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/f/f5/J4x-multilingual-associations-site-en.png 1.5x"
-data-file-width="1000" data-file-height="532" width="800" height="426"
-alt="multilingual associations site" />
+![multilingual associations site view](../../../en/images/languages/multilingual-associations-site.png)

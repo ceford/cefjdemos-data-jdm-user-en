@@ -1,26 +1,18 @@
 <!-- Filename: J4.x:Menu_Positions / Display title: Menu Positions -->
 
-## Menu Module Positions
+## Introduction
 
 A menu is positioned on a page via a menu module. To view all of your
 menu modules and their positions:
 
-- Select **Content **→** Site Modules** from the Administrator menu.
-- Filter by Menu type as in the following illustration:
+- Select **Content → Site Modules** from the Administrator menu.
+- Filter with **- Select Type -** set to *Menu* as in the following illustration:
 
-<img
-src="https://docs.joomla.org/images/thumb/5/5e/J4x-menu-positions-en.png/800px-J4x-menu-positions-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/5/5e/J4x-menu-positions-en.png 1.5x"
-data-file-width="1000" data-file-height="551" width="800" height="441"
-alt="modules list" />
+![modules list filtered by type menu](../../../en/images/menus/menus-menu-positions.png)
 
 For reference, the Cassiopeia template has the following positions:
 
-<img
-src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
-decoding="async" data-file-width="786" data-file-height="980"
-width="786" height="980" alt="Template Positions" />
+![Cassiopeia template positions](../../../en/images/templates/cassiopeia-template-positions.png)
 
 ## To Change a Position
 
@@ -28,18 +20,14 @@ From the Modules (Site) list:
 
 - Select the title of the menu module you wish to move.
 - In the Modules: Menu edit form select the position you wish to use.
-  The following illustration shows a menu module being moved from
-  sidebar-left to sidebar-right:
-
-<img
-src="https://docs.joomla.org/images/thumb/8/8d/J4x-menu-positions-move-en.png/800px-J4x-menu-positions-move-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/8d/J4x-menu-positions-move-en.png 1.5x"
-data-file-width="1000" data-file-height="509" width="800" height="407"
-alt="menu positions move" />
-
-- Select `Save` from the Toolbar.
+- Select **Save** from the Toolbar.
 - View the site to check the result.
+
+The following illustration shows a menu module with part of the list of 
+positions. It is quite long as it contains available positions in the
+Cassiopeia template followed by Active positions in use.
+
+![Menu module edit form](../../../en/images/menus/menus-menu-edit-position.png)
 
 ## Menu Layout
 
@@ -53,5 +41,5 @@ vice-versa, you may wish to change the layout too.
 - To change the layout:
   - Select the Advanced tab.
   - From the Layout drop-down list select the appropriate option.
-  - Select `Save & Close` from the Toolbar.
+  - Select **Save & Close** from the Toolbar.
 - View the site to check the result.

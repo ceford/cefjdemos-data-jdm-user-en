@@ -27,7 +27,7 @@ need to append a comma and the appropriate value:
 From now on, you should be able to upload SVG files into the Media
 Manager. Unless...
 
-## Why is Joomla still preventing me from uploading SVG files?
+## Joomla still prevents uploading of SVG files?
 
 SVG is not a raster image format (like PNG files, which contain pixels),
 it is written in XML (Extensible Markup Language). It is text-based,
@@ -49,6 +49,6 @@ editor) or through an outside tool before they can be uploaded successfully.
 
 **Tip:** these sites will clean svg files created in *Inkscape*:
 
-* SVG Sanitizer Test
-* SVG Cleaner & Optimizer
-* SVGminify.com
+* [SVG Sanitizer Test](https://svg.enshrined.co.uk/)
+* [SVG Cleaner & Optimizer](https://iconly.io/tools/svg-cleaner)
+* [SVGminify.com](https://www.svgminify.com/)

@@ -7,12 +7,7 @@
 When you login to your cPanel hosting service, this is what you should
 expect to see:
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7b/J4.x-hosting-setup-cpanel-en.png/800px-J4.x-hosting-setup-cpanel-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7b/J4.x-hosting-setup-cpanel-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="cpanel hosting control panel" />
+![cpanel hosting control panel](../../../en/images/hosting/cpanel-hosting.png)
 
 ### Database Setup
 
@@ -50,12 +45,7 @@ and upload Joomla there. You could have another folder named *j4test*
 and put another copy of Joomla there. The illustration below shows such
 a set-up with two Joomla websites.
 
-<img
-src="https://docs.joomla.org/images/thumb/0/01/J4.x-hosting-setup-cpanel-file-manager-en.png/800px-J4.x-hosting-setup-cpanel-file-manager-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/01/J4.x-hosting-setup-cpanel-file-manager-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="cpanel hosting file manager" />
+![cpanel hosting file manager](../../../en/images/hosting/cpanel-file-manager.png)
 
 When you have decided on your structure, select you chosen Joomla folder
 in File Manager and click the Upload button. In the upload form, select
@@ -65,4 +55,3 @@ file and click the Extract button. After extraction, you can select and
 delete the *zip* file.
 
 That is it! You are ready to install Joomla.
-

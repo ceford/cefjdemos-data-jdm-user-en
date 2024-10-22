@@ -18,12 +18,7 @@ a total of over 30 types. The following screenshot shows the **Menus:
 All Menu Items** list with a selection of menu item types beneath the
 menu title in the **Title** column:
 
-<img
-src="https://docs.joomla.org/images/thumb/9/95/J4x-menu-items-list-en.png/800px-J4x-menu-items-list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/95/J4x-menu-items-list-en.png 1.5x"
-data-file-width="1000" data-file-height="932" width="800" height="746"
-alt="menu items list" />
+![menu items list](../../../en/images/menus/menus-all-menu-items-list.png)
 
 ## Adding a Menu Item
 
@@ -40,12 +35,7 @@ In the **Menus: New Item** form:
 - In the **Menu Item Type** field use the **Select** button to open the
   Menu Item Type dialog box.
 
-<img
-src="https://docs.joomla.org/images/thumb/b/b3/J4x-menu-items-select-type-en.png/800px-J4x-menu-items-select-type-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/b/b3/J4x-menu-items-select-type-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="menu items select type" />
+![menu items select type](../../../en/images/menus/menus-menu-items-select-type.png)
 
 - Select whichever type you need, in this example a Single Article type.
 
@@ -61,12 +51,7 @@ that are relevant to the type. For the Single Article item type:
   **Ordering** field at the right. By default it is last. You can make
   it **First** or to come after any other menu item you select.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e0/J4x-menu-items-edi-item-en.png/800px-J4x-menu-items-edi-item-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/e0/J4x-menu-items-edi-item-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="Jmenu items edit item" />
+![menu items edit item](../../../en/images/menus/menus-menu-items-edit-item.png)
 
 - View the site to check that it is what you want.
 

@@ -31,12 +31,7 @@ parameters:
     cd /home/username/public_html/[optional subfolder]/cli
     php joomla.php
 
-<img
-src="https://docs.joomla.org/images/thumb/6/65/J4x-cli-no-parameters-en.png/800px-J4x-cli-no-parameters-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/65/J4x-cli-no-parameters-en.png 1.5x"
-data-file-width="924" data-file-height="819" width="800" height="709"
-alt="cli output with no parameters" />
+![List of commands](../../../en/images/command-line-interface/cli-command-list.png)
 
 And try out some help commands to become familiar with what to expect:
 
@@ -81,21 +76,11 @@ Clear expired entries from the system cache:
     php joomla.php cache:clean --help
     php joomla.php cache:clean
 
-<img
-src="https://docs.joomla.org/images/thumb/9/95/J4x-cli-cache-clean-en.png/800px-J4x-cli-cache-clean-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/95/J4x-cli-cache-clean-en.png 1.5x"
-data-file-width="845" data-file-height="107" width="800" height="101"
-alt="cli outout from cache clean" />
+![Output of cache clean](../../../en/images/command-line-interface/cli-cache-clean.png)
 
     php joomla.php cache:clean expired
 
-<img
-src="https://docs.joomla.org/images/thumb/3/31/J4x-cli-cache-clean-expired-en.png/800px-J4x-cli-cache-clean-expired-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/3/31/J4x-cli-cache-clean-expired-en.png 1.5x"
-data-file-width="845" data-file-height="106" width="800" height="100"
-alt="cli output from cache clean expired" />
+![Output of cache clean expired](../../../en/images/command-line-interface/cli-cache-clean-expired.png)
 
 ### Config
 
@@ -106,27 +91,15 @@ mail,
     php joomla.php config:get debug --help
     php joomla.php config:get debug
 
-<img
-src="https://docs.joomla.org/images/f/f0/J4x-cli-config-debug-get-en.png"
-class="thumbborder" decoding="async" data-file-width="200"
-data-file-height="64" width="200" height="64"
-alt="cli output from config debug get" />
+![Output of config get debug](../../../en/images/command-line-interface/cli-get-debug.png)
 
     php joomla.php config:set debug=true
 
-<img
-src="https://docs.joomla.org/images/9/9c/J4x-cli-config-debug-set-en.png"
-class="thumbborder" decoding="async" data-file-width="200"
-data-file-height="50" width="200" height="50"
-alt="cli output config debug set" />
+![Output of config set debug](../../../en/images/command-line-interface/cli-set-debug.png)
 
     php joomla.php config:get --group session
 
-<img
-src="https://docs.joomla.org/images/e/ea/J4x-cli-config-debug-get-group-en.png"
-class="thumbborder" decoding="async" data-file-width="223"
-data-file-height="91" width="223" height="91"
-alt="cli output from config debug get group" />
+![Output of config get group session](../../../en/images/command-line-interface/cli-config-get-group-session.png)
 
 ### Core
 
@@ -135,20 +108,12 @@ Check for updates or update Joomla.
     php joomla.php core:check-updates --help
     php joomla.php core:check-updates
 
-<img
-src="https://docs.joomla.org/images/0/09/J4x-cli-core-check-updates-en.png"
-class="thumbborder" decoding="async" data-file-width="405"
-data-file-height="99" width="405" height="99"
-alt="cli output from core check updates" />
+![Output of core check updates](../../../en/images/command-line-interface/cli-check-updates.png)
 
     php joomla.php core:update --help
     php joomla.php core:update
 
-<img
-src="https://docs.joomla.org/images/0/04/J4x-cli-core-update-en.png"
-class="thumbborder" decoding="async" data-file-width="617"
-data-file-height="72" width="617" height="72"
-alt="cli output from core update" />
+![Output of cor update](../../../en/images/command-line-interface/cli-core-update.png)
 
 ### Database
 
@@ -201,11 +166,7 @@ Purges and rebuilds the index (search filters are preserved).
     php joomla.php finder:index
     php joomla.php finder:index purge
 
-<img
-src="https://docs.joomla.org/images/7/76/J4x-cli-finder-index-purge-en.png"
-class="thumbborder" decoding="async" data-file-width="283"
-data-file-height="228" width="283" height="228"
-alt="cli output from finder index purge" />
+![Output of finder index purge](../../../en/images/command-line-interface/cli-finder-index-purge.png)
 
 ### Scheduler
 
@@ -253,11 +214,7 @@ have been deleted during a Joomla update
     php joomla.php update:joomla:remove-old-files --help
     php joomla.php update:joomla:remove-old-files
 
-<img
-src="https://docs.joomla.org/images/8/83/J4x-cli-update-joomla-remove-old-files-en.png"
-class="thumbborder" decoding="async" data-file-width="356"
-data-file-height="158" width="356" height="158"
-alt="cli output from update joomla remove old files" />
+![Output of update joomla remove old files](../../../en/images/command-line-interface/cli-update-remove-old-files.png)
 
 ### User
 
@@ -270,10 +227,7 @@ List and manage users.
     php joomla.php user:add --username cinderella --name Cinderella --email cinders@localhost --usergroup Manager (prompt for password)
     php joomla.php user:add (prompts for data)
 
-<img src="https://docs.joomla.org/images/d/d2/J4x-cli-user-add-en.png"
-class="thumbborder" decoding="async" data-file-width="503"
-data-file-height="438" width="503" height="438"
-alt="cli output from user add-en" />
+![Output of user add with prompts](../../../en/images/command-line-interface/cli-add-user.png)
 
     php joomla.php user:addtogroup --help
     php joomla.php user:addtogroup (prompts for data)

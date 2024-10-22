@@ -94,23 +94,14 @@ Menu record.
 
 ## Screenshot
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Adding-a-custom-administrator-menu-components-menu-container-en.png/800px-Adding-a-custom-administrator-menu-components-menu-container-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/4/41/Adding-a-custom-administrator-menu-components-menu-container-en.png 1.5x"
-data-file-width="1000" data-file-height="1336" width="800" height="1069"
-alt="custom administrator menu component selection" />
+![custom administrator menu component selection](../../../en/images/menus/menus-custom-administrator-menu.png)
 
 ## Result
 
 Create a user in the Branch Group for yourself to test with. Login to
 the Administrator interface as that user to see the result:
 
-<img
-src="https://docs.joomla.org/images/a/ab/Adding-a-custom-administrator-menu-result-en.png"
-decoding="async" data-file-width="582" data-file-height="359"
-width="582" height="359"
-alt="Adding a custom administrator menu result" />
+![custom administrator menu result](../../../en/images/menus/menus-custom-administrator-menu-result.png)
 
 ## Notes
 

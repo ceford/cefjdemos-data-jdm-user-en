@@ -1,15 +1,5 @@
 <!-- Filename: J4.x:CLI_Update / Display title: CLI Update -->
 
-<span id="main-portal-heading">GSoC 2018
-CLI Update
-Documentation</span> [<img
-src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/113px-Gsoc2016.png 1.5x, https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/150px-Gsoc2016.png 2x"
-data-file-width="373" data-file-height="373" width="75" height="75"
-alt="Gsoc2016.png" />](https://docs.joomla.org/GSOC_2018 "GSOC 2018")
-Joomla!  4.x
-
 ## Introduction
 
 Performing some minor task on the Joomla! administrator dashboard might

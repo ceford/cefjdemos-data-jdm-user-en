@@ -11,10 +11,8 @@ click or hover, and need JavaScript support. The latter are referred to
 here as Interactive Components. This article explains how to use them in
 Articles and a Custom Module.
 
-See: <a
-href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Bootstrap Documentation</a>
+See the [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+for more information.
 
 ### Joomla 4 Introduces a Modular Approach for Interactive Components
 

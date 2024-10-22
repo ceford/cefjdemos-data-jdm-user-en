@@ -108,9 +108,7 @@ hosting=local-hosting-on-windows.md=Local
 hosting=local-hosting-with-xampp.md=Local
 hosting=local-hosting-on-linux.md=Local
 hosting=moving-the-site-among-directories-sub-directories.md=https://docs.joomla.org/J4.x:Moving_the_site_among_directories/sub-directories
-hosting=freebsd-installation.md=https://docs.joomla.org/J4.x:FreeBSD_Installation
 hosting=installing-joomla-using-bitnami-joomla-stack.md=https://docs.joomla.org/J4.x:Installing_Joomla!_using_BitNami_Joomla!_stack
-hosting=installing-joomla-on-debian-linux.md=https://docs.joomla.org/J4.x:Installing_Joomla_on_Debian_Linux
 hosting=installing-joomla-on-a-raspberry-pi.md=https://docs.joomla.org/J4.x:Installing_Joomla_on_a_Raspberry_Pi
 hosting=installing-joomla-using-an-auto-installer.md=https://docs.joomla.org/J4.x:Installing_Joomla_using_an_Auto_Installer
 
@@ -136,6 +134,7 @@ languages=debugging-a-translation.md=https://docs.joomla.org/J4.x:Debugging_a_tr
 media=managing-media.md=https://docs.joomla.org/J4.x:Managing_Media
 media=media-upload-delete-rename.md=https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename
 media=media-image-crop-resize-rotate.md=https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate
+media=media-file-locations.md=https://docs.joomla.org/J6.x:Media_File_Locations
 media=media-options.md=https://docs.joomla.org/J4.x:Media:_Options
 media=media-uploading-svg-files.md=https://docs.joomla.org/J4.x:Media:_Uploading_SVG_files
 
@@ -181,7 +180,6 @@ privacy=privacy-setup.md=https://docs.joomla.org/J4.x:Privacy_Setup
 privacy=privacy-workflow.md=https://docs.joomla.org/J4.x:Privacy_Workflow
 privacy=cookie-notification.md=https://docs.joomla.org/J4.x:Cookie_notification
 
-problems=how-do-you-recover-or-reset-your-admin-password-3f.md=https://docs.joomla.org/J4.x:How_do_you_recover_or_reset_your_admin_password?
 problems=assorted-issues.md=https://docs.joomla.org/J4.x:Assorted_Issues
 problems=unsupported-php-version.md=https://docs.joomla.org/J4.x:Unsupported_PHP_Version
 problems=fatalerror.md=https://docs.joomla.org/J4.x:FatalError
@@ -241,6 +239,8 @@ users=access-control.md=https://docs.joomla.org/J4.x:Access_Control
 users=user-registration.md=https://docs.joomla.org/J4.x:User_Registration
 users=user-profile.md=https://docs.joomla.org/J4.x:User_Profile
 users=user-password-reset.md=https://docs.joomla.org/J4.x:User_Password_Reset
+users=admin-password-recovery.md=https://docs.joomla.org/J4.x:How_do_you_recover_or_reset_your_admin_password?
+users=user-password-security.md=https://docs.joomla.org/J5.x:Enhancing_Password_Security_with_Symbolic_Characters
 users=webauthn-passwordless-login.md=https://docs.joomla.org/J4.x:WebAuthn_Passwordless_Login
 users=multi-factor-authentication.md=https://docs.joomla.org/J4.x:Multi-factor_Authentication
 users=guest-access.md=https://docs.joomla.org/J4.x:Guest_Access

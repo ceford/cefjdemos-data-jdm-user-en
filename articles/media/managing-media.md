@@ -20,9 +20,9 @@ and links directly into articles.
 From the Joomla Administrator interface there are several routes to open
 the Media component:
 
-- Select **Content **→** Media** from the Administrator menu.
-- Select **Site panel **→** Media** from the Home Dashboard.
-- Select **CMS Content **→** Media** from an article edit screen.
+- Select **Content → Media** from the Administrator menu.
+- Select **Site panel → Media** from the Home Dashboard.
+- Select **CMS Content → Media** from an article edit screen.
 
 In the first two cases the Media component appears in a normal component
 screen. In the last it appears in a modal dialog.
@@ -30,13 +30,11 @@ screen. In the last it appears in a modal dialog.
 ## Screenshot
 
 The following image shows the Media page just after Joomla installation
-but with the cassiopeia/sampledata folder selected:
+but with the cassiopeia/sampledata folder selected. A *files* folder was added
+to store non-image files and an extra folder named *garbage* has been added 
+to illustrate folder deletion:
 
-<img
-src="https://docs.joomla.org/images/0/0a/J4.x-media-cassiopeia-sampledata-en.jpg"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406"
-alt="media cassiopeia sampledata" />
+![Media page showing sample data cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
 
 ## Managing Folders
 
@@ -62,11 +60,11 @@ time-consuming, daunting task!
 
 Use the folder tree in the **Local** column to select a folder. In the
 case illustrated above the cassiopeia folder was first selected. That
-revealed the sampledata folder which was then select to show its
+revealed the *sampledata* folder which was then select to show its
 content.
 
 The current location is also indicated in the breadcrumbs above the
-images. In this case **images **→** cassiopeia **→** sampledata**.
+images. In this case **images → cassiopeia → sampledata**.
 
 If you select a different folder the previous folder at the same level
 closes.
@@ -78,21 +76,19 @@ closes.
 - In the *Create New Folder* popup window, enter a name for the folder
   in the **Folder Name** field.
 - Click the **Create** button.
-- The new folder will appear in in the selected parent folder along with
+- The new folder will appear in the selected parent folder along with
   a green Success system message.
 
 ### Deleting a folder
 
-***Warning: deleting a folder will also delete all contents of the
-folder!***
+**Warning: deleting a folder will also delete all contents of the folder!**
 
 - Select the parent of the folder to be deleted using the directory tree
   shown under **Local**. That will show all of the folders and files in
   the parent.
 - Move the cursor over the folder to be deleted in the media area. It
-  will turn grey and a white button will appear near the top left.
-- Select the white button. A green tick will appear to indicate it is
-  selected.
+  will turn grey and a button will appear near the top left.
+- Select the button. A tick will appear to indicate it is selected.
 - Select the **Delete** button from the Toolbar.
 - In the **Confirm Delete** popup dialog select the **Delete** button.
   The folder will be deleted along with all of it files, subfolders and
@@ -100,10 +96,7 @@ folder!***
 
 The folder selected for deletion is illustrated below:
 
-<img
-src="https://docs.joomla.org/images/4/40/J4.x-media-delete-folder-en.jpg"
-decoding="async" data-file-width="800" data-file-height="201"
-width="800" height="201" alt="media delete folder" />
+![Media page showing garbage folder](../../../en/images/media/media-sample-data-garbage-select.png)
 
 ## Media Area Toolbar
 

@@ -116,8 +116,6 @@ user=hosting=cpanel-hosting.md
 user=hosting=local-hosting-on-windows.md
 user=hosting=local-hosting-with-xampp.md
 user=hosting=local-hosting-on-linux.md
-user=hosting=installing-joomla-on-debian-linux.md
-user=hosting=freebsd-installation.md
 user=hosting=installing-joomla-using-bitnami-joomla-stack.md
 user=hosting=installing-joomla-on-a-raspberry-pi.md
 user=hosting=installing-joomla-using-an-auto-installer.md
@@ -142,6 +140,7 @@ heading=media=Media
 user=media=managing-media.md
 user=media=media-upload-delete-rename.md
 user=media=media-image-crop-resize-rotate.md
+user=media=media-file-locations.md
 user=media=media-options.md
 user=media=media-uploading-svg-files.md
 
@@ -194,7 +193,6 @@ user=privacy=privacy-workflow.md
 user=privacy=cookie-notification.md
 
 heading=problems=Problems
-user=problems=how-do-you-recover-or-reset-your-admin-password-3f.md
 user=problems=assorted-issues.md
 user=problems=unsupported-php-version.md
 user=problems=fatalerror.md
@@ -265,6 +263,8 @@ user=users=access-control.md
 user=users=user-registration.md
 user=users=user-profile.md
 user=users=user-password-reset.md
+user=users=admin-password-recovery.md
+user=users=user-password-security.md
 user=users=webauthn-passwordless-login.md
 user=users=multi-factor-authentication.md
 user=users=guest-access.md

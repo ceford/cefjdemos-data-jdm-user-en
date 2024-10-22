@@ -30,12 +30,7 @@ Starting from the Administrator menu:
 - Select and drag the symbol of the item you wish to move.
 - Drop the dragged item into its new position.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/77/J4x-menu-item-order-drag-en.png/800px-J4x-menu-item-order-drag-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/77/J4x-menu-item-order-drag-en.png 1.5x"
-data-file-width="1000" data-file-height="484" width="800" height="387"
-alt="menu item order drag" />
+![menu item order drag](../../../en/images/menus/menus-menu-item-order-drag.png)
 
 This method can be inconvenient if there are parent menu items with many
 children. You can move a parent item more easily by hiding the children:
@@ -63,12 +58,7 @@ Starting from the Administrator menu:
   which you wish to place the item being moved, or the *- First -* or
   *- Last -* positions.
 
-<img
-src="https://docs.joomla.org/images/thumb/2/2c/J4x-menu-item-order-list-type-en.png/800px-J4x-menu-item-order-list-type-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/2/2c/J4x-menu-item-order-list-type-en.png 1.5x"
-data-file-width="1000" data-file-height="497" width="800" height="398"
-alt="menu item order list type" />
+![menu item order list](../../../en/images/menus/menus-menu-item-order-list.png)
 
 - **Save** or **Save & Close**
 

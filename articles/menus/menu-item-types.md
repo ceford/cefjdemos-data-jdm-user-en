@@ -8,12 +8,7 @@ a total of over 30 types. The following screenshot shows the components
 with menu item types. Each component expands on selection to display a list
 of types defined by that component:
 
-<img
-src="https://docs.joomla.org/images/thumb/f/f7/J4x-menu-item-type-select-en.png/800px-J4x-menu-item-type-select-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/f/f7/J4x-menu-item-type-select-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="menu item type select" />
+![menu item type select](../../../en/images/menus/menus-menu-item-type-select.png)
 
 ### Articles
 

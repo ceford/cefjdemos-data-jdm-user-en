@@ -34,12 +34,13 @@ and you can edit it if you see something wrong.
 
 ## The Global Help URL
 
-The **configuration.php** file in the root of a Joomla installtion contains a
-$helpurl variable:
+The **configuration.php** file in the root of a Joomla installation contains a
+`$helpurl` variable:
 
 ```
-	public $helpurl = 'https://help.joomla.org/proxy/index.php?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
+$helpurl = 'https://help.joomla.org/proxy/index.php?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
 ```
+
 When a Help button is selected, each of the items in curly braces is replaced.
 The {major} and {minor} values are the version settings for your installation.
 The {langcode} is the code of your currently selected Administrator language,
