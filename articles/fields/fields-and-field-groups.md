@@ -10,7 +10,7 @@ Suppose you write articles about aspects of nature, sometimes Flowers,
 sometimes Animals. One field you might wish to record and display for
 both is the Latin Name, requiring a text field. Another might be
 Habitat: Woodland, Pond, Meadow, and so on, requiring a drop-down list.
-For flowers you may wish to record Flowering Season using 4 checkboxes,
+For flowers you might wish to record Flowering Season using 4 checkboxes,
 one for each season, or 12 checkboxes, one for each month.
 
 Empty fields in the input form are not displayed in the Site output, so
@@ -23,63 +23,64 @@ the Flowers category.
 If a field is not assigned to a group it will appear in the Edit form in
 a Fields tab. If a field is assigned to a group it will appear in a tab
 with that name. So for the Flowers group it seems appropriate to create
-a group named Flower Data (or just Flowers, although using the same name
+a field group named Flower Data (or just Flowers, although using the same name
 for different things gets confusing). And for the other common fields
 you could use a Nature group.
 
-## A Worked Example - Garden Life
+## A Worked Example - Nature Notes
 
-Before working with fields, this example sets up Article Categories to
-make it simple to create Category Blog or List layouts for Nature, the
-parent Category or any one of Birds, Flowers, Mammals or Trees.
-Creepy-crawlies have wriggled off the bottom of the screenshot!
+For articles on Nature the article category and sub-categories for each branch 
+of the living world might appear as in the following example:
 
-<img
-src="https://docs.joomla.org/images/5/55/J4x-fields-and-field-groups-garden-categories.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="Garden Article Categories" />
+![Article categories for nature](../../../en/images/fields/fields-articles-categories-list.png)
 
 Some obvious features of Nature to note:
 
-- All of the items have Common names and Latin Names.
+- The Nature category is for articles that are about nature in general rather 
+  than specific types of plant or animal.
+- The sub-categories are for articles that are more specific and they may need
+  their own sub-categories.
+- All life forms have Common names and Latin Names.
 - Flowers and Trees have a Flowering Season, Height and Spread but Birds
   and Mammals do not.
 - Birds have Wingspan, and Length whilst Mammals have Height and Length.
+- Colour may be constant or varied. 
 
-The point here is that it may be necessary to set up Fields OR Field
-Groups for common features, such as Latin Name, and separate Field
-Groups for each category of nature.
+The point here is that it may be necessary to set up Field or Field Groups for 
+common features, such as Latin Name, and separate Field Groups for each category
+of nature.
 
 ## Field Groups
 
-Creating Field Groups for Articles is very simple: Select
-**Content **→** Field Groups** from the Administrator menu and select
-the **New** button in the toolbar. Enter a suitable **Title** and select
-**Save & Close** from the toolbar. The illustration below shows the
-Field Groups list with two groups created.
+Creating Field Groups for Articles is very simple: 
 
-<img
-src="https://docs.joomla.org/images/6/63/J4x-fields-and-field-groups-garden-field-groups.png"
-decoding="async" data-file-width="800" data-file-height="217"
-width="800" height="217" alt="Garden Article Field Groups" />
+- Select **Content → Field Groups** from the Administrator menu
+- Select the **New** button in the toolbar. 
+- Enter a suitable **Title**.
+- Enter a **Description**. This appears beneath the field in the article edit
+  form when *Toggle Inline Help* is selected.
+- Select **Save & Close** from the toolbar. 
+
+![Content field groups list](../../../en/images/fields/fields-field-groups-list.png)
+
+### Ordering
+
+In the article data entry from the field groups will appear in the order seen
+in this list. Drag and drop items to change the order.
 
 ## Fields
 
-To create a new article Field select **Content **→** Fields** from the
+To create a new article Field select **Content → Fields** from the
 Administrator menu and fill in the form. Some examples are illustrated
 below.
 
 ### Text - Latin Name
 
-Note in the screenshot that this field has not been assigned to a Field
-Group but it has been assigned to the Nature category. This should
-ensure that it always appears in articles in the Nature category or any
-sub-category.
+Note that in the screenshot below this field has been assigned to the Nature
+Field Group and to the Nature category. This ensure that it always appears in 
+articles in the Nature category and any sub-category.
 
-<img
-src="https://docs.joomla.org/images/5/59/J4x-fields-and-field-groups-no-group.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="Field with no Group" />
+![Text field - latin name in nature group](../../../en/images/fields/fields-latin-name.png)
 
 ### Checkboxes - Flowering Season
 
@@ -92,37 +93,34 @@ Note that in this screenshot the Field has been assigned to the Flowers
 group and to the Flowers Category. That should ensure that the field is
 only present in articles bout flowers.
 
-<img
-src="https://docs.joomla.org/images/e/e5/J4x-fields-and-field-groups-checkboxes-flowering-season.png"
-decoding="async" data-file-width="800" data-file-height="636"
-width="800" height="636" alt="Checkboxes for Flowering Season" />
+![Checkbox field - flowering season](../../../en/images/fields/fields-flowering-season.png)
 
-### Color - Colour
+### Colour - Color
 
 Just to be confusing, the name of the field type is Color (US Spelling)
 but the label in documentation is Colour (British Spelling).
 
-And possibly even more confusing, the colour is actually selected in the
-article edit form:
+![Colour field](../../../en/images/fields/fields-colour.png)
 
-<img
-src="https://docs.joomla.org/images/thumb/b/b5/J4x-fields-and-field-groups-color-in-article-form.png/800px-J4x-fields-and-field-groups-color-in-article-form.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/b/b5/J4x-fields-and-field-groups-color-in-article-form.png/1200px-J4x-fields-and-field-groups-color-in-article-form.png 1.5x, https://docs.joomla.org/images/b/b5/J4x-fields-and-field-groups-color-in-article-form.png 2x"
-data-file-width="1440" data-file-height="846" width="800" height="470"
-alt="Colour" />
+The Colour field is assigned to the Nature field group and the Nature category
+as it is not unique to flowers.
 
 ### Integer - Hardiness
 
-The hardiness of a plant is an integer from 1 to 10. There is no field
-for a real number so length and height have to be integers with the
-scale (cm or m or ft) included in the label. If there is no obvious
-upper limit then leave the Last: field empty.
+The hardiness of a plant can be represented as an integer from 1 to 7. There 
+is no field for a real number so length and width could be integers with a scale 
+(cm or m or ft) included in the label. There are *Prefix* and *Suffix* settings
+in the *Options* tab. If there is no obvious upper limit then leave the *Last:*
+field empty.
 
-<img
-src="https://docs.joomla.org/images/a/aa/J4x-fields-and-field-groups-integer-hardiness.png"
-decoding="async" data-file-width="800" data-file-height="557"
-width="800" height="557" alt="Integer for Hardiness" />
+![Hardiness field](../../../en/images/fields/fields-hardiness.png)
+
+RHS Hardiness is a property usually applied to flowers!
+
+There is a problem with the integer field. It always has a value and so always
+appears in the output. You get around that problem with a template override
+for *Plugins / Integer*. For example, you could use a value above or below the
+expected limits to omit the field from the output.
 
 ## Article Edit Form
 
@@ -131,108 +129,60 @@ Uncategorised and the form tabs do not include Fields and Flowers.
 Select the Flowers category and the form is reloaded with those tabs
 present.
 
-### Fields Tab
+### Nature Tab
 
-The Fields tab contains fields that were not included in a Field Group.
-Enter data as appropriate. Example:
+![Bluebell article nature tab](../../../en/images/fields/field-article-bluebell-nature-tab.png)
 
-<img
-src="https://docs.joomla.org/images/9/9e/J4x-fields-and-field-groups-article-edit-form-fields-tab.png"
-decoding="async" data-file-width="800" data-file-height="343"
-width="800" height="343" alt="Integer for Hardiness" />
+- **Latin Name** The is a text entry field so it is just a matter of typing in
+  the latin name of whatever lif-form the article covers. However, the Nature
+  category covers life in general as well as specific animals or plants. So this
+  is not a *required* field.
+- **Color** The colour selection field can take either keyboard entry of a
+  hex colour value or a colour selected from the colour chooser tool. The hex
+  number is xrrggbb where rr are red values, gg are green values and bb are blue
+  values. On output the site displays the hex value, which is not very helpful!
 
 ### Flowers Tab
 
-The Flowers tab contains fields included in that Field Group. Enter data
-as appropriate. It is shown above in the Color - Colour section.
+![Bluebell article nature tab](../../../en/images/fields/field-article-bluebell-flowers-tab.png)
+
+- **Flowering Season** The checkbox field - bluebells are well-known Spring 
+  flowers so selection of one checkbox is appropriate. 
+- **Hardiness** The integer field. There is a problem here - there is no method
+  available to leave this field empty. So it is always present in the output,
+  even for more general articles on flowers where is is not appropriate. There
+  is a workaround involving a template override.
 
 ## Site Result
 
-Take a look at the result seen in your site. In this example the article
-was marked as Featured so it appears on the site Home page:
+Take a look at the result seen in your site. In this example a single article
+menu item was created:
 
-<img
-src="https://docs.joomla.org/images/f/fd/J4x-fields-and-field-groups-article-site-result.png"
-decoding="async" data-file-width="800" data-file-height="513"
-width="800" height="513" alt="Integer for Hardiness" />
+![Bluebell article site view](../../../en/images/fields/field-article-bluebell-site.png)
 
-Not what you were expecting? You could go back to the Field edit form
-and set some Display Options. You will need to know some CSS and add
-code to user.css in your site template. In this example some dummy
-values have been added to the options:
+### The hex Colour
 
-```html
-<ul class="fields-container">
-<li class="field-entry common-name my-label">
-	<span class="field-label my-output">Common Name: </span>
-	<span class="field-prefix">my-prefix</span>
-	<span class="field-value my-value">Saxifrage</span>
-	<span class="field-suffix">my-suffix</span>
-</li>
-<li class="field-entry latin-name ">
-	<span class="field-label ">Latin Name: </span>
-	<span class="field-value ">Saxifraga - Peter Pan</span>
-</li>
-<li class="field-entry flowering-season ">
-	<span class="field-label ">Flowering Season: </span>
-	<span class="field-value ">Autumn, Winter</span>
-</li>
-<li class="field-entry colour ">
-	<span class="field-label ">Colour: </span>
-	<span class="field-value ">#fa9bab</span>
-</li>
-<li class="field-entry height ">
-	<span class="field-label ">Height: </span>
-	<span class="field-value ">10</span>
-</li>
-<li class="field-entry spread ">
-	<span class="field-label ">Spread: </span>
-	<span class="field-value ">30</span>
-</li>
-<li class="field-entry hardiness ">
-	<span class="field-label ">Hardiness: </span>
-	<span class="field-value ">5</span>
-</li>
-</ul>
+The default data display is the hex colour value, which is not much use. The
+easy solution is to create a template override for the fields / color plugin,
+which is what is shown in the screenshot above.
+
+Just replace this line:
 ```
-
-## Custom User Fields
-
-If you wish to display a custom user field, for example an avatar in the
-Login module after login, here are the steps required:
-
-- Go to Users / Fields / New and add a field of type Media. In this
-  example it is named User Photo and the name is user-photo.
-- Save and Close.
-- Go to your the User Menu / Edit Account item and select a suitable
-  photo from the Fields tab or the field group if you created one.
-- Save and Close.
-- Go to System / Site Templates / Cassiopeia Details and Files / Create
-  Overrides.
-- Select mod_login to create overrides. You will find the overrides in
-  the Editor tab / html / mod_login.
-- Open default_logout.php and add the following lines after the last use
-  statament (line 17):
-
-```php
-    // custom code to access custom field 'user-photo'
-    use Joomla\CMS\Factory;
-    use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
-    $customFields   = FieldsHelper::getFields('com_users.user', Factory::getUser(), true); 
-    $photo      = '';
-    foreach ($customFields as $field)
-    {
-        switch ($field->name)
-         {
-             case 'user-photo':
-                $photo  = $field->value;
-            default:
-        }
-    }
-    if (!empty($photo))
-    {
-        echo $photo;
-    }
+echo htmlentities($value);
 ```
-
-More in another tutorial?
+with these lines:
+```
+if (is_array($value)) {
+  $list = [];
+  foreach ($value as $v) {
+    $x = htmlentities($v);
+    $list[] = '<span class="ps-5 pe-5" style="background-color: ' . $x . ';">&nbsp</span> ' . $x;
+    echo implode(', ', $list);
+  }
+} else {
+    $x = htmlentities($value);
+    echo '<span class="ps-5 pe-5" style="background-color: ' . $x . ';">&nbsp</span> ' . $x;
+}
+```
+And the hex value will be preceded by a swatch with the background colour of
+the value.
