@@ -16,24 +16,20 @@ uses its own user.css style sheet,
 
 ## Worked example
 
-Starting from **System **→** Templates panel **→** Site Templates**:
+Starting from **System → Templates panel → Site Templates**
 
-- Select `Cassiopeia Details and Files`.
-- Select the `Create Child Template` button.
+- Select *Cassiopeia Details and Files*.
+- Select the *Create Child Template* button.
 - Fill out the Child Template popup dialog and select the Create Child
   Template button:
 
-<img
-src="https://docs.joomla.org/images/d/dd/J4x-child-templates-create-green-en.png"
-class="thumbborder" decoding="async" data-file-width="789"
-data-file-height="278" width="789" height="278"
-alt="screenshot of child template modal create form" />
+![child template modal create form](../../../en/images/templates/child-templates-create-green.png)
 
 Selection of Cassiopeia - Default in the Additional Template Styles
 field seems unnecessary (is that a bug?).
 
-- Select `Close` from the Toolbar to close the parent template form.
-- Select the new template, `Cassiopeia_green Details and Files`, from
+- Select *Close* from the Toolbar to close the parent template form.
+- Select the new template, *Cassiopeia_green Details and Files*, from
   the list of Templates.
 
 At this stage there is a folder structure but only one file:
@@ -43,23 +39,18 @@ be added or removed.
 
 ### Create a user.css file
 
-- Select the `New File` button in the Toolbar.
-- In the `Create or Upload a new file` form make sure you select the
+- Select the *New File* button in the Toolbar.
+- In the *Create or Upload a new file* form make sure you select the
   `css` folder
 - Fill out the filename with `user`. Do NOT add a suffix!
 - Select the `.css` File Type.
-- Select the `Create` button.
+- Select the *Create* button.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/81/J4x-child-templates-create-green-user-css-en.png/800px-J4x-child-templates-create-green-user-css-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/81/J4x-child-templates-create-green-user-css-en.png 1.5x"
-data-file-width="1000" data-file-height="543" width="800" height="434"
-alt="screenshot of create user css form" />
+![child template create user css form](../../../en/images/templates/child-templates-create-green-user-css.png)
 
 The user.css file is empty, ready for your to enter some custom styles.
 Enter the following to start the green theme:
-
+```css
     .container-header {
       background-color: darkgreen;
       background-image: none;
@@ -88,12 +79,12 @@ Enter the following to start the green theme:
         border-color: #264f71;
         color: #fff;
     }
-
+```
 You may need to come back to this user.css file to add more styles
 later.
 
-- Select `Save & Close` or separately, `Save` and then `Close File`.
-- Select `Close` to close the Customise form.
+- Select *Save & Close or separately, *Save* and then *Close File*.
+- Select *Close* to close the Customise form.
 
 ### Menu Item
 
@@ -102,22 +93,17 @@ new Joomla 4 installation has the Main Menu in the right sidebar
 position with one item in it. That seems like a good place for a new
 menu item.
 
-- Select **Menus **→** Main Menu** from the Administrator menu.
-- Select the `New` button from the Toolbar.
-- Enter a suitable title, `Green Featured Articles` seems appropriate in
+- Select **Menus → Main Menu** from the Administrator menu.
+- Select the *New* button from the Toolbar.
+- Enter a suitable title, *Green Featured Articles* seems appropriate in
   this case.
-- Select the **Menu Item Type **→** Select** button.
+- Select the **Menu Item Type → Select** button.
 - Select a menu item type from the Menu Item Type popup dialog -
   Featured Articles in this example.
-- Select `cassiopeia_manual - Default` from the `Template Style` form
+- Select *cassiopeia_manual - Default* from the *Template Style* form
   field.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/87/J4x-child-templates-create-green-menu-item-en.png/800px-J4x-child-templates-create-green-menu-item-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/87/J4x-child-templates-create-green-menu-item-en.png 1.5x"
-data-file-width="1000" data-file-height="507" width="800" height="406"
-alt="screenshot of menu item edit form" />
+![child template menu item edit form](../../../en/images/templates/child-templates-create-green-menu-item.png)
 
 - For the purposes of the following screenshot the Blog Layout has been
   set to Leading Articles: 0, Intro Articles: 3 and Mult Column
@@ -127,18 +113,13 @@ alt="screenshot of menu item edit form" />
 
 - in the Home page of your site select the newly created menu item.
 
-<img
-src="https://docs.joomla.org/images/thumb/f/f6/J4x-child-templates-green-site-result-en.png/800px-J4x-child-templates-green-site-result-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/f/f6/J4x-child-templates-green-site-result-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screens shot of site showing custom green theme templates" />
+![site showing custom green theme template](../../../en/images/templates/child-templates-green-site-result.png)
 
 ### Edit the Style
 
-- Select **System **→** Templates panel **→** Site TemplateStyles** from
+- Select **System → Templates panel → Site TemplateStyles** from
   the Administrator menu.
-- Select `Cassiopeia_green - Default` from the Style list.
-- Change the Style Name to `Cassiopeia Green`. That just tidies up the
+- Select *Cassiopeia_green - Default* from the Style list.
+- Change the Style Name to *Cassiopeia Green*. That just tidies up the
   name as it appears in lists.
-- Select `Save and Close`.
+- Select *Save and Close*.

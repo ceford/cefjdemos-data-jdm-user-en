@@ -19,16 +19,11 @@ One of your templates must be marked as the default. It is used for all
 pages except any individual pages that specify an alternative template.
 To set the default template:
 
-- Select **System **→** Templates panel **→** Site Template Styles**
+- Select **System → Templates panel → Site Template Styles**
   from the Administrator menu.
 - Select one of the buttons in the Default column.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/4c/J4x-templates-styles-list-en.png/800px-J4x-templates-styles-list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/4c/J4x-templates-styles-list-en.png 1.5x"
-data-file-width="1000" data-file-height="351" width="800" height="281"
-alt="screenshot of templates styles site page" />
+![templates site styles list page](../../../en/images/templates/switch-templates-styles-list.png)
 
 Have a look at your site to see that all of the pages are using the
 default template.
@@ -51,12 +46,7 @@ From the Templates: Styles list:
 - Select individual menu items or toggle all items in a menu.
 - Save
 
-<img
-src="https://docs.joomla.org/images/thumb/6/64/J4x-templates-styles-edit-style-menu-assignment-en.png/800px-J4x-templates-styles-edit-style-menu-assignment-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/64/J4x-templates-styles-edit-style-menu-assignment-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot ot templates edit style page menu assignment tab" />
+![templates edit style page menu assignment tab](../../../en/images/templates/switch-templates-styles-edit-style-menu-assignment.png)
 
 In this example all of the menu items in the `Main Menu Testing` menu
 have been selected. Return to your site and select any of the menu items
@@ -66,17 +56,12 @@ that should use the selected template.
 
 This method is used to set the template for individual menu items.
 
-- Select **Menus **→** \[Menu Name\]** from the Administrator menu.
+- Select **Menus → \[Menu Name\]** from the Administrator menu.
 - Select a menu item link from the Title column to open the edit form.
 - In the **Template Style** field, select the desired template style.
 - Save
 
-<img
-src="https://docs.joomla.org/images/thumb/c/cc/J4x-templates-styles-edit-menu-style-en.png/800px-J4x-templates-styles-edit-menu-style-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/c/cc/J4x-templates-styles-edit-menu-style-en.png 1.5x"
-data-file-width="1000" data-file-height="502" width="800" height="402"
-alt="Jscreenshot of menus edit item form showing style selection" />
+![templates menus edit item form showing style selection](../../../en/images/templates/switch-templates-styles-edit-menu-style.png)
 
 Return to your site and select the changed menu item to check that it is
 displayed with the selected template style.

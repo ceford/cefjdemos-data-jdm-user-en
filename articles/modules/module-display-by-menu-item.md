@@ -33,15 +33,9 @@ There are four menu assignment options:
 
 For the last two a Menu Selection panel is displayed. Initially, the
 menus it contains are fully expanded but they can be collapsed with the
-the **Expand the Menu Subtrees** `None` button. Then expand the menu of
+the **Expand the Menu Subtrees** *None* button. Then expand the menu of
 interest.
-
-<img
-src="https://docs.joomla.org/images/thumb/d/d5/J4x-module-menu-assignment-en.png/800px-J4x-module-menu-assignment-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/d5/J4x-module-menu-assignment-en.png 1.5x"
-data-file-width="1000" data-file-height="591" width="800" height="473"
-alt="module menu assignment" />
+![module menu assignment](../../../en/images/modules/module-display-by-menu.png)
 
 Select the Menu Items to display or not display the module as desired.
 
@@ -50,8 +44,8 @@ Select the Menu Items to display or not display the module as desired.
 ### Breadcrumbs Not on Home Page
 
 - Open the Breadcrumbs module.
-- Select `On all pages except those selected`
-- Select the `None` after **Assign to Menu Items**
+- Select *On all pages except those selected*
+- Select the *None* after **Assign to Menu Items**
 - Find the Home page menu item and check its checkbox.
 - Save
 - Check the site - breadcrumbs should be present on all pages except the

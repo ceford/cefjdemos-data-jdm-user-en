@@ -19,16 +19,11 @@ time at which automatic logout will occur after a period of inactivity.
 
 ## Example: Template Override for mod_login
 
-Start by selecting **System **→** Templates **→** Site Templates** in
+Start by selecting **System → Templates → Site Templates** in
 the Administrator menu and then select the Cassiopeia Details and Files
 item. That will open the Templates: Customise (Cassiopeia) form:
 
-<img
-src="https://docs.joomla.org/images/thumb/4/45/J4x-templates-customise-cassiopeia-en.png/800px-J4x-templates-customise-cassiopeia-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/4/45/J4x-templates-customise-cassiopeia-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="Cassiopeia Files" />
+![template customise cassiopeia site tab](../../../en/images/templates/templates-customise-cassiopeia.png)
 
 **Important:** do not edit any of the files supplied as part of the
 Cassiopeia template. At the next Joomla update those files may be
@@ -44,12 +39,7 @@ There is no mod_login at this stage.
 Select the Create Overrides tab to see the list of Modules, Components,
 Plugins and Layouts for which you may create overrides:
 
-<img
-src="https://docs.joomla.org/images/thumb/3/3b/J4x-cassiopeia_template_overrides-en.png/800px-J4x-cassiopeia_template_overrides-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/3/3b/J4x-cassiopeia_template_overrides-en.png 1.5x"
-data-file-width="1000" data-file-height="688" width="800" height="550"
-alt="Template Overrides" />
+![templates customise cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
 
 Select the mod_login item. The mod_login template php files will be
 copied into the html folder and you will be returned to the Editor tab.
@@ -73,12 +63,7 @@ lines of code added near the top of the file. These lines of code
 calculate when the user session will expire after loading the page
 containing the logout form.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/55/J4x-cassiopeia-template-customisation-logout-override-en.png/800px-J4x-cassiopeia-template-customisation-logout-override-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/5/55/J4x-cassiopeia-template-customisation-logout-override-en.png 1.5x"
-data-file-width="1000" data-file-height="969" width="800" height="775"
-alt="Edit override file" />
+![templates customise cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-edit-logout-override.png)
 
 The Diff area shows added lines with a green background and deleted
 lines with a red background. There are no deleted lines in this case.
@@ -105,10 +90,7 @@ Your session will expire at <br><?php echo $endTime; ?>
 
 Save and reload the site page containing the logout form.
 
-<img
-src="https://docs.joomla.org/images/c/c0/J4x-cassiopeia-template-customisation-logout-override-result-en.png"
-decoding="async" data-file-width="318" data-file-height="218"
-width="318" height="218" alt="Override Result" />
+![templates customise cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-logout-override-result.png)
 
 You should see the logout form change each time the page is reloaded.
 But what if you should change your mind? Or have different options for
@@ -124,11 +106,7 @@ with com\_, mod\_ or plg\_. Note that the second part of a plugin
 override folder signifies the plugin group. Here is an example selection
 of override folders:
 
-<img
-src="https://docs.joomla.org/images/3/3d/J4x-cassiopeia-template-customisation-example-override-folder-en.png"
-class="thumbborder" decoding="async" data-file-width="244"
-data-file-height="403" width="244" height="403"
-alt="screenshot of overrides html folder showing implemented overrides" />
+![templates customise cassiopeia overrides tab](../../../en/images/templates/templates-customise-example-override-folder.png)
 
 ## Layout Overrides
 
@@ -162,16 +140,10 @@ When an override file is created it is found in:
 
 ## Further Information
 
--  Template
-  Basics
--  Cassiopeia Template Folders and
-  Files
--  Cassiopeia Template
-  Customisation
--  Template
-  Overrides
--  Template
-  Layouts
--  Cassiopeia Template Simplified - A Case
-  Study -
-  a simple template based on Cassiopeia
+- Template  Basics
+- Cassiopeia Template Folders and Files
+- Cassiopeia Template Customisation
+- Template Overrides
+- Template Layouts
+- Cassiopeia Template Simplified - A Case Study - a simple template based 
+  on Cassiopeia

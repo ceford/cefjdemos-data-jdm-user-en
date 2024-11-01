@@ -22,9 +22,7 @@ idea to have too many 404 errors on your site.
 ## Google Search Central
 
 The first step is to find out how many you have – which can be done
-using Google's
-<a href="https://developers.google.com/search"
-rel="nofollow noreferrer noopener">Search Central</a>.
+using Google's [Search Central](https://developers.google.com/search).
 This is a free set of tools which allows you to analyse your website and
 pick up on problems, errors and issues quickly. It is recommended that
 you have every site you manage registered at Search Central to ensure
@@ -39,9 +37,7 @@ why there are pages that were on your site and now can't be found.
 If there was a temporary problem on your site, you can mark errors as
 being fixed.
 
-<img src="https://docs.joomla.org/images/d/db/404discovery.png"
-decoding="async" data-file-width="1934" data-file-height="1543"
-width="1934" height="1543" alt="webmaster tools" />
+![webmaster tools](../../../en/images/performance/404-discovery.png)
 
 ## Fixing Problems
 
@@ -64,13 +60,9 @@ landing page is. This should allow you to monitor and proactively manage
 your 404 errors and ensure that your site visitors do not end up landing
 on dead links.
 
-<img src="https://docs.joomla.org/images/4/43/Analyticsalerts.png"
-decoding="async" data-file-width="1179" data-file-height="518"
-width="1179" height="518" alt="Analytics alerts 404 traffic" />
+![Analytics alerts 404 traffic](../../../en/images/performance/404-analytics-alerts.png)
 
-<img src="https://docs.joomla.org/images/6/62/Analyticsalerts2.png"
-decoding="async" data-file-width="1658" data-file-height="732"
-width="1658" height="732" alt="Analytics alerts audience overview" />
+![Analytics alerts audience overview](../../../en/images/performance/404-analytics-alerts-2.png)
 
 Google also has the ability, in Analytics, to set up alerts. Alerts
 allow you to be emailed when certain events occur. In this case, we can
@@ -81,9 +73,7 @@ problem with the website which needs investigating.
 This is a great way to keep on top of things even if you haven't logged
 in to look at your dashboard!
 
-<img src="https://docs.joomla.org/images/e/e1/Analyticsalertsemail.png"
-decoding="async" data-file-width="1171" data-file-height="456"
-width="1171" height="456" alt="Analytics alerts email" />
+![Analytics alerts email](../../../en/images/performance/404-analytics-alerts-email.png)
 
 ## Monitoring Errors with a Dashboard
 
@@ -93,6 +83,4 @@ other metrics which might be of interest. Just search the Google
 Analytics Gallery for *Data Integrity Dashboard* and select which
 profile to install it under.
 
-<img src="https://docs.joomla.org/images/e/e5/Dataintegrity.png"
-decoding="async" data-file-width="1650" data-file-height="1545"
-width="1650" height="1545" alt="Data integrity" />
+![Data integrity](../../../en/images/performance/404-data-integrity.png)

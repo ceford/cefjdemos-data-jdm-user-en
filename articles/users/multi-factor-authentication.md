@@ -154,12 +154,7 @@ The Users: Options form has a Mult-Factor Authentication form to
 Configure how Multi-factor Authentication works in Joomla. Select the
 Toggle Inline Help button for information about each option.
 
-<img
-src="https://docs.joomla.org/images/thumb/6/66/J4.x-multi-factor-authentication-user-optionsen.png/800px-J4.x-multi-factor-authentication-user-optionsen.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/66/J4.x-multi-factor-authentication-user-optionsen.png 1.5x"
-data-file-width="1000" data-file-height="1673" width="800" height="1338"
-alt="Screenshot of users options multi factor authentication settings" />
+![users options multi factor authentication form](../../../en/images/users/users-configuration-mfa.png)
 
 ## User Profile
 
@@ -176,12 +171,7 @@ Authentication part of the form after a method has been created. That
 automatically sets the feature to Enabled and shows the option to create
 Backup Codes.
 
-<img
-src="https://docs.joomla.org/images/thumb/0/0b/J4.x-multi-factor-authentication-user-profileen.png/800px-J4.x-multi-factor-authentication-user-profileen.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/0b/J4.x-multi-factor-authentication-user-profileen.png 1.5x"
-data-file-width="1000" data-file-height="1371" width="800" height="1097"
-alt="Screenshot of an individual user multi factor authentication form" />
+![site view of user multi factor authentication form](../../../en/images/users/multi-factor-authentication-site-profile.jpg)
 
 As mentioned above, you can try each out by selecting the + Add ...
 button, but select Cancel in the subsequent form if you decide not to

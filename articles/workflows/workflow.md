@@ -2,189 +2,129 @@
 
 ## Introduction
 
-The Publishing Workflow component is used to replace static states
-(unpublished, published, trashed and archived) with a more generic
-approach. This way you can easily create a customized workflow to manage
-your articles within a component.
+In Joomla, a workflow is a sequence of steps in the life of an article from
+conception to demise. The steps are usually performed by different individuals
+with different responsibilities. For example, in the newspaper world a 
+sub-editor takes a story from a reporter and checks for accuracy, grammar,
+readability and length, and perhaps more. The sub-editor will then pass the
+story to the editor who may accept or reject the story, decide where to place
+it in the paper, and so on. 
 
-- The article backend view in Joomla 3.x:
+The Workflow component is used to add **stages** to articles to enhance the 
+static states (unpublished, published, trashed and archived) with 
+**transitions**. The static states and transitions are recorded separately so 
+that Workflows can be enabled or disabled as required without affecting the 
+state of content items. Workflows are enabled or disabled in the 
+*Articles: Options* page *Integration* tab. 
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a4/Article_view_3-en.png/800px-Article_view_3-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/a/a4/Article_view_3-en.png/1200px-Article_view_3-en.png 1.5x, https://docs.joomla.org/images/thumb/a/a4/Article_view_3-en.png/1600px-Article_view_3-en.png 2x"
-data-file-width="2538" data-file-height="766" width="800" height="241"
-alt="Articles list view in Joomla 3" />
-
-- The article backend view in Joomla 4.x:
-
-<img
-src="https://docs.joomla.org/images/thumb/9/94/J4_Articles_Backend-en.png/800px-J4_Articles_Backend-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/9/94/J4_Articles_Backend-en.png 1.5x"
-data-file-width="1200" data-file-height="332" width="800" height="221"
-alt="Articles list view in Joomla 4 and 5" />
-
-The article tool range is now smaller and the view generally tidier. You
-can create customized states for the articles and group them in
-categories.
-
-There is a tutorial page containing steps for the creation of your first
-workflow:
-Workflow Scenarios.
-You can find more information about the implementation of the component
-in other areas on the page of the Google Summer of Code project DOC:
-Publishing Workflow Implementation
-
-You can disable workflows at any time by visiting "articles" or
-"workflows" and clicking "options" in the top right. Switch to the tab
-"Integration" and scroll down to "Enable Workflow".
+There is a tutorial page containing steps for the creation an example
+workflow: [Workflow Scenarios](jdocmanual?article=user/workflows/workflow-scenarios).
 
 ## Terms & Definitions
 
-- *Workflows:* You can create several workflows. Each workflow contains
-  states, possible transitions and item conditions.
-- *Stages:* Stages are the start points and end points within a
-  workflow.
-- *State:* The state of an item can be unpublished, published, trashed
-  or archived. A state can be changed by executing a transition
-- *Transitions:* Transitions occur between stages. They are where the
-  actions happen.
-- *Categories:* Articles can be assigned to categories.
+- *Workflow:* A workflow is a complete sequence of steps. Several different 
+  workflows can be created for different purposes. The Workflow component
+  contains a *Basic Workflow* and the Blog sample data has a more complex 
+  *Blog Workflow*. 
+- *Stage:* A stage is a location within a workflow. For example, an unpublished
+  article may be at Stage 1: In Preparation or Stage 2: Ready for Review, and
+  so on. It is the stage for the item that is recorded in the database.
+- *Transition:* A transition is a change from one stage to another, often to the 
+  next in the workflow but could be to the previous stage or initial stage.
+- *State:* The state of an article can be unpublished, published, trashed
+  or archived. A state can be changed by executing a workflow transition 
+  provided that the user has permission to change state.
+- *Category:* When workflows are in use, a specific Workflow can be selected for
+  a category in the *Article: Edit Category* form *Workflow* tab.
 
-## Workflows
+## The Workflows List
 
-The workflow resembles a sequence of steps. It can be accessed via the
-main top menu under "Content". You will be directed to the "Workflows
-List", an overview of all your existing workflows. A workflow contains
-several states of different conditions. Items (e.g. articles) can
-transit through those states.
+When workflows are enabled the list of available workflows can be seen by
+selection of **Content → Workflows** from the Administrator menu.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e2/Workflows-en.png/800px-Workflows-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/e/e2/Workflows-en.png/1200px-Workflows-en.png 1.5x, https://docs.joomla.org/images/thumb/e/e2/Workflows-en.png/1600px-Workflows-en.png 2x"
-data-file-width="1906" data-file-height="455" width="800" height="191"
-alt="Screenshot of Workflows List" />
+![Workflows list](../../../en/images/workflows/workflows-list.png)
 
-- You see the status of the workflow (published / unpublished)
-- Next to the status is the title. By clicking on the title you can
-  *edit the workflow*
-  - *Editable*: Title \| Description \| Status \| Default Option \|
-    Permissions (Rights Management)
-- Next to the title you find the option to *Manage* the workflow stages
-  (for more info see
-  Publishing Workflow Stages
-- Next to the "Stages" is the default option
-- You find a yellow icon, next to "default", representing the number of
-  existing stages in this workflow
-- Next to the yellow circle is a blue icon that represents the number of
-  existing transitions in this workflow (for more info see
-  Publishing Workflow Transitions
-- You can also see the workflow ID.
+- The **Status** of a workflow may be Enabled, Disabled or Trashed.
+- The **Name** is a link to the workflow Edit form.
+- The **Default** item is used for new items that are not assigned to a
+  category that has a defined workflow.
+- The **Stages** item is a button showing the number of stages and a link
+  to the list of stages for the workflow.
+- The **Transitions** item is a button showing the number of transitions and 
+  a link to the list of transitions for the workflow.
+- The **ID** is a the numerical value of the workflow used internally.
 
 ## Stages
 
-The stages are accessed via the "Workflows List" container via clicking
-on the yellow icon showing the number of stages. You can edit the name
-of a stage by clicking on it.
+The stages are accessed via the *Workflows* list. Select the yellow button
+showing the number of stages. 
 
+![Workflow stages list](../../../en/images/workflows/workflow-stages-list.png)
 
-<img
-src="https://docs.joomla.org/images/thumb/a/ac/Stages-en.png/800px-Stages-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/a/ac/Stages-en.png 1.5x"
-data-file-width="1200" data-file-height="251" width="800" height="167"
-alt="Screenshot of Workflow Stages" />
+Select the name of a stage to edit it.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7f/Stages--edit-en.png/800px-Stages--edit-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/7/7f/Stages--edit-en.png 1.5x"
-data-file-width="1200" data-file-height="404" width="800" height="269"
-alt="The Edit Stage form" />
-
-- In the second picture you can edit the stage. You can enable or
-  disable it and write a note. It also has a "default" toggle. If there
-  is only one item you will not be able to toggle this.
+![Workflow stage edit form](../../../en/images/workflows/workflow-stage-edit.png)
 
 ## Transitions
 
-Articles can transit from one stage to another. The transitions can be
-managed through the "Workflows List" container via clicking on the blue
-icon. You can set several transitions that items can go through. The
-possible stages are based on the ones you have created for this specific
-workflow.
+In workflows, articles transition from one stage to another. The transitions are
+managed through the *Transitions* list.
 
-The *current stage* will define where this transition is applied. You
-can choose all stages, or a specific stage.
+![The transitions list](../../../en/images/workflows/workflow-transitions-list.png)
 
-The *target stage* is the stage the workflow will end up at after the
-transition has taken place.
+- The *Current Stage* defines where this transition starts.
+- The *Target Stage* defines where this transition ends.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/45/Transitions--edit--description-en.png/800px-Transitions--edit--description-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/4/45/Transitions--edit--description-en.png 1.5x"
-data-file-width="1200" data-file-height="456" width="800" height="304"
-alt="Edit Transition Description" />
+### Transition Stages
 
-The *transition actions* tab allows you to define what state the item
-will be in after the transition is complete. For example if the item is
-an article it could become unpublished, which is exactly what happens in
-the *unpublish* transition. You can also define whether the item is
-featured or not by the end of the state.
+The *Current* and *Target* stages are set in the *Edit Transition* form:
 
-<img
-src="https://docs.joomla.org/images/thumb/2/27/Transitions--edit--transition-actions-en.png/800px-Transitions--edit--transition-actions-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/2/27/Transitions--edit--transition-actions-en.png 1.5x"
-data-file-width="1200" data-file-height="429" width="800" height="286"
-alt="Edit Transition Actions" />
+![Edit transition form](../../../en/images/workflows/workflow-transition-edit.png)
 
-The *transition notifications* tab allows you to define whether a
-notification is sent during that state. For example if an article has
-been written but needs to be proofread, you could send an email
-notification to the editor.
+The *Transition Actions* tab is used to define the *State* the item will be in 
+after the transition is complete. 
 
-You can also add additional message text. This will also allow you to
-use a  language
-string
-which would make the message text translatable.
+![Edit transition form actions tab](../../../en/images/workflows/workflow-transition-edit-actions-tab.png)
 
-The Usergroups option will allow you to define who will receive the
-notification. In the example we have chosen we would choose *editor* as
-the usergroup. In that example all users within that usergroup would get
-a notification.
+- **Featuring State** Whether or not the item will be *Feaured*.
+- **Publishing State** Select from the list the target state.
 
-Finally there is the "more receivers" option. This allows you to choose
-individual users to receive this notification.
+The *Transition Notifications* tab is used to define whether a notification is 
+sent for that state. For example if an article has been written but needs to 
+be proofread, an email could be sent to notify the editor.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/57/Transitions--edit--notification-en.png/800px-Transitions--edit--notification-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/5/57/Transitions--edit--notification-en.png 1.5x"
-data-file-width="1200" data-file-height="481" width="800" height="321"
-alt="Edit Transition Notification" />
+![Edit transition form notifications tab](../../../en/images/workflows/workflow-transition-edit-notifications-tab.png)
 
-The final tab is the permissions tab. This allows you to set who can use
-this transition.
+- **Send Notification** If set to *Yes* extra fields appear.
+- **Additional Message Text** Add additional message text or use a language
+  string to make the message text translatable.
+- **Usergroups** Select who will receive the notification, for example all users
+  in the *Editor* user group.
+- **Users** Select individual users to receive this notification.
 
-- *Example:* In the transition "Next Step: Publishing" items are
-  originally of the state "unpublished". They are, for example, in need
-  of a review. After they have been reviewed, they can transit to the
-  state "published".
-- All the workflow transition actions are Joomla! workflow plugins. If
-  you go to System **→** Plugins. Then change the "type" dropdown to
-  "workflow" you will see the plugins. These can be disabled like any
-  other plugin.
+### Permissions
 
-<img
-src="https://docs.joomla.org/images/thumb/9/96/Workflows--plugins--workflows-en.png/800px-Workflows--plugins--workflows-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/9/96/Workflows--plugins--workflows-en.png 1.5x"
-data-file-width="1200" data-file-height="358" width="800" height="239"
-alt="Workflows Plugins" />
+The permissions tab controls access to this transition by selected user groups.
+Normally the permissions are inherited form the Permissions in the 
+*Articles: Options* permission settings.
+
+### Workflow Transition Plugins
+
+The workflow plugins are used for actions invoked by transitions. Go to 
+**System → Plugins** and change the *- Select Type -* filter to *workflow*.
+Each of this plugins can be disabled if not required.
+
+![Workflow plugins list](../../../en/images/workflows/workflow-plugins.png)
+
+- **Workflow Featuring** This action implements the change of an article's
+  *Featured* status from *Yes* to *No*.
+- **Workflow Notification** This action implements notification of a user
+  that a change of stage requires attention.
+- **Workflow Publishing** This action implements a change of state of an
+  article from one to another of *Published*, *Unpublished*, *Trashed* or
+  *Archived*. If the user does not have permission to change state it will fail
+  with an explanatory message. The transition that requested the change of
+  state will still succeed!
 
 ## Categories
 
@@ -192,25 +132,35 @@ Articles can be assigned to categories. They correspond to a certain
 workflow and can be customized in various ways. You can set a status,
 parent category and also restrict the access as well as the permissions.
 This option is not within the workflows screen. For this option you need
-to go to Content **→** Categories. Once there open any category and you
-will see a "workflows" tab.
+to go to **Content → Categories**. Once there open any category and you
+will see a *Workflows* tab.
 
-- *Example:* You have certain articles that you want to be available
-  only for administrators or users of a higher rank. You can call your
-  category "Restricted" and set all permissions on "Allowed" for
-  administrators or higher. This way you do not have to set those
-  permissions for every article concerned but can move them into this
-  special category and save time instead.
+![Articles edit category workflow](../../../en/images/workflows/workflow-categories-blog.png)
 
-<img
-src="https://docs.joomla.org/images/thumb/d/dd/Workflow-categories-en.png/800px-Workflow-categories-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/d/dd/Workflow-categories-en.png 1.5x"
-data-file-width="1200" data-file-height="431" width="800" height="287"
-alt="Articles edit category workflow" />
+### Example
+
+Certain articles need to be available only for administrators or users of a 
+higher rank.
+
+- Create a category named *Restricted*
+- Set all permissions on *Allowed* for administrators or higher. 
+- Move the articles concerned to the *Restricted* category.
+
+This saves setting permissions on individual articles,
 
 ## Versioning
 
 When the workflow is enabled fields managed by the workflow are excluded
 from the versioning (like "state" and "featured") to avoid permission
 conflicts.
+
+## Examples
+
+Some specific examples are available to illustrate how to use Workflows for
+different user groups:
+
+- [Example 1](jdocmanual?article=user/workflows/workflow-example-1) makes use
+  of the default Author, Editor and Publisher user groups to prepare items
+  for a Newsletter.
+- [Example 2](jdocmanual?article=user/workflows/workflow-example-2) makes use
+  of custom user groups to prepare items for committee meetings.

@@ -7,14 +7,12 @@ to a newer version:
 
 * **Migration or mini-migration** is a term usually applied to a change from
 an older to a newer *Major* version, sometimes through several interim *Major*
-verions.
+versions.
 * **Upgrade** is a term usually applied to a change from one recent version to
 the next version in a sequence of *Minor* versions.
 * **Update** is a term usually used for the Upgrade process using the Joomla
 Update component. It is the word seen in the Administrator interface in
 Joomla! 3, 4 and 5. From now on the term *Update* will be used in this article.
-
-See this article for a complete list of Joomla! CMS Versions.
 
 It is also worth knowing that Joomla follows the Semantic Versioning standard.
 In brief, given a version number MAJOR.MINOR.PATCH, such as 5.1.0:
@@ -31,16 +29,16 @@ stable releases intended for production sites.
 
 The reasons to update are many and varied:
 
-* **Security:** although Joomla! is recognised as a very secure CMS, occasional
+* **Security** Although Joomla! is recognised as a very secure CMS, occasional
 vulnerabilities are discovered and fixed in Minor or Patch releases.
-* **Hosting changes:** Joomla uses the *PHP* scripting language and a database
+* **Hosting changes** Joomla uses the *PHP* scripting language and a database
 server such as *MySQL*, *MariaDB* or *PostGres*. They progress through changes
 and hosting services need to keep up to date. So you may find that an older
 version of Joomla no longer works or fails to work if you move hosting service.
-* **Design changes:** you may wish to make your site look better, work better
+* **Design changes** You may wish to make your site look better, work better
 with mobile devices and score more highly with search engines. You might have
 to meet legal *Accessibility* rquirements.
-* **Functionality:** You may wish to use a Joomla extension that provides some
+* **Functionality** You may wish to use a Joomla extension that provides some
 feature not provided by core Joomla extensions. Choices may be limited by your
 current Major version.
 

@@ -1,34 +1,30 @@
 <!-- Filename: Help4.x:Components_Privacy_Outline / Display title: Privacy Outline -->
 
-## Privacy Outline
-
-### Content
+## Content
 
 The Joomla Privacy Tool Suite consists of the following parts:
 
-- **Administrator Component.** Manages User information Privacy
-  requests.
-- **Module - Privacy Dashboard.** Places a Privacy panel on the Home
-  dashboard.
-- **Module - Privacy Requests.** Places a Privacy Requests panel on the
-  Privacy dashboard.
-- **Module - Privacy Status.** Places a Privacy Status panel on the
-  Privacy dashboard.
-- **Menu Item - Create Request.** Shows a form to display an Information
+- **Administrator Component** Manages User information Privacy requests.
+- **Module - Privacy Dashboard** Places a Privacy panel on the Home Dashboard.
+- **Module - Privacy Requests** Places a Privacy Requests panel on the
+  Privacy Dashboard.
+- **Module - Privacy Status** Places a Privacy Status panel on the
+  Privacy Dashboard.
+- **Menu Item - Create Request** Shows a form to display an Information
   Request. To be created.
-- **Plugin - System - Privacy Consent.** Adds consent fields to personal
+- **Plugin - System - Privacy Consent** Adds consent fields to personal
   information forms such as Registration. To be enabled.
-- **Plugin - User - Terms and Condition.** Requests user's consent to
+- **Plugin - User - Terms and Condition** Requests user's consent to
   the site's terms and conditions. To be enabled.
-- **Plugin - Content - Confirm Consent.** Adds a required checkbox to a
+- **Plugin - Content - Confirm Consent** Adds a required checkbox to a
   form, for example the core contact form. To be enabled.
-- **Plugin - Privacy - Various.** More plugins, enabled by default,
+- **Plugin - Privacy - Various** More plugins, enabled by default,
   without significant parameters to set.
 
 On installation the Privacy Tool Suite is ready for Administrator use
 without enabling plugins or creating a menu item.
 
-### Workflow
+## Workflow
 
 This is a typical sequence of events:
 
@@ -52,9 +48,9 @@ This is a typical sequence of events:
   sees that the request status has changed to **Confirmed**.
 - For a data Export request there are adjacent Export and Email buttons.
   - The Administrator selects the Export button to have a look at the
-    data to be exported. This is in XML format but displays sensible in
+    data to be exported. This is in XML format but displays sensibly in
     Firefox.
-  - The Adminstrator selects the Email button to send the exported data
+  - The Administrator selects the Email button to send the exported data
     to the Subject.
 - For a data Remove request there is an adjacent Delete button.
   - The Administrator selects the delete button to anonymise the data

@@ -9,11 +9,13 @@ it is sometimes useful to have a module actually embedded within an
 article. Joomla has a plugin named *Content - Load Modules* to do that. When
 enabled, a module may be embedded in an article in three different ways:
 
-- {loadposition position,\[style\]}
-- {loadmodule mod_type,the title,\[style\]}
-- {loadmoduleid moduleId}
+```
+    {loadposition position,[style]}
+    {loadmodule mod_type,the title,[style]}
+    {loadmoduleid moduleId}
+```
 
-Where *style* is one of the Module Style values from the Advanced tab of the
+Where `style` is one of the Module Style values from the Advanced tab of the
 module data entry form, for example html, outline, table, card or noCard.
 
 ## loadposition
@@ -54,7 +56,7 @@ So in the example above you end up with **{loadmodule mod_login Login 2}**.
 
 You can also add the style that is used for rendering the module. To do
 so, add the style as the third parameter like {loadmodule login,Login 2,xhtml}.
-If you don't add a style, then "none" is used.
+If you don't add a style, then none is used.
 
 ## loadmoduleid
 
@@ -68,7 +70,7 @@ parameters like the `style` parameter.
 If the editor-xtd plugin *Button - Module* is activated you can use the
 editor button *Module* to insert the above described tags more easily into
 the editor text. The Module list has a button in the Title column to insert
-by id and a button in the Position colum to insert by position.
+by id and a button in the Position column to insert by position.
 
 ## Modules within Modules
 

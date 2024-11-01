@@ -48,27 +48,20 @@ Everything that fixed passwords are not.
 The following picture shows a hardware device inserted into a laptop
 computer's USB port. It cost £15 in February, 2022.
 
-<img
-src="https://docs.joomla.org/images/2/2e/J4x-passwordless-login-hardware-device.jpg"
-decoding="async" data-file-width="300" data-file-height="225"
-width="300" height="225" alt="Hardware device" />
+![photograph of Hardware device](../../../en/images/users/passwordless-login-hardware-device.jpg)
 
 WebAuthn uses a system plugin that is enabled by default. A **Web
 Authentication** button will be present in default Joomla 4 and later login
 screens, as illustrated in the Administrator login screen:
 
-<img
-src="https://docs.joomla.org/images/2/20/J4x-passwordless-login-admin-login.png"
-class="thumbborder" decoding="async" data-file-width="400"
-data-file-height="474" width="400" height="474"
-alt="Administrator Login" />
+![secure administrator login form](../../../en/images/users/passwordless-login-login-form.jpg)
 
 ## User Configuration
 
 The user must first register with a normal Username and Password. After
 logging in go to the User Profile form. For an Administrator:
 
-- Select **User Menu **→** Edit Account **→** W3C Web Authentication
+- Select **User Menu → Edit Account → W3C Web Authentication
   (WebAuthn) Login** to bring up the form, initially with no
   authenticators registered.
 - Select **Add New Authenticator**
@@ -77,24 +70,18 @@ The exact presentation of the next step depends on your browser.
 Typically, you will see an alert, message or window asking you to select
 an authenticator type or, if you're using a hardware authenticator
 attached to your device, reminding you to press the button on the
-hardware authenticator. For security and practical reasonts there is a
+hardware authenticator. For security and practical reasons there is a
 relatively short time interval allowed for activating the authenticator:
 60 seconds.
 
-<img
-src="https://docs.joomla.org/images/3/38/J4x-passwordless-login-hardware-propmpt.png"
-decoding="async" data-file-width="400" data-file-height="139"
-width="400" height="139" alt="Hardware Prompt" />
+![secure administrator login hardware prompt](../../../en/images/users/passwordless-login-hardware-propmpt.png)
 
 Once you unlock your authenticator — tapping on a button, scanning your
 fingerprint / face, entering a PIN or a combination of the above
 depending on your authenticator — the message disappears, the
 authenticator is registered and the screen appears as follows:
 
-<img
-src="https://docs.joomla.org/images/6/69/J4x-passwordless-login-registered-authenticator.png"
-decoding="async" data-file-width="508" data-file-height="366"
-width="508" height="366" alt="Registered Authenticator" />
+![secure administrator login registered authenticator](../../../en/images/users/passwordless-login-registered-authenticator.png)
 
 It is very important to note that you can only register or remove
 authenticators on your own user account. For security reasons, even a
@@ -115,7 +102,7 @@ if you lose physical possession of the authenticator itself whoever
 finds it cannot log into your sites.
 
 If you are looking to buy a hardware authenticator you can look for
-"FIDO2" in your favorite marketplace, such as Amazon. There is a wide
+"FIDO2" in your favourite marketplace, such as Amazon. There is a wide
 selection to choose from.
 
 You may also use a software FIDO key such as Krypton as your
@@ -138,14 +125,11 @@ Many devices have built-in FIDO2-compliant authentication:
   camera. These can also work as FIDO2 authenticators, on Android 9 or
   later using Google Chrome at least.
 - Other devices may be available too. For example, Android phones using
-  <a
-  href="https://groups.google.com/a/fidoalliance.org/g/fido-dev/c/go6GoFW27Dw/m/9flCLR5pBQAJ?pli=1"
-  rel="nofollow noreferrer noopener">caBLE</a>
+  ![caBLE](https://groups.google.com/a/fidoalliance.org/g/fido-dev/c/go6GoFW27Dw/m/9flCLR5pBQAJ?pli=1)
 
 ### WebAuthn compatible browsers
 
-Chromium and Firefox based browsers have supported WebAuthn since early
-2019.
+Chromium and Firefox based browsers have supported WebAuthn since early 2019.
 
 Safari and all iOS/iPadOS browsers (which are, in fact, Safari with a
 different skin) fully support WebAuthn since iOS/iPadOS 13 released late
@@ -294,7 +278,7 @@ they would not be able to impersonate the authenticator e.g. by cloning
 it.
 
 However, if a malicious user had write access just to the
-\#\_\_webauthn_credentials database table, without read access to the
+`#__webauthn_credentials` database table, without read access to the
 filesystem and without write access to any other table, they could
 conceivably **add** their own authenticator, therefore being able to
 impersonate the targeted user on the system. This is a very theoretical
@@ -398,13 +382,13 @@ than your house or car keys.
 
 The plugin module and com_users now use the onUserLoginButtons event,
 defined and called in
-Joomla\CMS\Helper\AuthenticationHelper::getLoginButtons, to retrieve the
+`Joomla\CMS\Helper\AuthenticationHelper::getLoginButtons`, to retrieve the
 definitions of any additional buttons which need to be placed after the
 regular login button.
 
 All developers implementing a login module or, more generally, a login
 form should also use the
-Joomla\CMS\Helper\AuthenticationHelper::getLoginButtons public static
+`Joomla\CMS\Helper\AuthenticationHelper::getLoginButtons` public static
 method to retrieve said definitions and render these buttons to make
 their software fully compatible with Joomla 4.
 
@@ -439,6 +423,5 @@ anyway.
 
 ## Further Information
 
-*The initial documentation of this feature is in the pull request at
-<a href="https://github.com/joomla/joomla-cms/pull/28094"
-rel="nofollow noreferrer noopener">PR #28094</a>.*
+The initial documentation of this feature is in the pull request at
+[PR #28094](https://github.com/joomla/joomla-cms/pull/28094)

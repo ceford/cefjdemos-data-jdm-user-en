@@ -118,7 +118,7 @@ field empty.
 RHS Hardiness is a property usually applied to flowers!
 
 There is a problem with the integer field. It always has a value and so always
-appears in the output. You get around that problem with a template override
+appears in the output. You can get around that problem with a template override
 for *Plugins / Integer*. For example, you could use a value above or below the
 expected limits to omit the field from the output.
 

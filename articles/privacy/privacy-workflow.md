@@ -31,22 +31,12 @@ location. When submitting an information request, the user must provide:
 
 - The request type: Export or Remove selected from the drop-down list.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/56/J4x-privacy-workflow-user-request-en.png/800px-J4x-privacy-workflow-user-request-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/5/56/J4x-privacy-workflow-user-request-en.png 1.5x"
-data-file-width="1000" data-file-height="491" width="800" height="393"
-alt="privacy workflow user request" />
+![privacy workflow user request](../../../en/images/privacy/privacy-workflow-user-request.png)
 
 On submission a message will indicate either that the request has been
 accepted and a verification email is on its way:
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a5/J4x-privacy-workflow-user-request-accepted-en.png/800px-J4x-privacy-workflow-user-request-accepted-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a5/J4x-privacy-workflow-user-request-accepted-en.png 1.5x"
-data-file-width="1000" data-file-height="290" width="800" height="232"
-alt="privacy workflow user request accepted" />
+![privacy workflow user request accepted](../../../en/images/privacy/privacy-workflow-user-request-accepted.png)
 
 or that *Your information request could not be created. There is already
 an active information request for this email address and request type.
@@ -59,7 +49,7 @@ create a new information request. This is the only way to create
 information requests for users who do NOT have accounts on the website.
 To create a request:
 
-- Select **Users **→** Privacy **→** Requests** from the Administrator
+- Select **Users → Privacy → Requests** from the Administrator
   menu.
 - Select the **New** button from the Toolbar.
 - In the **Email** field enter the user email address.
@@ -75,12 +65,7 @@ Processed.
 Once a request has been created, regardless of how it is created, the
 user will receive an email containing a link to a confirmation form.
 
-<img
-src="https://docs.joomla.org/images/thumb/1/10/J4x-privacy-workflow-user-request-confirm-en.png/800px-J4x-privacy-workflow-user-request-confirm-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/1/10/J4x-privacy-workflow-user-request-confirm-en.png 1.5x"
-data-file-width="1000" data-file-height="379" width="800" height="303"
-alt="privacy workflow user request confirm" />
+![privacy workflow user request confirm](../../../en/images/privacy/privacy-workflow-user-request-confirm.png)
 
 The user must enter the token provided in the email and submit the form.
 The token is valid for 24 hours. If a request is not confirmed in that
@@ -90,16 +75,10 @@ Requests list and a new request must be submitted.
 Once the user confirms the request, an email will be sent to Super Users
 to indicate that action is required.
 
-- Select **Users **→** Privacy **→** Requests** from the Administrator
-  menu.
+- Select **Users → Privacy → Requests** from the Administrator menu.
 - Requests requiring action will be marked as **Confirmed**.
 
-<img
-src="https://docs.joomla.org/images/thumb/c/c0/J4x-privacy-information-requests-en.png/800px-J4x-privacy-information-requests-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/c/c0/J4x-privacy-information-requests-en.png 1.5x"
-data-file-width="1000" data-file-height="363" width="800" height="290"
-alt="privacy information requests" />
+![privacy workflow information requests list](../../../en/images/privacy/privacy-workflow-information-requests-list.png)
 
 ## Processing an Export Request
 
@@ -160,18 +139,13 @@ further action to be taken.
 - Select the **Complete** button from the Toolbar (or the **Invalidate**
   button if this judged an invalid request),
 
-<img
-src="https://docs.joomla.org/images/thumb/4/4d/J4x-privacy-workflow-review-information-request-en.png/800px-J4x-privacy-workflow-review-information-request-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/4d/J4x-privacy-workflow-review-information-request-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="privacy workflow review information request" />
+![privacy workflow review information request](../../../en/images/privacy/privacy-workflow-review-information-request.png)
 
 ## Finally
 
 To remove User Actions Log data:
 
-- Select **Users **→** User Actions Log** from the Administrator menu.
+- Select **Users → User Actions Log** from the Administrator menu.
 - Search for the username or email address of the deleted user.
 - Select the **Check All Items** checkbox.
 - Select the **Delete** button in the Toolbar.
@@ -183,13 +157,8 @@ To remove Private Message data and Privacy Request data:
   (email address) in the database with phpMyAdmin and delete the records
   there. Here is an example screenshot:
 
-<img
-src="https://docs.joomla.org/images/e/ed/J4x-privacy-workflow-delete-with-phpmyadmin-en.png"
-class="thumbborder" decoding="async" data-file-width="438"
-data-file-height="339" width="438" height="339"
-alt="privacy workflow delete with phpmyadmin" />
+![privacy workflow delete with phpmyadmin](../../../en/images/privacy/privacy-workflow-delete-with-phpmyadmin.png)
 
 ## Additional Resources
 
--  Developer's Guide for the Privacy Tool
-  Suite
+-  [Developer's Guide for the Privacy Tool Suite](https://docs.joomla.org/Special:MyLanguage/J3.x:Integrate_Extensions_with_the_Privacy_Component)

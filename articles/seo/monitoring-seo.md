@@ -24,10 +24,8 @@ interest to blogging and news sites, for example.
 
 In this series of articles we'll consider some general metrics to
 monitor, along with some sector-specific metrics. These articles assume
-that you have
-<a href="https://marketingplatform.google.com/about/analytics/"
-rel="nofollow noreferrer noopener">Google Analytics</a> running on your
-website.
+that you have [Google Analytics](https://marketingplatform.google.com/about/analytics/)
+running on your website.
 
 ## How to Monitor Your Site
 
@@ -71,9 +69,9 @@ useful to become acquainted with them now.
 ### Custom Segments
 
 Custom Segments (or Advanced Segments) provide you with the ability to
-chop up or 'segment' the information in any part of Google Analytics, by
-filtering the data. This can be used, for example, when looking at 'All
-visits', to segment the graph into organic and paid visits, or to show
+chop up or *segment* the information in any part of Google Analytics, by
+filtering the data. This can be used, for example, when looking at 
+*All visits*, to segment the graph into organic and paid visits, or to show
 how many came using 1, 2, 3 or 4+ keywords.
 
 Custom segments are quite easy to set up. Choose which parameters you
@@ -96,20 +94,13 @@ in red). If you have none available, you can either create your own, or
 import existing segments from the Google Analytics Gallery (outlined in
 blue).
 
-<img
-src="https://docs.joomla.org/images/4/4a/Googleanalyticscustomsegments.png"
-decoding="async" data-file-width="1582" data-file-height="1587"
-width="1582" height="1587" alt="Google analytics custom segments" />
+![Google analytics custom segments](../../../en/images/seo/seo-google-analytics-custom-segments.png)
 
 Once you have chosen which segments you wish to use, press apply and
 they will be applied to the data you are viewing. Below you can see the
 filters being applied to show one, two, three, and three+ keywords.
 
-<img
-src="https://docs.joomla.org/images/4/4c/Googleanalyticscustomsegmentskeywords.png"
-decoding="async" data-file-width="1579" data-file-height="2852"
-width="1579" height="2852"
-alt="Google analytics custom segments keywords" />
+![Google analytics custom segments keywords](../../../en/images/seo/seo-google-analytics-custom-segments-keywords.png)
 
 ### Dashboards
 
@@ -125,10 +116,7 @@ your own dashboards easily with a couple of clicks.
 To get started, simply expand the Dashboards section of your Analytics
 profile
 
-<img
-src="https://docs.joomla.org/images/f/ff/Googleanayticsdashboard.png"
-decoding="async" data-file-width="1580" data-file-height="1119"
-width="1580" height="1119" alt="Google anaytics dashboard" />
+![Google analytics dashboard](../../../en/images/seo/seo-google-anaytics-dashboard.png)
 
 ### The Google Analytics Gallery
 
@@ -154,8 +142,7 @@ It is often difficult to manage all this. At a basic level it means four
 or five tabs open and flicking between them to get an idea of what is
 going on.
 
-<a href="https://www.cyfe.com/"
-rel="nofollow noreferrer noopener">Cyfe.com</a> is a great tool that can
+[Cyfe.com](https://www.cyfe.com/) is a great tool that can
 be found via the Google Analytics Apps Gallery. Cyfe allows you to
 create dashboards and import all kinds of data from a staggering number
 of sources. Joomla! users can get a discount on a paid account if you

@@ -21,42 +21,33 @@ This will create the new module and open the module for configuration.
 
 ## Configuring the Module
 
-**For standard usage of the module there are just a few settings:**
+For standard usage of the module there are just a few settings:
 
-**Title**: Enter a name for the module.
-
-**\# of Months**: Set the number of Months you want to display. These
+- **Title** Enter a name for the module.
+- **\# of Months** Set the number of Months you want to display. These
 will appear as links on the frontend. Set by using the up/down arrows or
 directly enter a number into the field.
-
-**Title Show/Hide:** Choose whether or not to show the title by toggling to
+- **Title Show/Hide** Choose whether or not to show the title by toggling to
 *Show* or *hide*.
-
-**Position**: Set a position where you want to display the module on the
+- **Position** Set a position where you want to display the module on the
 front end. Positions are dictated by your template. This example uses Joomla’s
 Cassiopeia template *Sidebar Right* position.
-
-**Status**: By default, the module status is **Published**. Other options are
+- **Status** By default, the module status is **Published**. Other options are
 **Unpublished** and **Trashed**.
-
-**Start Publishing**: You can schedule the start of publishing of the
+- **Start Publishing** You can schedule the start of publishing of the
 module.
-
-**Finish Publishing**: You can schedule when to stop publishing the
+- **Finish Publishing** You can schedule when to stop publishing the
 module.
-
-**Access**: If you want to control who can see the module on the
+- **Access** If you want to control who can see the module on the
 frontend you can choose an access level.
-
-**Ordering**: Used to control where the module displays within the
+- **Ordering** Used to control where the module displays within the
 position you have selected. For example, you may have a number of
 modules in the sidebar and want this one to be at the top or bottom – or
 somewhere between others in the sidebar. It can be a little confusing at
 first as the field shows a numbered position and a module name. The name
 can be a module that is unpublished. The thing to remember is that the
 lowest number will be at the top and highest number is at the bottom.
-
-**Note**: Can be helpful to use the note field if for example you are
+- **Note** Can be helpful to use the note field if for example you are
 using the same module type in several places.
 
 ### Menu Assignment Tab

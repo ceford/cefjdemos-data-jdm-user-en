@@ -18,9 +18,7 @@ performing at this moment. This is useful to get a before and after
 comparison when enabling caching, compression and so forth to see what
 kind of difference is being seen in the load time.
 
-<img src="https://docs.joomla.org/images/2/25/Sitespeed.png"
-decoding="async" data-file-width="1659" data-file-height="1025"
-width="1659" height="1025" alt="Sitespeed page timings" />
+![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed.png)
 
 ## Monitoring Speed by Geographical Region
 
@@ -35,6 +33,4 @@ selected. If this continued to be a problem it would be important to
 investigate further – especially if that geographical region is
 important for your website.
 
-<img src="https://docs.joomla.org/images/d/d2/Sitespeedbycountry.png"
-decoding="async" data-file-width="1656" data-file-height="1321"
-width="1656" height="1321" alt="Sitespeed by country" />
+![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed-by-country.png)

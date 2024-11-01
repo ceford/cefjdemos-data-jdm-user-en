@@ -5,8 +5,7 @@ it is hosted on is not performing well, it will not load well for your
 visitors. Therefore it is recommended even if you are on shared hosting,
 that you use one of the many systems which allow you to track uptime,
 response time and ideally alert you in the event of problems.
-<a href="https://www.pingdom.com/"
-rel="nofollow noreferrer noopener">Pingdom</a> has a free trial that
+[Pingdom](https://www.pingdom.com/) has a free trial that
 does that for one site – ideal for keeping track of your site.
 
 ## Monitoring Server Health in Google Analytics
@@ -22,23 +21,17 @@ experiencing a Denial of Service attack, high load due to celebrity
 sharing a site hosted on the server, and reducing load as high-use
 clients are offloaded onto their own hosting servers.
 
-<img src="https://docs.joomla.org/images/2/25/Sitespeed.png"
-decoding="async" data-file-width="1659" data-file-height="1025"
-width="1659" height="1025" alt="Sitespeed page timings" />
+![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed.png)
 
 It is also possible to view this data with a map overlay - showing you
 which countries have problems with page load times.
 
-<img src="https://docs.joomla.org/images/d/d2/Sitespeedbycountry.png"
-decoding="async" data-file-width="1656" data-file-height="1321"
-width="1656" height="1321" alt="Sitespeed by country" />
+![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed-by-country.png)
 
 This kind of insight can be helpful in identifying developing problems,
 however you should enlist a server administrator if you are managing
 your own servers, who can manage this using a purpose-built system such
-as the open source
-<a href="https://www.nagios.org/"
-rel="nofollow noreferrer noopener">Nagios</a> package.
+as the open source [Nagios](https://www.nagios.org/) package.
 
 ## Site Performance Dashboard
 
@@ -47,7 +40,4 @@ Dashboard which you can drop into your Analytics account giving you all
 the key information. You can also add widgets to these dashboards, and
 tweak them to show in the format you prefer. They aren't set in stone.
 
-<img
-src="https://docs.joomla.org/images/6/62/Siteperformancedashboard.png"
-decoding="async" data-file-width="1025" data-file-height="604"
-width="1025" height="604" alt="Site performance dashboard" />
+![Site performance dashboard](../../../en/images/performance/performance-dashboard.png)

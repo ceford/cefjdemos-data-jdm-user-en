@@ -4,13 +4,10 @@
 
 The Atum Administrator template is provided with a complete set of
 Administrator modules installed and configured for everyday use. The
-following illustration shows the Home Dashboard landmarks to indicate
+following illustration shows the Home Dashboard positions to indicate
 where modules are located.
 
-<img
-src="https://docs.joomla.org/images/e/e1/J4x-atum-home-dashboard-landmarks.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="atum home dashboard landmarks" />
+![atum home dashboard positions](../../../en/images/modules/atum-template-positions.png)
 
 In the illustration above the panels are instances of the Quick Icon
 module linked to quickicon plugins.
@@ -22,8 +19,7 @@ module linked to quickicon plugins.
   message. For example, to warn Administrators that the site will close
   shortly for system maintenance.
 - **Status** is for the icons shown right aligned in the Banner.
-- **Menu** is in the left sidebar of the Atum screen, labelled
-  Navigation above.
+- **Menu** is in the left sidebar of the Atum screen.
 - **Toolbar** is above the Main content area in list and edit screens
   but is not present in dashboard screens.
 - **Top** is below the Toolbar but above any System Message and
@@ -34,45 +30,39 @@ module linked to quickicon plugins.
 Atum template positions by name
 
 ```xml
-	<positions>
-		<!-- used directly in the template -->
-		<position>bottom</position>
-		<position>debug</position>
-		<position>menu</position>
-		<position>sidebar</position>
-		<position>status</position>
-		<position>title</position>
-		<position>top</position>
-		<position>toolbar</position>
-		<position>cpanel</position>
-		<position>icon</position>
-		<position>login</position>
-		<position>customtop</position>
-	</positions>
+  <positions>
+    <!-- used directly in the template -->
+    <position>bottom</position>
+    <position>cpanel</position>
+    <position>customtop</position>
+    <position>debug</position>
+    <position>icon</position>
+    <position>login</position>
+    <position>menu</position>
+    <position>sidebar</position>
+    <position>status</position>
+    <position>title</position>
+    <position>toolbar</position>
+    <position>top</position>
+  </positions>
 ```
 
 ## Add a Custom Module
 
 You may wish to add a Custom module to advise Administrators of some
-system problem. Select **Content **→** Administrator Modules** from the
+system problem. Select **Content → Administrator Modules** from the
 Administrator menu. The list of installed modules is quite long:
 
-<img
-src="https://docs.joomla.org/images/e/e2/J4x-atum-admin-modules.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="atum admin modules" />
+![atum admin modules list](../../../en/images/modules/atum-admin-modules-list.png)
 
 Select the New button and then the Custom module. In the Modules: Custom
 edit form enter a Title, a Custom message and select a Position for the
 module. In the example below the Top position has been selected. Also,
-in the Advanced tab, Module Class field **text-center p-3** styles have
-been entered to centre the text and provide some padding. Save to see
-the result. Close to see the result on the Modules list page.
+in the Advanced tab, Module Class field some styles have been entered to 
+centre the text and provide some padding: **alert alert-warning text-center**.
+Save to see the result. Close to see the result on the Modules list page.
 
-<img
-src="https://docs.joomla.org/images/c/c7/J4x-atum-custom-module-edit.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="atum custom module edit" />
+![atum custom module edit system message](../../../en/images/modules/atum-admin-module-system-message.png)
 
 When you have finished with the message you can just select the Status
 button in the module list to Unpublish the module.

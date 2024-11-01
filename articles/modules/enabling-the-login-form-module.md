@@ -8,7 +8,7 @@ items. It needs its *Access* permissions set to *Guest*. A second *Logout* menu
 item is needed with its *Access* permissions set to *Registered*.
 
 The alternative is the **Login Form** module. It is installed by default in the
-*sidebar-right* position in a new Joomla Installtion. This module can be moved
+*sidebar-right* position in a new Joomla installation. This module can be moved
 to another position, unpublished, trashed and deleted. The latter actions
 apply to an instance of the module and not the module code. So you can create
 a new *Login Form* module or make a duplicate, perhaps for use in different
@@ -39,7 +39,7 @@ To create a new Login Form or a second Login Form:
   - Select a template position or create a named position for use in an article.
   - Fill in other fields as appropriate.
 * **Save & Close**
-* Test the module appears corectly in the site frontend.
+* Test the module appears correctly in the site frontend.
 
 ## To assign the Login Form module to selected web pages
 
@@ -60,7 +60,7 @@ the Menu Assignment group on the Module Edit screen:
   which one or more may be selected. This field is only used if the
   **Menus** field is set to **Select Menu Item(s) from the List**.
 
-  ![module menu assignment](../../../en/images/modules/modules-login-menu-assignment.png "Login module menu assignment")
+  ![module menu assignment](../../../en/images/modules/modules-login-menu-assignment.png)
 
 ## To customise the Login Form module
 

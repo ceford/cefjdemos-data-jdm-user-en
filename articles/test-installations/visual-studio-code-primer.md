@@ -26,9 +26,12 @@ completely new to VS Code these are recommended viewing. They only take
 a few minutes.
 
 The VS Code Documentation is available from the *Help / Documentation*
-menu. The Introductory Videos are well worth viewing. Each takes 2 to 6 minutes and give an excellent
-introduction to VS Code features. The official documentation is the place to
-go to if you want to look up specific information.
+menu. The [Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos) 
+are well worth viewing. Each takes 2 to 6 minutes and give an excellent 
+introduction to VS Code features. 
+
+The official documentation is the place to go to if you want to look up 
+specific information.
 
 ### VS Code Extensions
 
@@ -46,17 +49,13 @@ extension!
 
 Some terms used in subsequent instructions:
 
-- **Activity Bar:** the narrow bar at the left of the screen. Select any
+- **Activity Bar** the narrow bar at the left of the screen. Select any
   icon to open or close the Primary Sidebar.
-- **Primary Side Bar:** when open shows details of the selected
-  activity.
-- **Status Bar:** at the bottom of the screen. It shows what is going
-  on.
-- **Panel:** an area beneath the text editors to display other
-  information.
+- **Primary Side Bar** when open shows details of the selected activity.
+- **Status Bar** at the bottom of the screen. It shows what is going on.
+- **Panel** an area beneath the text editors to display other information.
 
-Select a layout icon at the top right to open or close any one of these
-items.
+Select a layout icon at the top right to open or close any one of these items.
 
 ## Coding a Joomla Extension
 
@@ -84,22 +83,22 @@ this being used in an office or family site in the expectation of cake.
 It may be best to get going by using git commands from the command line.
 First create a folder for your code and then clone the remote
 repository:
-
+```sh
     mkdir ~/git
     cd ~/git
     git clone https://github.com/ceford/j4xdemos-mod-debugme
-
+```
 The response should take just a few seconds:
-
+```sh
     Cloning into 'j4xdemos-mod-debugme'...
     remote: Enumerating objects: 23, done.
     remote: Counting objects: 100% (23/23), done.
     remote: Compressing objects: 100% (16/16), done.
     remote: Total 23 (delta 3), reused 23 (delta 3), pack-reused 0
     Unpacking objects: 100% (23/23), done.
-
+```
 You should take a moment to look at the contents of the folder:
-
+```sh
     cd j4xdemos-mod-debugme
     ls -al
     total 16
@@ -109,7 +108,7 @@ You should take a moment to look at the contents of the folder:
     -rw-r--r--   1 ceford  staff  1402  2 Sep 17:48 README.md
     -rw-r--r--   1 ceford  staff   927  2 Sep 17:48 build.xml
     drwxr-xr-x   8 ceford  staff   256  2 Sep 17:48 mod_debugme
-
+```
 The *.git* folder contains information about the repo. The *README.md*
 file is a markdown document that describes this repo. The *build.xml*
 file is a file used to build the extension with an external tool,
@@ -119,9 +118,9 @@ the extension.
 ### Install in Joomla
 
 Compress the extension folder to create an installable zip file:
-
+```sh
     zip -r mod_debugme.zip mod_debugme
-
+```
 You can now install the zip file in the Joomla site you use for testing.
 After installation you need to create a Site module and assign it to a
 module position. As it is a broken module you could assign it to a
@@ -139,12 +138,7 @@ Reporting* to *Maximum*.
 When you open a page containing the buggy module you will see a stack
 trace telling you where an error was triggered.
 
-<img
-src="https://docs.joomla.org/images/thumb/3/3f/J4.x-vscode-primer-stack-trace-en.png/800px-J4.x-vscode-primer-stack-trace-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/3f/J4.x-vscode-primer-stack-trace-en.png/1200px-J4.x-vscode-primer-stack-trace-en.png 1.5x, https://docs.joomla.org/images/3/3f/J4.x-vscode-primer-stack-trace-en.png 2x"
-data-file-width="1331" data-file-height="850" width="800" height="511"
-alt="screenshot of a stack trace" />
+![vscode stack trace](../../../en/images/test-installations/vscode-primer-stack-trace.png)
 
 Sometimes the coding error is on the first line of the stack trace.
 Otherwise, if the error is triggered in library code, for example by
@@ -157,12 +151,7 @@ In VS Code, use the File / Open Folder menu item to locate and open the
 folder containing your local copy of the *mod_debugme* extension code.
 You should see something similar to the following:
 
-<img
-src="https://docs.joomla.org/images/thumb/3/39/J4.x-vscode-primer-screen.png/800px-J4.x-vscode-primer-screen.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/39/J4.x-vscode-primer-screen.png/1200px-J4.x-vscode-primer-screen.png 1.5x, https://docs.joomla.org/images/3/39/J4.x-vscode-primer-screen.png 2x"
-data-file-width="1437" data-file-height="813" width="800" height="453"
-alt="screenshot of folder view" />
+![vscode folder view](../../../en/images/test-installations/vscode-primer-screen.png)
 
 You may be able to diagnose the problem just by reading the code. In the
 case of the *Class "DebugHelper" not found* error you will see that a
@@ -191,12 +180,12 @@ bin folder. You need to note the path to your Phing code. In this
 example it is *~/bin/phing-latest.phar*. You can try it out from the
 command line after changing into the folder containing your extension
 code:
-
+```sh
     cd ~/git/j4xdemos-mod-debugme
     php ~/bin/phing-latest.phar
-
+```
 Response:
-
+```sh
     Buildfile: /Users/ceford/git/j4xdemos-mod-debugme/build.xml
 
     mod_debugme > main:
@@ -206,14 +195,14 @@ Response:
     BUILD FINISHED
 
     Total time: 0.0863 seconds
-
+```
 ## VS Code Tasks
 
 To run Phing from within VS Code you need to create a *tasks.json* file
 in the *.vscode* folder in the root of the *j4xdemos-mod-debugme*
 folder. If the latter does not exist, first create it. Then create the
 *tasks.json* file and enter the following code:
-
+```json
     {
         // See https://go.microsoft.com/fwlink/?LinkId=733558
         // for the documentation about the tasks.json format
@@ -234,12 +223,12 @@ folder. If the latter does not exist, first create it. Then create the
           }
         ]
     }
-
+```
 Windows users need to fix the Windows-specific command. You can now
 build the extension using the menu *Terminal / Run Build Task*. The
 result of the command should appear in the Terminal Panel beneath the
 Edit area.
-
+```sh
       *  Executing task: php ~/bin/phing-latest.phar
 
     Buildfile: /Users/ceford/git/gitdemo/j4xdemos-mod-debugme/build.xml
@@ -253,7 +242,7 @@ Edit area.
     Total time: 0.1031 seconds
 
      *  Terminal will be reused by tasks, press any key to close it.
-
+```
 There may be incomprehensible error messages. The most likely cause is
 in having invalid paths to folders in the *build.xml* file or a folder
 has not been created. Just another sort of problem to debug!
@@ -269,12 +258,12 @@ you expect, for example when passing arguments to library functions.
 
 To set up debugging with Xdebug you need to make some entries at the top
 of your *php.ini* file.
-
+```ini
     zend_extension="xdebug.so"
     xdebug.mode="debug"
     xdebug.client_port=9003
     xdebug.start_with_request = yes
-
+```
 After saving any changes, restart your Apache server.
 
 ### Add Website Window
@@ -300,7 +289,7 @@ For debug to actually work in VS Code you need a launch configuration.
 In the root of your website create a folder named *.vscode* (note the
 leading stop) containing a file named *launch.json* with the following
 content:
-
+```json
     {
         "configurations": [
             {
@@ -316,7 +305,7 @@ content:
             }
         ]
     }
-
+```
 Remember to replace the pathMappings item in this example with the
 actual pathMappings on your own site. The stopOnEntry item will pause
 execution on the very first line of PHP code executed.
@@ -381,17 +370,10 @@ A few not so obvious problems:
 
 When all is fixed this is what you might see:
 
-<img
-src="https://docs.joomla.org/images/1/1b/J4.x-vscode-primer-debugme-fixed-en.png"
-class="thumbborder" decoding="async" data-file-width="318"
-data-file-height="157" width="318" height="157"
-alt="screenshot of debugged module in the site" />
+![vscode debugged module site view](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
 
 Cake days?
 
 ## References
 
-From Joomla! Documentation:  Visual Studio
-Code
-also covers configuration of other tools, for example CodeSniffer and
-PHPUnit.
+From Joomla! Documentation: [Visual Studio Code](https://docs.joomla.org/Visual_Studio_Code) also covers configuration of other tools, for example CodeSniffer and PHPUnit.

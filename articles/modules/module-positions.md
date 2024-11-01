@@ -28,29 +28,16 @@ url.
 
 ### Atum Administrator Template Positions
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7d/J4x-templates-atum-template-positions-en.png/800px-J4x-templates-atum-template-positions-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7d/J4x-templates-atum-template-positions-en.png 1.5x"
-data-file-width="1000" data-file-height="703" width="800" height="562"
-alt="templates atum template positions" />
+![templates atum template positions](../../../en/images/modules/template-positions-templates-page.png)
 
 ### Cassiopeia Site Template Positions
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e5/J4x-templates-cassiopeia-template-positions-en.png/800px-J4x-templates-cassiopeia-template-positions-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/e5/J4x-templates-cassiopeia-template-positions-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="templates cassiopeia template positions" />
+
+![templates cassiopeia template positions](../../../en/images/modules/template-positions-site-page.png)
 
 You may also find this module position diagram helpful:
 
-<img
-src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
-class="thumbborder" decoding="async" data-file-width="786"
-data-file-height="980" width="800" height="997"
-alt="Template Positions" />
+![cassiopeia template position diagram](../../../en/images/modules/cassiopeia-template-positions.png)
 
 ## Production Sites
 

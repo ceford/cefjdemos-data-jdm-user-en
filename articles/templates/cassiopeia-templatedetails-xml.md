@@ -3,7 +3,7 @@
 ## Location and Purpose
 
 You can see an example of a `templateDetails.xml` file listed in
-**System **→** Site Templates **→** Cassiopeia Details and Files**. You
+**System → Site Templates → Cassiopeia Details and Files**. You
 can edit it there too if you have good reason to do so. Otherwise, leave
 it alone! Every template has such a file and a child template initially
 consists of a file structure containing only this one file.
@@ -57,24 +57,14 @@ Notice that a template that can have child templates has the ineritable
 value set to 1. Child templates have this value set to 0. This data is
 used in the Templates: Templates (Site) listing as shown below.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/da/J4x-templates-list-en.png/800px-J4x-templates-list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/da/J4x-templates-list-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of site templates list" />
+![site templates list](../../../en/images/templates/templates-list.png)
 
 The description contains a language key and not the actual description
 text string. The key is replaced by the text obtained from a language
 file at run time. The language files are defined in the in the language
 section of `templateDetails.xml`.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/d6/J4x-templates-cassiopeia-language-string-en.png/800px-J4x-templates-cassiopeia-language-string-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/d6/J4x-templates-cassiopeia-language-string-en.png 1.5x"
-data-file-width="1000" data-file-height="347" width="800" height="278"
-alt="screenshot of templates edit style form" />
+![templates edit style form](../../../en/images/templates/templates-edit-style.png)
 
 ### Folders and Files
 
@@ -102,15 +92,10 @@ follows:
 	</media>
 ```
 
-This is the pattern seen in all modern Joomla 4 templates. The structure
+This is the pattern seen in all modern Joomla 4 and 5 templates. The structure
 can be seen in the Templates: Customise (Cassiopeia) form:
 
-<img
-src="https://docs.joomla.org/images/thumb/8/88/J4x-templates-cassiopeia-customise-en.png/800px-J4x-templates-cassiopeia-customise-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/88/J4x-templates-cassiopeia-customise-en.png 1.5x"
-data-file-width="1000" data-file-height="438" width="800" height="350"
-alt="screenshot of templates customise cassiopeia page" />
+![templates customise cassiopeia page](../../../en/images/templates/templates-customise-cassiopeia.png)
 
 ### Module Positions
 
@@ -151,25 +136,16 @@ one you are probably wrong. Remember that any number of modules can be
 assigned to a single position and sorted into order in the Modules list
 page. Available positions:
 
-<img
-src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
-class="thumbborder" decoding="async" data-file-width="786"
-data-file-height="980" width="786" height="980"
-alt="screenshot of Template Positions" />
+![Cassiopeia template positions diagram](../../../en/images/templates/cassiopeia-template-positions.png)
 
 You can also see the module positions in any template: from
-**System **→** Site Templates** selet the Options button in the Toolbar.
+**System → Site Templates** select the Options button in the Toolbar.
 In the Options form set the Preview Module Positions field to Enabled.
 Save and Close. Go to your site and add ?tp=1 to the end of any url (or
 &tp=1 if there is already a ? in the url). Joomla will display all of
 the available template positions, even those that have not been used:
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e5/J4x-templates-cassiopeia-template-positions-en.png/800px-J4x-templates-cassiopeia-template-positions-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/e5/J4x-templates-cassiopeia-template-positions-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of site cassiopeia template positions" />
+![Cassiopeia template positions](../../../en/images/templates/templates-template-positions-by-tp.png)
 
 ### Languages
 
@@ -198,12 +174,7 @@ Administrator in the Template: Edit Style form. For example, the
 Advanced tab of the Cassiopeia template allows an Administrator to
 change the Brand, add a Logo, select a Fonts Scheme, and more.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/83/J4x-templates-cassiopeia-edit-style-en.png/800px-J4x-templates-cassiopeia-edit-style-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/83/J4x-templates-cassiopeia-edit-style-en.png 1.5x"
-data-file-width="1000" data-file-height="922" width="800" height="738"
-alt="screenshot of templates edit style form advanced tab" />
+![templates edit style form advanced tab](../../../en/images/templates/templates-edit-style-advanced.png)
 
 The template options are defined within a structure that creates fields
 within fieldsets. Each feildset appears as a tab in the edit form. This
@@ -375,7 +346,7 @@ translated into different languages as necessary.
 
 In this example, the `<fieldset name="advanced">` tag encloses all of the
 parameters and it uses the **name** attribute to
-create the "Advanced" tab in the interface. All that is necessary to
+create the *Advanced* tab in the interface. All that is necessary to
 create another tab in the interface is another `<fieldset>` tag with a
 different **name** attribute. With this in mind, it is
 relatively simple to create as many additional tabs and parameters as

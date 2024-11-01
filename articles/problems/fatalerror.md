@@ -13,17 +13,11 @@ you were expecting. There are two types of error pages:
 
 ### System Error Page
 
-<img src="https://docs.joomla.org/images/9/9d/Joomla-j4-fatal.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="355" width="800" height="355"
-alt="Joomla fatal error red screen" />
+![System fatal error page](../../../en/images/problems/fatal-error.png)
 
 ### Template Error Page
 
-<img src="https://docs.joomla.org/images/6/6d/J4x-template-error.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="jomla template error screen" />
+![Template error page](../../../en/images/problems/template-error.png)
 
 ## How to Resolve
 
@@ -38,10 +32,11 @@ are just a few:
 
 ### Enable Debug
 
-If your Administrator interface **is** still working go to **Home
-Dashboard **→** System panel **→** Global Configuration**. In the System
-tab set *Debug System* to *Yes* and in the Server tab set *Error
-Reporting* to *Maximum*. Then *Save & Close*.
+If your Administrator interface **is** still working:
+- Go to **Home Dashboard → System panel → Global Configuration**. 
+- In the System tab set *Debug System* to *Yes* 
+- In the Server tab set *Error Reporting* to *Maximum*. 
+- Then *Save & Close*.
 
 If your Administrator interface is **not** working, edit the
 *configuration.php* file in the root folder of your Joomla website.
@@ -49,18 +44,14 @@ If your Administrator interface is **not** working, edit the
 1.  Change the permissions from *444* or *-r--r--r--* (no one has
     permission to write to the file) to *644* or *-rw-r--r--* (only the
     Owner has permission to write).
-2.  Inside the file, set *\$debug* to *true* and *\$error_reporting* to
-    *maximum*.
+2.  Edit the file with a text editor and set `$debug` to `true` and 
+    `$error_reporting` to `'maximum'`.
 3.  *Save* the file.
 
 With the changes made, reload the page that was causing the error. Now
 you should see a stack trace. Example:
 
-<img
-src="https://docs.joomla.org/images/e/ef/J4x-template-error-stack-trace.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="393" width="800" height="393"
-alt="template error stack trace" />
+![Template error page](../../../en/images/problems/template-error-stack-trace.png)
 
 The first item in the stack trace indicates where the error was
 triggered. Sometimes that is enough to identify the faulty Extension.
@@ -70,15 +61,14 @@ who answer questions in the Joomla Forums.
 
 If you can identify the faulty Extension, disable it. You can do that
 using the Administrator interface if it is working. Otherwise, use
-phpMyAdmin to find the Extension in the *\#\_\_extensions* database
-table and set its *enabled* value to *0*. You should not need to disable
+phpMyAdmin to find the Extension in the `#__extensions` database
+table and set its `enabled` value to `0`. You should not need to disable
 any core Joomla Extensions.
 
 ## Forum Post Assistant
 
 To help resolve problems you should download the
-<a href="https://forumpostassistant.github.io/docs/"
-rel="nofollow noreferrer noopener">Forum Post Assistant (FPA)</a> and
+[Forum Post Assistant (FPA)](https://forumpostassistant.github.io/docs/) and
 load it in the root of your Joomla website. The link to find it is also
 near the top of each Joomla Forum page. The FPA is a stand-alone PHP
 script that analyses your Joomla installation and tells you what might
@@ -89,16 +79,12 @@ answer questions in the Forums may ask to see it.
 
 When your problem is resolved:
 
-1.  Go to **Administrator **→** Dashboard **→** System
-    panel **→** Global Configuration**
+1.  Go to **Home Dashboard → System panel → Global Configuration**
 2.  Select the System tab and set *Debug System* to *No*.
 3.  Select the Server tab and set *Error Reporting* to *System Default*.
 4.  *Save & Close*.
 5.  Remove the Forum Post Assistant.
 
-**Warning!**
-
-Do not forget to set the *configuration.php* file back to read-only (444
-or *r--r--r--*). That is an important part of the Joomla! security
-concept. All you need to do is load and save the Global Configuration
-form. Joomla will reset the permissions to *444*.
+The `configuration.php` permissions are set to read-only (444 or *r--r--r--*) 
+when the Global Configuration form is saved. There is no need to to do it 
+manually.

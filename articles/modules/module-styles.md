@@ -5,7 +5,7 @@
 A module data entry form has an **Advanced** tab. Its fields vary with the type
 of module and you can see this for yourself by selecting a Menu module and
 comparing that with a Login module or Breadcrumbs module. You will see the
-following three form fields ralated to styling:
+following three form fields related to styling:
 
 * **Module Class** is a text field that allows you to add your own CSS class
 to the module container tag, usually a `<div>`.
@@ -79,4 +79,4 @@ Read all about it elsewhere!
 * Change the heading bottom border too.
 * Apply this style to several modules instead of one at a time
 
-![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png "Archived Articles Module Example")
+![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png)

@@ -19,12 +19,7 @@ logging out from a restricted page will be prompted to login in again.
 If this is troublesome an easy solution is to select the Home page to
 redirect to in the Module settings Logout Redirection Page field.
 
-<img
-src="https://docs.joomla.org/images/thumb/8/86/J4x-user-login-module-form-en.png/800px-J4x-user-login-module-form-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/8/86/J4x-user-login-module-form-en.png 1.5x"
-data-file-width="1000" data-file-height="831" width="800" height="665"
-alt="Screenshot of user login module form" />
+![logout menu form restricted to registered access](../../../en/images/users/login-redirects-login-form.png)
 
 Tip: You could use two login modules. One with **Guest** access entitled
 **Login**. The second with **Registered** access entitled **Logout**.
@@ -41,33 +36,15 @@ and login leads to the User Profile page. You can select a menu item or
 you can give the URL of a page. For example you could have a System
 Status page with a hand-crafted message of the day.
 
-<img
-src="https://docs.joomla.org/images/thumb/6/6f/J4x-user-login-menu-item-login-redirect-en.png/800px-J4x-user-login-menu-item-login-redirect-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/6f/J4x-user-login-menu-item-login-redirect-en.png 1.5x"
-data-file-width="1000" data-file-height="385" width="800" height="308"
-alt="Screenshot of user login menu item redirect options" />
+![logout menu form restricted to registered access](../../../en/images/users/login-redirects-login-menu-options.png)
 
-There is a separate section for Logout redirection. The default
-behaviour is to redirect to the site Home page. You could redirect to
-something else, such as Good Bye message linked by Menu Item or Internal
-URL.
-
-<img
-src="https://docs.joomla.org/images/thumb/e/ef/J4x-user-login-menu-item-logout-redirect-en.png/800px-J4x-user-login-menu-item-logout-redirect-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/ef/J4x-user-login-menu-item-logout-redirect-en.png 1.5x"
-data-file-width="1000" data-file-height="152" width="800" height="122"
-alt="eenshot of user logout menu item redirect options" />
+The default Logout behaviour is to redirect to the site Home page. You could 
+redirect to something else, such as Good Bye message linked by a menu item or 
+an internal URL.
 
 ## Logout Menu Item
 
 The Logout menu item is simple. The default is to stay on the same page
 after logout. If that proves inconvenient, select the site Home page.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/d4/J4x-user-logout-menu-item-redirect-en.png/800px-J4x-user-logout-menu-item-redirect-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/d4/J4x-user-logout-menu-item-redirect-en.png 1.5x"
-data-file-width="1000" data-file-height="361" width="800" height="289"
-alt="Screenshot of user logout menu item redirect options" />
+![logout menu form restricted to registered access](../../../en/images/users/login-redirects-logout-menu-options.png)

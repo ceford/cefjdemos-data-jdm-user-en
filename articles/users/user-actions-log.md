@@ -8,21 +8,15 @@ that are logged can be fine tuned by the site administrator. Third party
 extensions are able to hook into the component to add custom messages or
 have the system process standard administrator actions.
 
-**Note: Only Super Users have access to the User Actions Log
-component.**
+**Note:** Only Super Users have access to the User Actions Log component.
 
 ## User Actions Log
 
 To view the the User Actions Log list:
 
-- Select **Users **→** User Actions Log** from the Administrator menu.
+- Select **Users → User Actions Log** from the Administrator menu.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7f/J4x-user-actions-log-list-en.png/800px-J4x-user-actions-log-list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7f/J4x-user-actions-log-list-en.png 1.5x"
-data-file-width="1000" data-file-height="790" width="800" height="632"
-alt="Screenshot of user actions log list" />
+![user actions log list page](../../../en/images/users/user-actions-log-list.png)
 
 From this page a Super User has a global overview of all user activities
 performed on a site.
@@ -40,12 +34,7 @@ performed on a site.
 The User Actions Log: Options form allows the Super User to select which
 events to log and whether to include IP addresses in the log data.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e6/J4x-user-actions-log-options-en.png/800px-J4x-user-actions-log-options-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/e6/J4x-user-actions-log-options-en.png 1.5x"
-data-file-width="1000" data-file-height="529" width="800" height="423"
-alt="Screenshot of user actions log options page" />
+![user actions log options page](../../../en/images/users/user-actions-log-options.png)
 
 ## Plugins
 
@@ -72,11 +61,7 @@ privacy request.
 
 This module is displayed for Super Users only in the Home Dashboard.
 
-<img
-src="https://docs.joomla.org/images/7/7b/J4x-latest-actions-module-en.png"
-class="thumbborder" decoding="async" data-file-width="559"
-data-file-height="482" width="559" height="482"
-alt="Screenshot of latest actions log module" />
+![user actions log module](../../../en/images/users/user-actions-log-module.png)
 
 ## How to hook an extension to the system
 
@@ -84,9 +69,9 @@ Please feel free to edit this section by improving or correcting it.
 
 ### Component Installation Script
 
-Add the extension to the table (#\_\_action_logs_extensions) so that it
+Add the extension to the table (`#__action_logs_extensions`) so that it
 will appear in the configuration of User Action Logs.
-
+```php
             $extension = 'com_mycomponent';
             $db = Factory::getDbo();
             $db->setQuery(' INSERT into #__action_logs_extensions (extension) VALUES ('.$db->Quote($extension).') ' );
@@ -97,10 +82,10 @@ will appear in the configuration of User Action Logs.
                 Factory::getApplication()->enqueueMessage($e->getMessage());
                 return false;
             }
-
-Add the extension configuration to the table (#\_\_action_log_config) so
+```
+Add the extension configuration to the table (`#__action_log_config`) so
 that your actions data will be captured.
-
+```php
            $logConf = new stdClass();
             $logConf->id = 0;
             $logConf->type_title = 'transaction';
@@ -118,7 +103,7 @@ that your actions data will be captured.
                 Factory::getApplication()->enqueueMessage($e->getMessage());
                 return false;
             }
-
+```
 Of course it would be best to perform some checking to ensure that the
 record doesn't already exist.
 
@@ -126,7 +111,7 @@ record doesn't already exist.
 
 In this example, the component helper is used to perform the storing of
 actions.
-
+```php
        /**
          * Record transaction details in log record
          * @param   object  $user    Saves getting the current user again.
@@ -180,14 +165,14 @@ actions.
 
             return $fmodel;
         }
-
+```
 ### Front End Transaction Form
 
 Now that the foundations are set, we just need to trigger the process.
 We're capturing information about a transaction that is created or
 update and we have a model called `transactionform.php`. It is in the
 Save method that we want to capture a log.
-
+```php
        // So the code above this point checks and does what it should do and then after the successful save of the record, we check for the parameter setting to see if logging is required, we pass key elements to recordActionLog.
             $table = $this->getTable();
 
@@ -206,11 +191,12 @@ Save method that we want to capture a log.
             } else {
                 return false;
             }
-
+```
 ### Language File
 
 Finally, to help with the Action Log Listing in the admin side of
 Joomla, we want to set some key elements of data to be displayed in the
 language file en-GB/com_mycomponent.ini.
-
+```ini
     COM_MYCOMPONENT_TRANSACTION_LINK="User {username} created a transaction ( {type} )"
+```

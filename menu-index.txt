@@ -86,7 +86,7 @@ user=extensions=vulnerable-extensions.md
 
 heading=fields=Fields
 user=fields=fields-and-field-groups.md
-user=fields=adding-custom-fields-parameters-for-all-custom-fields.md
+user=fields=adding-custom-fields-parameters.md
 user=fields=adding-custom-fields-calendar-field.md
 user=fields=adding-custom-fields-checkboxes-field.md
 user=fields=adding-custom-fields-color-field.md
@@ -157,7 +157,7 @@ user=menus=adding-a-custom-administrator-menu.md
 
 heading=migration=Migration
 user=migration=migration-basics.md
-user=migration=updating-from-an-existing-version.md
+user=migration=version-update.md
 user=migration=joomla-3-x-to-4-x-step-by-step-migration.md
 
 heading=modules=Modules
@@ -196,9 +196,8 @@ heading=problems=Problems
 user=problems=assorted-issues.md
 user=problems=unsupported-php-version.md
 user=problems=fatalerror.md
-user=problems=fix-database-table-structure-not-up-to-date-before-update.md
+user=problems=database-table-structure.md
 user=problems=get-locally-hosted-joomla-website-e-mail-functions-to-work.md
-user=problems=joomla-and-mysql-8.md
 user=problems=unable-to-connect-to-the-database.md
 
 heading=reference=Reference
@@ -235,7 +234,7 @@ user=system=purging-expired-cache-files.md
 user=system=top-10-stupidest-administrator-tricks.md
 
 heading=tags=Tags
-user=tags=how-to-use-content-tags-in-joomla.md
+user=tags=content-tags.md
 
 heading=templates=Templates
 user=templates=template-basics.md
@@ -274,4 +273,5 @@ user=users=user-actions-log.md
 
 heading=workflows=Workflows
 user=workflows=workflow.md
-user=workflows=workflow-scenarios.md
+user=workflows=workflow-example-1.md
+user=workflows=workflow-example-2.md

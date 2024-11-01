@@ -19,7 +19,7 @@ a module to users who are not logged in or to users who are logged in.
 
 Use of the Guest access level may be illustrated with a Login menu item:
 
-- Select **Menus **→** Main Menu **→** +** from the Administrator menu.
+- Select **Menus → Main Menu → +** from the Administrator menu.
   Use whichever menu you prefer for the new items.
 - In the **Menus: New Item** form, enter a suitable title in the
   **Title** field, for example **Login**.
@@ -33,12 +33,7 @@ Use of the Guest access level may be illustrated with a Login menu item:
 - Optionally, select the Ordering list and select the item **after**
   which you would like the Login item to appear.
 
-<img
-src="https://docs.joomla.org/images/thumb/b/b6/J4x-user-login-guest-access-form-en.png/800px-J4x-user-login-guest-access-form-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/b/b6/J4x-user-login-guest-access-form-en.png 1.5x"
-data-file-width="1000" data-file-height="810" width="800" height="648"
-alt="Screenshot of menu form restricted to guest access" />
+![login menu form restricted to guest access](../../../en/images/users/guest-access-menu-login.png)
 
 - Save and Close.
 - View the site. Check that the Login menu item works. Check that it
@@ -49,7 +44,7 @@ alt="Screenshot of menu form restricted to guest access" />
 Use of the Registered access level may be illustrated with a Logout menu
 item:
 
-- Select **Menus **→** Main Menu **→** +** from the Administrator menu.
+- Select **Menus → Main Menu → +** from the Administrator menu.
   Use whichever menu you prefer for the new items.
 - In the **Menus: New Item** form, enter a suitable title in the
   **Title** field, for example **Logout**.
@@ -63,12 +58,7 @@ item:
 - Optionally, select the Ordering dropdown and select the item **after**
   which you would like the Login item to appear.
 
-<img
-src="https://docs.joomla.org/images/thumb/0/05/J4x-user-logout-registered-access-form-en.png/800px-J4x-user-logout-registered-access-form-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/05/J4x-user-logout-registered-access-form-en.png 1.5x"
-data-file-width="1000" data-file-height="810" width="800" height="648"
-alt="Screenshot of menu form restricted to registered access" />
+![logout menu form restricted to registered access](../../../en/images/users/guest-access-menu-logout.png)
 
 - Save and Close.
 - View the site. Check that the Logout menu item works. Check that it

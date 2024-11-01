@@ -80,7 +80,7 @@ extensions=vulnerable-extensions.md=jdocmanual?manual=user&heading=extensions&fi
 fields=fields-and-field-groups.md=https://docs.joomla.org/J4.x:Fields_and_Field_Groups
 fields=adding-custom-fields-multilingual-sites.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Multilingual_Sites
 fields=adding-custom-fields-overrides.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Overrides
-fields=adding-custom-fields-parameters-for-all-custom-fields.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields
+fields=adding-custom-fields-parameters.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields
 
 fields=adding-custom-fields-calendar-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Calendar_Field
 fields=adding-custom-fields-checkboxes-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Checkboxes_Field
@@ -149,7 +149,7 @@ menus=menu-item-type-archived-articles.md=https://docs.joomla.org/J4.x:How_to_Cr
 menus=adding-a-custom-administrator-menu.md=https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu
 
 migration=migration-basics.md=jdocmanual?manual=user&heading=migration&filename=migration-basics.md
-migration=updating-from-an-existing-version.md=https://docs.joomla.org/J4.x:Updating_from_an_existing_version
+migration=version-update.md=https://docs.joomla.org/J4.x:Updating_from_an_existing_version
 migration=joomla-3-x-to-4-x-step-by-step-migration.md=https://docs.joomla.org/J4.x:Joomla_3.x_to_4.x_Step_by_Step_Migration
 migration=update-fails-with-an-error-message.md=https://docs.joomla.org/J4.x:J3.x:Update_fails_with_an_error_message
 
@@ -184,9 +184,8 @@ problems=assorted-issues.md=https://docs.joomla.org/J4.x:Assorted_Issues
 problems=unsupported-php-version.md=https://docs.joomla.org/J4.x:Unsupported_PHP_Version
 problems=fatalerror.md=https://docs.joomla.org/J4.x:FatalError
 problems=get-locally-hosted-joomla-website-e-mail-functions-to-work.md=https://docs.joomla.org/J4.x:Get_locally_hosted_Joomla!_website_e-mail_functions_to_work
-problems=joomla-and-mysql-8.md=https://docs.joomla.org/J4.x:Joomla_and_MySQL_8
 problems=unable-to-connect-to-the-database.md=https://docs.joomla.org/J4.x:Unable_to_connect_to_the_database
-problems=fix-database-table-structure-not-up-to-date-before-update.md=https://docs.joomla.org/J4.x:Fix_Database_Table_Structure_NOT_Up_to_Date_before_Update
+problems=database-table-structure.md=https://docs.joomla.org/J4.x:Fix_Database_Table_Structure_NOT_Up_to_Date_before_Update
 
 reference=joomla-licenses.md=https://docs.joomla.org/J4.x:Joomla_Licenses
 reference=what-has-the-copyright-of-joomla-3f.md=https://docs.joomla.org/J4.x:What_has_the_copyright_of_Joomla!?
@@ -216,7 +215,8 @@ system=cache.md=https://docs.joomla.org/J4.x:Cache
 system=purging-expired-cache-files.md=https://docs.joomla.org/J4.x:Purging_expired_cache_files
 system=top-10-stupidest-administrator-tricks.md=https://docs.joomla.org/J4.x:Top_10_Stupidest_Administrator_Tricks
 
-tags=how-to-use-content-tags-in-joomla.md=https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla
+tags=content-tags.md=https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla
+
 templates=template-basics.md=https://docs.joomla.org/J4.x:Template_Basics
 templates=cassiopeia-template-customisation.md=https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation
 templates=template-overrides.md=https://docs.joomla.org/J4.x:Template_Overrides
@@ -250,3 +250,4 @@ users=user-actions-log.md=https://docs.joomla.org/J4.x:User_Actions_Log
 
 workflows=workflow.md=https://docs.joomla.org/J4.x:Workflow
 workflows=workflow-scenarios.md=https://docs.joomla.org/J4.x:Workflow/Scenarios
+workflows=workflow-example-1.md=https://docs.joomla.org/J6.x:Workflow_Example_1

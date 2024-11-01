@@ -98,14 +98,10 @@ Your session will expire at <br><?php echo $endTime; ?>
 
 Close the Cassiopeia files. Select **Content **→** Site Modules** and
 open the Login module. In the Advanced tab, Layout item you will find
-that you have a choice between **-- From Module -- / Default** and **--
-From cassiopeia Template -- / expires**.
+that you have a choice between **-- From Module -- / Default** and 
+**-- From cassiopeia Template -- / expires**.
 
-<img
-src="https://docs.joomla.org/images/e/ee/J4x-alternative-layouts-example-en.png"
-class="thumbborder" decoding="async" data-file-width="742"
-data-file-height="546" width="742" height="546"
-alt="screenshot of modules login form showing alternative layouts" />
+![login module showing alternative layouts](../../../en/images/templates/layouts-module-login.png)
 
 One way you might use this feature is to have two Login forms, one with
 Public access and the other with Super Users access, In the latter
@@ -131,18 +127,11 @@ following procedure:
   text might be **Login / Logout with expire time**
 - Save and Close and go back to the Login module form.
 
-<img
-src="https://docs.joomla.org/images/3/32/J4x-alternative-layouts-language-override-form-en.png"
-class="thumbborder" decoding="async" data-file-width="1000"
-data-file-height="508" width="1000" height="508"
-alt="screenshot of languages edit override form" />
+![languages edit override form](../../../en/images/templates/layouts-language-override-form.png)
 
 The module layout selection form field with **expires** translated:
 
-<img
-src="https://docs.joomla.org/images/c/c3/J4x-alternative-layouts-example-translated-en.png"
-decoding="async" data-file-width="312" data-file-height="98" width="312"
-height="98" alt="small screenshot of alternative layouts example" />
+![module alternative layouts select](../../../en/images/templates/layouts-example-translated.png)
 
 ## Component Alternative Layouts
 
@@ -158,26 +147,16 @@ below under Menu Item Alternative Layouts.)
 
 You can set a global value for component layouts in the Options window
 of the component. For example, in the Article: Options window, there is
-a `Choose a Layout` parameter as shown below:
+a *Choose a Layout* parameter as shown below:
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7a/J4x-article-global-alternative-layouts-en.png/800px-J4x-article-global-alternative-layouts-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/7/7a/J4x-article-global-alternative-layouts-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of articles options form with alternative layouts list" />
+![articles options form with alternative layouts list](../../../en/images/templates/layouts-articles-options.png)
 
 As with module layouts, the component layouts are shown as parameter
 options in the individual component edit screen. For example, for an
 article, the parameter shows in the Articles: Edit Options tab as shown
 below.
 
-<img
-src="https://docs.joomla.org/images/thumb/b/b0/J4x-article-alternative-layout-en.png/800px-J4x-article-alternative-layout-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/b/b0/J4x-article-alternative-layout-en.png 1.5x"
-data-file-width="1000" data-file-height="507" width="800" height="406"
-alt="screenshot of article edit form showing alternative layouts list" />
+![article edit form showing alternative layouts list](../../../en/images/templates/layout-article-edit.png)
 
 As with other parameters, the Use Global setting will use the setting
 from the Options parameter. The From Component's Default setting will
@@ -185,9 +164,9 @@ use the component's default layout. Alternative layouts that you have
 created for different templates are shown under each template heading.
 
 File names may be translated. The line below:
-
+```ini
     TPL_CASSIOPEIA_COM_CONTENT_ARTICLE_LAYOUT_MYLAYOUT="Title Only No XML"
-
+```
 will translate a file called "mylayout.php" as "Title Only No XML".
 
 You can have more than one file for a layout. The initial file must be
@@ -219,22 +198,12 @@ You can set category layouts globally, in the Options screen of each
 component. Below is an example from the Contacts: Options / Category
 form:
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ea/J4x-contact-component-options-category-alternative-layout-en.png/800px-J4x-contact-component-options-category-alternative-layout-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/e/ea/J4x-contact-component-options-category-alternative-layout-en.png 1.5x"
-data-file-width="1000" data-file-height="385" width="800" height="308"
-alt="screenshot of contacts component options form showing alternative layouts" />
+![contacts component options form showing alternative layouts](../../../en/images/templates/layouts-contacts-options.png)
 
 Category alternative layouts show up when you add or edit a category in
 the Component: Edit Category / Options form as shown below.
 
-<img
-src="https://docs.joomla.org/images/thumb/b/b0/J4x-category-options-alternative-layout-en.png/800px-J4x-category-options-alternative-layout-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/b/b0/J4x-category-options-alternative-layout-en.png 1.5x"
-data-file-width="1000" data-file-height="494" width="800" height="395"
-alt="screenshot of contacts edit category form shwoing alternative layouts" />
+![contacts component options form showing alternative layouts](../../../en/images/templates/layouts-contacts-category-options.png)
 
 Category alternative layouts may be used for articles, banners, contacts
 and news feeds.
@@ -257,12 +226,7 @@ also appear in the list allowing Blog or List or alternative template
 layouts to be selected as the default category layout either globally or
 when editing a single article category.
 
-<img
-src="https://docs.joomla.org/images/thumb/3/3c/J4x-articles-options-category-alternative-layout-en.png/800px-J4x-articles-options-category-alternative-layout-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/3/3c/J4x-articles-options-category-alternative-layout-en.png 1.5x"
-data-file-width="1000" data-file-height="425" width="800" height="340"
-alt="screenshot of articles options category showing alternative layouts" />
+![contacts component options form showing alternative layouts](../../../en/images/templates/layouts-articles-options-category.png)
 
 This means that, like other layout options, you can control whether
 article category links use blog or list layouts. It is important to
@@ -286,15 +250,9 @@ allows you not only to create a customized layout for this menu item but
 also allows you to create customized parameters. For example, you could
 hide some parameters or add new parameters.
 
-Alternative Menu Items show up when you select a menu item type in the
-Menu Manager as shown below.
+Alternative Menu Items show up when you select a Menu Item Type as shown below.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e3/J4x-template-layouts-menu-blog-alternate-layout-en.png/800px-J4x-template-layouts-menu-blog-alternate-layout-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/e/e3/J4x-template-layouts-menu-blog-alternate-layout-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of menu item selection list" />
+![menu item selection list](../../../en/images/templates/layouts-menu-blog-menu-creation.png)
 
 Alternative Menu Items are used and work the same way as standard menu
 items. Since they are already based on customized layouts, template

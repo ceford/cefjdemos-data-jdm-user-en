@@ -10,23 +10,16 @@ users with a little knowledge of HTML and CSS.
 The following illustration shows the appearance of a Joomla 4 site with
 one article and a few menu items created.
 
-<img
-src="https://docs.joomla.org/images/2/2c/J4x-cassiopeia_template_customisation_article_view.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="366" width="720" height="366" alt="Article View" />
+![Cassiopeia single article view](../../../en/images/templates/cassiopeia-customisation-article-view.png)
 
 ## Templates: Edit Style
 
 You can experiment with the site appearance by opening the Edit Style
-form. Go to **System **→** Templates **→** Site Template Styles** and
+form. Go to **System → Templates → Site Template Styles** and
 select the template title in the Style column, Cassiopeia - Default. The
 Advanced tab contains settings you can adjust:
 
-<img
-src="https://docs.joomla.org/images/6/64/J4x-cassiopeia_template_customisation_edit_style.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="733" width="720" height="733"
-alt="Edit Style - Advanced Tab" />
+![Cassiopeia edit style advanced tab](../../../en/images/templates/cassiopeia-customisation-edit-style.png)
 
 To try the options have one browser tab or window open with the
 Administrator interface and a second tab or window with the Site
@@ -63,11 +56,7 @@ custom HTML module.
 - **Always at your service** If present the words in the tag-line field
   will appear in a small font size beneath the logo image or Brand name.
 
-<img
-src="https://docs.joomla.org/images/e/e1/J4x-cassiopeia_template_customisation_brand_with_tagline.png"
-class="thumbborder" decoding="async" data-file-width="570"
-data-file-height="255" width="570" height="255"
-alt="Brand with Tagline" />
+![Cassiopeia brand with tagline](../../../en/images/templates/cassiopeia-customisation-brand-with-tagline.png)
 
 ### Fonts Scheme
 
@@ -85,11 +74,7 @@ alt="Brand with Tagline" />
   features such as the Login button.
 - **Alternative** A maroon background color instead of dark blue.
 
-<img
-src="https://docs.joomla.org/images/a/a9/J4x-cassiopeia_template_customisation_alt_color_scheme.png"
-class="thumbborder" decoding="async" data-file-width="570"
-data-file-height="243" width="570" height="243"
-alt="Alternative Colour Scheme" />
+![Cassiopeia alternative colour scheme](../../../en/images/templates/cassiopeia-customisation-alt-color-scheme.png)
 
 ### Layout
 
@@ -99,10 +84,7 @@ alt="Alternative Colour Scheme" />
 
 The view on a narrow screen mobile device:
 
-<img
-src="https://docs.joomla.org/images/a/a5/J4x-cassiopeia_template_customisation_mobile_view.png"
-class="thumbborder" decoding="async" data-file-width="411"
-data-file-height="731" width="411" height="731" alt="Mobile View" />
+![Cassiopeia mobile view](../../../en/images/templates/cassiopeia-customisation-mobile-view.png)
 
 ### Sticky Header
 
@@ -119,10 +101,7 @@ data-file-height="731" width="411" height="731" alt="Mobile View" />
   of the page is a button marked with an Up chevron. Select it to scroll
   back to the top of the page.
 
-<img
-src="https://docs.joomla.org/images/3/38/J4x-cassiopeia_template_customisation_back_to_top.png"
-class="thumbborder" decoding="async" data-file-width="373"
-data-file-height="337" width="373" height="337" alt="Back to Top" />
+![Cassiopeia back to top](../../../en/images/templates/cassiopeia-customisation-back-to-top.png)
 
 ## Cassiopeia Template Positions
 
@@ -131,11 +110,7 @@ locations of the positions you can use for modules. Some are
 descriptive, like *menu* and *bottom-a* but it is not so obvious where
 they are until you use them. This illustration should help:
 
-<img
-src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
-class="thumbborder" decoding="async" data-file-width="786"
-data-file-height="980" width="786" height="980"
-alt="Template Positions" />
+![Cassiopeia template positions](../../../en/images/templates/cassiopeia-template-positions.png)
 
 Try the following:
 
@@ -159,10 +134,7 @@ result. (Remember to *Save* in the edit form and reload in the Site
 view.) Neither of the --From Module-- options show the child menu items
 but both of the --From Cassiopeia Template-- do.
 
-<img
-src="https://docs.joomla.org/images/b/b0/J4x-cassiopeia_template_customisation_menu_position.png"
-class="thumbborder" decoding="async" data-file-width="570"
-data-file-height="254" width="570" height="254" alt="Menu Position" />
+![Cassiopeia menu positions](../../../en/images/templates/cassiopeia-customisation-menu-position.png)
 
 So what difference does **Collapsible** make?
 
@@ -196,10 +168,7 @@ you should not change. However, you may add a *user.css* file to the
 *css* folder and/or a *user.js* file to the *js* folder. You would do
 this if you wanted to make a few simple changes to site appearance.
 
-<img
-src="https://docs.joomla.org/images/3/3b/J4x-cassiopeia_template_customisation_edit_files.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="365" width="720" height="365" alt="Edit Files" />
+![Cassiopeia edit files](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
 
 Note that there is no *user.css* file present in the *css* folder. That
 is one you create yourself so that you can override previously defined
@@ -216,11 +185,11 @@ edit form.
 As a simple starter, change the colour of headings to dark green.
 Headings are tags in the range *h1, h2, h3, h4, h5* and *h6*. In the
 *user.css* file enter the style definition:
-
+```css
     h1, h2, h3, h4, h5, h6 {
       color: darkgreen;
     }
-
+```
 Save and reload the site to see the result. The Page or Article title
 should be dark green. If not, check what you have typed. The formal
 language for Joomla documentation is British English, so colour rather
@@ -229,11 +198,11 @@ punctuation correct?
 
 Not so obvious is that some tags other than headings may be styled to
 look like headings. So add this:
-
+```css
     .h1, .h2, .h3, .h4, .h5, .h6 {
       color: darkgreen;
     }
-
+```
 Note here that the leading dot (.) is a class selector, for example
 Dummy H1 - so there is a dot in the CSS file but not in the class name.
 
@@ -242,38 +211,32 @@ Dummy H1 - so there is a dot in the CSS file but not in the class name.
 In the browser tab containing the Site, open your browser Developer
 Tools, Firefox in this example, and select the header tag.
 
-<img
-src="https://docs.joomla.org/images/3/30/J4x-cassiopeia_template_customisation_developer-tools.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="203" width="720" height="203" alt="Developer Tools" />
+![Cassiopeia developer tools](../../../en/images/templates/cassiopeia-customisation-developer-tools.png)
 
 That shows the styles used. The container-header style is where the
 background-color and background-image are set. They need to overriden in
 the *user.css* file. Try this:
-
+```css
     .container-header {
       background-color: darkgreen;
       background-image: none;
     }
-
+```
 ### *topbar* Style
 
 Remember that comment about the menu being too far to the left in the
 topbar? That is because it does not have a maximum width and appropriate
 margins set. Put this in *user.css* file to fix that:
-
+```css
     .container-topbar {
       max-width: 1320px;
       margin-left: auto;
       margin-right: auto;
     }
-
+```
 This is the working green theme:
 
-<img
-src="https://docs.joomla.org/images/3/36/J4x-cassiopeia_template_customisation_green_theme.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="365" width="720" height="365" alt="Green Theme" />
+![Cassiopeia green theme](../../../en/images/templates/cassiopeia-customisation-green-theme.png)
 
 ### Accessibility
 
@@ -296,11 +259,7 @@ that you need to know some HTML and PHP!
 
 This is the Create Overrides tab:
 
-<img
-src="https://docs.joomla.org/images/8/8d/J4x-cassiopeia_template_customisation-create_overrides.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="496" width="720" height="496"
-alt="Create Overrides" />
+![Cassiopeia create overrides](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
 
 If you are just experimenting and do not really want an override, you
 can *Close* the edit form, Select the Manage Folders button in the
@@ -320,8 +279,4 @@ could have some pages with one theme colour and other pages with a
 second theme colour. Child templates are covered elsewhere. This is an
 illustration of the file structure in a child of Cassiopeia:
 
-<img
-src="https://docs.joomla.org/images/5/55/J4x-cassiopeia_template_customisation_child_template_files.png"
-class="thumbborder" decoding="async" data-file-width="720"
-data-file-height="264" width="720" height="264"
-alt="Child Template Files" />
+![Cassiopeia child template files](../../../en/images/templates/cassiopeia-customisation-child-template-files.png)

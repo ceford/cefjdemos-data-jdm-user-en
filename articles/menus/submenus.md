@@ -41,11 +41,7 @@ cat breeds on pages about cats and just a list of dog breeds on pages
 about dogs. The following screenshot shows the target layout the user
 would like to achieve:
 
-<img
-src="https://docs.joomla.org/images/4/4b/J4x-submenus-objectives-animals-cats-en.png"
-class="thumbborder" decoding="async" data-file-width="682"
-data-file-height="496" width="682" height="496"
-alt="submenus objectives animals cats" />
+![submenus objectives animals cats](../../../en/images/menus/submenus-objectives-animals-cats.png)
 
 In this example, when the user selects the Animals menu item the Animals
 page is loaded and the Cats menu module disappears (no Dogs module
@@ -84,11 +80,7 @@ From the Administrator menu:
   So fill out the description field.
 - Save or Save & Close.
 
-<img
-src="https://docs.joomla.org/images/c/c5/J4x-submenus-new-menu-en.png"
-class="thumbborder" decoding="async" data-file-width="730"
-data-file-height="509" width="730" height="509"
-alt="submenus new menu" />
+![submenus new menu](../../../en/images/menus/submenus-new-menu.png)
 
 ## Create Menu Items
 
@@ -137,12 +129,7 @@ handles (vertical ellipsis) to drag items into the correct order. If any
 item has a wrong parent just select the item title and change the parent
 in the Menus: Edit Item form.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a2/J4x-submenus-menu-items-list-en.png/800px-J4x-submenus-menu-items-list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a2/J4x-submenus-menu-items-list-en.png 1.5x"
-data-file-width="1000" data-file-height="776" width="800" height="621"
-alt="submenus menu items list" />
+![submenus menu items list](../../../en/images/menus/submenus-menu-items-list.png)
 
 ## Menu Modules
 
@@ -173,12 +160,7 @@ From the Administrator menu:
     Dogs)
   - Position: sidebar-left (or wherever suits you)
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7a/J4x-submenus-animals-module-en.png/800px-J4x-submenus-animals-module-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7a/J4x-submenus-animals-module-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="submenus animals module" />
+![submenus animals module](../../../en/images/menus/submenus-animals-module.png)
 
 ### Animals Menu Assignment
 
@@ -193,12 +175,7 @@ this case on only three pages. From the Menu Assignment tab:
 - Make sure no other boxes are checked.
 - Save & Close
 
-<img
-src="https://docs.joomla.org/images/thumb/d/d5/J4x-submenus-animals-module-menu-assignment-en.png/800px-J4x-submenus-animals-module-menu-assignment-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/d5/J4x-submenus-animals-module-menu-assignment-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="ubmenus animals module menu assignment" />
+![submenus animals module menu assignment](../../../en/images/menus/submenus-animals-module-menu-assignment.png)
 
 ## Cats Submenu Module
 
@@ -246,12 +223,7 @@ top of the page, entitled Main Menu Blog. From the Administrator menu:
   - Menu Item Type: Menu Item Alias
   - Menu Item: Animals - selected from the list of existing menu items.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ee/J4x-submenus-animals-alias-en.png/800px-J4x-submenus-animals-alias-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/ee/J4x-submenus-animals-alias-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="submenus animals alias" />
+![submenus animals alias](../../../en/images/menus/submenus-animals-alias.png)
 
 - Save
 - Ordering - after save the order can be changed. In this example it is
@@ -264,8 +236,4 @@ the submenus in the left side position. The Animals link in the top menu
 will open the animals page from which it is possible to navigate to the
 Cats or Dogs pages:
 
-<img
-src="https://docs.joomla.org/images/6/67/J4x-submenus-objectives-animals-dogs-en.png"
-class="thumbborder" decoding="async" data-file-width="682"
-data-file-height="496" width="682" height="496"
-alt="submenus objectives animals dogs" />
+![submenus objectives animals dogs](../../../en/images/menus/submenus-objectives-animals-dogs.png)

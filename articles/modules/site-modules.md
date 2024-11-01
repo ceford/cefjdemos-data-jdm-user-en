@@ -24,10 +24,7 @@ Modules are assigned to a position on a page defined by the template in
 use. The following illustration shows a schematic layout of the
 Cassiopeia template:
 
-<img
-src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
-decoding="async" data-file-width="786" data-file-height="980"
-width="786" height="980" alt="Template Positions" />
+![Cassiopeia template position diagram](../../../en/images/modules/cassiopeia-template-positions.png)
 
 And the following list shows the available module positions by name:
 
@@ -58,38 +55,32 @@ Core modules are those supplied with a new Joomla installation. There
 are thousands of additional modules available from third party
 suppliers. Suppose you would like to show a random image to make your
 site more interesting for visitors. From the Administrator menu select
-**Content **→** Site Modules** to see the list of site modules already
+**Content → Site Modules** to see the list of site modules already
 in use:
 
-<img src="https://docs.joomla.org/images/f/f9/J4x-site-modules-list.png"
-decoding="async" data-file-width="800" data-file-height="287"
-width="800" height="287" alt="Site Modules List" />
+![Site Modules List](../../../en/images/modules/cassiopeia-modules-list.png)
 
 Select the New button to see a list of site modules available to
 install:
 
-<img
-src="https://docs.joomla.org/images/4/45/J4x-site-modules-select.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="Site Module Select" />
+![Site Modules available](../../../en/images/modules/cassiopeia-modules-available.png)
 
 Scroll down and select the Random Image module. That will open the
 **Modules: Random Image** edit form ready for you to fill in.
 
-<img
-src="https://docs.joomla.org/images/7/79/J4x-site-modules-random-image-edit.png"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406" alt="Module Edit Form" />
+![Random image module](../../../en/images/modules/cassiopeia-module-random-image.png)
 
-Only the **Title** field is compulsory. Everything else has default
-values. **Except** that you need to select a module position for the
-module to actually appear on a page. In the illustration, sidebar-right
-has been selected. And you need to enter a path to a folder that
-actually contains images of the type you have selected, jpg in the
-illustration above.
-
-Use the Help button in the Toolbar to find out what the other fields do.
-**Save & Close**.
+- **Title** This is a compulsory field. 
+- **Image Type** The default is jpg.
+- **Image Folder** Enter a path to a folder that actually contains images of 
+  the type you have selected.
+- **Link** A URL to redirect to if the image is selected.
+- **Width** Forces all images to be displayed with this width in pixels.
+- **Height** Leave empty to maintain the image aspect ratio.
+- **Position** Select a module position for the module to actually appear on a 
+  page. In the illustration, sidebar-right has been selected. 
+- **Save & Close** Or use the Help button in the Toolbar to find out what the 
+  other fields do.
 
 ## Module Order
 
@@ -107,11 +98,7 @@ chosen position. Proceed as follows:
 
 ## View the Site
 
-<img
-src="https://docs.joomla.org/images/8/8a/J4x-site-modules-random-image-result.png"
-class="thumbborder" decoding="async" data-file-width="345"
-data-file-height="458" width="345" height="458"
-alt="site modules random image result" />
+![Random image module site view](../../../en/images/modules/cassiopeia-module-random-image-site.png)
 
 Check the Site appearance. In this case it might be a good idea to
 centre the image. That can be done as follows:

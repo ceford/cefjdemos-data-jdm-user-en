@@ -21,12 +21,7 @@ responsibility for all aspects of site management and operation. Joomla
 provides nine default user groups and you can create more if you need
 them.
 
-<img
-src="https://docs.joomla.org/images/thumb/b/bf/J4x-user-groups-en.png/800px-J4x-user-groups-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/b/bf/J4x-user-groups-en.png 1.5x"
-data-file-width="1000" data-file-height="556" width="800" height="445"
-alt="Screenshot of users groups" />
+![Users groups list](../../../en/images/users/access-control-users-groups-list.png)
 
 The default user groups are set up with parent child relationships to
 minimise duplication of permissions. Examples of inheritance:
@@ -49,12 +44,7 @@ data entry form. It is a drop-down list offering a choice from Public,
 Guest, Registered, Special and Super Users. The default is Public. The
 default viewing access levels are shown in the following screenshot:
 
-<img
-src="https://docs.joomla.org/images/thumb/9/99/J4x-user-access-levels-en.png/800px-J4x-user-access-levels-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/99/J4x-user-access-levels-en.png 1.5x"
-data-file-width="1000" data-file-height="386" width="800" height="309"
-alt="Screenshot of users viewing access levels" />
+![Users viewing access levels](../../../en/images/users/access-control-users-access-levels.png)
 
 Examples:
 
@@ -69,12 +59,7 @@ The Global Configuration Permissions are the starting point from which
 permission settings in components or individual items may inherit or
 override. Screenshot:
 
-<img
-src="https://docs.joomla.org/images/thumb/9/92/J4x-permissions-global-en.png/800px-J4x-permissions-global-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/92/J4x-permissions-global-en.png 1.5x"
-data-file-width="1000" data-file-height="1016" width="800" height="813"
-alt="Screenshot of global configuration permissions page" />
+![global configuration permissions](../../../en/images/users/access-control-global-configuration-permissions.png)
 
 The screenshot shows that members of the Public group do not have
 permission to take any actions. If you select each group in turn you
@@ -97,24 +82,14 @@ component will have permissions relevant to the component; a component
 item (such as an article) will have permissions relevant to that one
 item.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7f/J4x-permissions-articles-en.png/800px-J4x-permissions-articles-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7f/J4x-permissions-articles-en.png 1.5x"
-data-file-width="1000" data-file-height="1037" width="800" height="830"
-alt="Screenshot of articles options permissions page" />
+![Content permissions](../../../en/images/users/access-control-global-content-permissions.png)
 
 ### Single Article Permissions
 
 The single article permissions has just three items: Delete, Edit and
 Edit State:
 
-<img
-src="https://docs.joomla.org/images/thumb/1/18/J4x-permissions-article-en.png/800px-J4x-permissions-article-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/1/18/J4x-permissions-article-en.png 1.5x"
-data-file-width="1000" data-file-height="711" width="800" height="569"
-alt="Screenshot of permissions page for a single article" />
+![single article permissions](../../../en/images/users/access-control-article-permissions.png)
 
 ## Access Control Example: Special Purpose User
 
@@ -125,52 +100,36 @@ anything other than the Content items. Procedure:
 
 ### Create a new User Group
 
-- Select **Users **→** Groups** from the Administrator menu.
+- Select **Users → Groups** from the Administrator menu.
 - Select the `New` button in the Toolbar.
 - Fill out the Group Title field: Article Administrator
 - The Group Parent must be Public - it has no permissions for anything.
 
-<img
-src="https://docs.joomla.org/images/thumb/c/c6/J4x-permissions-article-administrator-en.png/800px-J4x-permissions-article-administrator-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/c/c6/J4x-permissions-article-administrator-en.png 1.5x"
-data-file-width="1000" data-file-height="249" width="800" height="199"
-alt="Screenshot of users new group form" />
+![New user group form](../../../en/images/users/access-control-new-group.png)
 
 ### Assign to Special
 
-- Select **Users **→** Access Levels** from the Administrator menu.
+- Select **Users → Access Levels** from the Administrator menu.
 - Select the **Special** item.
-- Select the Article Administrator checkbox in the **Users: Edit Viewing
-  Access Level** form.
+- Select the Article Administrator checkbox in the **Users: Edit Viewing Access Level** form.
 - Save & Close.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/59/J4x-permissions-article-administrator-special-en.png/800px-J4x-permissions-article-administrator-special-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/5/59/J4x-permissions-article-administrator-special-en.png 1.5x"
-data-file-width="1000" data-file-height="470" width="800" height="376"
-alt="Screenshot of user groups with viewing access levels page" />
+![Select access for group](../../../en/images/users/access-control-select-access-for-group.png)
 
 ### Global Configuration Permissions
 
-- Select **Home Dashboard **→** Global Configuration** from the
+- Select **Home Dashboard → Global Configuration** from the
   Administrator menu.
 - Select the **Permissions** tab.
 - Select the **Article Administrator** group.
 - Set **Adminstrator Login** to Allowed.
 - Save & Close
 
-<img
-src="https://docs.joomla.org/images/thumb/6/66/J4x-permissions-article-administrator-global-en.png/800px-J4x-permissions-article-administrator-global-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/66/J4x-permissions-article-administrator-global-en.png 1.5x"
-data-file-width="1000" data-file-height="940" width="800" height="752"
-alt="Screenshot of global permissions page" />
+![Select access for group](../../../en/images/users/access-control-article-administrator-global-permissions.png)
 
 ### Articles Options Permissions
 
-- Select **Content **→** Articles** from the Administrator menu.
+- Select **Content → Articles** from the Administrator menu.
 - Select the `Options` button from the Toolbar.
 - Select the **Permissions** tab.
 - Select the **Article Administrator** group.
@@ -178,26 +137,15 @@ alt="Screenshot of global permissions page" />
   Configure Options Only) to Allowed.
 - Save & Close
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ef/J4x-permissions-article-administrator-articles-en.png/800px-J4x-permissions-article-administrator-articles-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/ef/J4x-permissions-article-administrator-articles-en.png 1.5x"
-data-file-width="1000" data-file-height="930" width="800" height="744"
-alt="Screenshot of articles options permissions page" />
+![Select access for group](../../../en/images/users/access-control-article-administrator-content-permissions.png)
 
 ### Create or Edit User
 
-- Create a new user or edit an existing user who is not assigned to any
-  groups
+- Create a new user or edit an existing user who is not assigned to any groups
 - Select **Article Administrator** in the **Assigned User Groups** tab
   of the User edit form.
 - Save & Close.
 - Login as a user in the Article Administrator Group only. The menu
   should show only article-related items:
 
-<img
-src="https://docs.joomla.org/images/thumb/4/40/J4x-permissions-article-administrator-menu-en.png/800px-J4x-permissions-article-administrator-menu-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/40/J4x-permissions-article-administrator-menu-en.png 1.5x"
-data-file-width="1000" data-file-height="451" width="800" height="361"
-alt="Screenshot of Home Dashboard for user with restricted access" />
+![Select access for group](../../../en/images/users/access-control-article-administrator-home-dashboard.png)

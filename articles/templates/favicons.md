@@ -5,12 +5,12 @@
 Favicons are the small icons that appear in the browser tab alongside
 your site name. Near the top of the template index.php are three
 instructions to load favicons into the page:
-
+```php
     // Browsers support SVG favicons
     $this->addHeadLink(HTMLHelper::_('image', 'joomla-favicon.svg', '', [], true, 1), 'icon', 'rel', ['type' => 'image/svg+xml']);
     $this->addHeadLink(HTMLHelper::_('image', 'favicon.ico', '', [], true, 1), 'alternate icon', 'rel', ['type' => 'image/vnd.microsoft.icon']);
     $this->addHeadLink(HTMLHelper::_('image', 'joomla-favicon-pinned.svg', '', [], true, 1), 'mask-icon', 'rel', ['color' => '#000']);
-
+```
 For the Cassiopeia template, Joomla will look for the favicons in the
 following locations:
 
@@ -29,11 +29,7 @@ Favicons are sometimes used at larger sizes and in places other than the
 browser tab. For example, this is a screenshot of part of a Firefox
 start page showing some of the User's favourite locations:
 
-<img
-src="https://docs.joomla.org/images/1/13/J4x-favicons-firefox-start-collection-en.png"
-class="thumbborder" decoding="async" data-file-width="588"
-data-file-height="144" width="588" height="144"
-alt="favicon examples from firefox start page" />
+![favicon examples from firefox start page](../../../en/images/templates/favicons-firefox-start-collection.png)
 
 All modern browsers support SVG icons so you should make creation of an
 SVG icon a priority.
@@ -47,11 +43,7 @@ line colours, fill colours and so on. The following screenshot shows the
 created by the text editor. They are not present in the file. The long
 lines represent curves and are truncated here for display purposes.
 
-<img
-src="https://docs.joomla.org/images/6/6f/J4x-favicons-joomla-favicon-svg-text-en.png"
-class="thumbborder" decoding="async" data-file-width="950"
-data-file-height="369" width="950" height="369"
-alt="screenshot of joomla favicon text content" />
+![joomla favicon text content](../../../en/images/templates/favicons-joomla-favicon-svg-text.png)
 
 To create an SVG file you need to use an appropriate application such as
 Inkscape. Raster graphics applications such as Photoshop or The GIMP
@@ -87,12 +79,7 @@ Windows. Go to the Inkscape (inkscape.org) site to download a
 copy for your platform. The following illustrations shows the Inkscape
 screen part way through the following instructions.
 
-<img
-src="https://docs.joomla.org/images/thumb/6/62/J4x-templates-inkscape-favicon-en.png/800px-J4x-templates-inkscape-favicon-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/6/62/J4x-templates-inkscape-favicon-en.png/1200px-J4x-templates-inkscape-favicon-en.png 1.5x, https://docs.joomla.org/images/thumb/6/62/J4x-templates-inkscape-favicon-en.png/1600px-J4x-templates-inkscape-favicon-en.png 2x"
-data-file-width="2622" data-file-height="1633" width="800" height="498"
-alt="screenshot of inkscape with favicon in preparation" />
+![inkscape with favicon in preparation](../../../en/images/templates/favicons-inkscape-favicon.png)
 
 ### Create an SVG
 
@@ -204,7 +191,7 @@ the icons to *joomla_root/media/templates/yourtemplate/images*:
 
 The link block copied previously contains:
 
-```
+```html
 <link rel="apple-touch-icon" sizes="180x180" href="media/templates/cassiopeia-green/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="media/templates/cassiopeia-green/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="media/templates/cassiopeia-green/images/favicon-16x16.png">

@@ -28,12 +28,7 @@ Articles** menu item type. It is laid out with the appearance in the
 screenshot below (some minor changes were made to individual articles to
 make for a better screenshot here).
 
-<img
-src="https://docs.joomla.org/images/thumb/4/40/J4x-templates-home-page-style-cassiopeia-sample-data-en.png/800px-J4x-templates-home-page-style-cassiopeia-sample-data-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/40/J4x-templates-home-page-style-cassiopeia-sample-data-en.png 1.5x"
-data-file-width="1000" data-file-height="1949" width="800" height="1559"
-alt="screenshot of home page using cassiopeia and sample data" />
+![home page using cassiopeia and sample data](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
 
 This is how the layout is achieved:
 
@@ -42,21 +37,11 @@ This is how the layout is achieved:
 The large image beneath the menu bar is in a custom module named Image
 assigned to the banner position in the Cassiopeia template
 
-<img
-src="https://docs.joomla.org/images/thumb/5/5c/J4x-templates-home-page-style-custom-module-image-en.png/800px-J4x-templates-home-page-style-custom-module-image-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/5/5c/J4x-templates-home-page-style-custom-module-image-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of custom module used in sample data style" />
+![custom module used in sample data style](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
 
 In the Menu Assignment tab the module is assigned to Home only:
 
-<img
-src="https://docs.joomla.org/images/thumb/c/ca/J4x-templates-home-page-style-custom-module-menu-assignment-en.png/800px-J4x-templates-home-page-style-custom-module-menu-assignment-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/c/ca/J4x-templates-home-page-style-custom-module-menu-assignment-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of custom module menu assignment tab" />
+![custom module menu assignment tab](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
 
 The background image is selected in the Options tab of the Modules:
 Custom edit form.
@@ -67,9 +52,9 @@ banner layout is a template layout:
 ### Template Layout
 
 The default module layout in
-siteroot/modules/mod_custom/tmpl/default.php does not display the module
+`siteroot/modules/mod_custom/tmpl/default.php` does not display the module
 as desired. There is an alternative layout in
-siteroot/templates/cassiopeia/html/mod_custom/banner.php. As banner.php
+`siteroot/templates/cassiopeia/html/mod_custom/banner.php`. As `banner.php`
 is not present in the custom module code it works as a layout that you
 can select rather than an override that is always used. In the Image
 module you can select the default layout, Save and reload the site to
@@ -86,12 +71,7 @@ the template top-a position. The module is set to display 3 items. Its
 Menu Assignment is Home only. The Advanced tab has Layout set to
 horizontal and Module Style set to noCard.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/de/J4x-templates-home-page-style-newsflash-module-image-en.png/800px-J4x-templates-home-page-style-newsflash-module-image-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/de/J4x-templates-home-page-style-newsflash-module-image-en.png 1.5x"
-data-file-width="1000" data-file-height="805" width="800" height="644"
-alt="screeenshot of newsflash module" />
+![newsflash module](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
 
 That concludes the explanation of how the Cassiopeia sample data Home
 page was created.
@@ -109,16 +89,18 @@ becomes an extra class in the
 
 element of the page. For example, entering `fancyhome` results in the
 following in the home page output for that one page:
-
+```html
+<body class="site com_content wrapper-static view-featured no-layout no-task itemid-101 fancyhome has-sidebar-right">
+```
 You can then create a user.css file via **System **→** Site
 Templates **→** Cassiopeia Details and Files**. Select the `New File`
 button and create user.css in the css folder. Then enter styles in the
 user.css edit form. Example:
-
+```css
     .fancyhome {
       background-color: #f8fff8;
     }
-
+```
 This will endow the home page with a pale green background. Use
 \#f8f8ff; for a pale blue background or \#ffffee for pale yellow. You
 can do all sorts of other things with your fancyhome style but you need
@@ -131,8 +113,7 @@ template suppliers. And you can create child templates that behave
 similarly. In either case you can choose which template is to be the
 default for all pages and which is to be used for the Home page only.
 
-- Select **System **→** Site Template Styles** in the Administrator
-  menu.
+- Select **System → Site Template Styles** in the Administrator menu.
 - Select the template you wish to use for the Home page. It must be one
   of those not selected as the Default template.
 - In Menu Assignment tab Select the Home menu item only. Anything not

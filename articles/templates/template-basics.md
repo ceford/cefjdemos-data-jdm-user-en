@@ -17,12 +17,7 @@ site features such as links and buttons. The following screenshot shows
 the Cassiopeia template folders and files in a new Joomla 4
 installation:
 
-<img
-src="https://docs.joomla.org/images/thumb/4/45/J4x-templates-customise-cassiopeia-en.png/800px-J4x-templates-customise-cassiopeia-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/45/J4x-templates-customise-cassiopeia-en.png 1.5x"
-data-file-width="1000" data-file-height="508" width="800" height="406"
-alt="screenshot of templates customise cassiopeia page" />
+![templates customise cassiopeia page](../../../en/images/templates/templates-customise-cassiopeia.png)
 
 Note the the php files are in the site /templates folder and the media
 files are in the site /media folder.
@@ -35,11 +30,7 @@ modules to be displayed above, below, to the left or to the right of the
 main content. The following illustration shows the positions available
 in Cassiopeia:
 
-<img
-src="https://docs.joomla.org/images/2/28/J4x-cassiopeia_template_explained_positions.png"
-class="thumbborder" decoding="async" data-file-width="786"
-data-file-height="980" width="800" height="997"
-alt="Template Positions" />
+![template positions diagram](../../../en/images/templates/cassiopeia-template-positions.png)
 
 Also, you can see the template positions in any template by setting
 Preview Module Positions to Enabled in the Template: Options form and
@@ -56,11 +47,11 @@ Templates:Customise form. Just select New File and enter File Name:
 user, select File Type: .css, and select css from the list of folders.
 Then select the newly created user.css file in the Edit form and enter
 some styles, for example, to make headings dark green:
-
+```css
     h1, h2, h3, h4, h5, h6 {
       color: darkgreen;
     }
-
+```
 ## Template Overrides
 
 In addition to the overall layout defined by the site template, each
@@ -75,12 +66,7 @@ of the code used to generate the extension layout for you to change to
 suit your own purposes. The following screenshot shows the Template:
 Customise Create Overrides form:
 
-<img
-src="https://docs.joomla.org/images/thumb/3/3b/J4x-cassiopeia_template_overrides-en.png/800px-J4x-cassiopeia_template_overrides-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/3/3b/J4x-cassiopeia_template_overrides-en.png 1.5x"
-data-file-width="1000" data-file-height="688" width="800" height="550"
-alt="Template Overrides" />
+![template overrides](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
 
 Cassiopeia has some overrides already installed. That may seem to be a
 problem. If you change any of the default Cassiopeia files your changes
