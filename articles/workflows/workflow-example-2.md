@@ -194,3 +194,5 @@ do that too.
   **Review/Publish** transition to make the paper *Published*. The work of the
   Chair is complete for now and a message is sent to the Committee members.
 - Committee members can login and access the published paper.
+
+QED!
