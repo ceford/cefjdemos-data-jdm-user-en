@@ -249,5 +249,5 @@ users=login-and-logout-redirects.md=https://docs.joomla.org/J4.x:Login_and_Logou
 users=user-actions-log.md=https://docs.joomla.org/J4.x:User_Actions_Log
 
 workflows=workflow.md=https://docs.joomla.org/J4.x:Workflow
-workflows=workflow-scenarios.md=https://docs.joomla.org/J4.x:Workflow/Scenarios
 workflows=workflow-example-1.md=https://docs.joomla.org/J6.x:Workflow_Example_1
+workflows=workflow-example-2.md=https://docs.joomla.org/J6.x:Workflow_Example_2
