@@ -118,7 +118,7 @@ user=hosting=local-hosting-with-xampp.md
 user=hosting=local-hosting-on-linux.md
 user=hosting=installing-joomla-using-bitnami-joomla-stack.md
 user=hosting=installing-joomla-on-a-raspberry-pi.md
-user=hosting=installing-joomla-using-an-auto-installer.md
+user=hosting=auto-installer-installation.md
 user=hosting=moving-the-site-among-directories-sub-directories.md
 
 heading=hosting-notes=Hosting Notes

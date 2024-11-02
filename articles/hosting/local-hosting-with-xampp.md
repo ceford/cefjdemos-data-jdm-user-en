@@ -1,36 +1,29 @@
-<!-- Filename: J4.x:Hosting_Setup / Display title: Local Hosting with XAMPP -->
+<!-- Filename:  / Display title: Local Hosting with XAMPP -->
 
 ## Introduction
 
 XAMPP is an easy-to-install package that bundles the Apache web server,
 PHP, XDEBUG, and the MySQL database. This allows you to create the
 environment you need to run Joomla! on your local machine. The latest
-version of XAMPP is available at
-<a href="http://www.apachefriends.org/en/index.html"
-rel="nofollow noreferrer noopener">the XAMPP web site</a>. Downloads are
-available for Linux, Windows, Mac OS X and Solaris. Download the package
+version of XAMPP is available at the
+[Apache Friends](https://www.apachefriends.org/index.html) web site. Downloads
+are available for Linux, Windows and Mac OS X. Download the package
 for your platform.
 
 *Important Note Regarding XAMPP and Skype:* Apache and Skype both use
 port 80 as an alternative for incoming connections. If you use Skype, go
-into the Tools-Options-Advanced-Connection panel and deselect the "Use
-80 and 443 as alternatives for incoming connections" option. If Apache
+into the Tools-Options-Advanced-Connection panel and deselect the 
+*Use 80 and 443 as alternatives for incoming connections* option. If Apache
 starts as a service, it will take 80 before Skype starts and you will
 not see a problem. But, to be safe, disable the option in Skype.
 
+## Installation
+
+Installation on any platofrm is very simple - use the Installer. There is no 
+real manual or handbook for XAMPP. The documentation is in the form of FAQs 
+linked from the Downloads page. 
+
 ### Installation on Windows
-
-Installation for Windows is very simple. You can use the XAMPP installer
-executable (for example,
-"xampp-windows-x64-7.4.4-0-VC15-installer.exe"). Detailed installation
-instructions for Windows are available from the
-<a href="https://www.apachefriends.org/download.html"
-rel="nofollow noreferrer noopener">Apache Friends</a> site.
-
-If you are on Windows XP or 2003 they are not supported by the main
-package but there are compatible versions of XAMPP for these platforms
-listed on the download page (but you will only be able to run PHP 5.4 or
-lower - and therefore will only be able to test Joomla 3.x and lower).
 
 For Windows, it is recommended to install XAMPP in "c:\xampp" (not in
 "c:\program files"). If you do this, your Joomla! (and any other local
@@ -41,35 +34,28 @@ If you have multiple http servers (like IIS) you can change the xampp
 listening port. In \apache\conf\httpd.conf, modify the line Listen 80 to
 Listen \[portnumber\] (ex: "Listen 8080").
 
-Joomla Community Magazine Tutorial
-
-You can find a detailed tutorial on installing XAMPP on Windows, along
+<div class="alert alert-info">
+<h4>Joomla Community Magazine Tutorial<h4>
+<p>You can find a detailed tutorial on installing XAMPP on Windows, along
 with the Joomla 4 Beta, the Joomla Patch Tester and Git in this <a
 href="https://magazine.joomla.org/all-issues/june-2020/github-installing-git"
-rel="noreferrer noopener">Joomla
-Community Magazine article</a>.
+rel="noreferrer noopener">Joomla Community Magazine article</a>.</p></div>
+
+To install XDebug: [XAMPP - XDebug Setup for PHP 8](https://odan.github.io/2020/12/03/xampp-xdebug-setup-php8.html)
 
 ### Installation on Linux
 
 #### Install XAMPP
 
-Open Terminal and enter:
+The Download page downloads an installer xampp-linux-x64-8.2.12-0-installer.run
+where 8.2.12 is the latest version. Run the installer file to install Apache2, 
+MySQL and PHP.
 
-    sudo tar xvfz xampp-linux-1.7.7.tar.gz -C /opt
-
-(replace *xampp-linux-1.7.7.tar.gz* with the version of xammp you
-downloaded). It has been reported that the MYSQL database of xampp 1.7.4
-does not work with Joomla 1.5.22
-
-This installs ... Apache2, mysql and php5 as well as an ftp server.
-
+After installation use the following commands to start and stop the services:
+```sh
     sudo /opt/lampp/lampp start
-
-and
-
     sudo /opt/lampp/lampp stop
-
-starts/stops all the services
+```
 
 #### Test your XAMPP localhost server
 
@@ -90,50 +76,29 @@ or LAN then changing the defaults is a personal decision.
 * Download the latest Joomla installation zip
 * Unzip to your hard drive
 * Connect to localhost with an FTP client Default
-
-    nobody
-    lampp
 * Create a folder for your Joomla on the localhost server
-* FTP the unpacked Joomla installation files to the newly created Joomla
-folder.
+* FTP the unpacked Joomla installation files to the newly created Joomla folder.
 
 ##### Important:
 
-- The xammp installation sets the correct Ownership of the files and
-  permissions.
-- Using the **CHOWN command** will **cause Ownership problems with
-  xampp**.
+- The xammp installation sets the correct Ownership of the files and permissions.
+- Using the **CHOWN command** will **cause Ownership problems with xampp**.
 - **Using nautilus** to manipulate folders/files on localhost will
   **cause Ownership problems with xampp**.
 
-#### Database informaation
+#### Database information
 
-Host
-
-    localhost
-
-Default Database name
-
-    test
-
-Default Database user
-
-    root
-
-There is **no** default Password.
-
-Administrator password is your choice.
+- Host: localhost
+- Default Database name: test
+- Default Database user: root
+- Default Password: There is **no** default Password.
+- Administrator password: your choice.
 
 Installing Sample Data is recommended for the novice user.
 
 After installation delete the installation directory and point your
-Browser to:
-
-    http://localhost/yournewjoomlafolder
-
-or
-
-    http://localhost/yournewjoomlafolder/administrator
+Browser to: `http://localhost/yournewjoomlafolder` or
+`http://localhost/yournewjoomlafolder/administrator`.
 
 #### Creating a link in the Ubuntu menu
 
@@ -141,9 +106,9 @@ or
 
 Open up the Terminal and type
 
-    sudo gedit /usr/share/applications/xampp-control-panel.desktop
+    sudo nano /usr/share/applications/xampp-control-panel.desktop
 
-Then copy the following into the gedit and save.
+Then copy the following into the nano editor and save.
 
     [Desktop Entry]
     Encoding=UTF-8
@@ -171,7 +136,7 @@ Install the missing libraries:
 
 #### XDebug PHP debugger
 
-The XAMPP package for Linux does not includes the XDebug PHP debugger.
+The XAMPP package for Linux does not include the XDebug PHP debugger.
 To install XDebug on Debian or Ubuntu:
 
 - Install the *build-essential* package:
@@ -180,10 +145,8 @@ To install XDebug on Debian or Ubuntu:
     sudo apt-get install build-essential
     sudo apt-get install autoconf
 
-- Download the
-<a href="http://www.apachefriends.org/en/xampp-linux.html"
-rel="nofollow noreferrer noopener">development package</a> for your
-version of XAMPP and extract it over your existing installation:
+- Download the [development package](http://www.apachefriends.org/en/xampp-linux.html)
+for your version of XAMPP and extract it over your existing installation:
 
     sudo tar xvfz xampp-linux-devel-1.7.7.tar.gz -C /opt
 
@@ -257,13 +220,10 @@ Mac OS X actually includes an Apache server out-of-the-box, but most
 developers will prefer to use the integrated tools and configurability
 provided by XAMPP.
 
-As with most programs on Mac, installation is a breeze. Visit
-<a href="https://www.apachefriends.org/en/download.html"
-rel="nofollow noreferrer noopener">Apache Friends - Mac OS X</a> for the
-universal binary download.
-
-Once the file has finished downloading, just open the disk image, and
-drag the XAMPP folder to the "Applications" folder alias.
+As with most programs on Mac, installation is a breeze. Visit the
+[Apache Friends](https://www.apachefriends.org/) web site and download the
+installer (xampp-osx-8.2.4-0-installer.dmg). Double click the downloaded
+installer to start the installation process.
 
 To start the server, open "XAMPP Control.app" and press the start button
 next to Apache.
@@ -296,28 +256,16 @@ these files.*
 
 Once XAMPP is installed and you have started the Apache service with the
 XAMPP Control Panel tool, you can test it by opening your browser and
-navigating to
-"<a href="http://localhost"
-rel="nofollow noreferrer noopener">http://localhost</a>". You should see
-the XAMPP welcome screen similar to the one below.
+navigating to `http://localhost`. You should see the XAMPP welcome screen 
+similar to the one below.
 
-<img
-src="https://docs.joomla.org/images/thumb/f/fc/Phpinfo_on_xampp.png/800px-Phpinfo_on_xampp.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/f/fc/Phpinfo_on_xampp.png/1200px-Phpinfo_on_xampp.png 1.5x, https://docs.joomla.org/images/f/fc/Phpinfo_on_xampp.png 2x"
-data-file-width="1498" data-file-height="883" width="800" height="472"
-alt="Phpinfo on xampp" />
+![The xampp start page](../../../en/images/hosting/local-hosting-xampp.png)
 
-Select the link called "phpinfo()" in the top menu. This will display a
+Select the link called `phpinfo()` in the top menu. This will display a
 long screen of information about the PHP configuration, as shown below.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/db/Phpinfo.png/800px-Phpinfo.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/d/db/Phpinfo.png/1200px-Phpinfo.png 1.5x, https://docs.joomla.org/images/d/db/Phpinfo.png 2x"
-data-file-width="1432" data-file-height="1282" width="800" height="716"
-alt="Phpinfo" />
+![The xampp php version information page](../../../en/images/hosting/local-hosting-xampp-php.png)
 
-At this point, XAMPP is installed successfully. Notice the "Loaded
-Configuration File". We will be editing this file in the next section to
+At this point XAMPP is installed successfully. Notice the *Loaded
+Configuration File*. We will be editing this file in the next section to
 configure XDebug.

@@ -1,6 +1,6 @@
-<!-- Filename: Verifying_permissions / Display title: Permissions: Linux -->
+<!-- Filename: Verifying_permissions / Display title: File Permissions: Linux -->
 
-## File and Directory Permissions
+## Introduction
 
 The following information is for Linux based servers. If your web
 server is a Microsoft Windows based server(IIS), you should see
@@ -8,6 +8,7 @@ server is a Microsoft Windows based server(IIS), you should see
 
 Depending on the security configuration of your Web server the recommended 
 default permissions are:
+
 - 755 for directories
 - 644 for files
 - 444 for the `configuration.php` file (when a Global Configuration change is

@@ -110,7 +110,7 @@ hosting=local-hosting-on-linux.md=Local
 hosting=moving-the-site-among-directories-sub-directories.md=https://docs.joomla.org/J4.x:Moving_the_site_among_directories/sub-directories
 hosting=installing-joomla-using-bitnami-joomla-stack.md=https://docs.joomla.org/J4.x:Installing_Joomla!_using_BitNami_Joomla!_stack
 hosting=installing-joomla-on-a-raspberry-pi.md=https://docs.joomla.org/J4.x:Installing_Joomla_on_a_Raspberry_Pi
-hosting=installing-joomla-using-an-auto-installer.md=https://docs.joomla.org/J4.x:Installing_Joomla_using_an_Auto_Installer
+hosting=auto-installer-installation.md=https://docs.joomla.org/J4.x:Installing_Joomla_using_an_Auto_Installer
 
 hosting-notes=apache-php-handler.md=https://docs.joomla.org/J4.x:Apache_PHP_Handler
 hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md=https://docs.joomla.org/J4.x:Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation
