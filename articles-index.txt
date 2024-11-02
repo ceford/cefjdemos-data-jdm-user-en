@@ -233,7 +233,8 @@ template-tips=joomla-standard-font-awesome-fonts.md=https://docs.joomla.org/J4.x
 test-installations=visual-studio-code-primer.md=https://docs.joomla.org/J4.x:Visual_Studio_Code_Primer
 test-installations=visual-studio-code.md=https://docs.joomla.org/J4.x:Visual_Studio_Code
 test-installations=setting-up-apache-php-and-mysql-manually.md=https://docs.joomla.org/J4.x:Setting_up_Apache
-test-installations=verifying-permissions.md=https://docs.joomla.org/J4.x:Verifying_permissions
+test-installations=permissions-linux.md=https://docs.joomla.org/J4.x:Verifying_permissions
+test-installations=permissions-windows.md=https://docs.joomla.org/How_do_Windows_file_permissions_work%3F
 
 users=access-control.md=https://docs.joomla.org/J4.x:Access_Control
 users=user-registration.md=https://docs.joomla.org/J4.x:User_Registration

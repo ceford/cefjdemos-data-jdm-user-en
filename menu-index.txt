@@ -255,7 +255,8 @@ heading=test-installations=Test Installations
 user=test-installations=visual-studio-code-primer.md
 user=test-installations=visual-studio-code.md
 user=test-installations=setting-up-apache-php-and-mysql-manually.md
-user=test-installations=verifying-permissions.md
+user=test-installations=permissions-linux.md
+user=test-installations=permissions-windows.md
 
 heading=users=Users
 user=users=access-control.md
