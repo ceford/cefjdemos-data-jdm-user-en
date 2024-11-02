@@ -114,8 +114,8 @@ heading=hosting=Hosting
 user=hosting=free-hosting.md
 user=hosting=cpanel-hosting.md
 user=hosting=local-hosting-on-windows.md
-user=hosting=local-hosting-with-xampp.md
 user=hosting=local-hosting-on-linux.md
+user=hosting=local-hosting-with-xampp.md
 user=hosting=installing-joomla-using-bitnami-joomla-stack.md
 user=hosting=installing-joomla-on-a-raspberry-pi.md
 user=hosting=auto-installer-installation.md
