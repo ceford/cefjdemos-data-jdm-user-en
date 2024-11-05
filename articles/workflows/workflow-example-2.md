@@ -195,4 +195,3 @@ do that too.
   Chair is complete for now and a message is sent to the Committee members.
 - Committee members can login and access the published paper.
 
-QED!

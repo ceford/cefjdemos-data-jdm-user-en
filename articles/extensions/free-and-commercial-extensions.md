@@ -7,15 +7,9 @@ way. The default features of Joomla are implemented as **core** extensions.
 Many more extensions are available from the Joomla! Extensions Directory (JED).
 Popular items include the free Akeeba Backup extension. Read more:
 
-- <a href="https://extensions.joomla.org"
-  rel="noreferrer noopener">The Joomla Extensions Directory (JED)</a>
-- <a href="https://extensions.joomla.org/support/knowledgebase"
-  rel="noreferrer noopener">JED Knowledgebase</a>
-- <a href="https://extensions.joomla.org/community/terms-of-service/"
-  rel="noreferrer noopener">JED Terms of Service</a>
-- <a href="https://docs.joomla.org/Special:MyLanguage/Joomla!_Extension_Directory_FAQs"
-  rel="noreferrer noopener">JED FAQs</a>
-- <a href="https://forum.joomla.org/viewforum.php?f=262"
-  rel="noreferrer noopener">JED Feedback/Information Forum</a>
-- <a href="http://vel.joomla.org/"
-  rel="noreferrer noopener">Vulnerable Extensions List/</a>
+- [The Joomla Extensions Directory (JED)](https://extensions.joomla.org)
+- [JED Knowledgebase](https://extensions.joomla.org/support/knowledgebase)
+- [JED Terms of Service](https://extensions.joomla.org/community/terms-of-service/)
+- [JED FAQs](https://docs.joomla.org/Special:MyLanguage/Joomla!_Extension_Directory_FAQs)
+- [JED Feedback/Information Forum](https://forum.joomla.org/viewforum.php?f=262)
+- [Vulnerable Extensions List](http://vel.joomla.org/)

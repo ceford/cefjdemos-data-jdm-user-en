@@ -48,7 +48,7 @@ high:
 15. Set the Fill to white - click the white box in the bottom colour
     palette
 16. File / Save to
-    local-site-roothttps://docs.joomla.org/images/headers/green-cassiopeia-optimised.svg
+    local-site-root/images/headers/green-cassiopeia-optimised.svg
     1.  If you save somewhere else you will have to use a file manager
         or ftp to upload svg files. The Media component can use SVG
         files but at the present time it will not upload them.
@@ -71,5 +71,3 @@ high:
 27. Save and reload your Site page
 
 ![inkscape logo creation result](../../../en/images/templates/templates-svg-logos-inkscape-result.png)
-
-QED!

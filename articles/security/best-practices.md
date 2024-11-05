@@ -153,7 +153,7 @@ It’s highly recommended to read all post-installation messages since the Jooml
 ## 16. Get to Know the Vulnerable Extensions
 
 Always check the Vulnerable Extensions List website and its social media pages in order to know the latest security risks and possible patches. It’s recommended to uninstall any extension listed in the Vulnerable Extensions List for which no patch is known to exist. Make sure to update your vulnerable extension whenever its patch is available. If your site uses a vulnerable version of an extension that doesn’t have a patch update, then you are recommended to replace it.
-Conclusion
+
+## Conclusion
 
 Because there will always be risk, Joomla security will remain a continuous process, requiring frequent assessment of possible attack carriers. Website owners and administrators should always improve their website security in order to reduce the risk of a compromise.
-

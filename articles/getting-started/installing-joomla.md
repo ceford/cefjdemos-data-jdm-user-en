@@ -72,7 +72,7 @@ include `htdocs` and this depends on how your host has the set up the
 server. For Joomla purposes, you can load the files directly into
 *public_html* or a sub-folder you have created within it.
 
-**Warning** If you unpack the files on your own computer, then copy them to
+**Warning:** If you unpack the files on your own computer, then copy them to
 your server, be sure to move only the folders and files contained **inside**
 the Joomla package. If you unpack the folders and files into a folder,
 for example called, *`Joomla`* and then upload that folder, your site

@@ -48,9 +48,8 @@ have solved the problem.
 
         http://www.example.com/the-­news/1­-latest-­news/1-­welcome-­to­-joomla
 
-    If this option causes errors, please see [How to check if mod
-    rewrite is enabled on your
-    server](https://docs.joomla.org/How_to_check_if_mod_rewrite_is_enabled_on_your_server "Special:MyLanguage/How to check if mod rewrite is enabled on your server").
+    If this option causes errors, please see 
+    [How to check if mod rewrite is enabled on your server](https://docs.joomla.org/How_to_check_if_mod_rewrite_is_enabled_on_your_server).
 
     - If it is not enabled and you have access to the file
       `apache/conf/httpd.conf`, open that file and check if the line

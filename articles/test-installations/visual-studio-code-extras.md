@@ -1,15 +1,14 @@
-<!-- Filename: Visual_Studio_Code / Display title: Visual Studio Code -->
+<!-- Filename: Visual_Studio_Code / Display title: Visual Studio Code Extras-->
 
-<a href="https://code.visualstudio.com/"
- rel="nofollow noreferrer noopener">Visual Studio
-Code</a> is a source code editor developed by Microsoft for Windows,
-Linux and macOS (including M1 Macs). It includes support for debugging,
-embedded Git control and GitHub, syntax highlighting, intelligent code
-completion, snippets, and code refactoring.
+## Introduction
 
-The main characteristic of the editor is that it is extensible and it
-has a huge collection of extensions
-maintained by users and by Microsoft itself.
+[Visual Studio Code](https://code.visualstudio.com/) is a source code editor 
+developed by Microsoft for Windows, Linux and macOS (including M1 Macs). It 
+includes support for debugging, embedded Git control and GitHub, syntax 
+highlighting, intelligent code completion, snippets, and code refactoring.
+
+The main characteristic of the editor is that it is extensible and it has a 
+huge collection of extensions maintained by users and by Microsoft itself.
 
 As a general introduction, this is a presentation about the topic
 <a href="https://www.renekreijveld.nl/slides/juglondon/vscode.pdf"
