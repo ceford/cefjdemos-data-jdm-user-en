@@ -56,7 +56,7 @@ like this
 
     php /var/www/myjoomla/cli/joomla.php finder:index -- purge
 
-And possible the full path to the php file such as /usr/local/opt/php@8.2/bin/php
+And possible the full path to the php file such as `/usr/local/opt/php@8.2/bin/php`.
 
 ## Out of Memory Issues
 

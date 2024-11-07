@@ -72,74 +72,15 @@ permissions (this is generally the default mechanism).
 As you can see, Windows utilizes the following Permissions/Rights
 scheme:
 
-<table data-cellpadding="2" data-cellspacing="0" data-align="center"
-data-border="1" width="533">
-<thead>
-<tr>
-<th>#</th>
-<th>Permissions</th>
-<th>Rights</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p>1. </p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Full
-Control</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows:
-1, 2, 3, 4, 5, 6, 7</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p> 2.</p></td>
-<td style="text-align: left;" width="33%"
-data-valign="top"><p> Modify</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows:
-2, 3, 4, 5, 6</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p> 3.</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p> Read
-&amp; Execute</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows:
-3, 4 </p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p> 4.</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p> List
-Folder Contents</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows: 4
-(but cannot run programs) </p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p> 5.</p></td>
-<td style="text-align: left;" width="33%"
-data-valign="top"><p> Read</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows: 5
-(Implies: 4)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p> 6.</p></td>
-<td style="text-align: left;" width="33%"
-data-valign="top"><p> Write</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows: 6
-(Implies:4 )</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;" width="5%"
-data-valign="top"><p>7.</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p> Special
-Permissions</p></td>
-<td style="text-align: left;" width="33%" data-valign="top"><p>Allows:
-Combinations </p></td>
-</tr>
-</tbody>
-</table>
+| # | Permissions | Rights |
+|:-----:|:----------|:---------|
+| 1 | Full Control | Allows: 1, 2, 3, 4, 5, 6, 7 |
+| 2 | Modify | Allows: 2, 3, 4, 5, 6 |
+| 3 | Read & Execute | Allows: 3, 4 |
+| 4 | List Folder Contents | Allows: 4 (but cannot run programs) |
+| 5 | Read | Allows: 5 (Implies: 4) |
+| 6 | Write | Allows: 6 (Implies:4) |
+| 7 | Special Permissions | Allows: Combinations |
 
 ### Windows file permissions properties
 
@@ -199,70 +140,15 @@ through a web browser. A little understanding of UNIX/Linux permissions is
 required to fully equate/correlate them to Windows permissions. The
 following table should assist;
 
-<table data-cellpadding="2" data-cellspacing="0" data-align="center"
-data-border="1" width="659">
-<thead>
-<tr class="odd">
-<th style="text-align: center;" data-bgcolor="#cccccc" width="7%"
-data-valign="top"><p><strong>Unix Mode</strong></p></th>
-<th data-bgcolor="#cccccc" width="10%"
-data-valign="top"><p><strong>Windows ACL </strong></p></th>
-<th data-bgcolor="#cccccc" width="33%"
-data-valign="top"><p><strong>Comments </strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>7 </strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Modify </strong></p></td>
-<td width="33%" data-valign="top"><p><em>Read, Write &amp; Execute, you
-should be the owner of this file</em></p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>6</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Read &amp; Write</strong></p></td>
-<td width="33%" data-valign="top"><p><em> </em></p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>5</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Read &amp; Execute</strong></p></td>
-<td width="33%" data-valign="top"><p><em>used for most
-applications</em></p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>4</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Read Only</strong></p></td>
-<td width="33%" data-valign="top"><p><em>security through obscurity is
-not a good practice</em></p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>3</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Write &amp; Execute</strong></p></td>
-<td width="33%" data-valign="top"><p><em>not available through windows,
-unless "Special" Permissions is used, not commonly used</em></p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>2</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Write Only</strong></p></td>
-<td width="33%" data-valign="top"><p><em>not available through windows,
-unless "Special" Permissions is used, not commonly used</em></p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;" width="7%"
-data-valign="top"><p><strong>1</strong></p></td>
-<td width="10%" data-valign="top"><p><strong> Execute Only</strong></p></td>
-<td width="33%" data-valign="top"><p><em>not available through windows,
-unless "Special" Permissions is used, not commonly used
-</em></p></td>
-</tr>
-</tbody>
-</table>
+| Unix Mode | Windows ACL | Comments |
+|:-----:|:----------|:---------|
+| 7 | Modify | Read, Write & Execute, you should be the owner of this file |
+| 6 | Read & Write |  |
+| 5 | Read & Execute | used for most applications |
+| 4 | Read Only | security through obscurity is not a good practice |
+| 3 | Write & Execute | not available through windows, unless "Special" Permissions is used, not commonly used |
+| 2 | Write Only | not available through windows, unless "Special" Permissions is used, not commonly used |
+| 1 | Execute Only | not available through windows, unless "Special" Permissions is used, not commonly used |
 
 In comparison to Unix Modes, when you see something like 644, you would break
 that into three elements:

@@ -197,8 +197,8 @@ security=http-headers.md=jdocmanual&manual=user&heading=security&filename=http-h
 
 seo=seo-basics.md=jdocmanual&manual=user&heading=seo&filename=seo-basics.md
 seo=search-engine-friendly-urls.md=https://docs.joomla.org/J4.x:Search_Engine_Friendly_URLs
-seo=enabling-search-engine-friendly-sef-urls-on-apache.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache
-seo=enabling-search-engine-friendly-sef-urls-on-nginx.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx
+seo=sef-urls-on-apache.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache
+seo=sef-urls-on-nginx.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx
 seo=monitoring-seo.md=https://docs.joomla.org/J4.x:Monitoring_SEO
 seo=using-a-sitemap.md=https://docs.joomla.org/J4.x:Using_A_Sitemap
 

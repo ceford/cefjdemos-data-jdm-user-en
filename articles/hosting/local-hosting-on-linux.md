@@ -1,5 +1,7 @@
 <!-- Filename: No_original_yet / Display title: Local Hosting on Linux -->
 
+## Introduction
+
 This article covers hosting Joomla on a personal Linux based computer for
 testing and development purposes. The Linux versions covered are from the
 Debian-Ubuntu family, and specifically Linux Mint. Other distributions are

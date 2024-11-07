@@ -213,8 +213,8 @@ user=security=http-headers.md
 heading=seo=SEO
 user=seo=seo-basics.md
 user=seo=search-engine-friendly-urls.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-apache.md
-user=seo=enabling-search-engine-friendly-sef-urls-on-nginx.md
+user=seo=sef-urls-on-apache.md
+user=seo=sef-urls-on-nginx.md
 user=seo=monitoring-seo.md
 user=seo=using-a-sitemap.md
 

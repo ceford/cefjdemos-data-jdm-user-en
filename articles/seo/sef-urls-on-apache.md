@@ -21,11 +21,8 @@ enabling overrides:
 
 There are other ways to test if `.htaccess` is enabled if you do not
 have access to your site's configuration files. Please refer to the
-<a href="http://httpd.apache.org/docs/current/howto/htaccess.html"
-rel="nofollow noreferrer noopener">.htaccess tutorial</a> found on
-<a href="http://www.apache.org/"
-rel="nofollow noreferrer noopener">The Apache Software Foundation</a>
-website for additional information.
+[.htaccess tutorial](http://httpd.apache.org/docs/current/howto/htaccess.html) 
+found on *The Apache Software Foundation* website for additional information.
 
 ## Step by Step
 
@@ -33,8 +30,7 @@ These are step-by-step instructions. Please follow them in the order
 they are presented here. If a step fails, **do not** continue until you
 have solved the problem.
 
-1.  Rename the file `"htaccess.txt"` in your Joomla!'s base folder to
-    `".htaccess"`.
+1.  Rename the file `htaccess.txt` in your Joomla!'s base folder to `.htaccess`.
 2.  *This step may not be necessary.* Open `.htaccess` in a text editor.
     Uncomment `RewriteBase /` (remove the first character, \#). If
     Joomla is installed in its own folder, the enter the Joomla folder
@@ -46,7 +42,7 @@ have solved the problem.
 
     Check if your site works correctly. Your URLs should now look like:
 
-        http://www.example.com/the-­news/1­-latest-­news/1-­welcome-­to­-joomla
+        `http://www.example.com/the-­news/1­-latest-­news/1-­welcome-­to­-joomla`
 
     If this option causes errors, please see 
     [How to check if mod rewrite is enabled on your server](https://docs.joomla.org/How_to_check_if_mod_rewrite_is_enabled_on_your_server).

@@ -94,5 +94,3 @@ following is entered in user.css:
 The class is added to the body tag of the page:
 
 ![site appearance of the customised page with developer tools](../../../en/images/templates/templates-edit-page-class-result.png)
-
-QED!
