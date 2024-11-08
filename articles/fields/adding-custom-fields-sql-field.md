@@ -26,11 +26,16 @@ FROM `#__countrybase_countries`
 WHERE `state` = 1
 ORDER BY `title` ASC
 ```
-![SQL Field](../../../en/images/fields/fields-sql.png "SQL Field")
+![SQL Field creation](../../../en/images/fields/fields-sql-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
 
 ## Data Entry
 
 Simple - select from the list.
+
+![SQL field data entry](../../../en/images/fields/fields-sql-data-entry.png)
 
 ## Data Display
 
@@ -38,9 +43,7 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **Country of Origin** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![SQL field site display](../../../en/images/fields/fields-sql-site.png)
 
 The output is a single item or comma separated list of items (country names)
 following the Field label (Country of Origin).

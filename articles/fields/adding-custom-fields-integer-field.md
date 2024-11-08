@@ -16,13 +16,18 @@ Special options for this field:
 - **Field Class** Set to *w-auto* to make the list just wide enough for its
 list of integers.
 
+![Integer field creation](../../../en/images/fields/fields-integer-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
+
 ## Data Entry
 
 Select the required integer from the list, or more than one from a multiple
 select list. Notice that without w-auto the integer select field is the full
 width of the form.
 
-![Integer Select](../../../en/images/fields/fields-integer-entry.png "Integer Select")
+![Integer field data entry](../../../en/images/fields/fields-integer-data-entry.png)
 
 ## Data Display
 
@@ -30,6 +35,4 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **RHS Hardiness** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![Integer field site display](../../../en/images/fields/fields-integer-site.png)

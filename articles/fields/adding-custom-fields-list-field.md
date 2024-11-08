@@ -20,11 +20,16 @@ provides an empty default resulting in this list being absent from the Article.
 - **Field Class** Set to *w-auto* to make the list just wide enough for its
 list of labels.
 
-![List field creation](../../../en/images/fields/fields-list.png "List Field Creation")
+![List field creation](../../../en/images/fields/fields-list-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
 
 ## Data Entry
 
 Simple: just select an item from the list or more items if *Multiple* is *Yes*.
+
+![List field data entry](../../../en/images/fields/fields-list-data-entry.png)
 
 ## Data Display
 
@@ -34,6 +39,4 @@ your template is responsible for the design of the field.
 
 The output is a single item or a comma separated list.
 
-Look for the **Origin** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![list field site display](../../../en/images/fields/fields-list-site.png)

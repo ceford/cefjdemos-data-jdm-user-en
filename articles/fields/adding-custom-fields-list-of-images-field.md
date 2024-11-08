@@ -16,9 +16,16 @@ files to be listed. Only images from a single directory can be selected.
 limits the width of each image to 25% of its container and adds 1 padding
 unit.
 
+![list of images field creation](../../../en/images/fields/fields-list-of-images-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
+
 ## Data Entry
 
 Simple: select one or more images from the list.
+
+![list of images field data entry](../../../en/images/fields/fields-list-of-images-data-entry.png)
 
 ## Data Display
 
@@ -26,6 +33,4 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **Example Images** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![list of images site display](../../../en/images/fields/fields-list-of-images-site.png)

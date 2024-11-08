@@ -23,9 +23,16 @@ frontend.
 - **Maximum Length** The maximum number of characters that can be entered.
 - **Filter** Allow the system to save certain html tags or raw data.
 
+![textarea field creation](../../../en/images/fields/fields-textarea-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
+
 ## Data Entry
 
 Simple: enter the text to display.
+
+![textarea field data entry](../../../en/images/fields/fields-textarea-data-entry.png)
 
 ## Data Display
 
@@ -33,9 +40,7 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **Classification** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![textarea field site display](../../../en/images/fields/fields-textarea-site.png)
 
 The field label starts a single block of text unless you have entered HTML
 tags such as `<p>...</p>`.

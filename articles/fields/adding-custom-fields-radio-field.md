@@ -15,13 +15,16 @@ be different. The first item in the list should have the Text set to
 and so not appear in the output.
 * Use the drag icons to change the radio button list order.
 
-![Radio Buttons](../../../en/images/fields/fields-radio.png "Radio Buttons")
+![Radio field creation](../../../en/images/fields/fields-radio-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
 
 ## Data Entry
 
 Simple: just select the required value.
 
-![Radio Field Selection](../../../en/images/fields/fields-radio-entry.png "Radio Field Selection")
+![Radio Field data entry](../../../en/images/fields/fields-radio-data-entry.png)
 
 ## Data Display
 
@@ -29,8 +32,6 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **Life Cycle** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![radio field site display](../../../en/images/fields/fields-radio-site.png)
 
 The field Title is followed by the Text of the selected value.

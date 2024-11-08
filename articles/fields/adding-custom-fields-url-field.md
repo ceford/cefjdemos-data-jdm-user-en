@@ -19,9 +19,16 @@ allowed.
 - **Show URL** If set to *No*, on Article display the URL is replaced with the
 words *Visit Site*.
 
+![url field creation](../../../en/images/fields/fields-url-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
+
 ## Data Entry
 
-Simple: just enter a dsetination URL.
+Simple: just enter a destination URL.
+
+![url field data entry](../../../en/images/fields/fields-url-data-entry.png)
 
 ## Data Display
 
@@ -29,8 +36,6 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **Further Information** item.
+![url field site display](../../../en/images/fields/fields-url-site.png)
 
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
-
-The URL follows the field Label. The destination opens in a new tab or window.
+The URL follows the field Label.

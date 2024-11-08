@@ -12,6 +12,11 @@ Special options for this field:
 - **Field Class** Set to *w-auto* to make the field just wide enough for the
 swatch and value.
 
+![Colour field creation](../../../en/images/fields/fields-colour-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
+
 ## Data Entry
 
 You can type in a hex colour value if you know that hex numbers run from 0 to 9
@@ -19,7 +24,7 @@ and then a to f and the pairs of numbers are red, green and blue. So #00ff00 is
 no red, maximum green and no blue. Or you can use a cursor to select a colour
 visually.
 
-![Colour picker](../../../en/images/fields/fields-colour-entry.png "Colour picker")
+![Colour field data entry](../../../en/images/fields/fields-colour-data-entry.png)
 
 ## Data Display
 
@@ -43,5 +48,5 @@ the value.
 
 Look for the **Flower Colour** item.
 
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![colour field site display](../../../en/images/fields/fields-colour-site.png)
 

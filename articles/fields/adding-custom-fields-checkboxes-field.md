@@ -15,13 +15,16 @@ list of selected values
 appears in the output. The value is used in the data entry form and each must
 be different.
 
-![Checkboxes](../../../en/images/fields/fields-checkboxes.png "Checkboxes")
+![Checkboxes field creation](../../../en/images/fields/fields-checkboxes-edit.png)
+
+**Note:** In this example, inclusion of the field type in the Title is for
+demonstration purposes only. Leave it out in your own field titles.
 
 ## Data Entry
 
 This is just a matter of selecting the items that should appear in the output.
 
-![Checkbox Selection](../../../en/images/fields/fields-checkboxes-entry.png "Checkbox Selection")
+![Checkboxes field data entry](../../../en/images/fields/fields-checkboxes-data-entry.png)
 
 Fields only appear in an article if populated in the article data entry form.
 
@@ -31,7 +34,5 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-Look for the **Propogation** item.
-
-![Display of all fields](../../../en/images/fields/fields-display.png "Fields display")
+![checkboxes field site display](../../../en/images/fields/fields-checkboxes-site.png)
 
