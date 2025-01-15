@@ -14,12 +14,12 @@ If the failure occurs after moving your site to another host, check the
 following items of your *configuration.php* file. The normal database
 settings are the following:
 
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'yourdbuser';
-	public $password = 'yourdbpassword';
-	public $db = 'yourdbname';
-	public $dbprefix = 't6q6i_';
+    public $dbtype = 'mysqli';
+    public $host = 'localhost';
+    public $user = 'yourdbuser';
+    public $password = 'yourdbpassword';
+    public $db = 'yourdbname';
+    public $dbprefix = 't6q6i_';
 
 If the failure occurs in a site that has been working there are a number of
 possible reasons, sometimes temporary and sometimes accidental.

@@ -29,24 +29,24 @@ Cassiopeia template:
 And the following list shows the available module positions by name:
 
 ```xml
-	<positions>
-		<position>topbar</position>
-		<position>below-top</position>
-		<position>menu</position>
-		<position>search</position>
-		<position>banner</position>
-		<position>top-a</position>
-		<position>top-b</position>
-		<position>main-top</position>
-		<position>main-bottom</position>
-		<position>breadcrumbs</position>
-		<position>sidebar-left</position>
-		<position>sidebar-right</position>
-		<position>bottom-a</position>
-		<position>bottom-b</position>
-		<position>footer</position>
-		<position>debug</position>
-	</positions>
+    <positions>
+        <position>topbar</position>
+        <position>below-top</position>
+        <position>menu</position>
+        <position>search</position>
+        <position>banner</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>breadcrumbs</position>
+        <position>sidebar-left</position>
+        <position>sidebar-right</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
 ```
 
 ## Add a Core Module
@@ -70,16 +70,16 @@ Scroll down and select the Random Image module. That will open the
 
 ![Random image module](../../../en/images/modules/cassiopeia-module-random-image.png)
 
-- **Title** This is a compulsory field. 
+- **Title** This is a compulsory field.
 - **Image Type** The default is jpg.
-- **Image Folder** Enter a path to a folder that actually contains images of 
+- **Image Folder** Enter a path to a folder that actually contains images of
   the type you have selected.
 - **Link** A URL to redirect to if the image is selected.
 - **Width** Forces all images to be displayed with this width in pixels.
 - **Height** Leave empty to maintain the image aspect ratio.
-- **Position** Select a module position for the module to actually appear on a 
-  page. In the illustration, sidebar-right has been selected. 
-- **Save & Close** Or use the Help button in the Toolbar to find out what the 
+- **Position** Select a module position for the module to actually appear on a
+  page. In the illustration, sidebar-right has been selected.
+- **Save & Close** Or use the Help button in the Toolbar to find out what the
   other fields do.
 
 ## Module Order

@@ -78,7 +78,7 @@ In an article, select the Publishing tab and then the *Canaonical URL* **Auto**
 button. This will place a link like the following any page that displays the
 single article:
 ```
-	<link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
+    <link href="/jdm3/en/user/seo/seo-basics.html" rel="canonical" />
 ```
 ## Content Quality
 

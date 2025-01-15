@@ -189,17 +189,17 @@ see the steps recorded in the log. It will be show the major steps (download zip
 install, run SQL statements, clean up), something like this:
 
 ```
-2024-04-17T09:13:16+00:00	INFO 127.0.0.1	update	Update started by user Jimmy (139). Old version is 5.0.3.
-2024-04-17T09:13:18+00:00	INFO 127.0.0.1	update	Downloading update file from ...
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	File Joomla_5.1.0-Stable-Update_Package.zip downloaded.
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Starting installation of new version.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Finalising installation.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Start of SQL updates.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	The current database version (schema) is 5.0.0-2023-09-11.
+2024-04-17T09:13:16+00:00    INFO 127.0.0.1    update    Update started by user Jimmy (139). Old version is 5.0.3.
+2024-04-17T09:13:18+00:00    INFO 127.0.0.1    update    Downloading update file from ...
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    File Joomla_5.1.0-Stable-Update_Package.zip downloaded.
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Starting installation of new version.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Finalising installation.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Start of SQL updates.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    The current database version (schema) is 5.0.0-2023-09-11.
 ... Lots of individual SQL queries
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	End of SQL updates.
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Uninstalling extensions
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Deleting removed files and folders.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Cleaning up after installation.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Update to version 5.1.0 is complete.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    End of SQL updates.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Uninstalling extensions
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Deleting removed files and folders.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Cleaning up after installation.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Update to version 5.1.0 is complete.
 ```

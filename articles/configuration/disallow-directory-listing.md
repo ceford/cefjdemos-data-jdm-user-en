@@ -29,7 +29,7 @@ Options -Indexes
 
 ## No directory listings
 <IfModule mod_autoindex.c>
-	IndexIgnore *
+    IndexIgnore *
 </IfModule>
 ```
 
@@ -40,4 +40,3 @@ browser URL bar: `https://yourdomain.com/images/`. As the images folder does
 not normally contain an index.html or index.php file you should see a
 completely empty page. If you see a list of all files and folders then you are
 not preventing directory scans for any part of your site. Fix it!
-

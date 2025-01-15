@@ -2,10 +2,9 @@
 
 ## Magazine Article
 
-This article is based on a Joomla! Community Magazine article by Brendan Hedges
-in the May 2022 Edition.
+This article is based on a [Joomla! Community Magazine](https://magazine.joomla.org/all-issues/may-2022/joomla-new-http-headers-plugin-for-j4) article by Brendan Hedges in the May 2022 Edition. Although written for Joomla 4 the content applies equally to Joomla 5.
 
-Although written for Joomla 4 the content applies equally to Joola 5.
+For those who find this topic difficult to understand, there is an illuminating article by Scott Helme on [Content Security Policy - An Introduction](https://scotthelme.co.uk/content-security-policy-an-introduction/).
 
 ## Joomla’s New HTTP Headers Plugin For J4
 
@@ -764,7 +763,7 @@ The plugin is Enabled by default.
 * The Referrer-Policy is initially set to: strict-origin-when-cross-origin.
 * The Cross-Origin-Opener-Policy is initially set to same-origin.
 
-If you’ve read this far and thought “That’s not fair, what about J3?”, “Why can’t we have the same features in Joomla 3?”. Well, the good news is, you can. Although you’ll have to download the plugin from the [JED.
+If you’ve read this far and thought “That’s not fair, what about J3?”, “Why can’t we have the same features in Joomla 3?”. Well, the good news is, you can. Although you’ll have to download the plugin from the JED.
 
 When you’ve set up your HTTP headers with the Joomla 4 plugin, you can test
 your HTTP Headers at the Security Headers web
