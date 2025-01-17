@@ -26,7 +26,7 @@ extensions.
     manually.
     -  [Backup Basics for a Joomla! Web Site](https://docs.joomla.org/Special:MyLanguage/Backup_Basics_for_a_Joomla!_Web_Site)
     -  [What are the best practices for site backups?](https://docs.joomla.org/Special:MyLanguage/What_are_the_best_practices_for_site_backups%3F)
-3.  Make sure your environment meets the 
+3.  Make sure your environment meets the
     [technical requirements for Joomla 4](https://downloads.joomla.org/technical-requirements)
     before proceeding.
 4.  Create a new database and new user to restore your 3.10.x site to.
@@ -41,7 +41,7 @@ extensions.
       all suitable alternatives.
     - A new hosting account on a temporary domain in the root. (If you
       would like to change hosts in the process of migration.)
-      - Restoring a site on a local device. 
+      - Restoring a site on a local device.
         See [Installing Joomla locally](https://docs.joomla.org/Special:MyLanguage/Installing_Joomla_locally)
         and  [Setting up your workstation for Joomla development](https://docs.joomla.org/Special:MyLanguage/Setting_up_your_workstation_for_Joomla_development).
       - Restoring a site with a tool listed at the bottom of the page.
@@ -50,8 +50,8 @@ extensions.
     latest maintenance release.
 7.  Make sure you have the latest database schema updated to the latest
     version 3.10.x version by going to **Extension Manager → Database** tab. If your schema is not up to date as in
-    the following image, click the **Fix** button:<br>
-    ![joomla 3 extensions database](../../../en/images/migration/admin-extension-database-fix.png)
+    the following image, click the **Fix** button:
+![joomla 3 extensions database](../../../en/images/migration/admin-extension-database-fix.png)
 8.  Empty trash: Do you have any articles in the trash? If so, delete
     them (and any applicable media that may be associated with them if
     not in use elsewhere on the site). Articles (categories and menu
@@ -62,12 +62,12 @@ extensions.
 
 ### Assess Each Extension
 
-In your planning, you determined which third-party extensions were staying or 
-going and how they migrate. For this portion of the Step by Step, you’ll be 
+In your planning, you determined which third-party extensions were staying or
+going and how they migrate. For this portion of the Step by Step, you’ll be
 using two different sections of the site extensively: the *Pre-Update Check* in
-**Components → Joomla! Update** and **Extensions → Manage → Manage**. You are 
-going to be looking at every single extension installed on your site. You will 
-be determining if they need to be updated to the latest version or uninstalled. 
+**Components → Joomla! Update** and **Extensions → Manage → Manage**. You are
+going to be looking at every single extension installed on your site. You will
+be determining if they need to be updated to the latest version or uninstalled.
 More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:Pre-Update_Check).
 
 1.  Using the **Pre-Update Check** in order to use the Pre-Update
@@ -77,17 +77,17 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
     found. If it doesn’t, update Joomla to the latest version (must be
     3.10.x) and test. Then do another backup. Click on the Options
     button at the top right corner.
-3.  Select *Joomla Next* from the drop-down for Update Channel.<br>
-    ![update options channel selection](../../../en/images/migration/update-options-channel.png)
+3.  Select *Joomla Next* from the drop-down for Update Channel.
+![update options channel selection](../../../en/images/migration/update-options-channel.png)
 4.  Click **Save & Close**
 5.  You will then see your Installed Joomla Version, the latest Joomla!
     version and the URL for the update package. Joomla will show you the
     requirements again for Joomla 4. If it flags that you have either an
     incompatible system or extensions it will tell you here. Take a
-    moment to review this page. <br>
-    ![update to 4 pre update check](../../../en/images/migration/update-to-4-pre-update-check.png)
-    <div class="alert alert-warning"><strong>Notice:</strong> Do NOT update to Joomla! 4 
-    right now. This is only to prepare your third-party extensions and get the 
+    moment to review this page.
+![update to 4 pre update check](../../../en/images/migration/update-to-4-pre-update-check.png)
+    <div class="alert alert-warning"><strong>Notice:</strong> Do NOT update to Joomla! 4
+    right now. This is only to prepare your third-party extensions and get the
     site compatible with Joomla! 4.</div>
 6.  Look at the Pre-Update Check and the Extension Pre-Update Check in
     the Pre-Update Check tab of the Joomla Update component. If any
@@ -119,8 +119,8 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
     is or isn’t compatible with Joomla 4. Talk to the developer to
     verify.
 9.  **Update Extensions:** update any extensions that you will keep in
-    your website. In Joomla! 3.10.x you can go to 
-    **Extension Manager → Update tab** and click **Find Updates** which will 
+    your website. In Joomla! 3.10.x you can go to
+    **Extension Manager → Update tab** and click **Find Updates** which will
     add a tooltip in the Version column, under the Manage tab, giving some
     compatibility information from the backend. This functionality only
     supports extensions that update via the Extension Manager Update
@@ -129,11 +129,11 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
     below. The same goes for those extensions that have a tooltip. You
     will still need to check the type of package and migration path with
     the extension developer to verify how to upgrade/migrate.
-10. Investigate and Uninstall Extensions Extensions: go to 
+10. Investigate and Uninstall Extensions Extensions: go to
     **Extension Manager → Manage**
 11. Click the Button *Search Tools* to show the filter options
-12. Select Package from the *Select Type* drop-down.<br>
-    ![extensions manage page](../../../en/images/migration/extensions-manage.png)
+12. Select Package from the *Select Type* drop-down.
+![extensions manage page](../../../en/images/migration/extensions-manage.png)
     <div class="alert alert-info">Selecting Package
     first is recommended because if there is something you need to
     uninstall in a package, it will automatically uninstall the
@@ -145,19 +145,19 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
     the drop-down: Component, File, Language, Library, Module, Plugin
     and Template. If the Author states Joomla! Project, then leave those
     extensions alone. For all others, make sure that you uninstall those
-    not in use or not compatible with Joomla! 4.x. 
+    not in use or not compatible with Joomla! 4.x.
     <div class="alert alert-danger"><strong>NOTE!</strong> You will
     not be able to uninstall any template that is set as default. You
     will need to select a Core supported template like Beez3 or
     Protostar and then uninstall the template if you need to do so.
-    <em>Another reminder:</em> <strong>Protostar is not compatible with 
-    Joomla 4</strong>. Upon migration it will disappear. Selecting it as 
+    <em>Another reminder:</em> <strong>Protostar is not compatible with
+    Joomla 4</strong>. Upon migration it will disappear. Selecting it as
     default simply gets you to Joomla 4.x.</div>
 15. Make a note of any versions of Packages and Components currently
     running that you will be keeping on your site. You can copy/paste
     them into a document for reference.
 16. For any extensions you are keeping but don't use the Extension
-    Manager to one-click update (**Extensions → Manage → Update**) update 
+    Manager to one-click update (**Extensions → Manage → Update**) update
     all extensions to the latest versions.
 17. Before and as you update, note if the extensions have both 3.10.x &
     4.x versions in the same package. If so, they will be fine to
@@ -173,7 +173,7 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
       is very simple to uninstall it in 3.10.x and then install it again
       in 4.x.
     - See [Template Considerations](https://docs.joomla.org/Special:MyLanguage/Template_Considerations_During_Migration)
-      for more specific information on templates and 
+      for more specific information on templates and
       [Converting a previous Joomla! Version template](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template)
 
 #### Notes on Search (com_search)
@@ -210,23 +210,23 @@ installation, continue with the following steps:
 
 1.  Go to **System → Global Configuration → Server tab** and
     turn Error Reporting from System Default to Maximum. Make sure to
-    Save & Close. <br>
-    ![system global configuration server tab](../../../en/images/migration/system-global-configuration-server-tab.png)
+    Save & Close.
+![system global configuration server tab](../../../en/images/migration/system-global-configuration-server-tab.png)
 2.  Take another backup.
 3.  Go to **Components → Joomla Update**. (It should say no updates
     found. If it doesn’t, update Joomla to the latest version and test.
     Then do another backup.) Click on the Options button at the top
     right corner.
-4.  Select *Joomla Next* from the drop-down for Update Channel.<br>
-    ![component joomla update select update channel](../../../en/images/migration/update-select-channel.png)
-5.  Click **Save & Close**.
+4.  Select *Joomla Next* from the drop-down for Update Channel.
+![component joomla update select update channel](../../../en/images/migration/update-select-channel.png)
+5.  **Save & Close**.
 6.  You will then see your Installed Joomla Version, the Latest Joomla!
     version and the URL for the update package. Joomla will show you the
     requirements again for Joomla 4. If it flags that you have either an
     incompatible system or extensions it will tell you here. Take a
-    moment to review this page.<br>
-    ![e update check for joomla 4](../../../en/images/migration/update-check.png)
-7.  If the update is not showing up, go to **Extension manager → Update** and 
+    moment to review this page.
+![e update check for joomla 4](../../../en/images/migration/update-check.png)
+7.  If the update is not showing up, go to **Extension manager → Update** and
     press Purge Cache from the toolbar. Now the update to Joomla! 4 should show up.
 8.  Cross your fingers, and make sure you have that backup available in
     case.
@@ -237,8 +237,8 @@ installation, continue with the following steps:
     is finished, you will probably be logged out of the Administrator.
     Sign in again. Twice.
 11. If all goes well, you will get to a totally new look to the backend
-    administrator panel.<br>
-    ![joomla 4 or 5 home dashboard](../../../en/images/migration/j4-home-dashboard.png)
+    administrator panel.
+![joomla 4 or 5 home dashboard](../../../en/images/migration/j4-home-dashboard.png)
 12. Go to **System → Maintenance → Database** and click *Fix* if
     any errors show.
 13. In **System → Install → Discover** see if there are any

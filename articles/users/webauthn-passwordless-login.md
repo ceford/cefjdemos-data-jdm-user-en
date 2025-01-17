@@ -125,7 +125,7 @@ Many devices have built-in FIDO2-compliant authentication:
   camera. These can also work as FIDO2 authenticators, on Android 9 or
   later using Google Chrome at least.
 - Other devices may be available too. For example, Android phones using
-  ![caBLE](https://groups.google.com/a/fidoalliance.org/g/fido-dev/c/go6GoFW27Dw/m/9flCLR5pBQAJ?pli=1)
+  [caBLE](https://groups.google.com/a/fidoalliance.org/g/fido-dev/c/go6GoFW27Dw/m/9flCLR5pBQAJ?pli=1)
 
 ### WebAuthn compatible browsers
 

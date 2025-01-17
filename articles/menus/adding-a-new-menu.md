@@ -42,8 +42,8 @@ Joomla! to identify this menu. Spaces are not allowed but you may use
 the '-' character such as resources-menu.
   - **Description**: Although not required this is often useful in a site with
     many menus. It appears below the *Title* in the menu list as illustrated
-    above.<br>
-    ![New Menu](../../../en/images/menus/menus-new.png "New Menu")
+    above.
+![New Menu](../../../en/images/menus/menus-new.png "New Menu")
 - **Save & Close**
 
 In the list of Menus the newly created menu has a button laballed **Add a
