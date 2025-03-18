@@ -25,6 +25,7 @@ user=articles=article-content.md
 user=articles=article-headings.md
 user=articles=article-images.md
 user=articles=article-links.md
+user=articles=article-link-styles.md
 user=articles=article-lists.md
 user=articles=article-tables.md
 user=articles=article-pagination.md
@@ -138,6 +139,7 @@ user=languages=debugging-a-translation.md
 
 heading=media=Media
 user=media=managing-media.md
+user=media=media-select-last-file.md
 user=media=media-upload-delete-rename.md
 user=media=media-image-crop-resize-rotate.md
 user=media=media-file-locations.md
@@ -213,6 +215,7 @@ user=security=http-headers.md
 heading=seo=SEO
 user=seo=seo-basics.md
 user=seo=search-engine-friendly-urls.md
+user=seo=strict-routing.md
 user=seo=sef-urls-on-apache.md
 user=seo=sef-urls-on-nginx.md
 user=seo=monitoring-seo.md
@@ -242,6 +245,7 @@ user=templates=cassiopeia-template-customisation.md
 user=templates=template-overrides.md
 user=templates=template-layouts.md
 user=templates=child-templates.md
+user=templates=mail-templates.md
 user=templates=favicons.md
 user=templates=template-svg-logos.md
 user=templates=cassiopeia-templatedetails-xml.md

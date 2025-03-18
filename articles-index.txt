@@ -6,7 +6,7 @@ getting-started=logging-in-to-joomla.md=https://docs.joomla.org/J4.x:Logging_in_
 getting-started=articles-and-categories.md=https://docs.joomla.org/J4.x:Articles_and_categories
 getting-started=adding-a-category.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category
 getting-started=adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
-getting-started=adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Getting Started: Adding a Menu mw
+getting-started=adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item
 getting-started=adding-a-module.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module
 getting-started=keyboard-shortcuts.md=https://docs.joomla.org/J4.x:Keyboard_Shortcuts
 
@@ -19,6 +19,7 @@ articles=article-content.md=https://docs.joomla.org/J4.x:Adding_a_New_Article
 articles=article-headings.md=https://docs.joomla.org/J4.x:Article_Headings
 articles=article-images.md=https://docs.joomla.org/J4.x:Adding_an_image_to_an_article
 articles=article-links.md=https://docs.joomla.org/J4.x:Article_Links
+articles=article-link-styles.md=https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog
 articles=article-lists.md=https://docs.joomla.org/J4.x:Article_Lists
 articles=article-tables.md=https://docs.joomla.org/J4.x:Article_Tables
 articles=article-pagination.md=https://docs.joomla.org/J4.x:Article_Pagination
@@ -132,6 +133,7 @@ languages=language-overrides.md=https://docs.joomla.org/J4.x:Language_Overrides
 languages=debugging-a-translation.md=https://docs.joomla.org/J4.x:Debugging_a_translation
 
 media=managing-media.md=https://docs.joomla.org/J4.x:Managing_Media
+media=media-select-last-file.md=https://docs.joomla.org/J5.x:Auto_Select_Last_Uploaded_File
 media=media-upload-delete-rename.md=https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename
 media=media-image-crop-resize-rotate.md=https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate
 media=media-file-locations.md=https://docs.joomla.org/J6.x:Media_File_Locations
@@ -156,7 +158,7 @@ migration=update-fails-with-an-error-message.md=https://docs.joomla.org/J4.x:J3.
 modules=site-modules.md=https://docs.joomla.org/J4.x:Site_Modules
 modules=administrator-modules.md=https://docs.joomla.org/J4.x:Administrator_Modules
 modules=module-positions.md=https://docs.joomla.org/J4.x:Module_Positions
-modules=module-display-by-menu-item.md=https://docs.joomla.org/J4.x:Module_Display_by_Menu_Module Display by Menu mw
+modules=module-display-by-menu-item.md=https://docs.joomla.org/J4.x:Module_Display_by_Menu_Item
 modules=how-do-you-put-a-module-inside-an-article-3f.md=https://docs.joomla.org/J4.x:How_do_you_put_a_module_inside_an_article?
 modules=enabling-the-login-form-module.md=https://docs.joomla.org/J4.x:Enabling_the_Login_Form_module
 modules=module-styles.md=jdocmanual?manual=user&heading=modules&filename=module-styles.md
@@ -197,6 +199,7 @@ security=http-headers.md=jdocmanual&manual=user&heading=security&filename=http-h
 
 seo=seo-basics.md=jdocmanual&manual=user&heading=seo&filename=seo-basics.md
 seo=search-engine-friendly-urls.md=https://docs.joomla.org/J4.x:Search_Engine_Friendly_URLs
+seo=strict-routing.md=https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs
 seo=sef-urls-on-apache.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache
 seo=sef-urls-on-nginx.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx
 seo=monitoring-seo.md=https://docs.joomla.org/J4.x:Monitoring_SEO
@@ -222,6 +225,7 @@ templates=cassiopeia-template-customisation.md=https://docs.joomla.org/J4.x:Cass
 templates=template-overrides.md=https://docs.joomla.org/J4.x:Template_Overrides
 templates=template-layouts.md=https://docs.joomla.org/J4.x:Template_Layouts
 templates=child-templates.md=https://docs.joomla.org/J4.x:Child_Templates
+templates=mail-templates.md=https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout
 templates=favicons.md=https://docs.joomla.org/J4.x:Favicons
 templates=template-svg-logos.md=https://docs.joomla.org/J4.x:Template_SVG_Logos
 templates=cassiopeia-templatedetails-xml.md=https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml
