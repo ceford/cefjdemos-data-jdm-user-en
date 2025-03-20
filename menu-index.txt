@@ -8,7 +8,7 @@ user=getting-started=joomla-core-features.md
 user=getting-started=hosting-setup.md
 user=getting-started=installing-joomla.md
 user=getting-started=logging-in-to-joomla.md
-user=getting-started=articles-and-categories.md
+user=getting-started=basic-concepts.md
 user=getting-started=adding-a-category.md
 user=getting-started=adding-an-article.md
 user=getting-started=adding-a-menu-item.md
@@ -207,6 +207,18 @@ user=reference=joomla-licenses.md
 user=reference=what-has-the-copyright-of-joomla-3f.md
 user=reference=what-are-web-standards-3f.md
 user=reference=where-are-the-web-pages-3f.md
+
+heading=schemas=Schemas
+user=schemas=introduction-to-schema-org.md
+user=schemas=article.md
+user=schemas=blogposting.md
+user=schemas=book.md
+user=schemas=custom.md
+user=schemas=event.md
+user=schemas=jobposting.md
+user=schemas=organisation.md
+user=schemas=person.md
+user=schemas=recipe.md
 
 heading=security=Security
 user=security=best-practices.md

@@ -3,7 +3,7 @@ getting-started=joomla-core-features.md=https://docs.joomla.org/J4.x:Joomla_Core
 getting-started=hosting-setup.md=https://docs.joomla.org/J4.x:Hosting_Setup
 getting-started=installing-joomla.md=https://docs.joomla.org/J4.x:Installing_Joomla
 getting-started=logging-in-to-joomla.md=https://docs.joomla.org/J4.x:Logging_in_to_Joomla
-getting-started=articles-and-categories.md=https://docs.joomla.org/J4.x:Articles_and_categories
+getting-started=basic-concepts.md=https://docs.joomla.org/J4.x:Articles_and_categories
 getting-started=adding-a-category.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category
 getting-started=adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
 getting-started=adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item
@@ -193,6 +193,17 @@ reference=joomla-licenses.md=https://docs.joomla.org/J4.x:Joomla_Licenses
 reference=what-has-the-copyright-of-joomla-3f.md=https://docs.joomla.org/J4.x:What_has_the_copyright_of_Joomla!?
 reference=what-are-web-standards-3f.md=https://docs.joomla.org/J4.x:What_are_web_standards?
 reference=where-are-the-web-pages-3f.md=https://docs.joomla.org/J4.x:Where_are_the_web_pages?
+
+schemas=introduction-to-schema-org.md=https://docs.joomla.org/J5.x:Schema_org
+schemas=article.md=https://localhost/
+schemas=blogposting.md=https://localhost/
+schemas=book.md=https://localhost/
+schemas=custom.md=https://localhost/
+schemas=event.md=https://localhost/
+schemas=jobposting.md=https://docs.joomla.org/J5.x:Schema_org/Type_JobPosting_-_Using_JobPosting_Plugin
+schemas=organisation.md=https://localhost/
+schemas=person.md=https://localhost/
+schemas=recipe.md=https://docs.joomla.org/J5.x:Schema_org/Type_Recipe_-_Using_Recipe_Plugin
 
 security=best-practices.md=jdocmanual&manual=user&heading=security&filename=best-practices.md
 security=http-headers.md=jdocmanual&manual=user&heading=security&filename=http-headers.md
