@@ -14,12 +14,16 @@ Administrator menu:
 of override files created.
 
 These files will not be affected by Joomla updates but you may be reminded to
-check them if the original sources are updates
+check them if the original sources are updated.
 
 ## The Search View (Default Layout)
 
-The default layout search view is divided into several parts: the default
-layout, the form layout, the results layout and the sorting layout.
+The default layout search view is divided into several parts: 
+
+- default layout
+- form layout
+- results layout
+- sorting layout.
 
 ### The default layout (default.php)
 
@@ -42,14 +46,14 @@ field with the name of "q".
 ### The results layout (default_results.php)
 
 This layout produces the list of matching results for the search term.
-It also handles pagination and loads a layouts for each individual
+It also handles pagination and loads a layout for each individual
 search result.
 
 ### The result layout (default_result.php)
 
-This is the layout loaded to display a single result.
+This is the layout used to display a single result.
 
 ### The sorting layout (default_sorting.php)
 
-This item is only present if Show Sort Fields is set to Yes and one or more
+This item is only present if *Show Sort Fields* is set to *Yes* and one or more
 Additional Sort Fields are selected in the Menu Item Advanced tab.
