@@ -119,32 +119,21 @@ hosting environment.
 A Joomla site should be able to send outgoing emails. Amongst other
 things, it will send automated messages to the site owner when updates
 are available. However, some hosting services restrict methods by which
-outgoing mail may be sent. Using your own private email address in the
-From Email field:
+outgoing mail may be sent. 
 
-- Try PHP Mail first and select the *Send Test Mail* button. If the
-  email arrives you are good to go. Otherwise:
+#### Send Test Email
+
+Prior to Joomla 5.3, the **Send Test Mail** button sent a message to the address configured in the **From Email** field. Since 5.3 the test mail is sent directly to the email address of the logged-in administrator.
+
+- Try PHP Mail first and select the *Send Test Mail* button. If the email arrives you are good to go. Otherwise:
 - Try the Sendmail option. If that does not work:
-- Try the SMTP option. This needs to be set up for a specific mail
-  server. It could be one provided by your hosting service. It could be
-  a GMail account.
-- **SMTP Host** The hostname of the SMTP server (e.g.
-  *smtp.example.com*).
-  - **SMTP Port** The port to use when connecting to the SMTP server.
-    This will usually be *25* when SMTP Security is set to *None*, or
-    *465* or *587* when SMTP Security is set to `SSL/TLS` or `STARTTLS`.
-    Ask your SMTP service provider which port to use.
-  - **SMTP Security** The form of security required by the SMTP server:
-    *None*, *SSL/TLS* or *STARTTLS*. The default is *None*.
-  - **SMTP Authentication** Whether or not the external SMTP server
-    requires authentication before accepting outgoing emails. The
-    default is *No*.
-  - **SMTP Username** The username to be used when connecting to the
-    SMTP server in SSL or TLS mode. May be left blank if there is no
-    SMTP authentication.
-  - **SMTP Password** The password to be used when connecting to the
-    SMTP server in SSL or TLS mode. May be left blank if there is no
-    SMTP authentication.
+- Try the SMTP option. This needs to be set up for a specific mail server. It could be one provided by your hosting service. It could be a GMail account.
+- **SMTP Host** The hostname of the SMTP server (e.g. *smtp.example.com*).
+  - **SMTP Port** The port to use when connecting to the SMTP server. This will usually be *25* when SMTP Security is set to *None*, or *465* or *587* when SMTP Security is set to `SSL/TLS` or `STARTTLS`. Ask your SMTP service provider which port to use.
+  - **SMTP Security** The form of security required by the SMTP server: *None*, *SSL/TLS* or *STARTTLS*. The default is *None*.
+  - **SMTP Authentication** Whether or not the external SMTP server requires authentication before accepting outgoing emails. The default is *No*.
+  - **SMTP Username** The username to be used when connecting to the SMTP server in SSL or TLS mode. May be left blank if there is no SMTP authentication.
+  - **SMTP Password** The password to be used when connecting to the SMTP server in SSL or TLS mode. May be left blank if there is no SMTP authentication.
 
 ### Using Gmail as Mail Server
 
