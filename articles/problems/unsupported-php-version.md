@@ -4,7 +4,7 @@
 
 If you see this when you try and install Joomla 4.x:
 
-![Sorry PHP version not supported](../../../en/images/problems/problems-unsupported-php-version.jpg "Sorry. Your PHP version not supported")
+![Sorry PHP version not supported](../../../en/images/problems/problems-unsupported-php-version.jpg)
 
 Joomla 4 requires PHP 7.2.5 or higher as described in our
 <a href="https://manual.joomla.org/docs/next/get-started/technical-requirements/"

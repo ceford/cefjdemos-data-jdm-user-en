@@ -57,7 +57,7 @@ This method requires access to your site's file system via a terminal (command s
 
 The Indexed Content page lists all the indexed content. If you would prefer that specific items not be displayed in search results, you can unpublish them from the Smart Search database by selecting the checkbox next to the title of the item and then selecting the Actions → Unpublish button. Individual items  can be unpublished by selecting Status green tick icon.
 
-**IMPORTANT NOTE**: If your site has a large amount of content, or particularly large content items, or has restricted disk space, you should read about [Smart Search on large sites](jdocmanual?article=user/smart-search/smart-search-on-large-sites "Smart Search on large sites").
+**IMPORTANT NOTE**: If your site has a large amount of content, or particularly large content items, or has restricted disk space, you should read about [Smart Search on large sites](jdocmanual?article=user/smart-search/smart-search-on-large-sites).
 
 ## Exposing Smart Search to Site Users
 

@@ -15,7 +15,7 @@ platforms but WAMP only works on Windows. Aprt from that, they do the same
 job. They allow you to install and manage your local development environment.
 
 XAMPP is covered in a separate article:
-* [Local Hosting with XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp "Local Hosting with XAMPP") for Linux, Mac and Windows.
+* [Local Hosting with XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp) for Linux, Mac and Windows.
 
 There is a comparison available:
 * Umbrella: WAMP vs XAMPP

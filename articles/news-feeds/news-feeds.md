@@ -16,7 +16,7 @@ the **Joomla! Announcements** RSS feed selected. Ten announcements are listed
 with Title and brief description. The selected announcement is shown in full
 in the right column.
 
-![RSS feed of Joomla Announcements](../../../en/images/news-feeds/news-netnewswire-display.png "Joomla Announcements")
+![RSS feed of Joomla Announcements](../../../en/images/news-feeds/news-netnewswire-display.png)
 
 Imagine what one or more RSS feeds might do for your website!
 
@@ -53,7 +53,7 @@ suitable defaults. If the Label field is left blank the default English label
 is *Feed Entries*. In the *Menu Assignment* tab select **On all pages**. The
 module will only appear on Featured and Category Blog pages.
 
-![Syndication feeds data entry](../../../en/images/news-feeds/news-syndication-feeds-form.png "Syndication feeds data entry")
+![Syndication feeds data entry](../../../en/images/news-feeds/news-syndication-feeds-form.png)
 
 Remember to assign the module to a *Position* and maked it *Published*.
 
@@ -61,7 +61,7 @@ In the Site page view the module displays a link. It is not intended for
 clicking unless you have a local Newsreader configured. The link needs to be
 copied for use in a Newsreader on another site or Newsreader application.
 
-![Syndication feeds display](../../../en/images/news-feeds/news-syndication-feeds-display.png "Syndication feeds display")
+![Syndication feeds display](../../../en/images/news-feeds/news-syndication-feeds-display.png)
 
 Note that the link is for the items on that page. So if your site has several
 category blog pages you will have several different RSS feeds.

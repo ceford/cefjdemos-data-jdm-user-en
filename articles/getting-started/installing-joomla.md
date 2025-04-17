@@ -35,7 +35,7 @@ unpredictable problems.
 ### Database Setup
 
 If you have not yet set up a database do it now. It is covered for a cPanel
-hosting service in the [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting "cPanel Hosting") tutorial. There is also a *Creating a Database for
+hosting service in the [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting) tutorial. There is also a *Creating a Database for
 Joomla!*
 tutorial that covers localhost and phpMyAdmin methods.
 

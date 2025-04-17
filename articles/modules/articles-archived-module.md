@@ -74,7 +74,7 @@ When you are ready, select the **Save & Close** button.
 The module will be published in the sidebar of the website and display a
 list of links dictated by the number of months to display set the module.
 
-![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png "Archived Articles Module Example")
+![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png)
 
 ## Tips
 

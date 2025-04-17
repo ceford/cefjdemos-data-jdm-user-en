@@ -22,7 +22,7 @@ enter **apache** and select `Search`. Select the `apache2` checkbox and in
 the pop-up label select `Mark for Installation`. Another pop-box will show
 a list of additional packages required to support apache. Select `Mark`:
 
-![synaptic package manager](../../../en/images/hosting/synaptic-package-manager-gui.png "Synaptic Package Manager GUI")
+![synaptic package manager](../../../en/images/hosting/synaptic-package-manager-gui.png)
 
 Select the `Apply` button in the top Toolbar and the `Apply` button in the
 Summary dialog. Apache will be installed and configured, the process ending
@@ -32,7 +32,7 @@ You can confirm that Apache is installed and working by opening your
 browser, Firefox by default in a new Linux Mint install, and entering
 **localhost** in the URL bar. You should see the Ubuntu Apache2 Default Page:
 
-![apache default page](../../../en/images/hosting/apache-default-page.png "Apache Default Page")
+![apache default page](../../../en/images/hosting/apache-default-page.png)
 
 The page contains some useful information about file locations that may
 not be so readily available later so you might like to print this page to

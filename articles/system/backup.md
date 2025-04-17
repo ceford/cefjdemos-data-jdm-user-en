@@ -148,7 +148,7 @@ assign a database user for it.
 
 If you have used Akeeba Backup then use Akeeba Quickstart to restore your
 backup.
-* Consult the [Video Tutorial](http://akee.ba/abrestoreanywhere "").
+* Consult the [Video Tutorial](http://akee.ba/abrestoreanywhere).
 * Download Akeeba Quickstart (PDF 94Kb)
 free of charge.
 * Check that the restored site works properly!

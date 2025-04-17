@@ -45,7 +45,7 @@ class of contactList:
   padding-left: 0;
 }
 ```
-![styled business committee](../../../en/images/contacts/contact-business-committee-styled.png "Styled Business Committee")
+![styled business committee](../../../en/images/contacts/contact-business-committee-styled.png)
 
 That is as much as can be done with styling. Better but still not good enough.
 To add more items and change the layout will require a layout override.
@@ -177,4 +177,4 @@ a:has(.contact-thumbnail) {
 
 ### Result
 
-![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png "Gridded Business Committee")
+![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png)

@@ -77,7 +77,7 @@ to translators.
 
 In the **Language** tab:
 
-![plugin system debug](../../../en/images/languages/languages-debug-plugin.png "System - Debug Language")
+![plugin system debug](../../../en/images/languages/languages-debug-plugin.png)
 
 * **Errors When Parsing Language Files** Display an error if a language file
 fails to load.

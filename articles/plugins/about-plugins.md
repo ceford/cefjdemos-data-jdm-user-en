@@ -8,7 +8,7 @@ Third party developers provide many more. The following image shows
 the start of the plugins list with the list length set to 5 for the convenience
 of the screenshot.
 
-![Plugins list](../../../en/images/plugins/plugins-list.png "Plugins list")
+![Plugins list](../../../en/images/plugins/plugins-list.png)
 
 ## Plugin Types
 

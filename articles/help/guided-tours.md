@@ -10,14 +10,14 @@ There are a number of built-in tours and the **Welcome to Joomla!** tour starts
 automatically the very first time a user logs in to the Administrator
 interface.
 
-![Guided Tours Welcome](../../../en/images/help/guided-tours-welcome.png "Guided Tours Welcome")
+![Guided Tours Welcome](../../../en/images/help/guided-tours-welcome.png)
 
 ## List of Tours
 
 The Tours are listed in a drop down menu in the Title bar of dashboard and
 list screens, as in the following illustration:
 
-![Guided Tours](../../../en/images/help/guided-tours.png "Guided Tours")
+![Guided Tours](../../../en/images/help/guided-tours.png)
 
 The complete list includes the following:
 

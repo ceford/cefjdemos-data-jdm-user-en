@@ -17,7 +17,7 @@ You can use the tool online from the PageSpeed Insightsthis site.
 
 The following screenshot shows the first part of the PageSpeed Insights report:
 
-![PageSpeed Insights Report](../../../en/images/performance/performance-pagespeed-insights.png "PageSpeed Insights Report")
+![PageSpeed Insights Report](../../../en/images/performance/performance-pagespeed-insights.png)
 
 ## Performance Improvements
 

@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Archived Articles -->
+<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Archived Articles Menu -->
 
 ## Introduction
 
@@ -23,11 +23,11 @@ you could delete **All Categories** and choose one or more categories from
 the dropdown list.
 1. Select **Save & Close** to create the new menu item.
 
-![Archived Articles Menu Form](../../../en/images/menus/menus-articles-archived.png "Archived Articles Menu Form")
+![Archived Articles Menu Form](../../../en/images/menus/menus-articles-archived.png)
 
 There are a number of parameters you can change – you can find out more
 detailed information in the
-[Help](jdocmanual?article=help/menu-items/menu-item-article-archived "Menu Item: Archived Article") screen.
+[Help](jdocmanual?article=help/menu-items/menu-item-article-archived) screen.
 
 After saving, the new menu item it will appear in the Site menu in the order
 added or the order adjusted by drag and drop or in this menu edit form.
@@ -37,7 +37,7 @@ added or the order adjusted by drag and drop or in this menu edit form.
 The *Archived Articles* link leads to a page that displays a list of archived
 articles:
 
-![Archived Articles Menu Form](../../../en/images/menus/menus-articles-archived-display.png "Archived Articles Menu Form")
+![Archived Articles Menu Form](../../../en/images/menus/menus-articles-archived-display.png)
 
 This example is the default output. You may choose to alter this so
 that, for example, you only show the linked title and the category –

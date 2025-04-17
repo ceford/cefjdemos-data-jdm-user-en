@@ -296,7 +296,7 @@ function. For example in the controller of your component:
     }
 
 There are also some urlparams to consider. Check this
-[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000)
 
 Also, be aware that any updates (such as hits or visit counts) will NOT
 be updated (unless you add this outside this method and thus any deeper

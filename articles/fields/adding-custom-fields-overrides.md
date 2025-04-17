@@ -1,4 +1,4 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Template Overrides -->
+<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Example Template Override -->
 
 ## Field Automatic Display
 

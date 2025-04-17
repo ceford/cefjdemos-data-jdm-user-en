@@ -5,7 +5,7 @@
 This is a core plugin that can be used to check accessibility whilst creating
 article content. The following screenshot shows some plugin settings:
 
-![Plugin form settings](../../../en/images/performance/performance-jooa11y-plugin-form.png "Plugin Settings")
+![Plugin form settings](../../../en/images/performance/performance-jooa11y-plugin-form.png)
 
 With the **Show Always** option set to *On* the report icon appears on every
 page of the site. That is useful for development but should never be left on
@@ -17,12 +17,12 @@ shows the icon selected to show a panel of information. It includes a Page
 Outline, Readability comments and Warnings, which can be selected one by one.
 The first issue has been selected.
 
-![Site accessibility check](../../../en/images/performance/performance-jooa11y-site-display.png "Site accessibility check")
+![Site accessibility check](../../../en/images/performance/performance-jooa11y-site-display.png)
 
 The *Articles: Edit* form has an **Accessibikity Check** button in the Toolbar.
 It shows the check for an individual article in a popup window:
 
-![Editor accessibility check](../../../en/images/performance/performance-jooa11y-admin-display.png "Editor accessibility check")
+![Editor accessibility check](../../../en/images/performance/performance-jooa11y-admin-display.png)
 
 ## Fixing Problems
 

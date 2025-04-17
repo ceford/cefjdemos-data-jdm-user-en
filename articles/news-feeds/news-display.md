@@ -7,11 +7,11 @@ sites. The following screenshot shows the data entry form with the URL of
 the Joomla Announcements news feed. Notice the Word Count is set to 100.
 Otherwise, the length of an announcement can be excessive for a sidebar module.
 
-![Feed display module data entry](../../../en/images/news-feeds/news-joomla-news-form.png "Feed display module data entry")
+![Feed display module data entry](../../../en/images/news-feeds/news-joomla-news-form.png)
 
 The result can be ugly but can be improved with some custom styles in user.css:
 
-![Feed display module data entry](../../../en/images/news-feeds/news-joomla-news-display.png "Feed display module data entry")
+![Feed display module data entry](../../../en/images/news-feeds/news-joomla-news-display.png)
 
 ## Feed Display Pages
 
@@ -27,7 +27,7 @@ for news.
     - The **Otions** tab has items to control the feed *Display*.
 * **Save & Close**
 
-![NewsFeed component data entry](../../../en/images/news-feeds/news-feed-data-entry.png "NewsFeed component data entry")
+![NewsFeed component data entry](../../../en/images/news-feeds/news-feed-data-entry.png)
 
 Create a menu item starting from the Administrator menu:
 
@@ -38,11 +38,11 @@ Create a menu item starting from the Administrator menu:
 * Fill out the rest of the form as appropriate.
 * **Save & Close**
 
-![NewsFeed menu item data entry](../../../en/images/news-feeds/news-feed-data-entry.png "NewsFeed menu item data entry")
+![NewsFeed menu item data entry](../../../en/images/news-feeds/news-feed-data-entry.png)
 
 Test it: go to the Site menu and select the Feed menu item.
 
-![NewsFeed display](../../../en/images/news-feeds/news-feed-display.png "NewsFeed display")
+![NewsFeed display](../../../en/images/news-feeds/news-feed-display.png)
 
 Each item in the feed is a `<li>` within a `<ul>` tag so by default it appears
 marked by a bullet. This is not so obvious if the items are long. You can apply
@@ -63,7 +63,7 @@ ul.com-newsfeeds-newsfeed__items > li {
 ```
 Which appears like this:
 
-![NewsFeed custom display](../../../en/images/news-feeds/news-feed-custom-display.png "NewsFeed custom display")
+![NewsFeed custom display](../../../en/images/news-feeds/news-feed-custom-display.png)
 
 ## List News Feeds in a Category
 
@@ -72,6 +72,6 @@ make a feed for some or all of them and assign them to a Category, say *Joomla
 News*. Then you can create a menu item with *Menu Item Type* set to *List News
 Feeds in a Category* and the Category set to *Joomla News*.
 
-![News feed by category menu form](../../../en/images/news-feeds/news-feed-menu-category-form.png "News feed by category menu form")
+![News feed by category menu form](../../../en/images/news-feeds/news-feed-menu-category-form.png)
 
 Try it to see the outcome!

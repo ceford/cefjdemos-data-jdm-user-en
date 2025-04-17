@@ -15,7 +15,7 @@ exmple field is named Car. Clearly, more fields can be added for other
 favourite things, such as food or films.
 
 To follow this example it is assumed that you have set up a multilingual site
-as described in the [Multilingual Sites](jdocmanual?article=user/languages/setup-a-multilingual-site "Multlingual Sites")
+as described in the [Multilingual Sites](jdocmanual?article=user/languages/setup-a-multilingual-site)
 tutorial.
 
 ## Language Constants
@@ -72,7 +72,7 @@ overrides for both Site and Administrator pages.
 The following screenshot shows an example of override creation for a German
 language constant.
 
-![Override creation in German](../../../en/images/fields/fields-overrides-creation-de.png "Override creation in German")
+![Override creation in German](../../../en/images/fields/fields-overrides-creation-de.png)
 
 ## Defining the Field Group
 
@@ -108,12 +108,12 @@ With English selected before Administrator login, the Contact data entry
 form should contain a tab with the English name of your field group and
 fields in that group also with English values.
 
-![Data entry in English](../../../en/images/fields/fields-overrides-entry.png "Data entry in English")
+![Data entry in English](../../../en/images/fields/fields-overrides-entry.png)
 
 With German selected before Administrator login you should see the German
 translations of your language constants:
 
-![Data entry in German](../../../en/images/fields/fields-overrides-entry-de.png "Data entry in German")
+![Data entry in German](../../../en/images/fields/fields-overrides-entry-de.png)
 
 Caveat: translation by translate.google.co.uk!
 
@@ -121,8 +121,8 @@ Caveat: translation by translate.google.co.uk!
 
 In English:
 
-![Data display in English](../../../en/images/fields/fields-overrides-display.png "Data display in English")
+![Data display in English](../../../en/images/fields/fields-overrides-display.png)
 
 And German:
 
-![Data display in German](../../../en/images/fields/fields-overrides-display-de.png "Data display in German")
+![Data display in German](../../../en/images/fields/fields-overrides-display-de.png)
