@@ -57,9 +57,11 @@ adjustments one at a time until the problem is resolved.
     an extra parameter on the command-line. For example, to increase the
     memory limit to 256Mb use the following command, replacing the
     *256M* with as much memory as you can safely allocate to a process
-    on your system.<br>
-    *php -d memory_limit=256M finder_indexer.php*
-5.  Try to identify which content items are causing the indexer to run
+    on your system.
+```php
+    php -d memory_limit=256M joomla.php finder:index
+```
+3.  Try to identify which content items are causing the indexer to run
     out of memory. If it's not obvious then you might try disabling all
     Smart Search plugins except one. Running the indexer with only one
     plugin enabled at a time should reveal which content type(s) are
