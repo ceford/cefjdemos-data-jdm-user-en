@@ -8,7 +8,7 @@ getting-started=adding-a-category.md=https://docs.joomla.org/J4.x:Getting_Starte
 getting-started=adding-an-article.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article
 getting-started=adding-a-menu-item.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item
 getting-started=adding-a-module.md=https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module
-getting-started=keyboard-shortcuts.md=https://docs.joomla.org/J4.x:Keyboard_Shortcuts
+getting-started=keyboard-shortcuts.md=https://docs.joomla.org/Keyboard_Shortcuts
 
 articles=articles-categories.md=https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories
 articles=articles-filter-options.md=J6.x:Articles:_List_Filter_Options
@@ -17,7 +17,7 @@ articles=articles-archive.md=https://docs.joomla.org/J4.x:How_to_Archive_an_Arti
 articles=articles-delete.md=https://docs.joomla.org/J4.x:Deleting_an_Article
 articles=article-content.md=https://docs.joomla.org/J4.x:Adding_a_New_Article
 articles=article-headings.md=https://docs.joomla.org/J4.x:Article_Headings
-articles=article-images.md=https://docs.joomla.org/J4.x:Adding_an_image_to_an_article
+articles=article-images.md=https://docs.joomla.org/Adding_an_image_to_an_article
 articles=article-links.md=https://docs.joomla.org/J4.x:Article_Links
 articles=article-link-styles.md=https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog
 articles=article-lists.md=https://docs.joomla.org/J4.x:Article_Lists
@@ -37,9 +37,9 @@ articles=article-accessibility-check.md=jdocmanual?manual=user&heading=articles&
 articles=article-access-restriction.md=J6.x:Article_Access_Restriction
 articles=article-check-in.md=https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in
 
-articles-metadata=entering-search-engine-meta-data.md=https://docs.joomla.org/J4.x:Entering_search_engine_meta-data
-articles-metadata=using-the-meta-description.md=https://docs.joomla.org/J4.x:Using_The_Meta_Description
-articles-metadata=using-the-title-tag.md=https://docs.joomla.org/J4.x:Using_The_Title_Tag
+articles-metadata=entering-search-engine-meta-data.md=https://docs.joomla.org/Entering_search_engine_meta-data
+articles-metadata=using-the-meta-description.md=https://docs.joomla.org/Using_The_Meta_Description
+articles-metadata=using-the-title-tag.md=https://docs.joomla.org/Using_The_Title_Tag
 
 banners=banners.md=https://docs.joomla.org/J4.x:Banners
 
@@ -48,18 +48,18 @@ command-line-interface=joomla-cli-installation.md=https://docs.joomla.org/J4.x:J
 
 configuration=global-configuration.md=https://docs.joomla.org/J4.x:Global_Configuration
 configuration=site-offline.md=https://docs.joomla.org/J4.x:Site_Offline
-configuration=smtp-mail-gmail.md=https://docs.joomla.org/J4.x:How_to_debug_SMTP_mail_in_Joomla_4
-configuration=the-htaccess-file.md=https://docs.joomla.org/J4.x:Preconfigured_htaccess
-configuration=robots-txt-file.md=https://docs.joomla.org/J4.x:Robots.txt_file
-configuration=adding-www-to-a-url.md=https://docs.joomla.org/J4.x:Adding_www_to_a_url
-configuration=disallow-image-hotlinking.md=https://docs.joomla.org/J4.x:How_do_you_block_direct_hot_linking_to_image_files_using_htaccess?
-configuration=disallow-directory-listing.md=https://docs.joomla.org/J4.x:How_do_you_block_directory_scans_using_htaccess?
-configuration=password-protect-directories.md=https://docs.joomla.org/J4.x:How_do_you_password_protect_directories_using_htaccess?
+configuration=smtp-mail-gmail.md=https://docs.joomla.org/How_to_debug_SMTP_mail_in_Joomla_4
+configuration=the-htaccess-file.md=https://docs.joomla.org/Preconfigured_htaccess
+configuration=robots-txt-file.md=https://docs.joomla.org/Robots.txt_file
+configuration=adding-www-to-a-url.md=https://docs.joomla.org/Adding_www_to_a_url
+configuration=disallow-image-hotlinking.md=https://docs.joomla.org/How_do_you_block_direct_hot_linking_to_image_files_using_htaccess?
+configuration=disallow-directory-listing.md=https://docs.joomla.org/How_do_you_block_directory_scans_using_htaccess?
+configuration=password-protect-directories.md=https://docs.joomla.org/How_do_you_password_protect_directories_using_htaccess?
 
 contacts=contacts.md=jdocmanual?manual=user&heading=contacts&filename=contacts.md
 contacts=category-list-override.md=jdocmanual?manual=user&heading=contacts&filename=contacts.md
-contacts=listing-a-user-on-a-contacts-page.md=https://docs.joomla.org/J4.x:Listing_a_user_on_a_contacts_page
-contacts=what-is-the-contact-creator-3f.md=https://docs.joomla.org/J4.x:What_is_the_contact_creator?
+contacts=listing-a-user-on-a-contacts-page.md=https://docs.joomla.org/Listing_a_user_on_a_contacts_page
+contacts=what-is-the-contact-creator-3f.md=https://docs.joomla.org/What_is_the_contact_creator?
 
 dashboards=home-dashboard.md=https://docs.joomla.org/J4.x:Home_Dashboard
 dashboards=content-dashboard.md=https://docs.joomla.org/J4.x:Content_Dashboard
@@ -69,68 +69,68 @@ dashboards=users-dashboard.md=https://docs.joomla.org/J4.x:Users_Dashboard
 dashboards=system-dashboard.md=https://docs.joomla.org/J4.x:System_Dashboard
 dashboards=help-dashboard.md=https://docs.joomla.org/J4.x:Help
 
-editors=content-editors.md=https://docs.joomla.org/J4.x:Content_editors
+editors=content-editors.md=https://docs.joomla.org/Content_editors
 editors=tinymce-plugin.md=https://docs.joomla.org/J6.x:TinyMCE_Plugin
 editors=codemirror-plugin.md=https://docs.joomla.org/J6.x:Codemirror_Plugin
 editors=html-filters.md=jdocmanual?manual=user&heading=editors&filename=html-filters.md
 
-extensions=installing-an-extension.md=https://docs.joomla.org/J4.x:Installing_an_extension
-extensions=free-and-commercial-extensions.md=https://docs.joomla.org/J4.x:Free_and_Commercial_extensions
+extensions=installing-an-extension.md=https://docs.joomla.org/Installing_an_extension
+extensions=free-and-commercial-extensions.md=https://docs.joomla.org/Category:JED
 extensions=vulnerable-extensions.md=jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md
 
 fields=fields-and-field-groups.md=https://docs.joomla.org/J4.x:Fields_and_Field_Groups
-fields=adding-custom-fields-multilingual-sites.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Multilingual_Sites
-fields=adding-custom-fields-overrides.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Overrides
-fields=adding-custom-fields-parameters.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields
+fields=adding-custom-fields-multilingual-sites.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Multilingual_Sites
+fields=adding-custom-fields-overrides.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Overrides
+fields=adding-custom-fields-parameters.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields
 
-fields=adding-custom-fields-calendar-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Calendar_Field
-fields=adding-custom-fields-checkboxes-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Checkboxes_Field
-fields=adding-custom-fields-color-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Color_Field
-fields=adding-custom-fields-editor-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Editor_Field
-fields=adding-custom-fields-integer-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Integer_Field
-fields=adding-custom-fields-list-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/List_Field
-fields=adding-custom-fields-list-of-images-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/List_of_Images_Field
-fields=adding-custom-fields-media-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Media_Field
-fields=adding-custom-fields-radio-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Radio_Field
-fields=adding-custom-fields-sql-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Sql_Field
+fields=adding-custom-fields-calendar-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Calendar_Field
+fields=adding-custom-fields-checkboxes-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Checkboxes_Field
+fields=adding-custom-fields-color-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Color_Field
+fields=adding-custom-fields-editor-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Editor_Field
+fields=adding-custom-fields-integer-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Integer_Field
+fields=adding-custom-fields-list-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/List_Field
+fields=adding-custom-fields-list-of-images-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/List_of_Images_Field
+fields=adding-custom-fields-media-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Media_Field
+fields=adding-custom-fields-radio-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Radio_Field
+fields=adding-custom-fields-sql-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Sql_Field
 fields=subforms.md=jdocmanual?manual=user&headings=fields&filename=subforms.md
-fields=adding-custom-fields-text-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Text_Field
-fields=adding-custom-fields-textarea-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Textarea_Field
-fields=adding-custom-fields-url-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Url_Field
-fields=adding-custom-fields-user-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/User_Field
-fields=adding-custom-fields-usergroup-field.md=https://docs.joomla.org/J4.x:J3.x:Adding_custom_fields/Usergroup_Field
+fields=adding-custom-fields-text-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Text_Field
+fields=adding-custom-fields-textarea-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Textarea_Field
+fields=adding-custom-fields-url-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Url_Field
+fields=adding-custom-fields-user-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/User_Field
+fields=adding-custom-fields-usergroup-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Usergroup_Field
 
 help=guided-tours.md=https://docs.joomla.org/Help5.x:Guided_Tours
-help=administrator-help.md=https://docs.joomla.org/J4.x:Joomla_help_system
+help=administrator-help.md=https://docs.joomla.org/Joomla_help_system
 
-hosting=free-hosting.md=https://docs.joomla.org/J4.x:How_to_build_your_free_Joomla_Website
+hosting=free-hosting.md=https://docs.joomla.org/How_to_build_your_free_Joomla_Website
 hosting=cpanel-hosting.md=Local
 hosting=local-hosting-on-windows.md=Local
 hosting=local-hosting-with-xampp.md=Local
 hosting=local-hosting-on-linux.md=Local
-hosting=moving-the-site-among-directories-sub-directories.md=https://docs.joomla.org/J4.x:Moving_the_site_among_directories/sub-directories
-hosting=installing-joomla-using-bitnami-joomla-stack.md=https://docs.joomla.org/J4.x:Installing_Joomla!_using_BitNami_Joomla!_stack
-hosting=installing-joomla-on-a-raspberry-pi.md=https://docs.joomla.org/J4.x:Installing_Joomla_on_a_Raspberry_Pi
-hosting=auto-installer-installation.md=https://docs.joomla.org/J4.x:Installing_Joomla_using_an_Auto_Installer
+hosting=moving-the-site-among-directories-sub-directories.md=https://docs.joomla.org/Moving_the_site_among_directories/sub-directories
+hosting=installing-joomla-using-bitnami-joomla-stack.md=https://docs.joomla.org/Installing_Joomla!_using_BitNami_Joomla!_stack
+hosting=installing-joomla-on-a-raspberry-pi.md=https://docs.joomla.org/Installing_Joomla_on_a_Raspberry_Pi
+hosting=auto-installer-installation.md=https://docs.joomla.org/Installing_Joomla_using_an_Auto_Installer
 
 hosting-notes=apache-php-handler.md=https://docs.joomla.org/J4.x:Apache_PHP_Handler
-hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md=https://docs.joomla.org/J4.x:Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation
+hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md=https://docs.joomla.org/Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation
 hosting-notes=optional-technical-requirements.md=https://docs.joomla.org/J4.x:Optional_Technical_Requirements
-hosting-notes=nginx.md=https://docs.joomla.org/J4.x:Nginx
-hosting-notes=should-php-run-as-a-cgi-script-or-as-an-apache-module-3f.md=https://docs.joomla.org/J4.x:Should_PHP_run_as_a_CGI_script_or_as_an_Apache_module?
-hosting-notes=what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md=https://docs.joomla.org/J4.x:What_is_the_difference_between_a_Sub-Domain
-hosting-notes=how-do-unix-file-permissions-work-3f.md=https://docs.joomla.org/J4.x:How_do_UNIX_file_permissions_work?
-hosting-notes=how-do-windows-file-permissions-work-3f.md=https://docs.joomla.org/J4.x:How_do_Windows_file_permissions_work?
-hosting-notes=how-do-phpsuexec-file-permissions-work-3f.md=https://docs.joomla.org/J4.x:How_do_phpSuExec_file_permissions_work?
-hosting-notes=how-do-you-recursively-adjust-file-and-directory-permissions-3f.md=https://docs.joomla.org/J4.x:How_do_you_recursively_adjust_file_and_directory_permissions?
-hosting-notes=how-do-you-restrict-directory-access-by-ip-address-using-htaccess-3f.md=https://docs.joomla.org/J4.x:How_do_you_restrict_directory_access_by_IP_address_using_htaccess?
-hosting-notes=how-to-check-if-mod-rewrite-is-enabled-on-your-server.md=https://docs.joomla.org/J4.x:How_to_check_if_mod_rewrite_is_enabled_on_your_server
-hosting-notes=using-an-ftp-client-to-upload-files.md=https://docs.joomla.org/J4.x:Using_an_FTP_client_to_upload_files
+hosting-notes=nginx.md=https://docs.joomla.org/Nginx
+hosting-notes=should-php-run-as-a-cgi-script-or-as-an-apache-module-3f.md=https://docs.joomla.org/Should_PHP_run_as_a_CGI_script_or_as_an_Apache_module?
+hosting-notes=what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md=https://docs.joomla.org/What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain?
+hosting-notes=how-do-unix-file-permissions-work-3f.md=https://docs.joomla.org/How_do_UNIX_file_permissions_work?
+hosting-notes=how-do-windows-file-permissions-work-3f.md=https://docs.joomla.org/How_do_Windows_file_permissions_work?
+hosting-notes=how-do-phpsuexec-file-permissions-work-3f.md=https://docs.joomla.org/How_do_phpSuExec_file_permissions_work?
+hosting-notes=how-do-you-recursively-adjust-file-and-directory-permissions-3f.md=https://docs.joomla.org/How_do_you_recursively_adjust_file_and_directory_permissions?
+hosting-notes=how-do-you-restrict-directory-access-by-ip-address-using-htaccess-3f.md=https://docs.joomla.org/How_do_you_restrict_directory_access_by_IP_address_using_htaccess?
+hosting-notes=how-to-check-if-mod-rewrite-is-enabled-on-your-server.md=https://docs.joomla.org/How_to_check_if_mod_rewrite_is_enabled_on_your_server
+hosting-notes=using-an-ftp-client-to-upload-files.md=https://docs.joomla.org/Using_an_FTP_client_to_upload_files
 
 languages=setup-a-multilingual-site.md=https://docs.joomla.org/J4.x:Setup_a_Multilingual_Site
 languages=multilingual-associations.md=https://docs.joomla.org/J4.x:Multilingual_Associations
 languages=language-overrides.md=https://docs.joomla.org/J4.x:Language_Overrides
-languages=debugging-a-translation.md=https://docs.joomla.org/J4.x:Debugging_a_translation
+languages=debugging-a-translation.md=https://docs.joomla.org/Debugging_a_translation
 
 media=managing-media.md=https://docs.joomla.org/J4.x:Managing_Media
 media=media-select-last-file.md=https://docs.joomla.org/J5.x:Auto_Select_Last_Uploaded_File
@@ -146,53 +146,53 @@ menus=menu-item-types.md=https://docs.joomla.org/J4.x:Menu_Item_Types
 menus=menu-item-order.md=https://docs.joomla.org/J4.x:Menu_Item_Order
 menus=submenus.md=https://docs.joomla.org/J4.x:Submenus
 menus=menu-positions.md=https://docs.joomla.org/J4.x:Menu_Positions
-menus=auto-redirect-guests-to-login.md=https://docs.joomla.org/J4.x:Auto_redirect_guests_to_login
+menus=auto-redirect-guests-to-login.md=https://docs.joomla.org/Auto_redirect_guests_to_login
 menus=menu-item-type-archived-articles.md=https://docs.joomla.org/J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles
 menus=adding-a-custom-administrator-menu.md=https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu
 
 migration=migration-basics.md=jdocmanual?manual=user&heading=migration&filename=migration-basics.md
 migration=version-update.md=https://docs.joomla.org/J4.x:Updating_from_an_existing_version
-migration=joomla-3-x-to-4-x-step-by-step-migration.md=https://docs.joomla.org/J4.x:Joomla_3.x_to_4.x_Step_by_Step_Migration
-migration=update-fails-with-an-error-message.md=https://docs.joomla.org/J4.x:J3.x:Update_fails_with_an_error_message
+migration=joomla-3-x-to-4-x-step-by-step-migration.md=https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration
+migration=update-fails-with-an-error-message.md=https://docs.joomla.org/J3.x:Update_fails_with_an_error_message
 
 modules=site-modules.md=https://docs.joomla.org/J4.x:Site_Modules
 modules=administrator-modules.md=https://docs.joomla.org/J4.x:Administrator_Modules
 modules=module-positions.md=https://docs.joomla.org/J4.x:Module_Positions
 modules=module-display-by-menu-item.md=https://docs.joomla.org/J4.x:Module_Display_by_Menu_Item
-modules=how-do-you-put-a-module-inside-an-article-3f.md=https://docs.joomla.org/J4.x:How_do_you_put_a_module_inside_an_article?
-modules=enabling-the-login-form-module.md=https://docs.joomla.org/J4.x:Enabling_the_Login_Form_module
+modules=how-do-you-put-a-module-inside-an-article-3f.md=https://docs.joomla.org/How_do_you_put_a_module_inside_an_article?
+modules=enabling-the-login-form-module.md=https://docs.joomla.org/Enabling_the_Login_Form_module
 modules=module-styles.md=jdocmanual?manual=user&heading=modules&filename=module-styles.md
 modules=articles-archived-module.md=https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module
-modules=how-do-you-create-a-custom-module-3f.md=https://docs.joomla.org/J4.x:How_do_you_create_a_custom_module?
+modules=how-do-you-create-a-custom-module-3f.md=https://docs.joomla.org/How_do_you_create_a_custom_module?
 
 news-feeds=news-feeds.md=jdocmanual?manual=user&heading=news-feeds&filename=news-feeds.md
 news-feeds=news-display.md=jdocmanual?manual=user&heading=news-feeds&filename=news-display.md
 
 performance=page-analysis.md=jdocmanual?manual=user&heading=performance&filename=page-analysis.md
-performance=managing-404-errors.md=https://docs.joomla.org/J4.x:Managing_404_Errors
+performance=managing-404-errors.md=https://docs.joomla.org/Managing_404_Errors
 performance=accessibility-checker.md=jdocmanual?manual=user&heading=performance&filename=accessibility-checker.md
-performance=monitoring-server-health.md=https://docs.joomla.org/J4.x:Monitoring_Server_Health
-performance=monitoring-site-speed.md=https://docs.joomla.org/J4.x:Monitoring_Site_Speed
+performance=monitoring-server-health.md=https://docs.joomla.org/Monitoring_Server_Health
+performance=monitoring-site-speed.md=https://docs.joomla.org/Monitoring_Site_Speed
 
 plugins=about-plugins.md=jdocmanual?manual=user&heading=plugins&filename=about-plugins.md
-plugins=plugin-joomla-update-notification.md=https://docs.joomla.org/J4.x:J3.x:Plugin_Joomla_Update_Notification
+plugins=plugin-joomla-update-notification.md=https://docs.joomla.org/J3.x:Plugin_Joomla_Update_Notification
 
 privacy=privacy-outline.md=Help4.x:Components_Privacy_Outline
 privacy=privacy-setup.md=https://docs.joomla.org/J4.x:Privacy_Setup
 privacy=privacy-workflow.md=https://docs.joomla.org/J4.x:Privacy_Workflow
-privacy=cookie-notification.md=https://docs.joomla.org/J4.x:Cookie_notification
+privacy=cookie-notification.md=https://docs.joomla.org/Cookie_notification
 
 problems=assorted-issues.md=https://docs.joomla.org/J4.x:Assorted_Issues
 problems=unsupported-php-version.md=https://docs.joomla.org/J4.x:Unsupported_PHP_Version
 problems=fatalerror.md=https://docs.joomla.org/J4.x:FatalError
-problems=get-locally-hosted-joomla-website-e-mail-functions-to-work.md=https://docs.joomla.org/J4.x:Get_locally_hosted_Joomla!_website_e-mail_functions_to_work
-problems=unable-to-connect-to-the-database.md=https://docs.joomla.org/J4.x:Unable_to_connect_to_the_database
-problems=database-table-structure.md=https://docs.joomla.org/J4.x:Fix_Database_Table_Structure_NOT_Up_to_Date_before_Update
+problems=get-locally-hosted-joomla-website-e-mail-functions-to-work.md=https://docs.joomla.org/Get_locally_hosted_Joomla!_website_e-mail_functions_to_work
+problems=unable-to-connect-to-the-database.md=https://docs.joomla.org/Unable_to_connect_to_the_database
+problems=database-table-structure.md=https://docs.joomla.org/J4.x:Fix_"Database_Table_Structure_NOT_Up_to_Date"_before_Update
 
-reference=joomla-licenses.md=https://docs.joomla.org/J4.x:Joomla_Licenses
-reference=what-has-the-copyright-of-joomla-3f.md=https://docs.joomla.org/J4.x:What_has_the_copyright_of_Joomla!?
-reference=what-are-web-standards-3f.md=https://docs.joomla.org/J4.x:What_are_web_standards?
-reference=where-are-the-web-pages-3f.md=https://docs.joomla.org/J4.x:Where_are_the_web_pages?
+reference=joomla-licenses.md=https://docs.joomla.org/Joomla_Licenses
+reference=what-has-the-copyright-of-joomla-3f.md=https://docs.joomla.org/What_has_the_copyright_of_Joomla!?
+reference=what-are-web-standards-3f.md=https://docs.joomla.org/What_are_web_standards?
+reference=where-are-the-web-pages-3f.md=https://docs.joomla.org/Where_are_the_web_pages?
 
 schemas=introduction-to-schema-org.md=https://docs.joomla.org/J5.x:Schema_org
 schemas=article.md=https://localhost/
@@ -209,25 +209,25 @@ security=best-practices.md=jdocmanual&manual=user&heading=security&filename=best
 security=http-headers.md=jdocmanual&manual=user&heading=security&filename=http-headers.md
 
 seo=seo-basics.md=jdocmanual&manual=user&heading=seo&filename=seo-basics.md
-seo=search-engine-friendly-urls.md=https://docs.joomla.org/J4.x:Search_Engine_Friendly_URLs
+seo=search-engine-friendly-urls.md=https://docs.joomla.org/Search_Engine_Friendly_URLs
 seo=strict-routing.md=https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs
-seo=sef-urls-on-apache.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache
-seo=sef-urls-on-nginx.md=https://docs.joomla.org/J4.x:Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx
-seo=monitoring-seo.md=https://docs.joomla.org/J4.x:Monitoring_SEO
-seo=using-a-sitemap.md=https://docs.joomla.org/J4.x:Using_A_Sitemap
+seo=sef-urls-on-apache.md=https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache
+seo=sef-urls-on-nginx.md=https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Nginx
+seo=monitoring-seo.md=https://docs.joomla.org/Monitoring_SEO
+seo=using-a-sitemap.md=https://docs.joomla.org/Using_A_Sitemap
 
-smart-search=smart-search-quickstart-guide.md=https://docs.joomla.org/J4.x:Smart_Search_quickstart_guide
-smart-search=smart-search-on-large-sites.md=https://docs.joomla.org/J4.x:Smart_Search_on_large_sites
-smart-search=customising-the-smart-search-results-page.md=https://docs.joomla.org/J4.x:Customising_the_Smart_Search_results_page
-smart-search=setting-up-automatic-smart-search-indexing.md=https://docs.joomla.org/J4.x:Setting_up_automatic_Smart_Search_indexing
-smart-search=smart-search-frequently-asked-questions.md=https://docs.joomla.org/J4.x:Smart_Search_Frequently_Asked_Questions
-smart-search=smart-search-configuration-options.md=https://docs.joomla.org/J4.x:Smart_Search_configuration_options
-smart-search=smart-search-content-change-test-plan.md=https://docs.joomla.org/J4.x:Smart_Search_content_change_test_plan
+smart-search=smart-search-quickstart-guide.md=https://docs.joomla.org/Smart_Search_quickstart_guide
+smart-search=smart-search-on-large-sites.md=https://docs.joomla.org/Smart_Search_on_large_sites
+smart-search=customising-the-smart-search-results-page.md=https://docs.joomla.org/Customising_the_Smart_Search_results_page
+smart-search=setting-up-automatic-smart-search-indexing.md=https://docs.joomla.org/Setting_up_automatic_Smart_Search_indexing
+smart-search=smart-search-frequently-asked-questions.md=https://docs.joomla.org/Smart_Search_Frequently_Asked_Questions
+smart-search=smart-search-configuration-options.md=https://docs.joomla.org/Smart_Search_configuration_options
+smart-search=smart-search-content-change-test-plan.md=https://docs.joomla.org/Smart_Search_content_change_test_plan
 
 system=backup.md=jdocmanual?manual=user&heading=system&filename=backup.md
-system=cache.md=https://docs.joomla.org/J4.x:Cache
-system=purging-expired-cache-files.md=https://docs.joomla.org/J4.x:Purging_expired_cache_files
-system=top-10-stupidest-administrator-tricks.md=https://docs.joomla.org/J4.x:Top_10_Stupidest_Administrator_Tricks
+system=cache.md=https://docs.joomla.org/Cache
+system=purging-expired-cache-files.md=https://docs.joomla.org/Purging_expired_cache_files
+system=top-10-stupidest-administrator-tricks.md=https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks
 
 tags=content-tags.md=https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla
 
@@ -245,22 +245,22 @@ template-tips=home-page-in-different-style.md=https://docs.joomla.org/J4.x:Home_
 template-tips=module-and-menu-styles.md=https://docs.joomla.org/J4.x:Module_and_Menu_Styles
 template-tips=joomla-standard-font-awesome-fonts.md=https://docs.joomla.org/J4.x:Joomla_Standard_Font_Awesome_Fonts
 
-test-installations=visual-studio-code-primer.md=https://docs.joomla.org/J4.x:Visual_Studio_Code_Primer
-test-installations=visual-studio-code-extras.md=https://docs.joomla.org/J4.x:Visual_Studio_Code
-test-installations=setting-up-apache-php-and-mysql-manually.md=https://docs.joomla.org/J4.x:Setting_up_Apache
-test-installations=permissions-linux.md=https://docs.joomla.org/J4.x:Verifying_permissions
-test-installations=permissions-windows.md=https://docs.joomla.org/How_do_Windows_file_permissions_work%3F
+test-installations=visual-studio-code-primer.md=https://docs.joomla.org/Visual_Studio_Code_Primer
+test-installations=visual-studio-code-extras.md=https://docs.joomla.org/Visual_Studio_Code
+test-installations=setting-up-apache-php-and-mysql-manually.md=https://docs.joomla.org/Setting_up_Apache,_PHP_and_MySQL_manually
+test-installations=permissions-linux.md=https://docs.joomla.org/Verifying_permissions
+test-installations=permissions-windows.md=https://docs.joomla.org/How_do_Windows_file_permissions_work?
 
 users=access-control.md=https://docs.joomla.org/J4.x:Access_Control
 users=user-registration.md=https://docs.joomla.org/J4.x:User_Registration
 users=user-profile.md=https://docs.joomla.org/J4.x:User_Profile
 users=user-password-reset.md=https://docs.joomla.org/J4.x:User_Password_Reset
-users=admin-password-recovery.md=https://docs.joomla.org/J4.x:How_do_you_recover_or_reset_your_admin_password?
+users=admin-password-recovery.md=https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password?
 users=user-password-security.md=https://docs.joomla.org/J5.x:Enhancing_Password_Security_with_Symbolic_Characters
-users=webauthn-passwordless-login.md=https://docs.joomla.org/J4.x:WebAuthn_Passwordless_Login
+users=webauthn-passwordless-login.md=https://docs.joomla.org/WebAuthn_Passwordless_Login
 users=multi-factor-authentication.md=https://docs.joomla.org/J4.x:Multi-factor_Authentication
 users=guest-access.md=https://docs.joomla.org/J4.x:Guest_Access
-users=changing-user-groups.md=https://docs.joomla.org/J4.x:Changing_user_groups
+users=changing-user-groups.md=https://docs.joomla.org/Changing_user_groups
 users=login-and-logout-redirects.md=https://docs.joomla.org/J4.x:Login_and_Logout_Redirects
 users=user-actions-log.md=https://docs.joomla.org/J4.x:User_Actions_Log
 
