@@ -35,8 +35,7 @@ unpredictable problems.
 ### Database Setup
 
 If you have not yet set up a database do it now. It is covered for a cPanel
-hosting service in the [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting) tutorial. There is also a *Creating a Database for
-Joomla!*
+hosting service in the [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting) tutorial. There is also a *Creating a Database for Joomla!*
 tutorial that covers localhost and phpMyAdmin methods.
 
 You will need to note basic database information needed when the actual
@@ -61,8 +60,6 @@ function or you may use an FTP Client to transfer the downloaded Joomla
 5.x zip file to your server. There are several FTP clients available.
 Here is a detailed [Comparison of FTP client software](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software).
 If in doubt, use FileZilla.
-
-Your Server's *root* Folder
 
 It is better to move the downloaded zip package to your server and
 unpack it there than to unpack it locally and then move the file tree.
@@ -114,7 +111,7 @@ Fill in the following information.
 - **Site Name** The name of your website — this can be changed at any
   point later in the Site Global Configuration page.
 
-When everything on the first page is completed,  the *Setup Login Data* 
+When everything on the first page is completed, select the *Setup Login Data* 
 button to proceed.
 
 ## Login Data
@@ -136,7 +133,7 @@ Fill in the following information.
   valid email in case you forget your password. This is the email
   address where you'll receive a link to change the Super User password.
 
-When everything on the second page is completed,  the *Setup Database Connection* 
+When everything on the second page is completed, select the *Setup Database Connection* 
 button to proceed.
 
 ## Database Configuration
@@ -175,8 +172,8 @@ being used by the Joomla installation. Common uses would be to update
 the username and password of the database or to complete a move of an
 existing installation to a new host with different parameters.
 
-After you  the *Install Joomla* button, you should see the Joomla
-an installation progress bas. 
+After you select the *Install Joomla* button, you should see the Joomla
+installation progress bar. 
 
 ![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla-installer-4.png)
 
@@ -237,7 +234,7 @@ Remember the following:
   update will be shown in the Control panel as well as in **Extensions → Update**. 
   This behaviour is similar to **Extensions → Install Languages**.
 
- *Next* and a progress bar will be displayed while the language
+Select *Next* and a progress bar will be displayed while the language
 pack or packs are installed.
 
 #### Choose the Default Language
@@ -251,7 +248,7 @@ Administrator interface.
 ![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla-installer-7.png)
 
 - Select the default language you wish to use.
-- When you have selected the default language,  the *Set default language* 
+- When you have selected the default language, select the *Set default language* 
   button to confirm.
 - A system message will be displayed confirming Joomla has set the
   default ADMINISTRATOR and SITE language. That message can be closed.
