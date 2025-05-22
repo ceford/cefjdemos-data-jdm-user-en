@@ -138,5 +138,12 @@ the content item. This might lead to unexpected information disclosure.
 
 ### Permissions tab
 
+The permissions for each User Group are self-explanatory for the *Delete*, *Edit* and *Edit State* actions. The permissions show who can do what with the field as a whole, such as delete it, change it or unpublish it.
+
 ![Field parameters general tab](../../../en/images/fields/fields-parameters-permissions-tab.png)
+
+The *Edit Custom Field Value* can be confusing. It shows who can change the content of the field. By default, it is set to **Not Allowed (Inherited)** for all groups except Super Users. Two examples:
+
+- **Custom User Registration Data** Suppose you create a User field for *Gender* to add to a User Registration Form. This could be a list or radio button to allow a user to select Male or Female. In this case the permission for the Public group needs to be set to *Allowed*. Otherwise, a Guest user will not be able to select a gender. As all other groups inherit from Public, a registered user will be able to change the Profile gender choice after login.
+- **Article Comment** Suppose you want to allow an Author to add a comment to an article. This could be a limited length text field. In this case the permission for the Author group needs to be set to *Allowed*. The Editor and Publisher groups will inherit this setting when the form is saved. The Manager and Administrator groups have Edit permission for articles but not for Custom Field Values unless the Manager value is set to *Allowed* too.
 
