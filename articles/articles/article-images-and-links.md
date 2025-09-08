@@ -55,8 +55,7 @@ context. See the Site screenshots below.
 
 ### Link A
 
-- **Link A** Paste in the full URL of the target page. The full URL must be
-  used even if the target page is on this site.
+- **Link A** The URL for the first link to be displayed in a fixed location in the article text. This may be a full URL to an external site or a link to a page on the same site.
 - **Link A Text** Type in the text to be used for the target link.
 - **URL Target Window** Choose one of the target options:
   - **Use Global (Open in parent window)**
@@ -67,8 +66,14 @@ context. See the Site screenshots below.
     button.
   - **Open in popup** A small popup window appears. The main window remains
     available. Each click on the link opens another popup window instance.
-  - **Open in modal** A modal dialog opens in the centre of the screen which is
-    inactive until the dialog box is closed.
+  - **Modal** Opens the link in a modal pop-up window. From Joomla 6 the link can be to an external source or to some hidden text in the current article. In the example below the local link target would be *#my-popup-target* and the link text whatever is appropriate:
+    ```html
+    <div class="hidden">
+        <div id="my-popup-target">
+            <p class="p-3">Lorem ipsum dolor sit amet, cu vis velit signiferumque, eos no possim mollis facilisi.</p>
+        </div>
+    </div>
+    ```
 
 ### Links B and C
 
