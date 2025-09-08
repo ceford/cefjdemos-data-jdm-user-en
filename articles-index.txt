@@ -91,6 +91,7 @@ fields=adding-custom-fields-integer-field.md=https://docs.joomla.org/J3.x:Adding
 fields=adding-custom-fields-list-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/List_Field
 fields=adding-custom-fields-list-of-images-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/List_of_Images_Field
 fields=adding-custom-fields-media-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Media_Field
+fields=adding-custom-fields-note-field.md=jdocmanual?manual=user&headings=fields&filename=adding-custom-fields-note-field.md
 fields=adding-custom-fields-number-field.md=jdocmanual?manual=user&headings=fields&filename=adding-custom-fields-number-field.md
 fields=adding-custom-fields-radio-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Radio_Field
 fields=adding-custom-fields-sql-field.md=https://docs.joomla.org/J3.x:Adding_custom_fields/Sql_Field

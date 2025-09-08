@@ -96,6 +96,7 @@ user=fields=adding-custom-fields-integer-field.md
 user=fields=adding-custom-fields-list-field.md
 user=fields=adding-custom-fields-list-of-images-field.md
 user=fields=adding-custom-fields-media-field.md
+user=fields=adding-custom-fields-note-field.md
 user=fields=adding-custom-fields-number-field.md
 user=fields=adding-custom-fields-radio-field.md
 user=fields=adding-custom-fields-sql-field.md
