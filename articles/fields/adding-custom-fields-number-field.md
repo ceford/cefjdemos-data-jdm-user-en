@@ -17,9 +17,9 @@ The Number field provides a method to enter a real number with an option to atta
 - **Required** Set to *Yes* if this field is required?
 - **Only Use in Subform** *Yes or *No*.
 - **Default Value** An optional default value.
-- **Minimum** Minimum value that can be chosen using the up/down arrows, default is 1. 
-- **Maximum** Maximum value that can be chosen using the up/down arrows, default is 100. 
-- **Step Increment** The size of the increment added or subtracted to current field value using the up/down arrows.
+- **Minimum** Minimum value that can be chosen using the up/down arrows, default is 1. It can be a negative number so set it to less than the lowest number expected, **otherwise selection of the down arrow may erase the existing number**.
+- **Maximum** Maximum value that can be chosen using the up/down arrows, default is 100. Set this to higher than the highest number expected, **otherwise selection of the up arrow may erase the existing number**.
+- **Step Increment** The size of the increment added or subtracted to current field value using the up/down arrows. This can be an integer, the default is 1, or a decimal such as 0.01. **Set it to the smallest amount by which you wish to increment or decrement the value**.
 - **Format as Currency** If selected there are additional fields:
     - **Currency Symbol** This can be a single symbol, such as `£` or `$`, or a character string, such as `&deg;C` which appears as *&deg;C*.
     - **Symbol Position** Select *Before* or *After* the number.
@@ -64,6 +64,8 @@ The content of these tabs are self-evident and covered elsewhere.
 Data entry: simply type in the value you want. This example is the boiling point of Argon:
 
 ![Number field data entry](../../../en/images/fields/fields-number-data-entry.png)
+
+**Beware:** if the number you enter is outside the minimum and maximum range set in the field creation options a browser hover label will tell you so but the information provided is not enforced. You can enter a number outside the range and it will be accepted.
 
 ## Data Display
 
