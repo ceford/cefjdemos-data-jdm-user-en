@@ -155,6 +155,7 @@ menus=adding-a-custom-administrator-menu.md=https://docs.joomla.org/J4.x:Adding_
 migration=migration-basics.md=jdocmanual?manual=user&heading=migration&filename=migration-basics.md
 migration=version-update.md=https://docs.joomla.org/J4.x:Updating_from_an_existing_version
 migration=joomla-3-x-to-4-x-step-by-step-migration.md=https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration
+migration=joomla-5-to-6-steps.md=https://docs.joomla.org/Joomla_5.4.x_to_6.x_Planning_and_Upgrade_Step_by_Step
 migration=update-fails-with-an-error-message.md=https://docs.joomla.org/J3.x:Update_fails_with_an_error_message
 
 modules=site-modules.md=https://docs.joomla.org/J4.x:Site_Modules

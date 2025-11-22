@@ -163,6 +163,7 @@ heading=migration=Migration
 user=migration=migration-basics.md
 user=migration=version-update.md
 user=migration=joomla-3-x-to-4-x-step-by-step-migration.md
+user=migration=joomla-5-to-6-steps.md
 
 heading=modules=Modules
 user=modules=site-modules.md
