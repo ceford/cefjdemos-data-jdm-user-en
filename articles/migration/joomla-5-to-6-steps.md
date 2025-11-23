@@ -1,7 +1,7 @@
 <!-- Filename: https://docs.joomla.org/Joomla_5.4.x_to_6.x_Planning_and_Upgrade_Step_by_Step / Display title: Joomla 5 to 6 Step by Step -->
 
 <div class="alert alert-warning">
-<h2>Warning</h2>
+<p class="h3">Warning</p>
 
 This guide assumes you are starting with Joomla 5.4.x. If you are on an earlier version, make sure you migrate or update to Joomla 5.4.x prior to upgrading to Joomla 6.x.
 </div>
@@ -16,7 +16,7 @@ Good news for Joomla 5.4.x to 6.x, it’s an upgrade, not a migration. Why? Two 
 This documentation reflects the simpler process by combining the planning and step by step in one document. Still, you will need some skills. Please see the [[Migration Step by Step Self Assessment|Self Assessment]] to determine if you should or shouldn’t tackle the upgrade yourself.
 
 <div class="alert alert-info">
-<h2>5.4 to 6.0 Developer documentation for third-party extension developers.</h2>
+<p class="h3">5.4 to 6.0 Developer documentation for third-party extension developers.</p>
 
 - [Removed and Backward Incompatibility](https://manual.joomla.org/migrations/54-60/removed-backward-incompatibility)
 - [New deprecations](https://manual.joomla.org/migrations/54-60/new-deprecations)
@@ -55,7 +55,7 @@ The following is an example of an environment that meets the technical requireme
 Don’t worry! It’s not as bad as it sounds! First, let’s talk about the backward compatibility plugins.
 
 <div class="alert alert-warning">
-<h2>Warning</h2>
+<p class="h3">Warning</p>
 
 To upgrade from Joomla 5.4.x to 6.x, the Backward Compatibility Plugin for Joomla 5 MUST be DISABLED.
 </div>
@@ -93,7 +93,7 @@ Can you ever disable the Behaviour - Backward Compatibility 6 plugin in J6? Grea
 1. Do it on a dev/test site. That way, if you accidentally missed one extension that makes your backend inaccessible, it doesn’t take your production site down.
 2. Make sure you have access to the db. That way, you can enable the plugin again quickly if needed. More about this below.
 
-### Pre-update check vs. System -> Manage Extensions
+### Pre-update check or Manage Extensions
 
 Theoretically, the pre-update check would tell you if your third-party extensions are compatible with J6. However, the pre-update check is only helpful if all extension developers have made their extension reflect compatibility with their extensions. In a perfect world, the **Extensions** portion of the pre-update check would tell you if an extension either:
 
