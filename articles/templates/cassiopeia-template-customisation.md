@@ -170,15 +170,12 @@ this if you wanted to make a few simple changes to site appearance.
 
 ![Cassiopeia edit files](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
 
-Note that there is no *user.css* file present in the *css* folder. That
-is one you create yourself so that you can override previously defined
-styles. If it is not present, create it now by selecting the the *css*
-folder and then the *New* button. In the New File modal dialog select
-the *css* folder otherwise the new file will appear in the wrong place.
-Enter user (lower case and without *.css*) in the File Name field and
-select *.css* from the File Type field. Select the Create button to
-create the file. If *user.css* is already present, select it to open the
-edit form.
+Note that in a new Joomla installation there is no ***user.css*** file present in the css folder. That is one you create yourself so that you can override previously defined styles. If ***user.css*** is already present, select it to open the edit form. If it is not present, create it now:
+
+1. Select the New File button.
+2. In the New File modal dialog select the css folder otherwise the new file will appear in the wrong place.
+3. Enter user (lower case and without .css) in the File Name field and select .css from the File Type field.
+4. Select the Create button to create the file.
 
 ### Headings
 
