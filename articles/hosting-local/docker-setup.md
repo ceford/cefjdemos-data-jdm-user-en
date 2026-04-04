@@ -163,7 +163,7 @@ To sync the files from the container to your local hard drive, you just
 need to add two lines(`volumes: `) and (`- ./site_joomla:/var/www/html`)
 to the `joomla` section of your `docker-compose.yml` file as shown below:
 
-```
+```yml
 services:
   joomla:
     image: joomla:latest
@@ -212,6 +212,7 @@ interface to look at your database. You can easily add **phpMyAdmin** to
 your setup by adding a new **service block** to the bottom of your
 **`docker-compose.yml`** file:
 
+```yml
     phpmyadmin:
         image: phpmyadmin/phpmyadmin:latest
         ports:
@@ -220,6 +221,7 @@ your setup by adding a new **service block** to the bottom of your
           - PMA_HOST=db
         depends_on:
           - db
+```
 
 Restart your containers, and you can now access phpMyAdmin by going to
 **http://localhost:8081** in your browser. Just log in with **`joomla`**

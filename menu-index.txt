@@ -119,7 +119,7 @@ user=hosting=cpanel-hosting.md
 user=hosting=auto-installer-installation.md
 
 heading=hosting-local=Hosting: Local
-user=hosting-local=docker-setup.
+user=hosting-local=docker-setup.md
 user=hosting-local=laragon-setup-windows.md
 user=hosting-local=local-hosting-on-windows.md
 user=hosting-local=local-hosting-on-linux.md
