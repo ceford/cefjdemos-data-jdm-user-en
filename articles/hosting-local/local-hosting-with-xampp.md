@@ -35,11 +35,12 @@ listening port. In \apache\conf\httpd.conf, modify the line Listen 80 to
 Listen \[portnumber\] (ex: "Listen 8080").
 
 <div class="alert alert-info">
-<h4>Joomla Community Magazine Tutorial<h4>
-<p>You can find a detailed tutorial on installing XAMPP on Windows, along
-with the Joomla 4 Beta, the Joomla Patch Tester and Git in this <a
-href="https://magazine.joomla.org/all-issues/june-2020/github-installing-git"
-rel="noreferrer noopener">Joomla Community Magazine article</a>.</p></div>
+
+### Joomla Community Magazine Tutorial
+
+You can find a detailed tutorial on installing XAMPP on Windows, along
+with the Joomla 4 Beta, the Joomla Patch Tester and Git in this [Joomla Community Magazine article](https://magazine.joomla.org/all-issues/june-2020/github-installing-git).
+</div>
 
 To install XDebug: [XAMPP - XDebug Setup for PHP 8](https://odan.github.io/2020/12/03/xampp-xdebug-setup-php8.html)
 
@@ -269,3 +270,4 @@ long screen of information about the PHP configuration, as shown below.
 At this point XAMPP is installed successfully. Notice the *Loaded
 Configuration File*. We will be editing this file in the next section to
 configure XDebug.
+

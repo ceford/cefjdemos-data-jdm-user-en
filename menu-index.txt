@@ -113,18 +113,21 @@ heading=help=Help
 user=help=guided-tours.md
 user=help=administrator-help.md
 
-heading=hosting=Hosting
+heading=hosting=Hosting: Services
 user=hosting=free-hosting.md
 user=hosting=cpanel-hosting.md
-user=hosting=local-hosting-on-windows.md
-user=hosting=local-hosting-on-linux.md
-user=hosting=local-hosting-with-xampp.md
-user=hosting=installing-joomla-using-bitnami-joomla-stack.md
-user=hosting=installing-joomla-on-a-raspberry-pi.md
 user=hosting=auto-installer-installation.md
-user=hosting=moving-the-site-among-directories-sub-directories.md
 
-heading=hosting-notes=Hosting Notes
+heading=hosting-local=Hosting: Local
+user=hosting-local=docker-setup.md
+user=hosting-local=local-hosting-on-windows.md
+user=hosting-local=local-hosting-on-linux.md
+user=hosting-local=local-hosting-with-xampp.md
+user=hosting-local=installing-joomla-using-bitnami-joomla-stack.md
+user=hosting-local=installing-joomla-on-a-raspberry-pi.md
+
+heading=hosting-notes=Hosting: Notes
+user=hosting-notes=moving-the-site-among-directories-sub-directories.md
 user=hosting-notes=how-do-unix-file-permissions-work-3f.md
 user=hosting-notes=how-do-windows-file-permissions-work-3f.md
 user=hosting-notes=multiple-domains-and-web-sites-in-a-single-joomla-installation.md

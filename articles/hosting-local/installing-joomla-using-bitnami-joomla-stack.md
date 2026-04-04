@@ -206,3 +206,4 @@ launch the application.
 
 Follow the instructions outlined in the article  Installing
 Joomla.
+
