@@ -224,4 +224,3 @@ your setup by adding a new **service block** to the bottom of your
 Restart your containers, and you can now access phpMyAdmin by going to
 **http://localhost:8081** in your browser. Just log in with **`joomla`**
 as the username and **`joomlapass`** as the password.
-
