@@ -158,6 +158,7 @@ user=menus=menu-items.md
 user=menus=menu-item-types.md
 user=menus=menu-item-order.md
 user=menus=submenus.md
+user=menus=keep-submenus-open.md
 user=menus=menu-positions.md
 user=menus=auto-redirect-guests-to-login.md
 user=menus=menu-item-type-archived-articles.md
