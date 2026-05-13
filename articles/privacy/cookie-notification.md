@@ -1,4 +1,11 @@
-<!-- Filename: Cookie_notification / Display title: Cookies -->
+<!--
+{
+  "source": "https://docs.joomla.org/Cookie_notification",
+  "title": "Cookies ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Summary of cookie use on a Joomla! site
 

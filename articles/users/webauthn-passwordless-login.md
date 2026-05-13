@@ -1,4 +1,11 @@
-<!-- Filename: WebAuthn_Passwordless_Login / Display title: WebAuthn Login -->
+<!--
+{
+  "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
+  "title": "WebAuthn Login ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## WebAuthn Passwordless Login
 
@@ -48,13 +55,13 @@ Everything that fixed passwords are not.
 The following picture shows a hardware device inserted into a laptop
 computer's USB port. It cost £15 in February, 2022.
 
-![photograph of Hardware device](../../../en/images/users/passwordless-login-hardware-device.jpg)
+![photograph of Hardware device](../../../en/images/users/webauthn-passwordless-login/01-passwordless-login-hardware-device.jpg)
 
 WebAuthn uses a system plugin that is enabled by default. A **Web
 Authentication** button will be present in default Joomla 4 and later login
 screens, as illustrated in the Administrator login screen:
 
-![secure administrator login form](../../../en/images/users/passwordless-login-login-form.jpg)
+![secure administrator login form](../../../en/images/users/webauthn-passwordless-login/02-passwordless-login-login-form.jpg)
 
 ## User Configuration
 
@@ -74,14 +81,14 @@ hardware authenticator. For security and practical reasons there is a
 relatively short time interval allowed for activating the authenticator:
 60 seconds.
 
-![secure administrator login hardware prompt](../../../en/images/users/passwordless-login-hardware-propmpt.png)
+![secure administrator login hardware prompt](../../../en/images/users/webauthn-passwordless-login/03-passwordless-login-hardware-propmpt.png)
 
 Once you unlock your authenticator — tapping on a button, scanning your
 fingerprint / face, entering a PIN or a combination of the above
 depending on your authenticator — the message disappears, the
 authenticator is registered and the screen appears as follows:
 
-![secure administrator login registered authenticator](../../../en/images/users/passwordless-login-registered-authenticator.png)
+![secure administrator login registered authenticator](../../../en/images/users/webauthn-passwordless-login/04-passwordless-login-registered-authenticator.png)
 
 It is very important to note that you can only register or remove
 authenticators on your own user account. For security reasons, even a

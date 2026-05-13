@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Managing Media -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Managing_Media",
+  "title": "Managing Media ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -34,7 +41,7 @@ but with the cassiopeia/sampledata folder selected. A *files* folder was added
 to store non-image files and an extra folder named *garbage* has been added 
 to illustrate folder deletion:
 
-![Media page showing sample data cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![Media page showing sample data cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Managing Folders
 
@@ -96,7 +103,7 @@ closes.
 
 The folder selected for deletion is illustrated below:
 
-![Media page showing garbage folder](../../../en/images/media/media-sample-data-garbage-select.png)
+![Media page showing garbage folder](../../../en/images/media/managing-media/02-media-sample-data-garbage-select.png)
 
 ## Media Area Toolbar
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Favicons / Display title: Favicons -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Favicons",
+  "title": "Favicons ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## The Joomla! Favicons
 
@@ -29,7 +36,7 @@ Favicons are sometimes used at larger sizes and in places other than the
 browser tab. For example, this is a screenshot of part of a Firefox
 start page showing some of the User's favourite locations:
 
-![favicon examples from firefox start page](../../../en/images/templates/favicons-firefox-start-collection.png)
+![favicon examples from firefox start page](../../../en/images/templates/favicons/01-favicons-firefox-start-collection.png)
 
 All modern browsers support SVG icons so you should make creation of an
 SVG icon a priority.
@@ -43,7 +50,7 @@ line colours, fill colours and so on. The following screenshot shows the
 created by the text editor. They are not present in the file. The long
 lines represent curves and are truncated here for display purposes.
 
-![joomla favicon text content](../../../en/images/templates/favicons-joomla-favicon-svg-text.png)
+![joomla favicon text content](../../../en/images/templates/favicons/02-favicons-joomla-favicon-svg-text.png)
 
 To create an SVG file you need to use an appropriate application such as
 Inkscape. Raster graphics applications such as Photoshop or The GIMP
@@ -79,7 +86,7 @@ Windows. Go to the Inkscape (inkscape.org) site to download a
 copy for your platform. The following illustrations shows the Inkscape
 screen part way through the following instructions.
 
-![inkscape with favicon in preparation](../../../en/images/templates/favicons-inkscape-favicon.png)
+![inkscape with favicon in preparation](../../../en/images/templates/favicons/03-favicons-inkscape-favicon.png)
 
 ### Create an SVG
 

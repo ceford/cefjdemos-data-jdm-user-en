@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_Server_Health / Display title: Monitoring Server Health -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_Server_Health",
+  "title": "Monitoring Server Health ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Even if you have a fantastically optimised website, if the server that
 it is hosted on is not performing well, it will not load well for your
@@ -21,12 +28,12 @@ experiencing a Denial of Service attack, high load due to celebrity
 sharing a site hosted on the server, and reducing load as high-use
 clients are offloaded onto their own hosting servers.
 
-![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed.png)
+![Sitespeed page timings](../../../en/images/performance/monitoring-server-health/01-monitoring-site-speed.png)
 
 It is also possible to view this data with a map overlay - showing you
 which countries have problems with page load times.
 
-![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed-by-country.png)
+![Sitespeed page timings](../../../en/images/performance/monitoring-server-health/02-monitoring-site-speed-by-country.png)
 
 This kind of insight can be helpful in identifying developing problems,
 however you should enlist a server administrator if you are managing
@@ -40,4 +47,4 @@ Dashboard which you can drop into your Analytics account giving you all
 the key information. You can also add widgets to these dashboards, and
 tweak them to show in the format you prefer. They aren't set in stone.
 
-![Site performance dashboard](../../../en/images/performance/performance-dashboard.png)
+![Site performance dashboard](../../../en/images/performance/monitoring-server-health/03-performance-dashboard.png)

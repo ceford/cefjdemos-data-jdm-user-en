@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Pagination / Display title: Article: Edit - Pagination -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Pagination",
+  "title": "Article: Edit - Pagination ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Long Articles
 
@@ -23,12 +30,12 @@ is the default, and proceed as follows:
     Contents. Example: Chapter 2
 - Select the **Insert Page Break** button.
 
-![Page break dialog form](../../../en/images/articles/articles-edit-pagination.png)
+![Page break dialog form](../../../en/images/articles/article-pagination/01-articles-edit-pagination.png)
 
 - Repeat for each page break you wish to create.
 - Save the article and have a look at the Preview or Site view.
 
-![Article pagination site view](../../../en/images/articles/articles-site-pagination.png)
+![Article pagination site view](../../../en/images/articles/article-pagination/02-articles-site-pagination.png)
 
 ## Edit or Move a Page Break
 
@@ -50,5 +57,5 @@ follows:
 
 The Source code editor is located in a popup dialog:
 
-![Source code editor](../../../en/images/articles/articles-edit-pagination-source-code.png)
+![Source code editor](../../../en/images/articles/article-pagination/03-articles-edit-pagination-source-code.png)
 

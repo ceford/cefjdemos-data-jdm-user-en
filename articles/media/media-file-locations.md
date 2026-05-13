@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Media_File_Locations / Display title: Media File Locations -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Media_File_Locations",
+  "title": "Media File Locations ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -21,7 +28,7 @@ your newly created *files* folder to the list of places you can keep media.
 Just click on the + button and select **files** from the list of available
 folders.
 
-![File System Plugin](../../../en/images/plugins/plugin-group-file-system-local.png)
+![File System Plugin](../../../en/images/media/media-file-locations/01-plugin-group-file-system-local.png)
 
 The **Create Thumbnails** option set to **Yes** causes creation of small images
 with a maximum height or width of 200 pixels in media/cache/com_media/thumbs

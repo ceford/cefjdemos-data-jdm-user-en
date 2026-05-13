@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_Display_by_Menu_Item / Display title: Module Display by Menu Item -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_Display_by_Menu_Item",
+  "title": "Module Display by Menu Item ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -35,7 +42,7 @@ For the last two a Menu Selection panel is displayed. Initially, the
 menus it contains are fully expanded but they can be collapsed with the
 the **Expand the Menu Subtrees** *None* button. Then expand the menu of
 interest.
-![module menu assignment](../../../en/images/modules/module-display-by-menu.png)
+![module menu assignment](../../../en/images/modules/module-display-by-menu-item/01-module-display-by-menu.png)
 
 Select the Menu Items to display or not display the module as desired.
 

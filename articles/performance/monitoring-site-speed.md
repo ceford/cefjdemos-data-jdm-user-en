@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_Site_Speed / Display title: Monitoring Site Speed -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_Site_Speed",
+  "title": "Monitoring Site Speed ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 The next problem that we commonly see has to do with site speed – the
 time it takes for your pages to load. There are several factors that
@@ -18,7 +25,7 @@ performing at this moment. This is useful to get a before and after
 comparison when enabling caching, compression and so forth to see what
 kind of difference is being seen in the load time.
 
-![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed.png)
+![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed/01-monitoring-site-speed.png)
 
 ## Monitoring Speed by Geographical Region
 
@@ -33,4 +40,4 @@ selected. If this continued to be a problem it would be important to
 investigate further – especially if that geographical region is
 important for your website.
 
-![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed-by-country.png)
+![Sitespeed page timings](../../../en/images/performance/monitoring-site-speed/02-monitoring-site-speed-by-country.png)

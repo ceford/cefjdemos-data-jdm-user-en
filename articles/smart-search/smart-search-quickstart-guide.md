@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_quickstart_guide / Display title: Smart Search Quickstart -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_quickstart_guide",
+  "title": "Smart Search Quickstart ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Background
 

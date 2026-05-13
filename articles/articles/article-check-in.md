@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Article: Check-in -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in",
+  "title": "Article: Check-in ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -57,7 +64,7 @@ From the Administrator menu:
   **System → Maintenance panel → Global Check-in**.
 - The list shows the number of items checked out.
 
-![Global checkin page](../../../en/images/articles/global-checkin.png)
+![Global checkin page](../../../en/images/articles/article-check-in/01-global-checkin.png)
 
 - From the list of database tables select the checkbox for the type of
   item to be checked in.

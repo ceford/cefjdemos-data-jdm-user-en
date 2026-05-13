@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Users_Dashboard / Display title: Users Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
+  "title": "Users Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -10,4 +17,4 @@ Users panel can be edited or unpublished.
 
 ## Screenshot
 
-![Users dashboard](../../../en/images/dashboards/users-dashboard.png)
+![Users dashboard](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)

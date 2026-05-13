@@ -1,4 +1,11 @@
-<!-- Filename: https://guide.joomla.org/user-manual/local-setup/laragon-setup-windows / Display title: Laragon for Windows -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "Laragon for Windows ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Setting Up a Local Joomla Environment using Laragon
 
@@ -28,7 +35,7 @@ tool, Windows Defender SmartScreen might block it from starting and show
 a blue warning screen. This is normal - Simply click **More info**, and
 then click the **Run anyway** button that appears at the bottom.
 
-![laragon setup windows protected warning](../../../en/images/hosting-local/laragon-setup-windows-protected-warning.png)
+![laragon setup windows protected warning](../../../en/images/hosting-local/laragon-setup-windows/01-laragon-setup-windows-protected-warning.png)
 
 Click through the setup wizard. The default settings are perfectly fine,
 but keep an eye out for these two important details:
@@ -40,7 +47,7 @@ but keep an eye out for these two important details:
     ticked. This is the feature that gives your local Joomla site a
     clean address (like `http://myjoomla.test`) instead of a raw IP address.
 
-![laragon setup options](../../../en/images/hosting-local/laragon-setup-options.jpg)
+![laragon setup options](../../../en/images/hosting-local/laragon-setup-windows/02-laragon-setup-options.jpg)
 
 Once the installation finishes, restart your computer. (the installer
 wizard will prompt you to do the same)
@@ -72,7 +79,7 @@ the Laragon app again from your Start menu or desktop, you will see a
 yellow warning in the bottom right corner of your screen that says:
 **"Laragon is already running!"**
 
-![laragon setup already running notice](../../../en/images/hosting-local/laragon-setup-already-running-notice.png)
+![laragon setup already running notice](../../../en/images/hosting-local/laragon-setup-windows/03-laragon-setup-already-running-notice.png)
 
 **The Trap:** If you click the "X" on that tiny yellow warning to close
 it, the main Laragon window will also disappear, leaving you completely
@@ -104,11 +111,11 @@ screens, but there is a specific sequence to expect:
 
 1.  The main **License Key** window will appear over your Laragon
     interface. Click the **Close** text or the 'X'.<br>
-    ![laragon setup license key window](../../../en/images/hosting-local/laragon-setup-license-key-window.png)
+    ![laragon setup license key window](../../../en/images/hosting-local/laragon-setup-windows/04-laragon-setup-license-key-window.png)
 2.  Immediately after closing it, a second **Warning** pop-up will
     appear, reminding you that Laragon is running without a license.
     Click **OK** or the 'X'.<br>
-    ![laragon setup no license warning](../../../en/images/hosting-local/laragon-setup-no-license-warning.png)
+    ![laragon setup no license warning](../../../en/images/hosting-local/laragon-setup-windows/05-laragon-setup-no-license-warning.png)
 3.  Once you close that second warning, Laragon might automatically open
     your web browser and redirect you to `https://laragon.org/key`. You
     can simply close that browser tab.
@@ -142,7 +149,7 @@ everything you need is already there.
     another MySQL program (like XAMPP or MySQL Workbench) running in the
     background, which is blocking Laragon's access to the database port
     (Port 3306).<br>
-    ![laragon setup troubleshooting access](../../../en/images/hosting-local/laragon-setup-troubleshooting.jpg)
+    ![laragon setup troubleshooting access](../../../en/images/hosting-local/laragon-setup-windows/06-laragon-setup-troubleshooting.jpg)
     **The Fix:**
     1.  Press the Windows key, type **Services**, and hit Enter.
     2.  Scroll down the list to find **MySQL**, **MySQL80**, or **MariaDB**.
@@ -186,7 +193,7 @@ pre-built package that contains the absolute latest code.
   specific PR on GitHub, scroll to the bottom of the PR page, click
   **Show all checks**, and look for the **Download Prebuilt packages**
   link.
-  ![laragon setup prebuilt package link](../../../en/images/hosting-local/laragon-setup-prebuilt-package-link.png)
+  ![laragon setup prebuilt package link](../../../en/images/hosting-local/laragon-setup-windows/07-laragon-setup-prebuilt-package-link.png)
 
 **Method 3: For Contributing Core Code** If you plan to write code and
 submit your own Pull Requests, you need the raw, uncompiled source code.
@@ -225,7 +232,7 @@ is the exact same process:
     their own clean `.test` URLs, preventing your code and databases
     from getting mixed up!
     <br>
-    ![laragon setup project folders](../../../en/images/hosting-local/laragon-setup-project-folders.png)
+    ![laragon setup project folders](../../../en/images/hosting-local/laragon-setup-windows/08-laragon-setup-project-folders.png)
 
 ## Running the Joomla Installer
 
@@ -258,7 +265,7 @@ exists yet.
     - **Password:** *\[Leave this completely blank\]*
     - **Database Name:** The exact name you typed into HeidiSQL earlier
       (e.g., `joomla_dev`).
-    ![laragon setup joomla installer database settings](../../../en/images/hosting-local/laragon-setup-joomla-installer-database.png)
+    ![laragon setup joomla installer database settings](../../../en/images/hosting-local/laragon-setup-windows/09-laragon-setup-joomla-installer-database.png)
 6.  Click **Install Joomla.**
 
 Once the progress bar finishes, you will see a success message - You can

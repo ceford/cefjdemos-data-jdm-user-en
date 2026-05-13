@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Help / Display title: Help Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Help",
+  "title": "Help Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -11,4 +18,4 @@ Toolbar in Joomla component list or edit pages.
 
 ## Screenshot
 
-![Help dashboard](../../../en/images/dashboards/help-dashboard.png)
+![Help dashboard](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)

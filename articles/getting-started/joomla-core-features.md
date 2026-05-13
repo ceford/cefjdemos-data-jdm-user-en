@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Joomla_Core_Features / Display title: Joomla Core Features -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Joomla_Core_Features",
+  "title": "Joomla Core Features ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Content Management
 

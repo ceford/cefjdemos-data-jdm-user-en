@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Articles: Categories -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories",
+  "title": "Articles: Categories ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -75,11 +82,11 @@ The following screenshot shows the Home Dashboard *Article Categories* link to
 the list of categories and adjacent *Plus Symbol* that leads to the 
 *Articles: New Category* form.
 
-![The add category icon highlighted in the home dashboard](../../../en/images/articles/category-add-via-home-dashboard.png)
+![The add category icon highlighted in the home dashboard](../../../en/images/articles/articles-categories/01-category-add-via-home-dashboard.png)
 
 ## The Articles: New Category form
 
-![The articles new category edit form](../../../en/images/getting-started/article-category-edit.png)
+![The articles new category edit form](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 The screenshot above shows the form completed, There are only two fields that
 need some content. Everything else has default or null values that you can leave
@@ -135,7 +142,7 @@ Settings in this tab affect the appearance of this Category in site pages.
 
 Closing the edit form leads to the **Articles: Categories** list page.
 
-![A categories list filtered by Nature tag](../../../en/images/articles/categories-list.png)
+![A categories list filtered by Nature tag](../../../en/images/articles/articles-categories/03-categories-list.png)
 
 ### Save to Menu as List
 
@@ -163,7 +170,7 @@ giving it an overall more complete appearance.
 
 The following screenshot shows site view of a category blog page in development.
 
-![Mammals category blog page](../../../en/images/articles/article-mammals-articles-blog-site-view.png)
+![Mammals category blog page](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
 
 ## Tips
 

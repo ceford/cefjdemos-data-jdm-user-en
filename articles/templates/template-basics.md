@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Basics / Display title: Template Basics -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Basics",
+  "title": "Template Basics ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -17,7 +24,7 @@ site features such as links and buttons. The following screenshot shows
 the Cassiopeia template folders and files in a new Joomla 4
 installation:
 
-![templates customise cassiopeia page](../../../en/images/templates/templates-customise-cassiopeia.png)
+![templates customise cassiopeia page](../../../en/images/templates/template-basics/01-templates-customise-cassiopeia.png)
 
 Note the the php files are in the site /templates folder and the media
 files are in the site /media folder.
@@ -30,7 +37,7 @@ modules to be displayed above, below, to the left or to the right of the
 main content. The following illustration shows the positions available
 in Cassiopeia:
 
-![template positions diagram](../../../en/images/templates/cassiopeia-template-positions.png)
+![template positions diagram](../../../en/images/templates/template-basics/02-cassiopeia-template-positions.png)
 
 Also, you can see the template positions in any template by setting
 Preview Module Positions to Enabled in the Template: Options form and
@@ -66,7 +73,7 @@ of the code used to generate the extension layout for you to change to
 suit your own purposes. The following screenshot shows the Template:
 Customise Create Overrides form:
 
-![template overrides](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![template overrides](../../../en/images/templates/template-basics/03-cassiopeia-customisation-create-overrides.png)
 
 Cassiopeia has some overrides already installed. That may seem to be a
 problem. If you change any of the default Cassiopeia files your changes

@@ -1,4 +1,11 @@
-<!-- Filename: Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation / Display title: Multiple Domains and Web Sites in a single Joomla! installation -->
+<!--
+{
+  "source": "https://docs.joomla.org/Multiple_Domains_and_Web_Sites_in_a_single_Joomla!_installation",
+  "title": "Multiple Domains and Web Sites in a single Joomla! installation ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 **Note:** This article was last updated in 2012!
 

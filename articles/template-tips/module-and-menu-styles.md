@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_and_Menu_Styles / Display title: Module and Menu Styles -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
+  "title": "Module and Menu Styles ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## About Cascading Style Sheets
 
@@ -40,7 +47,7 @@ set to `make-me-light-green` and the Header Class has been set to
 `make-me-dark-green`. Note that you can include minus signs or
 underlines in class names but spaces separate different class names.
 
-![login module edit form advanced tab showing custom class](../../../en/images/templates/templates-edit-module-style.png)
+![login module edit form advanced tab showing custom class](../../../en/images/template-tips/module-and-menu-styles/01-templates-edit-module-style.png)
 
 The following style statements are used in the user.css file:
 ```css
@@ -57,7 +64,7 @@ Watch out for the period (.) that is used in css to define a class with
 that name. The period must not be used in the module data entry form.
 The result in this example is as follows:
 
-![site appearance of the customised module with developer tools](../../../en/images/templates/templates-edit-module-style-result.png)
+![site appearance of the customised module with developer tools](../../../en/images/template-tips/module-and-menu-styles/02-templates-edit-module-style-result.png)
 
 The bottom of the image shows the browser Developer Tools panel with the
 Login module's enclosing `<div>` tag selected. You can see that the custom 
@@ -93,4 +100,4 @@ following is entered in user.css:
 ```
 The class is added to the body tag of the page:
 
-![site appearance of the customised page with developer tools](../../../en/images/templates/templates-edit-page-class-result.png)
+![site appearance of the customised page with developer tools](../../../en/images/template-tips/module-and-menu-styles/03-templates-edit-page-class-result.png)

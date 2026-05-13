@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code_Primer / Display title: Visual Studio Code Primer -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
+  "title": "Visual Studio Code Primer ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## VS Code - A Popular Free IDE
 
@@ -138,7 +145,7 @@ Reporting* to *Maximum*.
 When you open a page containing the buggy module you will see a stack
 trace telling you where an error was triggered.
 
-![vscode stack trace](../../../en/images/test-installations/vscode-primer-stack-trace.png)
+![vscode stack trace](../../../en/images/test-installations/visual-studio-code-primer/01-vscode-primer-stack-trace.png)
 
 Sometimes the coding error is on the first line of the stack trace.
 Otherwise, if the error is triggered in library code, for example by
@@ -151,7 +158,7 @@ In VS Code, use the File / Open Folder menu item to locate and open the
 folder containing your local copy of the *mod_debugme* extension code.
 You should see something similar to the following:
 
-![vscode folder view](../../../en/images/test-installations/vscode-primer-screen.png)
+![vscode folder view](../../../en/images/test-installations/visual-studio-code-primer/02-vscode-primer-screen.png)
 
 You may be able to diagnose the problem just by reading the code. In the
 case of the *Class "DebugHelper" not found* error you will see that a
@@ -370,7 +377,7 @@ A few not so obvious problems:
 
 When all is fixed this is what you might see:
 
-![vscode debugged module site view](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
+![vscode debugged module site view](../../../en/images/test-installations/visual-studio-code-primer/03-vscode-primer-debugme-fixed.png)
 
 Cake days?
 

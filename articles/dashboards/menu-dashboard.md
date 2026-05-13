@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Dashboard / Display title: Menu Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
+  "title": "Menu Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -13,4 +20,4 @@ menus to different User Groups after login.
 
 ## Screenshot
 
-![Menu dashboard](../../../en/images/dashboards/menus-dashboard.png)
+![Menu dashboard](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)

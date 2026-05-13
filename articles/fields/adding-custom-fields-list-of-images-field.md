@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_of_Images_Field / Display title: List of Images Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "List of Images Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -16,7 +23,7 @@ files to be listed. Only images from a single directory can be selected.
 limits the width of each image to 25% of its container and adds 1 padding
 unit.
 
-![list of images field creation](../../../en/images/fields/fields-list-of-images-edit.png)
+![list of images field creation](../../../en/images/fields/adding-custom-fields-list-of-images-field/01-fields-list-of-images-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -25,7 +32,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 Simple: select one or more images from the list.
 
-![list of images field data entry](../../../en/images/fields/fields-list-of-images-data-entry.png)
+![list of images field data entry](../../../en/images/fields/adding-custom-fields-list-of-images-field/02-fields-list-of-images-data-entry.png)
 
 ## Data Display
 
@@ -33,4 +40,4 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![list of images site display](../../../en/images/fields/fields-list-of-images-site.png)
+![list of images site display](../../../en/images/fields/adding-custom-fields-list-of-images-field/03-fields-list-of-images-site.png)

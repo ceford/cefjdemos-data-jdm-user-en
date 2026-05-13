@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Global_Configuration / Display title: Global Configuration -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Global_Configuration",
+  "title": "Global Configuration ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Overview
 
@@ -20,7 +27,7 @@ The Global Configuration form has six tabs some of which have long lists
 of parameters. Use the *Toggle Inline Help* button in the Toolbar to see 
 more or less information on each parameter.
 
-![Global configuration site tab](../../../en/images/configuration/global-configuration-site-tab.png)
+![Global configuration site tab](../../../en/images/configuration/global-configuration/01-global-configuration-site-tab.png)
 
 Some parameters show or hide other parameters when selected. For
 example, the **Site Offline** button shows more fields when set to *Yes*
@@ -94,7 +101,7 @@ sites and perhaps a temporary drop in search engine rankings.
 
 ## System tab
 
-![Global configuration system tab](../../../en/images/configuration/global-configuration-system-tab.png)
+![Global configuration system tab](../../../en/images/configuration/global-configuration/02-global-configuration-system-tab.png)
 
 ### Debug panel
 
@@ -112,7 +119,7 @@ hosting environment.
 
 ## Server tab
 
-![Global configuration server tab](../../../en/images/configuration/global-configuration-server-tab.png)
+![Global configuration server tab](../../../en/images/configuration/global-configuration/03-global-configuration-server-tab.png)
 
 ### Mail panel
 
@@ -183,7 +190,7 @@ The following are also working combinations:
 
 ## Logging tab
 
-![Global configuration site tab](../../../en/images/configuration/global-configuration-logging-tab.png)
+![Global configuration site tab](../../../en/images/configuration/global-configuration/04-global-configuration-logging-tab.png)
 
 In normal operation a Joomla site should have logging disabled. If there
 are problems you can enable logging by setting the **Log Almost
@@ -195,7 +202,7 @@ other errors that will only appear in your server error logs.
 
 ## The Text Filters tab
 
-![Global configuration site tab](../../../en/images/configuration/global-configuration-filters-tab.png)
+![Global configuration site tab](../../../en/images/configuration/global-configuration/05-global-configuration-filters-tab.png)
 
 The text filter settings will be applied to all text editor fields
 submitted by users in the selected groups. These filtering options give
@@ -206,7 +213,7 @@ against markup commonly associated with website attacks.
 
 ## Permissions tab
 
-![Global configuration site tab](../../../en/images/configuration/global-configuration-permissions-tab.png)
+![Global configuration site tab](../../../en/images/configuration/global-configuration/06-global-configuration-permissions-tab.png)
 
 Permissions control what users in each User Group can see and do. The
 entries in the Permissions tab set the default permissions for the site.

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Guest_Access / Display title: Guest Access -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Guest_Access",
+  "title": "Guest Access ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Access Levels
 
@@ -33,7 +40,7 @@ Use of the Guest access level may be illustrated with a Login menu item:
 - Optionally, select the Ordering list and select the item **after**
   which you would like the Login item to appear.
 
-![login menu form restricted to guest access](../../../en/images/users/guest-access-menu-login.png)
+![login menu form restricted to guest access](../../../en/images/users/guest-access/01-guest-access-menu-login.png)
 
 - Save and Close.
 - View the site. Check that the Login menu item works. Check that it
@@ -58,7 +65,7 @@ item:
 - Optionally, select the Ordering dropdown and select the item **after**
   which you would like the Login item to appear.
 
-![logout menu form restricted to registered access](../../../en/images/users/guest-access-menu-logout.png)
+![logout menu form restricted to registered access](../../../en/images/users/guest-access/02-guest-access-menu-logout.png)
 
 - Save and Close.
 - View the site. Check that the Logout menu item works. Check that it

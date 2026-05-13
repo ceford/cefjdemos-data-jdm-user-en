@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Introduction_to_Joomla! / Display title: Introduction to Joomla! -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Introduction_to_Joomla!",
+  "title": "Introduction to Joomla! ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -33,7 +40,7 @@ This template has all you need to get started with your own website. It
 can be customised with template settings and user specified features
 such as images and colours.
 
-![The Cassiopeia Template](../../../en/images/getting-started/introduction-to-joomla-cassiopeia.png)
+![The Cassiopeia Template](../../../en/images/getting-started/introduction-to-joomla/01-introduction-to-joomla-cassiopeia.png)
 
 If Cassiopeia is not quite right for your site, there are hundreds of
 other templates available from third party suppliers, both free and
@@ -57,7 +64,7 @@ commercial.
 This template is not seen by the public so it is rarely necessary to
 seek an alternative.
 
-![The Atum Template](../../../en/images/getting-started/introduction-to-joomla-atum.png)
+![The Atum Template](../../../en/images/getting-started/introduction-to-joomla/02-introduction-to-joomla-atum.png)
 
 You can configure what appears on various dashboards but that is best
 left until experience warrants a change.

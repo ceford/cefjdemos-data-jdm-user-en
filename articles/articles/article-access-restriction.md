@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Article_Access_Restriction / Display title: Article: Access Restriction -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Article_Access_Restriction",
+  "title": "Article: Access Restriction ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -16,7 +23,7 @@ This article describes the implementation of access restriction  in the
 
 Joomla provides the Access Levels seen in the following screenshot:
 
-![User access levels](../../../en/images/articles/article-access-user-groups.png)
+![User access levels](../../../en/images/articles/article-access-restriction/01-article-access-user-groups.png)
 
 The access levels appear in the *Content* tab of the *Article: Edit* form.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Article: Edit - Content -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_New_Article",
+  "title": "Article: Edit - Content ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -10,7 +17,7 @@ default editor provided with Joomla.
 The following screenshot shows the edit form with an article that has already
 been saved. 
 
-![The edit content form](../../../en/images/articles/articles-edit-content.png)
+![The edit content form](../../../en/images/articles/article-content/01-articles-edit-content.png)
 
 ## Data Entry
 

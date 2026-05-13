@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md / Display title: Vulnerable Extensions -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md",
+  "title": "Vulnerable Extensions ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Extension Sources
 
@@ -32,7 +39,7 @@ extension. In use, it accepts an extension zip file and examines its contents
 for compliance with JED standards. It is extremely useful even for extensions
 that do not appear in the JED list. Here is an example screenshot:
 
-![jed checker result](../../../en/images/extensions/extensions-jed-checker.png)
+![jed checker result](../../../en/images/extensions/vulnerable-extensions/01-extensions-jed-checker.png)
 
 The 400 PHP files with missing GPL Licence Notice are in third party libraries
 with a different Licence. The 30 files identified by the Joomla Anti-Malware

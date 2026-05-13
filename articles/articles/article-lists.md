@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Lists / Display title: Article: Edit - Lists -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Lists",
+  "title": "Article: Edit - Lists ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## List Types
 
@@ -24,7 +31,7 @@ The following screenshot shows an unordered list with two levels of indentation.
 It also shows the full tool set, opened by selecting the ellipsis button (...)
 at the end of the first row of tool icons.
 
-![Nested unordered lists](../../../en/images/articles/articles-edit-lists.png)
+![Nested unordered lists](../../../en/images/articles/article-lists/01-articles-edit-lists.png)
 
 This screenshot will be used to explain how the bulleted list was created using
 the *Bullet list* and *Increase indentation* or *Decrease indentation* tools:
@@ -42,7 +49,7 @@ Three styles are available:
 The down chevron to the right of the bullet list icon opens a small panel
 allowing selection of the preferred style for a selected list item:
 
-![Bullet list manipulation tools](../../../en/images/articles/articles-edit-list-bullets.png)
+![Bullet list manipulation tools](../../../en/images/articles/article-lists/02-articles-edit-list-bullets.png)
 
 The list icon acts like a toggle. If the cursor is in a paragraph and a bullet
 is selected the paragraph becomes a list item. If the bullet is selected again
@@ -74,7 +81,7 @@ Six styles are available
 - Upper case Letters: A, B, C ...
 - Upper case Roman numerals: I, II, III ...
 
-![Number list manipulation tools](../../../en/images/articles/articles-edit-list-numbers.png)
+![Number list manipulation tools](../../../en/images/articles/article-lists/03-articles-edit-list-numbers.png)
 
 Numbered lists work a little differently. When a list item is indented it takes
 on the first numeric value and the numbers on the rest of the list move up so

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Layouts / Display title: Template Layouts -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Layouts",
+  "title": "Template Layouts ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Layout File Sructures
 
@@ -101,7 +108,7 @@ open the Login module. In the Advanced tab, Layout item you will find
 that you have a choice between **-- From Module -- / Default** and 
 **-- From cassiopeia Template -- / expires**.
 
-![login module showing alternative layouts](../../../en/images/templates/layouts-module-login.png)
+![login module showing alternative layouts](../../../en/images/templates/template-layouts/01-layouts-module-login.png)
 
 One way you might use this feature is to have two Login forms, one with
 Public access and the other with Super Users access, In the latter
@@ -127,11 +134,11 @@ following procedure:
   text might be **Login / Logout with expire time**
 - Save and Close and go back to the Login module form.
 
-![languages edit override form](../../../en/images/templates/layouts-language-override-form.png)
+![languages edit override form](../../../en/images/templates/template-layouts/02-layouts-language-override-form.png)
 
 The module layout selection form field with **expires** translated:
 
-![module alternative layouts select](../../../en/images/templates/layouts-example-translated.png)
+![module alternative layouts select](../../../en/images/templates/template-layouts/03-layouts-example-translated.png)
 
 ## Component Alternative Layouts
 
@@ -149,14 +156,14 @@ You can set a global value for component layouts in the Options window
 of the component. For example, in the Article: Options window, there is
 a *Choose a Layout* parameter as shown below:
 
-![articles options form with alternative layouts list](../../../en/images/templates/layouts-articles-options.png)
+![articles options form with alternative layouts list](../../../en/images/templates/template-layouts/04-layouts-articles-options.png)
 
 As with module layouts, the component layouts are shown as parameter
 options in the individual component edit screen. For example, for an
 article, the parameter shows in the Articles: Edit Options tab as shown
 below.
 
-![article edit form showing alternative layouts list](../../../en/images/templates/layout-article-edit.png)
+![article edit form showing alternative layouts list](../../../en/images/templates/template-layouts/05-layout-article-edit.png)
 
 As with other parameters, the Use Global setting will use the setting
 from the Options parameter. The From Component's Default setting will
@@ -198,12 +205,12 @@ You can set category layouts globally, in the Options screen of each
 component. Below is an example from the Contacts: Options / Category
 form:
 
-![contacts component options form showing alternative layouts](../../../en/images/templates/layouts-contacts-options.png)
+![contacts component options form showing alternative layouts](../../../en/images/templates/template-layouts/06-layouts-contacts-options.png)
 
 Category alternative layouts show up when you add or edit a category in
 the Component: Edit Category / Options form as shown below.
 
-![contacts component options form showing alternative layouts](../../../en/images/templates/layouts-contacts-category-options.png)
+![contacts component options form showing alternative layouts](../../../en/images/templates/template-layouts/07-layouts-contacts-category-options.png)
 
 Category alternative layouts may be used for articles, banners, contacts
 and news feeds.
@@ -226,7 +233,7 @@ also appear in the list allowing Blog or List or alternative template
 layouts to be selected as the default category layout either globally or
 when editing a single article category.
 
-![contacts component options form showing alternative layouts](../../../en/images/templates/layouts-articles-options-category.png)
+![contacts component options form showing alternative layouts](../../../en/images/templates/template-layouts/08-layouts-articles-options-category.png)
 
 This means that, like other layout options, you can control whether
 article category links use blog or list layouts. It is important to
@@ -252,7 +259,7 @@ hide some parameters or add new parameters.
 
 Alternative Menu Items show up when you select a Menu Item Type as shown below.
 
-![menu item selection list](../../../en/images/templates/layouts-menu-blog-menu-creation.png)
+![menu item selection list](../../../en/images/templates/template-layouts/09-layouts-menu-blog-menu-creation.png)
 
 Alternative Menu Items are used and work the same way as standard menu
 items. Since they are already based on customized layouts, template

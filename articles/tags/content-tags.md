@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Content Tags -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+  "title": "Content Tags ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -40,7 +47,7 @@ cases.
 
 - Select **Components → Tags** from the Administrator menu.
 
-![the tags list page](../../../en/images/tags/tags-list.png)
+![the tags list page](../../../en/images/tags/content-tags/01-tags-list.png)
 
 However tags are created, they can be found in this list.
 
@@ -50,7 +57,7 @@ However tags are created, they can be found in this list.
 
 Select the **New** button in the Tags list Toolbar.
 
-![new tag named predator](../../../en/images/tags/new-tag-predator.png)
+![new tag named predator](../../../en/images/tags/content-tags/02-new-tag-predator.png)
 
 - **Title** This is the only *required* field. 
 - **Alias** This is created from the Title on save.
@@ -102,7 +109,7 @@ Use the Tags list to find, open and adjust tag settings.
 
 ### The Tags List Filter
 
-![tags list filter by type](../../../en/images/tags/tags-list-filter.png)
+![tags list filter by type](../../../en/images/tags/content-tags/03-tags-list-filter.png)
 
 You can manipulate the list in a number of ways:
 
@@ -140,12 +147,12 @@ only in content but also in some useful modules such as **Popular Tags** and
 **Similar Tags**. The following examples show how these look on a
 standard installation using the default **Cassiopeia** Template.
 
-![tags usage site example yellow labrador](../../../en/images/tags/tag-examples-yellow-labrador.png)
+![tags usage site example yellow labrador](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
 
 When you click on one of the tags you will be taken to a page that lists
 all items assigned to that particular tag:
 
-![tags usage site example black labrador](../../../en/images/tags/tag-examples-black-labrador.png)
+![tags usage site example black labrador](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
 
 Clicking a tag will take you to a page that outputs a list of all items
 assigned with that particular tag - in effect it is a filtered list of

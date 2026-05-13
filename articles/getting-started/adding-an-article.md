@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Adding an Article -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article",
+  "title": "Adding an Article ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -24,7 +31,7 @@ until an item is selected in the list of items. The following screenshot shows
 the *Articles* list with an article checkbox selected. The *Action* button is a 
 drop-down list that has been selected to show the options available.
 
-![Articles list with actions button enabled](../../../en/images/getting-started/articles-list.png)
+![Articles list with actions button enabled](../../../en/images/getting-started/adding-an-article/01-articles-list.png)
 
 Select the *New* button in the *Articles* page *Toolbar* to open an article
 edit form. 
@@ -37,7 +44,7 @@ an article. There is no warning message. Any content entered is discarded.
 After saving, the Title bar label is *Articles: Edit* and the Toolbar has many 
 more buttons.
 
-![Article edit form](../../../en/images/getting-started/article-edit-form.png)
+![Article edit form](../../../en/images/getting-started/adding-an-article/02-article-edit-form.png)
 
 There are a bewildering number of form fields in the Edit page but all
 except two have sensible defaults. The fields to fill in:
@@ -62,7 +69,7 @@ except two have sensible defaults. The fields to fill in:
 
 To see what it looks like you can select the *Preview* button in the Toolbar.
 
-![Articles list with actions button enabled](../../../en/images/getting-started/article-edit-preview.png)
+![Articles list with actions button enabled](../../../en/images/getting-started/adding-an-article/03-article-edit-preview.png)
 
 Note the article metadata: the information between the Title and the
 Content. You can configure what information appears and where it appears
@@ -108,7 +115,7 @@ described above. Your new Joomla! site will have just the *Main Menu*,
 that shows the same page in many different languages and has other content
 used in later tutorials.
 
-![Site view using category blog layout](../../../en/images/getting-started/article-site-view.png)
+![Site view using category blog layout](../../../en/images/getting-started/adding-an-article/04-article-site-view.png)
 
 ### Breadcrumbs
 

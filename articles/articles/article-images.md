@@ -1,4 +1,11 @@
-<!-- Filename: Adding_an_image_to_an_article / Display title: Article: Edit - Images -->
+<!--
+{
+  "source": "https://docs.joomla.org/Adding_an_image_to_an_article",
+  "title": "Article: Edit - Images ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -39,7 +46,7 @@ selection of any image in the site images folder.
 **Important:** First place the cursor where you wish the image to appear. That
 might be at the beginning or end of a paragraph or in an empty paragraph.
 
-![The media popup dialog](../../../en/images/articles/articles-edit-images-media.png)
+![The media popup dialog](../../../en/images/articles/article-images/01-articles-edit-images-media.png)
 
 In the popup dialog, navigate to the image you want to use and select it. On 
 selection a form will appear prompting for additional data.
@@ -92,7 +99,7 @@ installation a slightly different procedure is needed.
 - The **Advanced** tab provides some formatting options applied as in-line
   styles. Experiment with 1rem, 2, groove.
 
-![The insert image popup dialog](../../../en/images/articles/articles-edit-images-external-image.png)
+![The insert image popup dialog](../../../en/images/articles/article-images/02-articles-edit-images-external-image.png)
 
 ### Using Drag and Drop to insert Remote image links
 

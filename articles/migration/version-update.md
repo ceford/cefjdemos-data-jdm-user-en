@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Updating_from_an_existing_version / Display title: Version Update -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Updating_from_an_existing_version",
+  "title": "Version Update ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -27,12 +34,12 @@ earliest opportunity to keep the site up to date.
 If the notifications panel is displayed in the Home Dashboard, select the
 **x.y.z Available - Update Now!** button go to the Update Component.
 
-![joomla update notification in home dashboard](../../../en/images/migration/version-update-notification-home-dashboard.png)
+![joomla update notification in home dashboard](../../../en/images/migration/version-update/01-version-update-notification-home-dashboard.png)
 
 Alternatively, to access the Update Component from the Administrator menu,
 select **System** to go via the **System Dashboard**.
 
-![joomla update notification in system dashboard](../../../en/images/migration/version-update-notification-system-dashboard.png)
+![joomla update notification in system dashboard](../../../en/images/migration/version-update/02-version-update-notification-system-dashboard.png)
 
 The System Dashboard has an *Update Panel* which includes a Joomla link
 that will show the available update version number. Select the **Joomla**
@@ -48,7 +55,7 @@ Update Server in a list form.
 **Note:** The *Pre-Update Check* screen is not displayed if the site is on the
 current **Minor** version.
 
-![joomla pre update check](../../../en/images/migration/version-update-pre-update-check.png)
+![joomla pre update check](../../../en/images/migration/version-update/03-version-update-pre-update-check.png)
 
 Pay careful attention to check results and take action to rectify any issues
 highlighted before updating. You may need to update, disable or uninstall
@@ -70,21 +77,21 @@ When you have reviewed the Pre-Update Check and are happy, select **Update**.
 
 ### Confirming the Update
 
-![start update page](../../../en/images/migration/version-update-start-update.png)
+![start update page](../../../en/images/migration/version-update/04-version-update-start-update.png)
 
 Click the checkbox to confirm you have made a backup and checked
 extensions are compatible then click the **Start Update**.
 
 ### Update Progress
 
-![update progress page](../../../en/images/migration/version-update-progress.png)
+![update progress page](../../../en/images/migration/version-update/05-version-update-progress.png)
 
 Once the update starts a progress bar will appear as the Joomla files
 are updated.
 
 ### Completion
 
-![update complete page](../../../en/images/migration/version-update-completion.png)
+![update complete page](../../../en/images/migration/version-update/06-version-update-completion.png)
 
 When the progress bar reaches 100% a system message will confirm your
 site has been updated and the version number. The version number will
@@ -110,7 +117,7 @@ browser to reload any changes to stylesheets and scripts.
 From the sidebar menu select **System** to be taken to the System Dashboard.
 This gives you an overview of the current status of your Joomla site.
 
-![post update system dashboard](../../../en/images/migration/version-update-after-update.png)
+![post update system dashboard](../../../en/images/migration/version-update/07-version-update-after-update.png)
 
 In this example we can see that since the update we have two items that
 require attention. They are marked with a label that includes a number.
@@ -127,12 +134,12 @@ It's good practice to clear the browsers cache when checking using
 Navigate to **System → Maintenance → Database**. If your database is up to
 date, you should see a screen similar to the one below:
 
-![post update database check with no problems](../../../en/images/migration/version-update-after-update-database-check-no-problems.png)
+![post update database check with no problems](../../../en/images/migration/version-update/08-version-update-after-update-database-check-no-problems.png)
 
 If your database is not up to date, you will see a screen listing the problems
 found, similar to the one below:
 
-![post update database check with problems](../../../en/images/migration/version-update-after-update-database-check-problems.png)
+![post update database check with problems](../../../en/images/migration/version-update/09-version-update-after-update-database-check-problems.png)
 
 In this case, select the problem extension *Name* and then the Update Structure
 button in the Toolbar. Joomla will update your database to correct the issues
@@ -150,7 +157,7 @@ these extensions may not have been correctly installed. To check this,
 navigate to **System → Discover**. Then select the Discover icon
 in the toolbar. The screen should show as follows:
 
-![Discover Screen With No Extensions To Install](../../../en/images/migration/version-update-after-update-discover.png)
+![Discover Screen With No Extensions To Install](../../../en/images/migration/version-update/10-version-update-after-update-discover.png)
 
 If so, you know that any new extensions added during the update were
 correctly installed in the database.
@@ -158,7 +165,7 @@ correctly installed in the database.
 If there are uninstalled extensions, they will show similar to the
 following screen:
 
-![Discover Screen With discovered Extensions To Install](../../../en/images/migration/version-update-after-update-discover-found.png)
+![Discover Screen With discovered Extensions To Install](../../../en/images/migration/version-update/11-version-update-after-update-discover-found.png)
 
 In this case, check the boxes and click on the Install icon in the
 toolbar. Joomla will install the extension(s) and then display the

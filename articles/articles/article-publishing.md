@@ -1,4 +1,11 @@
-<!-- Filename:  J6.x:_Article_Publishing / Display title: Article: Edit - Publishing -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Publishing",
+  "title": "Article: Edit - Publishing ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -17,7 +24,7 @@ until unpublished, archived or deleted.
 
 ## Screenshot
 
-![The article edit form publishing tab](../../../en/images/articles/articles-edit-publishing-tab.png)
+![The article edit form publishing tab](../../../en/images/articles/article-publishing/01-articles-edit-publishing-tab.png)
 
 The *Metadata* panel is explained in a separate article. This article covers
 the *Publishing* panel.
@@ -95,7 +102,7 @@ The date and time values cn be typed into the date fields or selected with the
 Calendar tool, opened by selecting the calendar icon at the end of each date
 field.
 
-![Publishing dates](../../../en/images/articles-access/article-schedule-publishing.png)
+![Publishing dates](../../../en/images/articles/article-publishing/02-article-schedule-publishing.png)
 
 The calendar moves between days, months and years using the keyboard forward, 
 backward, up and down arrows. The **Today** button sets the current date. 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Adding a Category -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category",
+  "title": "Adding a Category ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -60,7 +67,7 @@ Menu items are covered in a later article.
 The following example uses a Mammals category inspired by the list above to
 demonstrate how to create a new Category:
 
-![Category edit form](../../../en/images/getting-started/article-category-edit.png)
+![Category edit form](../../../en/images/getting-started/adding-a-category/01-article-category-edit.png)
 
 - Select the **Content** item from the Administrator menu to expand it.
 - Select the **+** icon alongside the *Categories* menu item to open the 

@@ -1,4 +1,11 @@
-<!-- Filename: What_has_the_copyright_of_Joomla!%3F / Display title: Joomla! Copyright -->
+<!--
+{
+  "source": "https://docs.joomla.org/What_has_the_copyright_of_Joomla!%3F",
+  "title": "Joomla! Copyright ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 The Joomla! project does not aggregate the copyrights of its code
 contributors. No contributor is required to transfer his/her copyright

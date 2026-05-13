@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Item_Types / Display title: Menu Item Types -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
+  "title": "Menu Item Types ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## About Menu Item Types
 
@@ -8,7 +15,7 @@ a total of over 30 types. The following screenshot shows the components
 with menu item types. Each component expands on selection to display a list
 of types defined by that component:
 
-![menu item type select](../../../en/images/menus/menus-menu-item-type-select.png)
+![menu item type select](../../../en/images/menus/menu-item-types/01-menus-menu-item-type-select.png)
 
 ### Articles
 

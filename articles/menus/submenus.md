@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Submenus / Display title: Submenus -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Submenus",
+  "title": "Submenus ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Menu Basics
 
@@ -41,7 +48,7 @@ cat breeds on pages about cats and just a list of dog breeds on pages
 about dogs. The following screenshot shows the target layout the user
 would like to achieve:
 
-![submenus objectives animals cats](../../../en/images/menus/submenus-objectives-animals-cats.png)
+![submenus objectives animals cats](../../../en/images/menus/submenus/01-submenus-objectives-animals-cats.png)
 
 In this example, when the user selects the Animals menu item the Animals
 page is loaded and the Cats menu module disappears (no Dogs module
@@ -80,7 +87,7 @@ From the Administrator menu:
   So fill out the description field.
 - Save or Save & Close.
 
-![submenus new menu](../../../en/images/menus/submenus-new-menu.png)
+![submenus new menu](../../../en/images/menus/submenus/02-submenus-new-menu.png)
 
 ## Create Menu Items
 
@@ -129,7 +136,7 @@ handles (vertical ellipsis) to drag items into the correct order. If any
 item has a wrong parent just select the item title and change the parent
 in the Menus: Edit Item form.
 
-![submenus menu items list](../../../en/images/menus/submenus-menu-items-list.png)
+![submenus menu items list](../../../en/images/menus/submenus/03-submenus-menu-items-list.png)
 
 ## Menu Modules
 
@@ -160,7 +167,7 @@ From the Administrator menu:
     Dogs)
   - Position: sidebar-left (or wherever suits you)
 
-![submenus animals module](../../../en/images/menus/submenus-animals-module.png)
+![submenus animals module](../../../en/images/menus/submenus/04-submenus-animals-module.png)
 
 ### Animals Menu Assignment
 
@@ -175,7 +182,7 @@ this case on only three pages. From the Menu Assignment tab:
 - Make sure no other boxes are checked.
 - Save & Close
 
-![submenus animals module menu assignment](../../../en/images/menus/submenus-animals-module-menu-assignment.png)
+![submenus animals module menu assignment](../../../en/images/menus/submenus/05-submenus-animals-module-menu-assignment.png)
 
 ## Cats Submenu Module
 
@@ -223,7 +230,7 @@ top of the page, entitled Main Menu Blog. From the Administrator menu:
   - Menu Item Type: Menu Item Alias
   - Menu Item: Animals - selected from the list of existing menu items.
 
-![submenus animals alias](../../../en/images/menus/submenus-animals-alias.png)
+![submenus animals alias](../../../en/images/menus/submenus/06-submenus-animals-alias.png)
 
 - Save
 - Ordering - after save the order can be changed. In this example it is
@@ -236,4 +243,4 @@ the submenus in the left side position. The Animals link in the top menu
 will open the animals page from which it is possible to navigate to the
 Cats or Dogs pages:
 
-![submenus objectives animals dogs](../../../en/images/menus/submenus-objectives-animals-dogs.png)
+![submenus objectives animals dogs](../../../en/images/menus/submenus/07-submenus-objectives-animals-dogs.png)

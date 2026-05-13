@@ -1,4 +1,11 @@
-<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: UNIX File Permissions -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F",
+  "title": "UNIX File Permissions ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Unix/Linux file permissions can be confusing. The basic UNIX permissions
 come in three flavors;

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Read_More_Links / Display title: Article: Edit - Read More -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Read_More_Links",
+  "title": "Article: Edit - Read More ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Blog and Featured Article Layouts
 

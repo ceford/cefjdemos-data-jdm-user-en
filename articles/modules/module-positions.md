@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_Positions / Display title: Module Positions -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_Positions",
+  "title": "Module Positions ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -28,16 +35,16 @@ url.
 
 ### Atum Administrator Template Positions
 
-![templates atum template positions](../../../en/images/modules/template-positions-templates-page.png)
+![templates atum template positions](../../../en/images/modules/module-positions/01-template-positions-templates-page.png)
 
 ### Cassiopeia Site Template Positions
 
 
-![templates cassiopeia template positions](../../../en/images/modules/template-positions-site-page.png)
+![templates cassiopeia template positions](../../../en/images/modules/module-positions/02-template-positions-site-page.png)
 
 You may also find this module position diagram helpful:
 
-![cassiopeia template position diagram](../../../en/images/modules/cassiopeia-template-positions.png)
+![cassiopeia template position diagram](../../../en/images/modules/module-positions/03-cassiopeia-template-positions.png)
 
 ## Production Sites
 

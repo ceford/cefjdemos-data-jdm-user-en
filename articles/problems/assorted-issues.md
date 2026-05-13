@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Assorted_Issues / Display title: Assorted Issues -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Assorted_Issues",
+  "title": "Assorted Issues ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Redirect Issue After Upgrade to 4.0.6
 

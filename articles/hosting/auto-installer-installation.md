@@ -1,4 +1,11 @@
-<!-- Filename: Installing_Joomla_using_an_Auto_Installer / Display title: Auto Installer Installation -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_Joomla_using_an_Auto_Installer",
+  "title": "Auto Installer Installation ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Overview
 
@@ -30,7 +37,7 @@ minutes to set up a database and install Joomla in separate steps.</div>
 2.  Select the *New Installation* Link in the Joomla! Overview
 3.  Fill in the various details and Submit. For each step keep selecting Submit!
 
-![Fantastico joomla installation form](../../../en/images/hosting/auto-installer-fantastico.jpg)
+![Fantastico joomla installation form](../../../en/images/hosting/auto-installer-installation/01-auto-installer-fantastico.jpg)
 
 ## Softaculous
 
@@ -41,7 +48,7 @@ minutes to set up a database and install Joomla in separate steps.</div>
     Sample Data included in Joomla.
 4.  After completing the Details select Submit.
 
-![Softaculous joomla installation form](../../../en/images/hosting/auto-installer-softaculous.jpg)
+![Softaculous joomla installation form](../../../en/images/hosting/auto-installer-installation/02-auto-installer-softaculous.jpg)
 
 Its really fast to install and update using Auto Installers.
 

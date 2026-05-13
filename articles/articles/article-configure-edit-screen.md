@@ -1,4 +1,11 @@
-<!-- Filename:  J6.x:_Article_Edit_Configure_Edit_Screen / Display title: Article: Edit - Configure Edit Screen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
+  "title": "Article: Edit - Configure Edit Screen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -8,7 +15,7 @@ from the edit form. Perhaps they are not relevant for this article.
 
 ## Screenshot
 
-![The configure edit screen tab](../../../en/images/articles/articles-edit-configure-edit-screen-tab.png)
+![The configure edit screen tab](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Configure Edit Screen panel
 

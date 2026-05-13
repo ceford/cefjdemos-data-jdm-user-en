@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Media: Options -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Options",
+  "title": "Media: Options ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -15,7 +22,7 @@ in the default list.
 
 ## Screenshot
 
-![The media Options form](../../../en/images/media/media-options.png)
+![The media Options form](../../../en/images/media/media-options/01-media-options.png)
 
 ## Path to Files and Folders
 
@@ -37,7 +44,7 @@ Joomla folder.
 When set up, you will be able to choose between the images and files
 folders in the Local part of the Media view.
 
-![The media page](../../../en/images/media/media-sample-data-cassiopeia.png)
+![The media page](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Additional Image or Document Types
 

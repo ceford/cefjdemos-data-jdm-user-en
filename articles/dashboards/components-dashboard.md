@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Components_Dashboard / Display title: Components Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Components_Dashboard",
+  "title": "Components Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -10,4 +17,4 @@ can be edited or unpublished.
 
 ## Screenshot
 
-![Components dashboard](../../../en/images/dashboards/components-dashboard.png)
+![Components dashboard](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)

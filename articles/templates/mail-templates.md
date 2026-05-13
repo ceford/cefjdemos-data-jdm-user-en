@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Managing_Mail_Template_Layout / Display title: Mail Templates -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout",
+  "title": "Mail Templates ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -6,7 +13,7 @@ Mail Templates are used to send system email messages in **plain text** or **HTM
 
 The following screenshot shows a selection of the 26 standard Mail Templates available. The list is available by selecting **System -> Mail Templates** from the Administrator menu,
 
-![mail templates list](../../../en/images/templates/mail-templates-list.png)
+![mail templates list](../../../en/images/templates/mail-templates/01-mail-templates-list.png)
 
 The mail messages can be customised to alter layout, appearance and wording to suit your site’s needs. For example, you might like to use a site logo and colour scheme in those emails sent to customers. Customisation of emails sent to administrators is less important. 
 
@@ -16,7 +23,7 @@ There are two customisation methods: via the *Mail Template: Options* for all ma
 
 Select the **Options** button in the *Mail Templates* list Toolbar to gain access to the overall mail template settings. Select the *Toggle Inline Help* button to see if any of the form fields have extra help.
 
-![mail templates options](../../../en/images/templates/mail-templates-options.png)
+![mail templates options](../../../en/images/templates/mail-templates/02-mail-templates-options.png)
 
 ### Mail Format
 
@@ -32,7 +39,7 @@ In the list of Mail Templates you can select any template to edit. The Title lin
 
 ### The Mail tab
 
-![edit mail template form](../../../en/images/templates/mail-template-edit.png)
+![edit mail template form](../../../en/images/templates/mail-templates/03-mail-template-edit.png)
 
 The contents of the Subject and Body areas are stored in language strings initially. This makes it easy to *Reset To Default Subject* or *Body*. However, once a specific mail template has been edited its Subject and Body fields are stored in the `#__mail_templates` table. 
 
@@ -44,7 +51,7 @@ The placeholder tags available vary from mail to mail. You could add your own cu
 
 This tab is only present if the *Per Template Mail Settings* is set to *Yes* in *Mail Templates: Options*. The illustration below shows a screenshot with *Mail Settings* set to *No*. If set to *Yes* more form fields appear that override the Mail options set in the Global Configuration, Server tab.
 
-![edit mail template form](../../../en/images/templates/mail-template-edit-options.png)
+![edit mail template form](../../../en/images/templates/mail-templates/04-mail-template-edit-options.png)
 
 If you want to send a blind carbon copy of an outgoing email to a specific email address you can enter it in the *Send Copy To Email* field.
 

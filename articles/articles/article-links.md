@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Links / Display title: Article: Edit - Links -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Links",
+  "title": "Article: Edit - Links ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Accessible Links
 

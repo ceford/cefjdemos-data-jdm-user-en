@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Archive_an_Article / Display title: Articles: Archive -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Archive_an_Article",
+  "title": "Articles: Archive ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -61,7 +68,7 @@ settings from 5 to 100 and All. Always beware of using *All*. If you return
 thousands of results your page may be slow to load and unresponsive. You may 
 run out of time or memory leading to a server error being returned.
 
-![Archived articles page view](../../../en/images/articles/articles-archived-site.png)
+![Archived articles page view](../../../en/images/articles/articles-archive/01-articles-archived-site.png)
 
 At the foot of the right column is the *Archived Articles* module.
 

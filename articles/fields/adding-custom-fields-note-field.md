@@ -1,4 +1,11 @@
-<!-- Filename: localhost / Display title: Note Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/localhost",
+  "title": "Note Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -8,7 +15,7 @@ The note form field type makes it possible to create titles, texts, descriptions
 
 ### General tab
 
-![Note field creation](../../../en/images/fields/fields-note-edit.png)
+![Note field creation](../../../en/images/fields/adding-custom-fields-note-field/01-fields-note-edit.png)
 
 - **Type** Number, which cannot be changed after selection.
 - **Name** The unique name of the field.
@@ -35,7 +42,7 @@ The note form field type makes it possible to create titles, texts, descriptions
 
 In the data entry form, the note field appears amongst other fields as text styled according to the style choices set in the field. It might contain instructions or information.
 
-![Number field data entry](../../../en/images/fields/fields-note-data-entry.png)
+![Number field data entry](../../../en/images/fields/adding-custom-fields-note-field/02-fields-note-data-entry.png)
 
 **Tip:** Use the Field sort mechanism to sort the Note order amongst other fields. You may have several different Note fields to provide structure and information for your fields.
 

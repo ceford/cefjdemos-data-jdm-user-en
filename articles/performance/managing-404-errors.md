@@ -1,4 +1,11 @@
-<!-- Filename: Managing_404_Errors / Display title: Managing 404 Errors -->
+<!--
+{
+  "source": "https://docs.joomla.org/Managing_404_Errors",
+  "title": "Managing 404 Errors ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Why 404 Not Found Matters
 
@@ -37,7 +44,7 @@ why there are pages that were on your site and now can't be found.
 If there was a temporary problem on your site, you can mark errors as
 being fixed.
 
-![webmaster tools](../../../en/images/performance/404-discovery.png)
+![webmaster tools](../../../en/images/performance/managing-404-errors/01-404-discovery.png)
 
 ## Fixing Problems
 
@@ -60,9 +67,9 @@ landing page is. This should allow you to monitor and proactively manage
 your 404 errors and ensure that your site visitors do not end up landing
 on dead links.
 
-![Analytics alerts 404 traffic](../../../en/images/performance/404-analytics-alerts.png)
+![Analytics alerts 404 traffic](../../../en/images/performance/managing-404-errors/02-404-analytics-alerts.png)
 
-![Analytics alerts audience overview](../../../en/images/performance/404-analytics-alerts-2.png)
+![Analytics alerts audience overview](../../../en/images/performance/managing-404-errors/03-404-analytics-alerts-2.png)
 
 Google also has the ability, in Analytics, to set up alerts. Alerts
 allow you to be emailed when certain events occur. In this case, we can
@@ -73,7 +80,7 @@ problem with the website which needs investigating.
 This is a great way to keep on top of things even if you haven't logged
 in to look at your dashboard!
 
-![Analytics alerts email](../../../en/images/performance/404-analytics-alerts-email.png)
+![Analytics alerts email](../../../en/images/performance/managing-404-errors/04-404-analytics-alerts-email.png)
 
 ## Monitoring Errors with a Dashboard
 
@@ -83,4 +90,4 @@ other metrics which might be of interest. Just search the Google
 Analytics Gallery for *Data Integrity Dashboard* and select which
 profile to install it under.
 
-![Data integrity](../../../en/images/performance/404-data-integrity.png)
+![Data integrity](../../../en/images/performance/managing-404-errors/05-404-data-integrity.png)

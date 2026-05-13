@@ -1,4 +1,11 @@
-<!-- Filename: What_are_web_standards%3F / Display title: What are web standards? -->
+<!--
+{
+  "source": "https://docs.joomla.org/What_are_web_standards%3F",
+  "title": "What are web standards? ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Web Standards are documents or compilation of documents that contain
 definition of technologies or guidance for defining technologies related

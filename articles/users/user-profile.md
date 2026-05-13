@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Profile / Display title: User Profile -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Profile",
+  "title": "User Profile ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Registration Data
 
@@ -15,7 +22,7 @@ obtained with the User - Profile plugin.
   not appear in the User Profile form.
 - Save & Close
 
-![user profile plugin](../../../en/images/users/user-profile-plugin.png)
+![user profile plugin](../../../en/images/users/user-profile/01-user-profile-plugin.png)
 
 - If self-registration is allowed, open the User Registration form to
   check that any extra User Profile fields are present.
@@ -40,10 +47,10 @@ From the Administrator menu:
   menu item should only be seen when logged in.
 - Save and Close.
 
-![user profile menu item form](../../../en/images/users/user-profile-menu-item-form.png)
+![user profile menu item form](../../../en/images/users/user-profile/02-user-profile-menu-item-form.png)
 
 - Login to the site and use the link to check the User Profile.
 
-![user profile menu item form](../../../en/images/users/user-profile-summary.png)
+![user profile menu item form](../../../en/images/users/user-profile/03-user-profile-summary.png)
 
 - Try the **Edit Profile** button.

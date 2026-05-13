@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_New_Menu / Display title: Adding a New Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_New_Menu",
+  "title": "Adding a New Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -18,7 +25,7 @@ pages.
 This screenshot shows the menus available in a Multilingual site. In an
 initial Joomla installation there is a single *Main Menu*.
 
-![Menus list](../../../en/images/menus/menus-manage.png)
+![Menus list](../../../en/images/menus/adding-a-new-menu/01-menus-manage.png)
 
 The list allows you to select any of the green or red buttons to go directly
 to the list of menu items in that menu and state.
@@ -43,7 +50,7 @@ the '-' character such as resources-menu.
   - **Description**: Although not required this is often useful in a site with
     many menus. It appears below the *Title* in the menu list as illustrated
     above.
-![New Menu](../../../en/images/menus/menus-new.png)
+![New Menu](../../../en/images/menus/adding-a-new-menu/02-menus-new.png)
 - **Save & Close**
 
 In the list of Menus the newly created menu has a button laballed **Add a
@@ -57,7 +64,7 @@ menu module for editing purposes. You can have a look and then *Close* without
 making any changes. For your new menu, select the **Add a module for this menu**
 button to open a modal frame containing the Menu module data entry form.
 
-![Menu module data entry form](../../../en/images/menus/menus-module.png)
+![Menu module data entry form](../../../en/images/menus/adding-a-new-menu/03-menus-module.png)
 
 Fields to complete:
 
@@ -107,11 +114,11 @@ a list of available menu item types.
 - The **Status** field should be set to **Published**.
 - Select **Save & Close**.
 
-![Menu item data entry form](../../../en/images/menus/menus-single-article.png)
+![Menu item data entry form](../../../en/images/menus/adding-a-new-menu/04-menus-single-article.png)
 
 Add more Menu Items to the new Menu as required.
 
 Once items have been added to the Menu check to see that the Menu is displayed
 on the website in the correct position.
 
-![Menu display](../../../en/images/menus/menus-display.png)
+![Menu display](../../../en/images/menus/adding-a-new-menu/05-menus-display.png)

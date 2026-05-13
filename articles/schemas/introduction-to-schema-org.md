@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Introduction to Schemas -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Introduction to Schemas ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Rich Snippets
 
@@ -18,7 +25,7 @@ In Joomla, Rich Snippets are generated using structured data markup based on the
 
 To get started, go to **System -> Plugins** and enable the *System - Schema.org* plugin. If this plugin is not enabled there will be no Schema tab in an article edit form even if all of the individual plugins are enabled.
 
-![List of schema plugins](../../../en/images/schemas/schema-plugins-list.png)
+![List of schema plugins](../../../en/images/schemas/introduction-to-schema-org/01-schema-plugins-list.png)
 
 ### Edit System - Schema.org Plugin
 
@@ -28,13 +35,13 @@ To get started, go to **System -> Plugins** and enable the *System - Schema.org*
 - **Social Media Accounts** Add your company or personal social media accounts. Select the Green button plus sign to add rows to the form.
 - Select **Save & Close**.
 
-![edit system schema org plugin](../../../en/images/schemas/edit-system-schema-org-plugin.png)
+![edit system schema org plugin](../../../en/images/schemas/introduction-to-schema-org/02-edit-system-schema-org-plugin.png)
 
 ### Edit an Article
 
 Go to any of your articles and fill in the Schema form fields. If the *Schema Type* is set to *None*, the default, there are no fields to complete. Select any Schema to see a list of fields appropriate for that schema. The following screenshot shows an article with the Article schema selected:
 
-![edit article scheme form](../../../en/images/schemas/schema-form-in-an-article.png)
+![edit article scheme form](../../../en/images/schemas/introduction-to-schema-org/03-schema-form-in-an-article.png)
 
 ### Output
 

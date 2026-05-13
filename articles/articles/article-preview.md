@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Preview / Display title: Article: Preview -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Preview",
+  "title": "Article: Preview ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -38,4 +45,4 @@ After login to the Administrator interface:
 - To close the Preview window select the *X* button at the top right
   corner.
 
-![The preview window](../../../en/images/getting-started/article-edit-preview.png)
+![The preview window](../../../en/images/articles/article-preview/01-article-edit-preview.png)

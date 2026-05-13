@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Schema.org - Organization -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Organization ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -17,4 +24,4 @@ The *Generic Field* section allows *Title* and *Value* pairs to be entered in ad
 
 Below is an example of an Organization schema in an Article edit form.
 
-![An organisation schema edit form](../../../en/images/schemas/edit-schema-organisation.png)
+![An organisation schema edit form](../../../en/images/schemas/organisation/01-edit-schema-organisation.png)

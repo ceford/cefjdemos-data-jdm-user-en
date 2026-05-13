@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Headings / Display title: Article: Edit - Headings -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Headings",
+  "title": "Article: Edit - Headings ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Heading Semantics
 
@@ -56,7 +63,7 @@ by some text that text is contained in a paragraph. To create a heading:
 - You can double click any selected text to make a quick change, say from 
   P to H2 (toggle) or H2 to H3 using a popup bar as in the following screenshot:
 
-![article edit form with h3 selected](../../../en/images/articles/articles-edit-headings.png)
+![article edit form with h3 selected](../../../en/images/articles/article-headings/01-articles-edit-headings.png)
 
 Note: by convention, all HTML tags use lower case letters. If you select
 *Toggle Editor* button to look at the source you will see the paragraphs and

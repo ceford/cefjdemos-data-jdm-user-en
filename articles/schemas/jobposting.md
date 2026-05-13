@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_JobPosting_-_Using_JobPosting_Plugin / Display title: Schema.org - JobPosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - JobPosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -29,4 +36,4 @@ The *Generic Field* section allows *Title* and *Value* pairs to be entered in ad
 
 Below is an example of a JobPosting schema in an Article edit form.
 
-![A jobposting schema edit form](../../../en/images/schemas/edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)

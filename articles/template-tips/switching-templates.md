@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Switching_Templates / Display title: Switching Templates -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Switching_Templates",
+  "title": "Switching Templates ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Site and Administrator Templates
 
@@ -23,7 +30,7 @@ To set the default template:
   from the Administrator menu.
 - Select one of the buttons in the Default column.
 
-![templates site styles list page](../../../en/images/templates/switch-templates-styles-list.png)
+![templates site styles list page](../../../en/images/template-tips/switching-templates/01-switch-templates-styles-list.png)
 
 Have a look at your site to see that all of the pages are using the
 default template.
@@ -46,7 +53,7 @@ From the Templates: Styles list:
 - Select individual menu items or toggle all items in a menu.
 - Save
 
-![templates edit style page menu assignment tab](../../../en/images/templates/switch-templates-styles-edit-style-menu-assignment.png)
+![templates edit style page menu assignment tab](../../../en/images/template-tips/switching-templates/02-switch-templates-styles-edit-style-menu-assignment.png)
 
 In this example all of the menu items in the `Main Menu Testing` menu
 have been selected. Return to your site and select any of the menu items
@@ -61,7 +68,7 @@ This method is used to set the template for individual menu items.
 - In the **Template Style** field, select the desired template style.
 - Save
 
-![templates menus edit item form showing style selection](../../../en/images/templates/switch-templates-styles-edit-menu-style.png)
+![templates menus edit item form showing style selection](../../../en/images/template-tips/switching-templates/03-switch-templates-styles-edit-menu-style.png)
 
 Return to your site and select the changed menu item to check that it is
 displayed with the selected template style.

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Content_Dashboard / Display title: Content Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
+  "title": "Content Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -13,4 +20,4 @@ vacant **Add module to the dashboard** panel.
 
 ## Screenshot
 
-![Content dashboard](../../../en/images/dashboards/content-dashboard.png)
+![Content dashboard](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)

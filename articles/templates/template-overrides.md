@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Overrides / Display title: Template Overrides -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Overrides",
+  "title": "Template Overrides ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -23,7 +30,7 @@ Start by selecting **System → Templates → Site Templates** in
 the Administrator menu and then select the Cassiopeia Details and Files
 item. That will open the Templates: Customise (Cassiopeia) form:
 
-![template customise cassiopeia site tab](../../../en/images/templates/templates-customise-cassiopeia.png)
+![template customise cassiopeia site tab](../../../en/images/templates/template-overrides/01-templates-customise-cassiopeia.png)
 
 **Important:** do not edit any of the files supplied as part of the
 Cassiopeia template. At the next Joomla update those files may be
@@ -39,7 +46,7 @@ There is no mod_login at this stage.
 Select the Create Overrides tab to see the list of Modules, Components,
 Plugins and Layouts for which you may create overrides:
 
-![templates customise cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![templates customise cassiopeia overrides tab](../../../en/images/templates/template-overrides/02-cassiopeia-customisation-create-overrides.png)
 
 Select the mod_login item. The mod_login template php files will be
 copied into the html folder and you will be returned to the Editor tab.
@@ -63,7 +70,7 @@ lines of code added near the top of the file. These lines of code
 calculate when the user session will expire after loading the page
 containing the logout form.
 
-![templates customise cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-edit-logout-override.png)
+![templates customise cassiopeia overrides tab](../../../en/images/templates/template-overrides/03-cassiopeia-customisation-edit-logout-override.png)
 
 The Diff area shows added lines with a green background and deleted
 lines with a red background. There are no deleted lines in this case.
@@ -90,7 +97,7 @@ Your session will expire at <br><?php echo $endTime; ?>
 
 Save and reload the site page containing the logout form.
 
-![templates customise cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-logout-override-result.png)
+![templates customise cassiopeia overrides tab](../../../en/images/templates/template-overrides/04-cassiopeia-customisation-logout-override-result.png)
 
 You should see the logout form change each time the page is reloaded.
 But what if you should change your mind? Or have different options for
@@ -106,7 +113,7 @@ with com\_, mod\_ or plg\_. Note that the second part of a plugin
 override folder signifies the plugin group. Here is an example selection
 of override folders:
 
-![templates customise cassiopeia overrides tab](../../../en/images/templates/templates-customise-example-override-folder.png)
+![templates customise cassiopeia overrides tab](../../../en/images/templates/template-overrides/05-templates-customise-example-override-folder.png)
 
 ## Layout Overrides
 

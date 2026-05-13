@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Logging in to Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Logging_in_to_Joomla",
+  "title": "Logging in to Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -30,7 +37,7 @@ the website appended with /administrator, for example,
 my-joomla-website.com/administrator which invokes the Joomla Administrator 
 login page:
 
-![Administrator login form](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
+![Administrator login form](../../../en/images/getting-started/logging-in-to-joomla/01-logging-in-to-joomla-administrator-login-form.png)
 
 1.  Add your **Username**
 2.  Add your **Password**
@@ -48,7 +55,7 @@ Select the **Log in** button to be taken to the Joomla! Home Dashboard.
 
 To log out select the **User Menu** then **Log out**.
 
-![Administrator logout link](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
+![Administrator logout link](../../../en/images/getting-started/logging-in-to-joomla/02-logging-in-to-joomla-logout-link.png)
 
 ### Site Login
 
@@ -61,7 +68,7 @@ website will dictate where you access the login form.
 
 This example uses a login form located in the right sidebar.
 
-![Site login form module](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
+![Site login form module](../../../en/images/getting-started/logging-in-to-joomla/03-logging-in-to-joomla-site-login-form.png)
 
 In the **Login Form**
 
@@ -76,7 +83,7 @@ You will notice the login form will also contain a **Log out** button.
 
 ### Site Logout
 
-![Site logout form module](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
+![Site logout form module](../../../en/images/getting-started/logging-in-to-joomla/04-logging-in-to-joomla-site-logout-form.png)
 
 To logout go to the login form and select the **Log out** button.
 

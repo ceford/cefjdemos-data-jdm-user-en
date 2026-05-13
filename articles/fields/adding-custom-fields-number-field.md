@@ -1,4 +1,11 @@
-<!-- Filename: localhost / Display title: Number Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/localhost",
+  "title": "Number Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -8,7 +15,7 @@ The Number field provides a method to enter a real number with an option to atta
 
 ### General tab
 
-![Number field creation](../../../en/images/fields/fields-number-edit.png)
+![Number field creation](../../../en/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
 
 - **Type** Number, which cannot be changed after selection.
 - **Name** The unique name of the field.
@@ -63,7 +70,7 @@ The content of these tabs are self-evident and covered elsewhere.
 
 Data entry: simply type in the value you want. This example is the boiling point of Argon:
 
-![Number field data entry](../../../en/images/fields/fields-number-data-entry.png)
+![Number field data entry](../../../en/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
 
 **Beware:** if the number you enter is outside the minimum and maximum range set in the field creation options a browser hover label will tell you so but the information provided is not enforced. You can enter a number outside the range and it will be accepted.
 
@@ -71,4 +78,4 @@ Data entry: simply type in the value you want. This example is the boiling point
 
 The following image shows the display of an item with a negative value:
 
-![Number field site display](../../../en/images/fields/fields-number-site.png)
+![Number field site display](../../../en/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)

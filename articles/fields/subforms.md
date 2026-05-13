@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=fields&filename=subform.md / Display title: Subform Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=fields&filename=subform.md",
+  "title": "Subform Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -22,7 +29,7 @@ Special options for this field:
 has a dropdown list of available field and a Render Values Yes/No toggle.
 The item order can be changed with the drag icon.
 
-![Subform creation](../../../en/images/fields/fields-subform-edit.png)
+![Subform creation](../../../en/images/fields/subforms/01-fields-subform-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -32,12 +39,12 @@ demonstration purposes only. Leave it out in your own field titles.
 In the data entry form you need to add rows for each specimen. Each row
 contains a Calendar field, a Text field and Colour field.
 
-![Subform data entry](../../../en/images/fields/fields-subform-data-entry.png)
+![Subform data entry](../../../en/images/fields/subforms/02-fields-subform-data-entry.png)
 
 ## Data Display
 
 In the Article, the subform entitled Specimens has one row for each specimen.
 Look for the **Specimens** item in this screenshot:
 
-![subform site display](../../../en/images/fields/fields-subform-site.png)
+![subform site display](../../../en/images/fields/subforms/03-fields-subform-site.png)
 

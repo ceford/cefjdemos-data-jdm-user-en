@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Dashboard / Display title: Home Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Dashboard",
+  "title": "Home Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -29,4 +36,4 @@ elsewhere.
 
 ## Screenshot
 
-![Home dashboard](../../../en/images/dashboards/home-dashboard.png)
+![Home dashboard](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)

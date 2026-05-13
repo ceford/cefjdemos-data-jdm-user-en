@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Editor_Field / Display title: Editor Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Editor Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -23,7 +30,7 @@ editor. Default value for this is 250px. The value can be represented as a
 fraction of the viewport height, for example 50vh.
 - **Filter** Allow the system to save certain html tags or raw data.
 
-![Editor field creation](../../../en/images/fields/fields-editor-edit.png)
+![Editor field creation](../../../en/images/fields/adding-custom-fields-editor-field/01-fields-editor-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -33,7 +40,7 @@ demonstration purposes only. Leave it out in your own field titles.
 In the Article edit form the supplementary Editor field is similar to the main
 content Editor field.
 
-![editor field data entry](../../../en/images/fields/fields-editor-data-entry.png)
+![editor field data entry](../../../en/images/fields/adding-custom-fields-editor-field/02-fields-editor-data-entry.png)
 
 ## Data Display
 
@@ -46,4 +53,4 @@ the bullet list for that field item.
 
 Look for the **Cultivation Notes** item.
 
-![editor field site display](../../../en/images/fields/fields-editor-site.png)
+![editor field site display](../../../en/images/fields/adding-custom-fields-editor-field/03-fields-editor-site.png)

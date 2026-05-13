@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Person -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Person ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -22,4 +29,4 @@ The *Generic Field* section allows *Title* and *Value* pairs to be entered in ad
 
 Below is an example of a Person schema in an Article edit form.
 
-![A person schema edit form](../../../en/images/schemas/edit-schema-person.png)
+![A person schema edit form](../../../en/images/schemas/person/01-edit-schema-person.png)

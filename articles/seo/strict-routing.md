@@ -1,10 +1,17 @@
-<!-- Filename: J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs / Display title: SEO Strict Routing -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs",
+  "title": "SEO Strict Routing ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
 The Strict Routing option, introduced in Joomla 5.2, enhances the platform’s SEO performance by allowing for stricter routing rules using a switch in the *System - SEF* plugin. It helps to eliminate duplicate content by enforcing more consistent URLs and redirecting duplicates to the correct URL with a 301 redirect.
 
-![system sef plugin settings](../../../en/images/seo/seo-system-sef-plugin.png)
+![system sef plugin settings](../../../en/images/seo/strict-routing/01-seo-system-sef-plugin.png)
 
 ### Enforcing Suffixes
 

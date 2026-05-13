@@ -1,4 +1,11 @@
-<!-- Filename: Auto_redirect_guests_to_login / Display title: Auto redirect guests to login -->
+<!--
+{
+  "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
+  "title": "Auto redirect guests to login ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Desired Functionality
 

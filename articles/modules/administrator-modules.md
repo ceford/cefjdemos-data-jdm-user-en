@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Administrator_Modules / Display title: Administrator Modules -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Administrator_Modules",
+  "title": "Administrator Modules ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -7,7 +14,7 @@ Administrator modules installed and configured for everyday use. The
 following illustration shows the Home Dashboard positions to indicate
 where modules are located.
 
-![atum home dashboard positions](../../../en/images/modules/atum-template-positions.png)
+![atum home dashboard positions](../../../en/images/modules/administrator-modules/01-atum-template-positions.png)
 
 In the illustration above the panels are instances of the Quick Icon
 module linked to quickicon plugins.
@@ -53,7 +60,7 @@ You may wish to add a Custom module to advise Administrators of some
 system problem. Select **Content → Administrator Modules** from the
 Administrator menu. The list of installed modules is quite long:
 
-![atum admin modules list](../../../en/images/modules/atum-admin-modules-list.png)
+![atum admin modules list](../../../en/images/modules/administrator-modules/02-atum-admin-modules-list.png)
 
 Select the New button and then the Custom module. In the Modules: Custom
 edit form enter a Title, a Custom message and select a Position for the
@@ -62,7 +69,7 @@ in the Advanced tab, Module Class field some styles have been entered to
 centre the text and provide some padding: **alert alert-warning text-center**.
 Save to see the result. Close to see the result on the Modules list page.
 
-![atum custom module edit system message](../../../en/images/modules/atum-admin-module-system-message.png)
+![atum custom module edit system message](../../../en/images/modules/administrator-modules/03-atum-admin-module-system-message.png)
 
 When you have finished with the message you can just select the Status
 button in the module list to Unpublish the module.

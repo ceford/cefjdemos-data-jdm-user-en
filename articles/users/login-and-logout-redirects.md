@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Login_and_Logout_Redirects / Display title: Login and Logout Redirects -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Login_and_Logout_Redirects",
+  "title": "Login and Logout Redirects ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Defaults
 
@@ -19,7 +26,7 @@ logging out from a restricted page will be prompted to login in again.
 If this is troublesome an easy solution is to select the Home page to
 redirect to in the Module settings Logout Redirection Page field.
 
-![logout menu form restricted to registered access](../../../en/images/users/login-redirects-login-form.png)
+![logout menu form restricted to registered access](../../../en/images/users/login-and-logout-redirects/01-login-redirects-login-form.png)
 
 Tip: You could use two login modules. One with **Guest** access entitled
 **Login**. The second with **Registered** access entitled **Logout**.
@@ -36,7 +43,7 @@ and login leads to the User Profile page. You can select a menu item or
 you can give the URL of a page. For example you could have a System
 Status page with a hand-crafted message of the day.
 
-![logout menu form restricted to registered access](../../../en/images/users/login-redirects-login-menu-options.png)
+![logout menu form restricted to registered access](../../../en/images/users/login-and-logout-redirects/02-login-redirects-login-menu-options.png)
 
 The default Logout behaviour is to redirect to the site Home page. You could 
 redirect to something else, such as Good Bye message linked by a menu item or 
@@ -47,4 +54,4 @@ an internal URL.
 The Logout menu item is simple. The default is to stay on the same page
 after logout. If that proves inconvenient, select the site Home page.
 
-![logout menu form restricted to registered access](../../../en/images/users/login-redirects-logout-menu-options.png)
+![logout menu form restricted to registered access](../../../en/images/users/login-and-logout-redirects/03-login-redirects-logout-menu-options.png)

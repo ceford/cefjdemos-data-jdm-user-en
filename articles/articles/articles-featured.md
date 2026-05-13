@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Featured_Articles / Display title: Articles: Featured -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Featured_Articles",
+  "title": "Articles: Featured ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -32,7 +39,7 @@ To see the articles selected for a *Featured Articles* layout:
 The following screenshot shows a list of featured articles containing four 
 items, enough to create an interesting blog layout.:
 
-![Featured articles](../../../en/images/articles/articles-featured.png)
+![Featured articles](../../../en/images/articles/articles-featured/01-articles-featured.png)
 
 ### Featured Article Order
 
@@ -53,5 +60,5 @@ article.
 
 ## Site Appearance
 
-![Feature articles site view](../../../en/images/articles/articles-featured-site.png)
+![Feature articles site view](../../../en/images/articles/articles-featured/02-articles-featured-site.png)
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Actions_Log / Display title: User Actions Log -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Actions_Log",
+  "title": "User Actions Log ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -16,7 +23,7 @@ To view the the User Actions Log list:
 
 - Select **Users → User Actions Log** from the Administrator menu.
 
-![user actions log list page](../../../en/images/users/user-actions-log-list.png)
+![user actions log list page](../../../en/images/users/user-actions-log/01-user-actions-log-list.png)
 
 From this page a Super User has a global overview of all user activities
 performed on a site.
@@ -34,7 +41,7 @@ performed on a site.
 The User Actions Log: Options form allows the Super User to select which
 events to log and whether to include IP addresses in the log data.
 
-![user actions log options page](../../../en/images/users/user-actions-log-options.png)
+![user actions log options page](../../../en/images/users/user-actions-log/02-user-actions-log-options.png)
 
 ## Plugins
 
@@ -61,7 +68,7 @@ privacy request.
 
 This module is displayed for Super Users only in the Home Dashboard.
 
-![user actions log module](../../../en/images/users/user-actions-log-module.png)
+![user actions log module](../../../en/images/users/user-actions-log/03-user-actions-log-module.png)
 
 ## How to hook an extension to the system
 

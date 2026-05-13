@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Image Crop Resize Rotate -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate",
+  "title": "Image Crop Resize Rotate ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -14,7 +21,7 @@ These are the problems that the Media component can handle.
 As an example, the following image shows a group of animals that is a little
 too big for its intended purpose. It could be cropped or it could be resized.
 
-![Picture of animals](../../../en/images/media/media-crop-serengeti.png)
+![Picture of animals](../../../en/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
 
 ## Crop
 

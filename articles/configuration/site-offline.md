@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Site_Offline / Display title: Site Offline -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Offline",
+  "title": "Site Offline ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Site Users Only
 
@@ -9,7 +16,7 @@ configuration switch for this purposes that can be changed from **No** to
 see an offline message page with login form. The default Offline form can be 
 customised with an image:
 
-![Site offline screen](../../../en/images/configuration/site-offline.png)
+![Site offline screen](../../../en/images/configuration/site-offline/01-site-offline.png)
 
 The Site Offline switch does not apply to the administrator interface
 and users who can login to the backend can continue to login to the

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Language_Overrides / Display title: Language Overrides -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Language_Overrides",
+  "title": "Language Overrides ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Language File Locations
 
@@ -104,8 +111,8 @@ will be saved in siteroot/language/overrides.
 - Save & Close the form.
 - Repeat the translation process for each language.
 
-![languages edit override form](../../../en/images/languages/language-overrides-edit.png)
+![languages edit override form](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Finally, check that the translation has been implemented.
 
-![Override Result in site login form](../../../en/images/languages/language-overrides-custom-logout.png)
+![Override Result in site login form](../../../en/images/languages/language-overrides/02-language-overrides-custom-logout.png)

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_templateDetails.xml / Display title: Cassiopeia templateDetails.xml -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml",
+  "title": "Cassiopeia templateDetails.xml ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Location and Purpose
 
@@ -57,14 +64,14 @@ Notice that a template that can have child templates has the ineritable
 value set to 1. Child templates have this value set to 0. This data is
 used in the Templates: Templates (Site) listing as shown below.
 
-![site templates list](../../../en/images/templates/templates-list.png)
+![site templates list](../../../en/images/templates/cassiopeia-templatedetails-xml/01-templates-list.png)
 
 The description contains a language key and not the actual description
 text string. The key is replaced by the text obtained from a language
 file at run time. The language files are defined in the in the language
 section of `templateDetails.xml`.
 
-![templates edit style form](../../../en/images/templates/templates-edit-style.png)
+![templates edit style form](../../../en/images/templates/cassiopeia-templatedetails-xml/02-templates-edit-style.png)
 
 ### Folders and Files
 
@@ -95,7 +102,7 @@ follows:
 This is the pattern seen in all modern Joomla 4 and 5 templates. The structure
 can be seen in the Templates: Customise (Cassiopeia) form:
 
-![templates customise cassiopeia page](../../../en/images/templates/templates-customise-cassiopeia.png)
+![templates customise cassiopeia page](../../../en/images/templates/cassiopeia-templatedetails-xml/03-templates-customise-cassiopeia.png)
 
 ### Module Positions
 
@@ -136,7 +143,7 @@ one you are probably wrong. Remember that any number of modules can be
 assigned to a single position and sorted into order in the Modules list
 page. Available positions:
 
-![Cassiopeia template positions diagram](../../../en/images/templates/cassiopeia-template-positions.png)
+![Cassiopeia template positions diagram](../../../en/images/templates/cassiopeia-templatedetails-xml/04-cassiopeia-template-positions.png)
 
 You can also see the module positions in any template: from
 **System → Site Templates** select the Options button in the Toolbar.
@@ -145,7 +152,7 @@ Save and Close. Go to your site and add ?tp=1 to the end of any url (or
 &tp=1 if there is already a ? in the url). Joomla will display all of
 the available template positions, even those that have not been used:
 
-![Cassiopeia template positions](../../../en/images/templates/templates-template-positions-by-tp.png)
+![Cassiopeia template positions](../../../en/images/templates/cassiopeia-templatedetails-xml/05-templates-template-positions-by-tp.png)
 
 ### Languages
 
@@ -174,7 +181,7 @@ Administrator in the Template: Edit Style form. For example, the
 Advanced tab of the Cassiopeia template allows an Administrator to
 change the Brand, add a Logo, select a Fonts Scheme, and more.
 
-![templates edit style form advanced tab](../../../en/images/templates/templates-edit-style-advanced.png)
+![templates edit style form advanced tab](../../../en/images/templates/cassiopeia-templatedetails-xml/06-templates-edit-style-advanced.png)
 
 The template options are defined within a structure that creates fields
 within fieldsets. Each feildset appears as a tab in the edit form. This

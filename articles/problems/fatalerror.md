@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:FatalError / Display title: FatalError -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:FatalError",
+  "title": "FatalError ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -13,11 +20,11 @@ you were expecting. There are two types of error pages:
 
 ### System Error Page
 
-![System fatal error page](../../../en/images/problems/fatal-error.png)
+![System fatal error page](../../../en/images/problems/fatalerror/01-fatal-error.png)
 
 ### Template Error Page
 
-![Template error page](../../../en/images/problems/template-error.png)
+![Template error page](../../../en/images/problems/fatalerror/02-template-error.png)
 
 ## How to Resolve
 
@@ -51,7 +58,7 @@ If your Administrator interface is **not** working, edit the
 With the changes made, reload the page that was causing the error. Now
 you should see a stack trace. Example:
 
-![Template error page](../../../en/images/problems/template-error-stack-trace.png)
+![Template error page](../../../en/images/problems/fatalerror/03-template-error-stack-trace.png)
 
 The first item in the stack trace indicates where the error was
 triggered. Sometimes that is enough to identify the faulty Extension.

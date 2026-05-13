@@ -1,4 +1,11 @@
-<!-- Filename: Changing_user_groups / Display title: Changing User's Groups -->
+<!--
+{
+  "source": "https://docs.joomla.org/Changing_user_groups",
+  "title": "Changing User's Groups ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Group Inheritance
 

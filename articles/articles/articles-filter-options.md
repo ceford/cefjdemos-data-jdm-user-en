@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Articles:_Filter_Options / Display title: Articles: Filter Options -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Articles:_Filter_Options",
+  "title": "Articles: Filter Options ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -13,7 +20,7 @@ the screenshot.
 
 The *Filter Options* have been opened to show the filters available.
 
-![Articles list](../../../en/images/articles/articles-filter-options.png)
+![Articles list](../../../en/images/articles/articles-filter-options/01-articles-filter-options.png)
 
 This list contains over 20 articles created from installation of the 
 *Multilingual Sample Data* and a few more articles added later.

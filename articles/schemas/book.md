@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Organization_-_Using_Organization_Plugin / Display title: Schema.org - Book -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Book ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -25,4 +32,4 @@ The *Generic Field* section allows *Title* and *Value* pairs to be entered in ad
 
 Below is an example of an Book schema in an Article edit form.
 
-![A book schema edit form](../../../en/images/schemas/edit-schema-book.png)
+![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)

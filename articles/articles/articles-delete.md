@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Articles: Delete -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Deleting_an_Article",
+  "title": "Articles: Delete ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -25,7 +32,7 @@ Consider why you want to delete the article:
 - Select the **Actions** button in the Toolbar.
 - Select **Trash** in the dropdown menu.
 
-![Article selected for trashing](../../../en/images/articles/articles-selected-to-trash.png)
+![Article selected for trashing](../../../en/images/articles/articles-delete/01-articles-selected-to-trash.png)
 
 There will be a confirmation message and the article will have disappeared from 
 the current list of articles as it does not normally include trashed items.
@@ -40,7 +47,7 @@ To see the list of trashed articles:
 - Select the **Filter Options** button to open the list of filters.
 - Select **Trashed** from the *-- Select Status --* list.
 
-![Article trash view](../../../en/images/articles/articles-trash-list.png)
+![Article trash view](../../../en/images/articles/articles-delete/02-articles-trash-list.png)
 
 ### To Restore
 

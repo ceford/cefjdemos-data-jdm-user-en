@@ -1,4 +1,11 @@
-<!-- Filename: contacts.md / Display title: Contacts -->
+<!--
+{
+  "source": "https://docs.joomla.org/contacts.md",
+  "title": "Contacts ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -45,7 +52,7 @@ that automatically creates a contact when a new user is registered.
 In the **Contacts: Edit* form, enter whatever data you have available on the
 contact.
 
-![data entry screenshot](../../../en/images/contacts/contact-data-entry.png)
+![data entry screenshot](../../../en/images/contacts/contacts/01-contact-data-entry.png)
 
 **Notes:**
 
@@ -87,13 +94,13 @@ House of Commons
 - Business Committee
 - Culture Committee
 ```
-![all categories in a category tree](../../../en/images/contacts/contact-all-committees.png)
+![all categories in a category tree](../../../en/images/contacts/contacts/02-contact-all-committees.png)
 
 The second line of each entry come from the Category Description.
 
 If you select one of the Committe links the Committe page may look like this:
 
-![contacts in a category](../../../en/images/contacts/contact-culture-committee.png)
+![contacts in a category](../../../en/images/contacts/contacts/03-contact-culture-committee.png)
 
 The layout is not quite as desired. It would have been good to include a
 thumbnail image of each individual and a better layout of the details. That
@@ -104,7 +111,7 @@ can be done with a template override (later).
 For the Business Committe there is a List Contacts in a Category menu item.
 That causes a different layou to be used:
 
-![contact category list](../../../en/images/contacts/contact-category-list.png)
+![contact category list](../../../en/images/contacts/contacts/04-contact-category-list.png)
 
 Better but still not quite right! A styling override was needed to reduce the
 image style. Again it seems a template override could be useful.
@@ -113,7 +120,7 @@ image style. Again it seems a template override could be useful.
 
 For this example the Chairs of all of the committees were marked as featured.
 
-![featured contacts](../../../en/images/contacts/contact-featured.png)
+![featured contacts](../../../en/images/contacts/contacts/05-contact-featured.png)
 
 ## Sort Order
 

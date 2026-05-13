@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Event_-_Using_Event_Plugin / Display title: Schema.org - Event -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Event ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -21,4 +28,4 @@ The *Generic Field* section allows *Title* and *Value* pairs to be entered in ad
 
 Below is an example of an Event schema in an Article edit form.
 
-![An event schema edit form](../../../en/images/schemas/edit-schema-event.png)
+![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)

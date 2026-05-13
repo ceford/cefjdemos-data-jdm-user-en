@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Url_Field / Display title: Url Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Url Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -19,7 +26,7 @@ allowed.
 - **Show URL** If set to *No*, on Article display the URL is replaced with the
 words *Visit Site*.
 
-![url field creation](../../../en/images/fields/fields-url-edit.png)
+![url field creation](../../../en/images/fields/adding-custom-fields-url-field/01-fields-url-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -28,7 +35,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 Simple: just enter a destination URL.
 
-![url field data entry](../../../en/images/fields/fields-url-data-entry.png)
+![url field data entry](../../../en/images/fields/adding-custom-fields-url-field/02-fields-url-data-entry.png)
 
 ## Data Display
 
@@ -36,6 +43,6 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![url field site display](../../../en/images/fields/fields-url-site.png)
+![url field site display](../../../en/images/fields/adding-custom-fields-url-field/03-fields-url-site.png)
 
 The URL follows the field Label.

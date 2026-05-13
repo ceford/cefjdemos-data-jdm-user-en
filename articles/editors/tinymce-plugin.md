@@ -1,4 +1,11 @@
-<!-- Filename: Content_editors / Display title: TinyMCE Plugin -->
+<!--
+{
+  "source": "https://docs.joomla.org/Content_editors",
+  "title": "TinyMCE Plugin ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -19,20 +26,20 @@ tools in the TinyMCE plugin edit page.
 This toolset is the most extended set and is by default assigned to the 
 *Administrator*, *Editor* and *Super Users* groups.
 
-![TinyMCE plugin showing button set 2](../../../en/images/editors/tinymce-set0.png)
+![TinyMCE plugin showing button set 2](../../../en/images/editors/tinymce-plugin/01-tinymce-set0.png)
 
 ### Toolset 1
 
 This toolset is assigned to the *Manager* and *Registered* groups.
 
-![TinyMCE plugin showing button set 2](../../../en/images/editors/tinymce-set1.png)
+![TinyMCE plugin showing button set 2](../../../en/images/editors/tinymce-plugin/02-tinymce-set1.png)
 
 ### Toolset 2
 
 This set has minimal tools and is assigned to the *Public* group. It would be
 used for filling out public forms.
 
-![TinyMCE plugin showing button set 2](../../../en/images/editors/tinymce-set2.png)
+![TinyMCE plugin showing button set 2](../../../en/images/editors/tinymce-plugin/03-tinymce-set2.png)
 
 ## Other Settings
 

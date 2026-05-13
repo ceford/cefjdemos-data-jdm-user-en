@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Custom Administrator Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu",
+  "title": "Custom Administrator Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -94,14 +101,14 @@ Menu record.
 
 ## Screenshot
 
-![custom administrator menu component selection](../../../en/images/menus/menus-custom-administrator-menu.png)
+![custom administrator menu component selection](../../../en/images/menus/adding-a-custom-administrator-menu/01-menus-custom-administrator-menu.png)
 
 ## Result
 
 Create a user in the Branch Group for yourself to test with. Login to
 the Administrator interface as that user to see the result:
 
-![custom administrator menu result](../../../en/images/menus/menus-custom-administrator-menu-result.png)
+![custom administrator menu result](../../../en/images/menus/adding-a-custom-administrator-menu/02-menus-custom-administrator-menu-result.png)
 
 ## Notes
 

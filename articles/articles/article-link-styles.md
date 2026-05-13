@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Add_a_class_selector_to_the_create_link_dialog / Display title: Article: Edit - Link Styles -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog",
+  "title": "Article: Edit - Link Styles ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Description
 
@@ -11,7 +18,7 @@ Custom link classes added to the TinyMCE editor options allow you to quickly tra
 3. Add classes to the *Link Classes List* For instance, Bootstrap classes to create stylish buttons. You may need to scroll the list left to right or change screen magnification to see see the add, remove and order buttons at the end. 
 4. Save & Close.
 
-![Set link classes in tinymce](../../../en/images/articles/article-edit-link-style-tinymce.png)
+![Set link classes in tinymce](../../../en/images/articles/article-link-styles/01-article-edit-link-style-tinymce.png)
 
 You can find examples for templates that natively use Bootstrap in the official [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/components/buttons/)
 
@@ -52,11 +59,11 @@ You can also use the outline button variants:
 6. Save the Article.
 7. Preview the Article
 
-![Apply link style in an article](../../../en/images/articles/article-edit-link-style-apply.png)
+![Apply link style in an article](../../../en/images/articles/article-link-styles/02-article-edit-link-style-apply.png)
 
 And this is an example where the Link Button class was set to `btn btn-sm btn-outline-info` and the linked text is *Bootstrap*:
 
-![Preview of a custom Link Button](../../../en/images/articles/article-edit-link-style-preview.png)
+![Preview of a custom Link Button](../../../en/images/articles/article-link-styles/03-article-edit-link-style-preview.png)
 
 ## Advanced Use: Applying Custom Classes
 

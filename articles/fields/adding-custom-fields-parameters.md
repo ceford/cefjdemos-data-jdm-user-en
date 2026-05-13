@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields / Display title: Field Parameters -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Field Parameters ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Field Data Entry Form
 
@@ -14,7 +21,7 @@ Article fields:
 
 The form consists of a Title field and four tabs.
 
-![Field parameters general tab](../../../en/images/fields/fields-parameters-general-tab.png)
+![Field parameters general tab](../../../en/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
 
 ## Title
 
@@ -73,7 +80,7 @@ appear as separate tabs in the Article data entry form.
 
 ### Options tab
 
-![Field parameters general tab](../../../en/images/fields/fields-parameters-options-tab.png)
+![Field parameters general tab](../../../en/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
 
 #### Form Options
 
@@ -134,13 +141,13 @@ the content item. This might lead to unexpected information disclosure.
 
 ### Publishing tab
 
-![Field parameters general tab](../../../en/images/fields/fields-parameters-publishing-tab.png)
+![Field parameters general tab](../../../en/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
 
 ### Permissions tab
 
 The permissions for each User Group are self-explanatory for the *Delete*, *Edit* and *Edit State* actions. The permissions show who can do what with the field as a whole, such as delete it, change it or unpublish it.
 
-![Field parameters general tab](../../../en/images/fields/fields-parameters-permissions-tab.png)
+![Field parameters general tab](../../../en/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
 
 The *Edit Custom Field Value* can be confusing. It shows who can change the content of the field. By default, it is set to **Not Allowed (Inherited)** for all groups except Super Users. Two examples:
 

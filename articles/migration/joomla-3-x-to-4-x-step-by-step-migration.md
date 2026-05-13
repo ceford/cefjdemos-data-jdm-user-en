@@ -1,4 +1,11 @@
-<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Joomla 3 to 4 Step by Step -->
+<!--
+{
+  "source": "https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration",
+  "title": "Joomla 3 to 4 Step by Step ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -51,7 +58,7 @@ extensions.
 7.  Make sure you have the latest database schema updated to the latest
     version 3.10.x version by going to **Extension Manager → Database** tab. If your schema is not up to date as in
     the following image, click the **Fix** button:
-![joomla 3 extensions database](../../../en/images/migration/admin-extension-database-fix.png)
+![joomla 3 extensions database](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/01-admin-extension-database-fix.png)
 8.  Empty trash: Do you have any articles in the trash? If so, delete
     them (and any applicable media that may be associated with them if
     not in use elsewhere on the site). Articles (categories and menu
@@ -78,14 +85,14 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
     3.10.x) and test. Then do another backup. Click on the Options
     button at the top right corner.
 3.  Select *Joomla Next* from the drop-down for Update Channel.
-![update options channel selection](../../../en/images/migration/update-options-channel.png)
+![update options channel selection](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/02-update-options-channel.png)
 4.  Click **Save & Close**
 5.  You will then see your Installed Joomla Version, the latest Joomla!
     version and the URL for the update package. Joomla will show you the
     requirements again for Joomla 4. If it flags that you have either an
     incompatible system or extensions it will tell you here. Take a
     moment to review this page.
-![update to 4 pre update check](../../../en/images/migration/update-to-4-pre-update-check.png)
+![update to 4 pre update check](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/03-update-to-4-pre-update-check.png)
     <div class="alert alert-warning"><strong>Notice:</strong> Do NOT update to Joomla! 4
     right now. This is only to prepare your third-party extensions and get the
     site compatible with Joomla! 4.</div>
@@ -133,7 +140,7 @@ More details in [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/:P
     **Extension Manager → Manage**
 11. Click the Button *Search Tools* to show the filter options
 12. Select Package from the *Select Type* drop-down.
-![extensions manage page](../../../en/images/migration/extensions-manage.png)
+![extensions manage page](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/04-extensions-manage.png)
     <div class="alert alert-info">Selecting Package
     first is recommended because if there is something you need to
     uninstall in a package, it will automatically uninstall the
@@ -211,21 +218,21 @@ installation, continue with the following steps:
 1.  Go to **System → Global Configuration → Server tab** and
     turn Error Reporting from System Default to Maximum. Make sure to
     Save & Close.
-![system global configuration server tab](../../../en/images/migration/system-global-configuration-server-tab.png)
+![system global configuration server tab](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/05-system-global-configuration-server-tab.png)
 2.  Take another backup.
 3.  Go to **Components → Joomla Update**. (It should say no updates
     found. If it doesn’t, update Joomla to the latest version and test.
     Then do another backup.) Click on the Options button at the top
     right corner.
 4.  Select *Joomla Next* from the drop-down for Update Channel.
-![component joomla update select update channel](../../../en/images/migration/update-select-channel.png)
+![component joomla update select update channel](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/06-update-select-channel.png)
 5.  **Save & Close**.
 6.  You will then see your Installed Joomla Version, the Latest Joomla!
     version and the URL for the update package. Joomla will show you the
     requirements again for Joomla 4. If it flags that you have either an
     incompatible system or extensions it will tell you here. Take a
     moment to review this page.
-![e update check for joomla 4](../../../en/images/migration/update-check.png)
+![e update check for joomla 4](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/07-update-check.png)
 7.  If the update is not showing up, go to **Extension manager → Update** and
     press Purge Cache from the toolbar. Now the update to Joomla! 4 should show up.
 8.  Cross your fingers, and make sure you have that backup available in
@@ -238,7 +245,7 @@ installation, continue with the following steps:
     Sign in again. Twice.
 11. If all goes well, you will get to a totally new look to the backend
     administrator panel.
-![joomla 4 or 5 home dashboard](../../../en/images/migration/j4-home-dashboard.png)
+![joomla 4 or 5 home dashboard](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/08-j4-home-dashboard.png)
 12. Go to **System → Maintenance → Database** and click *Fix* if
     any errors show.
 13. In **System → Install → Discover** see if there are any

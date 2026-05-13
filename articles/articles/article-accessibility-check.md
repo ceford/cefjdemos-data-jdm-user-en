@@ -1,4 +1,11 @@
-<!-- Filename: Help6.x:_Article_Accessibility_Check / Display title: Article: Accessibility Check -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help6.x:_Article_Accessibility_Check",
+  "title": "Article: Accessibility Check ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -21,7 +28,7 @@ must be enabled!
 
 ## Screenshot
 
-![Accessibility check](../../../en/images/articles/articles-accessibility-check.png)
+![Accessibility check](../../../en/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
 
 The check tool is operated with the blue circle icon at the bottom right of the
 screen. Select it to open or close a report. Select the green tick (or yellow

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Child_Templates / Display title: Child Templates -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Child_Templates",
+  "title": "Child Templates ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -23,7 +30,7 @@ Starting from **System → Templates panel → Site Templates**
 - Fill out the Child Template popup dialog and select the Create Child
   Template button:
 
-![child template modal create form](../../../en/images/templates/child-templates-create-green.png)
+![child template modal create form](../../../en/images/templates/child-templates/01-child-templates-create-green.png)
 
 Selection of Cassiopeia - Default in the Additional Template Styles
 field seems unnecessary (is that a bug?).
@@ -46,7 +53,7 @@ be added or removed.
 - Select the `.css` File Type.
 - Select the *Create* button.
 
-![child template create user css form](../../../en/images/templates/child-templates-create-green-user-css.png)
+![child template create user css form](../../../en/images/templates/child-templates/02-child-templates-create-green-user-css.png)
 
 The user.css file is empty, ready for your to enter some custom styles.
 Enter the following to start the green theme:
@@ -103,7 +110,7 @@ menu item.
 - Select *cassiopeia_manual - Default* from the *Template Style* form
   field.
 
-![child template menu item edit form](../../../en/images/templates/child-templates-create-green-menu-item.png)
+![child template menu item edit form](../../../en/images/templates/child-templates/03-child-templates-create-green-menu-item.png)
 
 - For the purposes of the following screenshot the Blog Layout has been
   set to Leading Articles: 0, Intro Articles: 3 and Mult Column
@@ -113,7 +120,7 @@ menu item.
 
 - in the Home page of your site select the newly created menu item.
 
-![site showing custom green theme template](../../../en/images/templates/child-templates-green-site-result.png)
+![site showing custom green theme template](../../../en/images/templates/child-templates/04-child-templates-green-site-result.png)
 
 ### Edit the Style
 

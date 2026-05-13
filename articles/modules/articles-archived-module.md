@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module / Display title: Archived Articles -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module",
+  "title": "Archived Articles ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -74,7 +81,7 @@ When you are ready, select the **Save & Close** button.
 The module will be published in the sidebar of the website and display a
 list of links dictated by the number of months to display set the module.
 
-![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png)
+![Archived Articles Module Example](../../../en/images/modules/articles-archived-module/01-modules-archived-articles.png)
 
 ## Tips
 

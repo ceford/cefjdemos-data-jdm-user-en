@@ -1,4 +1,11 @@
-<!-- Filename:  / Display title: Local Hosting with XAMPP -->
+<!--
+{
+  "source": "https://docs.joomla.org/",
+  "title": "Local Hosting with XAMPP ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -260,12 +267,12 @@ XAMPP Control Panel tool, you can test it by opening your browser and
 navigating to `http://localhost`. You should see the XAMPP welcome screen 
 similar to the one below.
 
-![The xampp start page](../../../en/images/hosting/local-hosting-xampp.png)
+![The xampp start page](../../../en/images/hosting-local/local-hosting-with-xampp/01-local-hosting-xampp.png)
 
 Select the link called `phpinfo()` in the top menu. This will display a
 long screen of information about the PHP configuration, as shown below.
 
-![The xampp php version information page](../../../en/images/hosting/local-hosting-xampp-php.png)
+![The xampp php version information page](../../../en/images/hosting-local/local-hosting-with-xampp/02-local-hosting-xampp-php.png)
 
 At this point XAMPP is installed successfully. Notice the *Loaded
 Configuration File*. We will be editing this file in the next section to

@@ -1,4 +1,11 @@
-<!-- Filename:  J6.x:_Article_Metadata / Display title: Article: Edit - Metadata -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
+  "title": "Article: Edit - Metadata ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -62,7 +69,7 @@ titles for both articles and menu items.
 The article *Meta Description* is a field in the *Publishing* tab of the article
 data entry form:
 
-![The article edit form publishing tab](../../../en/images/articles/articles-edit-publishing-tab.png)
+![The article edit form publishing tab](../../../en/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
 
 If there is no article metadata description then a single article menu item
 metadata description will be used if it is set. If there is no menu item

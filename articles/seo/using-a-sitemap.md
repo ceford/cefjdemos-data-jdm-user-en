@@ -1,4 +1,11 @@
-<!-- Filename: Using_A_Sitemap / Display title: Using A Sitemap -->
+<!--
+{
+  "source": "https://docs.joomla.org/Using_A_Sitemap",
+  "title": "Using A Sitemap ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Using a Sitemap
 

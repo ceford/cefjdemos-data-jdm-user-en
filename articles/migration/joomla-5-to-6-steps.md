@@ -1,4 +1,11 @@
-<!-- Filename: https://docs.joomla.org/Joomla_5.4.x_to_6.x_Planning_and_Upgrade_Step_by_Step / Display title: Joomla 5 to 6 Step by Step -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "Joomla 5 to 6 Step by Step ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 <div class="alert alert-warning">
 <p class="h3">Warning</p>
@@ -18,10 +25,10 @@ This documentation reflects the simpler process by combining the planning and st
 <div class="alert alert-info">
 <p class="h3">5.4 to 6.0 Developer documentation for third-party extension developers.</p>
 
-- [Removed and Backward Incompatibility](https://manual.joomla.org/migrations/54-60/removed-backward-incompatibility)
-- [New deprecations](https://manual.joomla.org/migrations/54-60/new-deprecations)
+- [Removed and Backward Incompatibility](https://manual.joomla.org/60/removed-backward-incompatibility)
+- [New deprecations](https://manual.joomla.org/60/new-deprecations)
 - [About Migrations Documentation](https://manual.joomla.org/migrations)
-- [New Features](https://manual.joomla.org/migrations/54-60/new-features/)
+- [New Features](https://manual.joomla.org/60/new-features/)
 </div>
 
 ## Planning 5.4.x to 6.x
@@ -39,11 +46,11 @@ The option to upgrade will not appear in the Joomla Update component.
 
 You can check your system information in Joomla 5 site by clicking System -> System Information. Contact your hosting provider if your server doesn’t meet the requirements.
 
-![System Dashboard with the System Information link outlined](../../../en/images/migration/steps-5-to-6-system-dashboard.png)
+![System Dashboard with the System Information link outlined](../../../en/images/migration/joomla-5-to-6-steps/01-steps-5-to-6-system-dashboard.png)
 
 The following is an example of an environment that meets the technical requirements. It shows MySQL 8.0.43, PHP 8.3, Joomla 5.4.x, and the Backward Compatibility Plugin Disabled.
 
-![System Information Showing Joomla Version, PHP Version, DB Type, DB Version and BC Compatibility Plugin Disabled](../../../en/images/migration/steps-5-to-6-system-information.png)
+![System Information Showing Joomla Version, PHP Version, DB Type, DB Version and BC Compatibility Plugin Disabled](../../../en/images/migration/joomla-5-to-6-steps/02-steps-5-to-6-system-information.png)
 
 2. Check all of your extensions for compatibility with Joomla 6. There are a number of third-party extension scenarios for this upgrade.
 
@@ -62,9 +69,9 @@ To upgrade from Joomla 5.4.x to 6.x, the Backward Compatibility Plugin for Jooml
 
 ### The Backward Compatibility Plugins
 
-The [Behaviour - Backward Compatibility 6](https://manual.joomla.org/migrations/54-60/compat-plugin/) plugin included with Joomla 5.4.x is to enhance backward compatibility between Joomla 5 and Joomla 6. The plugin assists third-party extensions to use classes no longer included in Joomla 6. It is implemented as a "Behaviour" plugin type to guarantee that it is loaded before any other plugin is loaded.
+The [Behaviour - Backward Compatibility 6](https://manual.joomla.org/60/compat-plugin/) plugin included with Joomla 5.4.x is to enhance backward compatibility between Joomla 5 and Joomla 6. The plugin assists third-party extensions to use classes no longer included in Joomla 6. It is implemented as a "Behaviour" plugin type to guarantee that it is loaded before any other plugin is loaded.
 
-![Plugin page showing the backward compatibility plugins](../../../en/images/migration/steps-5-to-6-bc-plugins.png)
+![Plugin page showing the backward compatibility plugins](../../../en/images/migration/joomla-5-to-6-steps/03-steps-5-to-6-bc-plugins.png)
 
 The image above shows two Backward Compatibility plugins:
 
@@ -113,17 +120,17 @@ The bottom section shows the extensions that have no update required. This means
 
 Please note that these extensions are not preferred by the Joomla Project. These extensions are shown as an example only. They were randomly picked from the JED as a test.
 
-![Pre-update Check Extensions Section](../../../en/images/migration/steps-5-to-6-pre-update-check.png)
+![Pre-update Check Extensions Section](../../../en/images/migration/joomla-5-to-6-steps/04-steps-5-to-6-pre-update-check.png)
 
 It is recommended to only use the **Extensions** portion of the pre-update check component as an extremely high level overview, but not the 100% source of truth. To say it another way, you may not be able to trust the pre-update check component depending on the extensions you are using.
 
 *What is the source of truth then?* Systems -> Manage Extensions
 
-![System Dashboard with Manage Extensions outlined](../../../en/images/migration/steps-5-to-6-system-dashboard-manage.png)
+![System Dashboard with Manage Extensions outlined](../../../en/images/migration/joomla-5-to-6-steps/05-steps-5-to-6-system-dashboard-manage.png)
 
 From the Extensions: Manage screen, you will be able to see all of the third-party extensions you are using on the site. In the screenshot below you see the main screen. In the Author column, you can see a popular extension developer’s name in a number of rows. You can also see the Author of the Joomla Project in a number of rows.
 
-![The main Manage Extensions page](../../../en/images/migration/steps-5-to-6-extensions-manage.png)
+![The main Manage Extensions page](../../../en/images/migration/joomla-5-to-6-steps/06-steps-5-to-6-extensions-manage.png)
 
 Check your third party extensions. Next, you will need to determine if they are compatible with J6 (with or without the backward compatibility plugin) or not. If they’re not, the upgrade will be unsuccessful.
 
@@ -180,25 +187,25 @@ The site you will be upgrading must meet all the technical requirements and be r
 6. **Backup your website again.**
 7. **Test your backup to make sure it restores.** (Yes, do this. You’ll feel better.)
 8. Go to System -> Update -> Joomla
-![The system dashboard with update Joomla outlined](../../../en/images/migration/steps-5-to-6-system-dashboard-joomla.png)
+![The system dashboard with update Joomla outlined](../../../en/images/migration/joomla-5-to-6-steps/07-steps-5-to-6-system-dashboard-joomla.png)
 9. Click on the Options button in the Top Toolbar on the right hand side.
-![The Joomla update page with the Options button outlined](../../../en/images/migration/steps-5-to-6-joomla-update.png)
+![The Joomla update page with the Options button outlined](../../../en/images/migration/joomla-5-to-6-steps/08-steps-5-to-6-joomla-update.png)
 10. Change the Update Channel to Joomla Next.
-![Joomla update options with update channel outlined](../../../en/images/migration/steps-5-to-6-joomla-update-options.png)
+![Joomla update options with update channel outlined](../../../en/images/migration/joomla-5-to-6-steps/09-steps-5-to-6-joomla-update-options.png)
 11. Click Save & Close from the Top Toolbar.
 12. If your server meets the technical specifications, you will see the following screen with links on the left sidebar for Required Settings, Recommended Settings, and Extensions.
-![Pre-update check with sidebar outlined](../../../en/images/migration/steps-5-to-6-pre-update-check-for-6.png)
+![Pre-update check with sidebar outlined](../../../en/images/migration/joomla-5-to-6-steps/10-steps-5-to-6-pre-update-check-for-6.png)
 13. Chances are good that your Required Settings and Recommended Settings will be fine since this screen will not display if your environment doesn’t meet the technical requirements. Extensions may not be fine. See the section in Planning (above) about the Pre-update check and why it may not have a green checkmark but still have all compatible extensions. You’ve already done your testing (correct?), so you already know if they’re compatible or not.
 14. The Backward Compatibility 6 plugin is enabled in Joomla 5.4.x. In order to upgrade to J6, the Behaviour - Backward Compatibility plugin needs to be disabled.
 15. **If you haven’t followed the instructions in Planning (above) for the Trial run, stop now and go back to the Planning section and follow the instructions. Planning is the most important part of this upgrade.**
 16. Once you are sure that all of your extensions are compatible with J6 and you have tested the upgrade and the result was perfect, you may tick the button to Acknowledge the warnings about potentially incompatible extensions and proceed with the update, click OK in the popup box, then click the Update button.
-![Acknowledge Warnings notice](../../../en/images/migration/steps-5-to-6-pre-update-warnings.png)
+![Acknowledge Warnings notice](../../../en/images/migration/joomla-5-to-6-steps/11-steps-5-to-6-pre-update-warnings.png)
 17. Then, your site will ask you again to confirm you’ve taken a backup (which you have and you tested it does restore).
-![Upload and Update page to Joomla 6](../../../en/images/migration/steps-5-to-6-upload-and-update.png)
+![Upload and Update page to Joomla 6](../../../en/images/migration/joomla-5-to-6-steps/12-steps-5-to-6-upload-and-update.png)
 18. Your site will perform the upgrade to J6.
-![Upgrade progress page](../../../en/images/migration/steps-5-to-6-joomla-update-progress.png)
+![Upgrade progress page](../../../en/images/migration/joomla-5-to-6-steps/13-steps-5-to-6-joomla-update-progress.png)
 19. A successful upgrade will show you a screen like this:
-![Update Status page showing success](../../../en/images/migration/steps-5-to-6-joomla-update-success.png)
+![Update Status page showing success](../../../en/images/migration/joomla-5-to-6-steps/14-steps-5-to-6-joomla-update-success.png)
 20. You will see your site being Joomla 6 in the top right corner of the screen.
 21. Test the frontend of your site.
 22. Test the backend of your site.
@@ -216,11 +223,11 @@ Worst case, restore your backup so you have time to address what happened in a t
 
 Database Fix might resolve some of your issues. Navigate to the System Dashboard and click on Database.
 
-![System Dashboard with Database link outlined](../../../en/images/migration/steps-5-to-6-system-dashboard-database.png)
+![System Dashboard with Database link outlined](../../../en/images/migration/joomla-5-to-6-steps/15-steps-5-to-6-system-dashboard-database.png)
 
 In the Maintenance: Database page, it will show any database structure issues your site may have. Tick the appropriate checkbox and then click the Update Structure button in the Top Toolbar.
 
-![Maintenance database page showing one problem](../../../en/images/migration/steps-5-to-6-maintenance-database.png)
+![Maintenance database page showing one problem](../../../en/images/migration/joomla-5-to-6-steps/16-steps-5-to-6-maintenance-database.png)
 
 ## Other places to get help
 

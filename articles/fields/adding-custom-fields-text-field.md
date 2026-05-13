@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Text_Field / Display title: Text Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Text Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -14,7 +21,7 @@ raw filter to ensure that html code is preserved when the form is processed.
 - **Prefix** This appears before the text in the Article output. Example: £.
 - **Suffix** This appears after the text in the Article output, Example: EUR.
 
-![text field creation](../../../en/images/fields/fields-text-edit.png)
+![text field creation](../../../en/images/fields/adding-custom-fields-text-field/01-fields-text-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -23,7 +30,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 Simple: Type in your text.
 
-![text field data entry](../../../en/images/fields/fields-text-data-entry.png)
+![text field data entry](../../../en/images/fields/adding-custom-fields-text-field/02-fields-text-data-entry.png)
 
 ## Data Display
 
@@ -31,6 +38,6 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![text field site display](../../../en/images/fields/fields-text-site.png)
+![text field site display](../../../en/images/fields/adding-custom-fields-text-field/03-fields-text-site.png)
 
 The field Text follows the field Label.

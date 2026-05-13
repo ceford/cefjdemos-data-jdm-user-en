@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Fields_and_Field_Groups / Display title: Fields and Field Groups -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Fields_and_Field_Groups",
+  "title": "Fields and Field Groups ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -32,7 +39,7 @@ you could use a Nature group.
 For articles on Nature the article category and sub-categories for each branch 
 of the living world might appear as in the following example:
 
-![Article categories for nature](../../../en/images/fields/fields-articles-categories-list.png)
+![Article categories for nature](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
 
 Some obvious features of Nature to note:
 
@@ -61,7 +68,7 @@ Creating Field Groups for Articles is very simple:
   form when *Toggle Inline Help* is selected.
 - Select **Save & Close** from the toolbar. 
 
-![Content field groups list](../../../en/images/fields/fields-field-groups-list.png)
+![Content field groups list](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
 
 ### Ordering
 
@@ -80,7 +87,7 @@ Note that in the screenshot below this field has been assigned to the Nature
 Field Group and to the Nature category. This ensure that it always appears in 
 articles in the Nature category and any sub-category.
 
-![Text field - latin name in nature group](../../../en/images/fields/fields-latin-name.png)
+![Text field - latin name in nature group](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
 
 ### Checkboxes - Flowering Season
 
@@ -93,14 +100,14 @@ Note that in this screenshot the Field has been assigned to the Flowers
 group and to the Flowers Category. That should ensure that the field is
 only present in articles bout flowers.
 
-![Checkbox field - flowering season](../../../en/images/fields/fields-flowering-season.png)
+![Checkbox field - flowering season](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
 
 ### Colour - Color
 
 Just to be confusing, the name of the field type is Color (US Spelling)
 but the label in documentation is Colour (British Spelling).
 
-![Colour field](../../../en/images/fields/fields-colour.png)
+![Colour field](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
 
 The Colour field is assigned to the Nature field group and the Nature category
 as it is not unique to flowers.
@@ -113,7 +120,7 @@ is no field for a real number so length and width could be integers with a scale
 in the *Options* tab. If there is no obvious upper limit then leave the *Last:*
 field empty.
 
-![Hardiness field](../../../en/images/fields/fields-hardiness.png)
+![Hardiness field](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
 
 RHS Hardiness is a property usually applied to flowers!
 
@@ -131,7 +138,7 @@ present.
 
 ### Nature Tab
 
-![Bluebell article nature tab](../../../en/images/fields/field-article-bluebell-nature-tab.png)
+![Bluebell article nature tab](../../../en/images/fields/fields-and-field-groups/07-field-article-bluebell-nature-tab.png)
 
 - **Latin Name** The is a text entry field so it is just a matter of typing in
   the latin name of whatever lif-form the article covers. However, the Nature
@@ -144,7 +151,7 @@ present.
 
 ### Flowers Tab
 
-![Bluebell article nature tab](../../../en/images/fields/field-article-bluebell-flowers-tab.png)
+![Bluebell article nature tab](../../../en/images/fields/fields-and-field-groups/08-field-article-bluebell-flowers-tab.png)
 
 - **Flowering Season** The checkbox field - bluebells are well-known Spring 
   flowers so selection of one checkbox is appropriate. 
@@ -158,7 +165,7 @@ present.
 Take a look at the result seen in your site. In this example a single article
 menu item was created:
 
-![Bluebell article site view](../../../en/images/fields/field-article-bluebell-site.png)
+![Bluebell article site view](../../../en/images/fields/fields-and-field-groups/09-field-article-bluebell-site.png)
 
 ### The hex Colour
 

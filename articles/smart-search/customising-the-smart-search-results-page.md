@@ -1,4 +1,11 @@
-<!-- Filename: Customising_the_Smart_Search_results_page / Display title: Smart Search Layout Overrides -->
+<!--
+{
+  "source": "https://docs.joomla.org/Customising_the_Smart_Search_results_page",
+  "title": "Smart Search Layout Overrides ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Results Pages
 

@@ -1,4 +1,11 @@
-<!-- Filename: Enabling_the_Login_Form_module / Display title: Login Form -->
+<!--
+{
+  "source": "https://docs.joomla.org/Enabling_the_Login_Form_module",
+  "title": "Login Form ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Site Login Methods
 
@@ -60,7 +67,7 @@ the Menu Assignment group on the Module Edit screen:
   which one or more may be selected. This field is only used if the
   **Menus** field is set to **Select Menu Item(s) from the List**.
 
-![module menu assignment](../../../en/images/modules/modules-login-menu-assignment.png)
+![module menu assignment](../../../en/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
 
 ## To customise the Login Form module
 

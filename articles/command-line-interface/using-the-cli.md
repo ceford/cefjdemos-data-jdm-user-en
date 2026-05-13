@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Using_the_CLI / Display title: Using the CLI -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Using_the_CLI",
+  "title": "Using the CLI ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## The Command Line Interface (CLI)
 
@@ -31,7 +38,7 @@ parameters:
     cd /home/username/public_html/[optional subfolder]/cli
     php joomla.php
 
-![List of commands](../../../en/images/command-line-interface/cli-command-list.png)
+![List of commands](../../../en/images/command-line-interface/using-the-cli/01-cli-command-list.png)
 
 And try out some help commands to become familiar with what to expect:
 
@@ -76,11 +83,11 @@ Clear expired entries from the system cache:
     php joomla.php cache:clean --help
     php joomla.php cache:clean
 
-![Output of cache clean](../../../en/images/command-line-interface/cli-cache-clean.png)
+![Output of cache clean](../../../en/images/command-line-interface/using-the-cli/02-cli-cache-clean.png)
 
     php joomla.php cache:clean expired
 
-![Output of cache clean expired](../../../en/images/command-line-interface/cli-cache-clean-expired.png)
+![Output of cache clean expired](../../../en/images/command-line-interface/using-the-cli/03-cli-cache-clean-expired.png)
 
 ### Config
 
@@ -91,15 +98,15 @@ mail,
     php joomla.php config:get debug --help
     php joomla.php config:get debug
 
-![Output of config get debug](../../../en/images/command-line-interface/cli-get-debug.png)
+![Output of config get debug](../../../en/images/command-line-interface/using-the-cli/04-cli-get-debug.png)
 
     php joomla.php config:set debug=true
 
-![Output of config set debug](../../../en/images/command-line-interface/cli-set-debug.png)
+![Output of config set debug](../../../en/images/command-line-interface/using-the-cli/05-cli-set-debug.png)
 
     php joomla.php config:get --group session
 
-![Output of config get group session](../../../en/images/command-line-interface/cli-config-get-group-session.png)
+![Output of config get group session](../../../en/images/command-line-interface/using-the-cli/06-cli-config-get-group-session.png)
 
 ### Core
 
@@ -108,12 +115,12 @@ Check for updates or update Joomla.
     php joomla.php core:check-updates --help
     php joomla.php core:check-updates
 
-![Output of core check updates](../../../en/images/command-line-interface/cli-check-updates.png)
+![Output of core check updates](../../../en/images/command-line-interface/using-the-cli/07-cli-check-updates.png)
 
     php joomla.php core:update --help
     php joomla.php core:update
 
-![Output of cor update](../../../en/images/command-line-interface/cli-core-update.png)
+![Output of cor update](../../../en/images/command-line-interface/using-the-cli/08-cli-core-update.png)
 
 ### Database
 
@@ -166,7 +173,7 @@ Purges and rebuilds the index (search filters are preserved).
     php joomla.php finder:index
     php joomla.php finder:index purge
 
-![Output of finder index purge](../../../en/images/command-line-interface/cli-finder-index-purge.png)
+![Output of finder index purge](../../../en/images/command-line-interface/using-the-cli/09-cli-finder-index-purge.png)
 
 ### Scheduler
 
@@ -214,7 +221,7 @@ have been deleted during a Joomla update
     php joomla.php update:joomla:remove-old-files --help
     php joomla.php update:joomla:remove-old-files
 
-![Output of update joomla remove old files](../../../en/images/command-line-interface/cli-update-remove-old-files.png)
+![Output of update joomla remove old files](../../../en/images/command-line-interface/using-the-cli/10-cli-update-remove-old-files.png)
 
 ### User
 
@@ -227,7 +234,7 @@ List and manage users.
     php joomla.php user:add --username cinderella --name Cinderella --email cinders@localhost --usergroup Manager (prompt for password)
     php joomla.php user:add (prompts for data)
 
-![Output of user add with prompts](../../../en/images/command-line-interface/cli-add-user.png)
+![Output of user add with prompts](../../../en/images/command-line-interface/using-the-cli/11-cli-add-user.png)
 
     php joomla.php user:addtogroup --help
     php joomla.php user:addtogroup (prompts for data)

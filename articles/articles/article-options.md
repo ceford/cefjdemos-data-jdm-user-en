@@ -1,4 +1,11 @@
-<!-- Filename:  J6.x:_Article_Options / Display title: Article: Edit - Options -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Options",
+  "title": "Article: Edit - Options ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -19,7 +26,7 @@ The *Options* tab of the *Article: Edit* form has a series of panels mostly
 with a choice of *Use Global (Hide or Show)*, *Hide* or *Show*. The following
 partial screenshot shows the general layout.
 
-![Article edit options tab](../../../en/images/articles/articles-edit-options-tab.png)
+![Article edit options tab](../../../en/images/articles/article-options/01-articles-edit-options-tab.png)
 
 ## Layout panel
 

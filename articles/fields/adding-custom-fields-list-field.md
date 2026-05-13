@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: List Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "List Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -20,7 +27,7 @@ provides an empty default resulting in this list being absent from the Article.
 - **Field Class** Set to *w-auto* to make the list just wide enough for its
 list of labels.
 
-![List field creation](../../../en/images/fields/fields-list-edit.png)
+![List field creation](../../../en/images/fields/adding-custom-fields-list-field/01-fields-list-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -29,7 +36,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 Simple: just select an item from the list or more items if *Multiple* is *Yes*.
 
-![List field data entry](../../../en/images/fields/fields-list-data-entry.png)
+![List field data entry](../../../en/images/fields/adding-custom-fields-list-field/02-fields-list-data-entry.png)
 
 ## Data Display
 
@@ -39,4 +46,4 @@ your template is responsible for the design of the field.
 
 The output is a single item or a comma separated list.
 
-![list field site display](../../../en/images/fields/fields-list-site.png)
+![list field site display](../../../en/images/fields/adding-custom-fields-list-field/03-fields-list-site.png)

@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_SEO / Display title: Monitoring SEO -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_SEO",
+  "title": "Monitoring SEO ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Why Monitor Your Site?
 
@@ -94,13 +101,13 @@ in red). If you have none available, you can either create your own, or
 import existing segments from the Google Analytics Gallery (outlined in
 blue).
 
-![Google analytics custom segments](../../../en/images/seo/seo-google-analytics-custom-segments.png)
+![Google analytics custom segments](../../../en/images/seo/monitoring-seo/01-seo-google-analytics-custom-segments.png)
 
 Once you have chosen which segments you wish to use, press apply and
 they will be applied to the data you are viewing. Below you can see the
 filters being applied to show one, two, three, and three+ keywords.
 
-![Google analytics custom segments keywords](../../../en/images/seo/seo-google-analytics-custom-segments-keywords.png)
+![Google analytics custom segments keywords](../../../en/images/seo/monitoring-seo/02-seo-google-analytics-custom-segments-keywords.png)
 
 ### Dashboards
 
@@ -116,7 +123,7 @@ your own dashboards easily with a couple of clicks.
 To get started, simply expand the Dashboards section of your Analytics
 profile
 
-![Google analytics dashboard](../../../en/images/seo/seo-google-anaytics-dashboard.png)
+![Google analytics dashboard](../../../en/images/seo/monitoring-seo/03-seo-google-anaytics-dashboard.png)
 
 ### The Google Analytics Gallery
 

@@ -1,4 +1,11 @@
-<!-- Filename: https://guide.joomla.org/user-manual/menus/keep-submenus-open / Display title: Keep Submenus Open -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "Keep Submenus Open ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 A menu module can be used to display a horizontal menu (usually at the top of the page) or a vertical menu (usually in a sidebar, left or right). In a horizontal (top) menu it is not desirable to keep the submenu open. That is why the default behaviour of a menu module is to close the submenus on page load.
 
@@ -6,7 +13,7 @@ A menu module can be used to display a horizontal menu (usually at the top of th
 
 However, in a vertical (sidebar) menu, it is often desirable to leave a submenu open when it contains the active menu item. In Joomla 6.0 a new CSS class, `nav-active-open`, was introduced specifically to allow control over whether submenus are automatically opened on page load for the active menu item. Setting this class now makes it possible to achieve this. The class is set in the module via the backend.
 
-![menu class setting in backend for nav-active-open for toggle stay open on active menu](../../../en/images/menus/keep-submenus-open-menu-class-setting.png)
+![menu class setting in backend for nav-active-open for toggle stay open on active menu](../../../en/images/menus/keep-submenus-open/01-keep-submenus-open-menu-class-setting.png)
  
 ## How to make a sidebar menu without dropdown toggle
 
@@ -18,15 +25,15 @@ This is how this particular template override is accomplished:
 
 2. Switch to the Create Overrides tab and and select mod_menu:
 
-![module menu template override selection](../../../en/images/menus/keep-submenus-open-create-override-select-mod-menu.png)
+![module menu template override selection](../../../en/images/menus/keep-submenus-open/02-keep-submenus-open-create-override-select-mod-menu.png)
 
 3. Go back to the editor tab and expand the entries under HTML → mod_menu.  Here you will find the  `default.php` file . Open the file and start editing your override:
 
-![mod_menu override edit tab - open default.php](../../../en/images/menus/keep-submenus-open-edit-mod-menu.png)
+![mod_menu override edit tab - open default.php](../../../en/images/menus/keep-submenus-open/03-keep-submenus-open-edit-mod-menu.png)
 
 4. To display the menu as a plain list - without the toggle function and without the associated accessibility buttons - remove the code lines listed here:
 
-![Diff view after removing the code lines for the toggle functionality](../../../en/images/menus/keep-submenus-open-edit-mod-menu-diff-view.png)
+![Diff view after removing the code lines for the toggle functionality](../../../en/images/menus/keep-submenus-open/04-keep-submenus-open-edit-mod-menu-diff-view.png)
 
 Remove lines 15 - 20
 
@@ -68,7 +75,7 @@ Replace lines 98 - 101 with `break`
 
 The result is a plain list, without toggle functionality for the side menu module:
 
-![result with template override - plain list without toggle buttons and functionality](../../../en/images/menus/keep-submenus-open-site-result.png)
+![result with template override - plain list without toggle buttons and functionality](../../../en/images/menus/keep-submenus-open/05-keep-submenus-open-site-result.png)
 
 ## Best Practice Tip
 

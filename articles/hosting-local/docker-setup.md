@@ -1,4 +1,11 @@
-<!-- Filename: https://guide.joomla.org/user-manual/local-setup/docker-setup / Display title: Docker Setup -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "Docker Setup ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Setting Up a Local Joomla Environment using Docker
 
@@ -41,7 +48,7 @@ You only need one thing installed before we start: **Docker Desktop**.
 - Open Docker Desktop and wait until the bottom-left corner shows a
   green **Engine running** status.
 
-![Docker Desktop](../../../en/images/hosting-local/docker-setup-desktop.png)
+![Docker Desktop](../../../en/images/hosting-local/docker-setup/01-docker-setup-desktop.png)
 
 That's it.
 
@@ -105,18 +112,18 @@ images which might take a minute or two depending on your internet
 speed. After that, every subsequent start is almost instant as you can
 see below.
 
-![Terminal docker start output](../../../en/images/hosting-local/docker-setup-terminal-transcript.png)
+![Terminal docker start output](../../../en/images/hosting-local/docker-setup/02-docker-setup-terminal-transcript.png)
 
 ### The Joomla Installer
 
 Open your browser and go to `http://localhost:8080`. You should see the
 Joomla installation screen.
 
-![Joomla Installer Setup Site Name](../../../en/images/hosting-local/docker-setup-joomla-installer-sitename.png)
+![Joomla Installer Setup Site Name](../../../en/images/hosting-local/docker-setup/03-docker-setup-joomla-installer-sitename.png)
 
 Fill in your site name and admin details on the first screen.
 
-![Joomla Installer Login Data](../../../en/images/hosting-local/docker-setup-joomla-installer-login-data.png)
+![Joomla Installer Login Data](../../../en/images/hosting-local/docker-setup/04-docker-setup-joomla-installer-login-data.png)
 
 When you reach the **Database Configuration** screen, this is where most
 people get stuck:
@@ -132,7 +139,7 @@ container's service name — not localhost. Use these exact values:
 - **Password:** `joomlapass`
 - **Database Name:** `joomladb`
 
-![Joomla Installer database setup](../../../en/images/hosting-local/docker-setup-joomla-installer-database-config.png)
+![Joomla Installer database setup](../../../en/images/hosting-local/docker-setup/05-docker-setup-joomla-installer-database-config.png)
 
 Click through, finish the installation, and you're done.
 
@@ -181,7 +188,7 @@ create a folder called `site_joomla` right next to your compose file. It
 will copy the entire Joomla core (including the administrator dashboard,
 components, and templates) into that folder.
 
-![IDE Explorer of Joomla installation in Docker](../../../en/images/hosting-local/docker-setup-ide-explorer.png)
+![IDE Explorer of Joomla installation in Docker](../../../en/images/hosting-local/docker-setup/06-docker-setup-ide-explorer.png)
 
 Any code changes you make in that folder on your computer will instantly
 update inside the running container! You are now fully set up for local

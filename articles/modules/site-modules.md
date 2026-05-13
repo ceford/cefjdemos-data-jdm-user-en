@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Site_Modules / Display title: Site Modules -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Modules",
+  "title": "Site Modules ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -24,7 +31,7 @@ Modules are assigned to a position on a page defined by the template in
 use. The following illustration shows a schematic layout of the
 Cassiopeia template:
 
-![Cassiopeia template position diagram](../../../en/images/modules/cassiopeia-template-positions.png)
+![Cassiopeia template position diagram](../../../en/images/modules/site-modules/01-cassiopeia-template-positions.png)
 
 And the following list shows the available module positions by name:
 
@@ -58,17 +65,17 @@ site more interesting for visitors. From the Administrator menu select
 **Content → Site Modules** to see the list of site modules already
 in use:
 
-![Site Modules List](../../../en/images/modules/cassiopeia-modules-list.png)
+![Site Modules List](../../../en/images/modules/site-modules/02-cassiopeia-modules-list.png)
 
 Select the New button to see a list of site modules available to
 install:
 
-![Site Modules available](../../../en/images/modules/cassiopeia-modules-available.png)
+![Site Modules available](../../../en/images/modules/site-modules/03-cassiopeia-modules-available.png)
 
 Scroll down and select the Random Image module. That will open the
 **Modules: Random Image** edit form ready for you to fill in.
 
-![Random image module](../../../en/images/modules/cassiopeia-module-random-image.png)
+![Random image module](../../../en/images/modules/site-modules/04-cassiopeia-module-random-image.png)
 
 - **Title** This is a compulsory field.
 - **Image Type** The default is jpg.
@@ -98,7 +105,7 @@ chosen position. Proceed as follows:
 
 ## View the Site
 
-![Random image module site view](../../../en/images/modules/cassiopeia-module-random-image-site.png)
+![Random image module site view](../../../en/images/modules/site-modules/05-cassiopeia-module-random-image-site.png)
 
 Check the Site appearance. In this case it might be a good idea to
 centre the image. That can be done as follows:

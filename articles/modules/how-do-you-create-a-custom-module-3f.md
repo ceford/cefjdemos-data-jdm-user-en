@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_create_a_custom_module%3F / Display title: Custom Module -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_create_a_custom_module%3F",
+  "title": "Custom Module ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -69,4 +76,4 @@ When you are ready, select the **Save & Close** button.
 The module will be published in the sidebar of the website and display
 whatever text you entered.
 
-![Custom Module Example](../../../en/images/modules/modules-custom-display.png)
+![Custom Module Example](../../../en/images/modules/how-do-you-create-a-custom-module-3f/01-modules-custom-display.png)

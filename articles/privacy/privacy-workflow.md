@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Workflow / Display title: Privacy Workflow -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Workflow",
+  "title": "Privacy Workflow ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Creating a Request
 
@@ -31,12 +38,12 @@ location. When submitting an information request, the user must provide:
 
 - The request type: Export or Remove selected from the drop-down list.
 
-![privacy workflow user request](../../../en/images/privacy/privacy-workflow-user-request.png)
+![privacy workflow user request](../../../en/images/privacy/privacy-workflow/01-privacy-workflow-user-request.png)
 
 On submission a message will indicate either that the request has been
 accepted and a verification email is on its way:
 
-![privacy workflow user request accepted](../../../en/images/privacy/privacy-workflow-user-request-accepted.png)
+![privacy workflow user request accepted](../../../en/images/privacy/privacy-workflow/02-privacy-workflow-user-request-accepted.png)
 
 or that *Your information request could not be created. There is already
 an active information request for this email address and request type.
@@ -65,7 +72,7 @@ Processed.
 Once a request has been created, regardless of how it is created, the
 user will receive an email containing a link to a confirmation form.
 
-![privacy workflow user request confirm](../../../en/images/privacy/privacy-workflow-user-request-confirm.png)
+![privacy workflow user request confirm](../../../en/images/privacy/privacy-workflow/03-privacy-workflow-user-request-confirm.png)
 
 The user must enter the token provided in the email and submit the form.
 The token is valid for 24 hours. If a request is not confirmed in that
@@ -78,7 +85,7 @@ to indicate that action is required.
 - Select **Users → Privacy → Requests** from the Administrator menu.
 - Requests requiring action will be marked as **Confirmed**.
 
-![privacy workflow information requests list](../../../en/images/privacy/privacy-workflow-information-requests-list.png)
+![privacy workflow information requests list](../../../en/images/privacy/privacy-workflow/04-privacy-workflow-information-requests-list.png)
 
 ## Processing an Export Request
 
@@ -139,7 +146,7 @@ further action to be taken.
 - Select the **Complete** button from the Toolbar (or the **Invalidate**
   button if this judged an invalid request),
 
-![privacy workflow review information request](../../../en/images/privacy/privacy-workflow-review-information-request.png)
+![privacy workflow review information request](../../../en/images/privacy/privacy-workflow/05-privacy-workflow-review-information-request.png)
 
 ## Finally
 
@@ -157,7 +164,7 @@ To remove Private Message data and Privacy Request data:
   (email address) in the database with phpMyAdmin and delete the records
   there. Here is an example screenshot:
 
-![privacy workflow delete with phpmyadmin](../../../en/images/privacy/privacy-workflow-delete-with-phpmyadmin.png)
+![privacy workflow delete with phpmyadmin](../../../en/images/privacy/privacy-workflow/06-privacy-workflow-delete-with-phpmyadmin.png)
 
 ## Additional Resources
 

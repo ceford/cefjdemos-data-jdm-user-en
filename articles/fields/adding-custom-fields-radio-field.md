@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Radio_Field / Display title: Radio Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Radio Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -15,7 +22,7 @@ be different. The first item in the list should have the Text set to
 and so not appear in the output.
 * Use the drag icons to change the radio button list order.
 
-![Radio field creation](../../../en/images/fields/fields-radio-edit.png)
+![Radio field creation](../../../en/images/fields/adding-custom-fields-radio-field/01-fields-radio-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -24,7 +31,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 Simple: just select the required value.
 
-![Radio Field data entry](../../../en/images/fields/fields-radio-data-entry.png)
+![Radio Field data entry](../../../en/images/fields/adding-custom-fields-radio-field/02-fields-radio-data-entry.png)
 
 ## Data Display
 
@@ -32,6 +39,6 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![radio field site display](../../../en/images/fields/fields-radio-site.png)
+![radio field site display](../../../en/images/fields/adding-custom-fields-radio-field/03-fields-radio-site.png)
 
 The field Title is followed by the Text of the selected value.

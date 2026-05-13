@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Access_Control / Display title: Access Control -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Access_Control",
+  "title": "Access Control ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -21,7 +28,7 @@ responsibility for all aspects of site management and operation. Joomla
 provides nine default user groups and you can create more if you need
 them.
 
-![Users groups list](../../../en/images/users/access-control-users-groups-list.png)
+![Users groups list](../../../en/images/users/access-control/01-access-control-users-groups-list.png)
 
 The default user groups are set up with parent child relationships to
 minimise duplication of permissions. Examples of inheritance:
@@ -44,7 +51,7 @@ data entry form. It is a drop-down list offering a choice from Public,
 Guest, Registered, Special and Super Users. The default is Public. The
 default viewing access levels are shown in the following screenshot:
 
-![Users viewing access levels](../../../en/images/users/access-control-users-access-levels.png)
+![Users viewing access levels](../../../en/images/users/access-control/02-access-control-users-access-levels.png)
 
 Examples:
 
@@ -59,7 +66,7 @@ The Global Configuration Permissions are the starting point from which
 permission settings in components or individual items may inherit or
 override. Screenshot:
 
-![global configuration permissions](../../../en/images/users/access-control-global-configuration-permissions.png)
+![global configuration permissions](../../../en/images/users/access-control/03-access-control-global-configuration-permissions.png)
 
 The screenshot shows that members of the Public group do not have
 permission to take any actions. If you select each group in turn you
@@ -82,14 +89,14 @@ component will have permissions relevant to the component; a component
 item (such as an article) will have permissions relevant to that one
 item.
 
-![Content permissions](../../../en/images/users/access-control-global-content-permissions.png)
+![Content permissions](../../../en/images/users/access-control/04-access-control-global-content-permissions.png)
 
 ### Single Article Permissions
 
 The single article permissions has just three items: Delete, Edit and
 Edit State:
 
-![single article permissions](../../../en/images/users/access-control-article-permissions.png)
+![single article permissions](../../../en/images/users/access-control/05-access-control-article-permissions.png)
 
 ## Access Control Example: Special Purpose User
 
@@ -105,7 +112,7 @@ anything other than the Content items. Procedure:
 - Fill out the Group Title field: Article Administrator
 - The Group Parent must be Public - it has no permissions for anything.
 
-![New user group form](../../../en/images/users/access-control-new-group.png)
+![New user group form](../../../en/images/users/access-control/06-access-control-new-group.png)
 
 ### Assign to Special
 
@@ -114,7 +121,7 @@ anything other than the Content items. Procedure:
 - Select the Article Administrator checkbox in the **Users: Edit Viewing Access Level** form.
 - Save & Close.
 
-![Select access for group](../../../en/images/users/access-control-select-access-for-group.png)
+![Select access for group](../../../en/images/users/access-control/07-access-control-select-access-for-group.png)
 
 ### Global Configuration Permissions
 
@@ -125,7 +132,7 @@ anything other than the Content items. Procedure:
 - Set **Adminstrator Login** to Allowed.
 - Save & Close
 
-![Select access for group](../../../en/images/users/access-control-article-administrator-global-permissions.png)
+![Select access for group](../../../en/images/users/access-control/08-access-control-article-administrator-global-permissions.png)
 
 ### Articles Options Permissions
 
@@ -137,7 +144,7 @@ anything other than the Content items. Procedure:
   Configure Options Only) to Allowed.
 - Save & Close
 
-![Select access for group](../../../en/images/users/access-control-article-administrator-content-permissions.png)
+![Select access for group](../../../en/images/users/access-control/09-access-control-article-administrator-content-permissions.png)
 
 ### Create or Edit User
 
@@ -148,4 +155,4 @@ anything other than the Content items. Procedure:
 - Login as a user in the Article Administrator Group only. The menu
   should show only article-related items:
 
-![Select access for group](../../../en/images/users/access-control-article-administrator-home-dashboard.png)
+![Select access for group](../../../en/images/users/access-control/10-access-control-article-administrator-home-dashboard.png)

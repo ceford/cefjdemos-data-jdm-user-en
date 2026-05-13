@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Tables / Display title: Article: Edit - Tables -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Tables",
+  "title": "Article: Edit - Tables ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## About Tables
 
@@ -118,7 +125,7 @@ Here, the Bootstrap classes Have the following effects:
 The following Site screenshot shows a table for a conference programme with
 the TinyMCE default inline styles and a similar table with Bootstrap styles:
 
-![Example tables](../../../en/images/articles/articles-site-tables.png)
+![Example tables](../../../en/images/articles/article-tables/01-articles-site-tables.png)
 
 See the Bootstrap documentation on [Tables](https://getbootstrap.com/docs/5.3/content/tables/)
 for more options.

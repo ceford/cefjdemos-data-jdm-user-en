@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Media_Field / Display title: Media Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Media Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -17,7 +24,7 @@ for this field. Only one directory may be selected.
 - **Image class** The class added to the img tag on output. A class of *w-25*
 will reduce the width of the image to 25% of its parent container.
 
-![media field creation](../../../en/images/fields/fields-media-edit.png)
+![media field creation](../../../en/images/fields/adding-custom-fields-media-field/01-fields-media-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -26,7 +33,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 The data entry form is a simple version of the Media  select fotm.
 
-![media field data entry](../../../en/images/fields/fields-media-data-entry.png)
+![media field data entry](../../../en/images/fields/adding-custom-fields-media-field/02-fields-media-data-entry.png)
 
 ## Data Display
 
@@ -34,4 +41,4 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![media field site display](../../../en/images/fields/fields-media-site.png)
+![media field site display](../../../en/images/fields/adding-custom-fields-media-field/03-fields-media-site.png)

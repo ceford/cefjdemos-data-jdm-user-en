@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: SQL Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "SQL Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -26,7 +33,7 @@ FROM `#__countrybase_countries`
 WHERE `state` = 1
 ORDER BY `title` ASC
 ```
-![SQL Field creation](../../../en/images/fields/fields-sql-edit.png)
+![SQL Field creation](../../../en/images/fields/adding-custom-fields-sql-field/01-fields-sql-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -35,7 +42,7 @@ demonstration purposes only. Leave it out in your own field titles.
 
 Simple - select from the list.
 
-![SQL field data entry](../../../en/images/fields/fields-sql-data-entry.png)
+![SQL field data entry](../../../en/images/fields/adding-custom-fields-sql-field/02-fields-sql-data-entry.png)
 
 ## Data Display
 
@@ -43,7 +50,7 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![SQL field site display](../../../en/images/fields/fields-sql-site.png)
+![SQL field site display](../../../en/images/fields/adding-custom-fields-sql-field/03-fields-sql-site.png)
 
 The output is a single item or comma separated list of items (country names)
 following the Field label (Country of Origin).

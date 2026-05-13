@@ -1,4 +1,11 @@
-<!-- Filename: Where_are_the_web_pages%3F / Display title: Where are the web pages? -->
+<!--
+{
+  "source": "https://docs.joomla.org/Where_are_the_web_pages%3F",
+  "title": "Where are the web pages? ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 If you are coming from a traditional website made up of separate HTML
 pages, you may well wonder where the pages are.

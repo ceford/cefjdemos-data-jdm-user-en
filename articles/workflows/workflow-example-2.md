@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_2 / Display title: Workflow Example 2 -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_2",
+  "title": "Workflow Example 2 ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -16,14 +23,14 @@ First create new User Groups all children of *Registered*.
 - **Chair** A child of *Committee*
 - **Secretary** A child of *Committee*
 
-![Custom user groups](../../../en/images/workflows/example-2-user-groups.png)
+![Custom user groups](../../../en/images/workflows/workflow-example-2/01-example-2-user-groups.png)
 
 ## User Access Level
 
 - Create a new level, **Committee** and add *Committee* to User Groups With Viewing Access.
 - In the *Special* Access Level add *Committee* to the User Groups With Viewing Access.
 
-![Viewing Access Levels](../../../en/images/workflows/example-2-viewing-access-levels.png)
+![Viewing Access Levels](../../../en/images/workflows/workflow-example-2/02-example-2-viewing-access-levels.png)
 
 ## Create Users
 
@@ -40,7 +47,7 @@ First create new User Groups all children of *Registered*.
   - **Chair** All set to *Allowed* except *Delete*. Perhaps...
   - **Secretary** All set to *Allowed* except *Delete* and *Edit State*.
 
-![Workflows list](../../../en/images/workflows/example-2-workflows-list.png)
+![Workflows list](../../../en/images/workflows/workflow-example-2/03-example-2-workflows-list.png)
 
 ### Create the Workflow Stages
 
@@ -54,7 +61,7 @@ First create new User Groups all children of *Registered*.
   - **Note** *Papers published.* 
   - **Permissions** All left at *Inherited*.
 
-![Workflow stages](../../../en/images/workflows/example-2-stages-committee-workflow.png)
+![Workflow stages](../../../en/images/workflows/workflow-example-2/04-example-2-stages-committee-workflow.png)
 
 ### Create the Workflow Transitions
 
@@ -136,7 +143,7 @@ changed from Published to Archived.
 - **Permissions tab**
   - **Secretary** Set *Execute Transition* to *Denied*.
 
-![Workflow transitions](../../../en/images/workflows/example-2-transitions-committee-workflow.png)
+![Workflow transitions](../../../en/images/workflows/workflow-example-2/05-example-2-transitions-committee-workflow.png)
 
 ## Create a New Category
 
@@ -160,7 +167,7 @@ workflow that needs a Super User to change.</div>
 - **Choose a Category** *Committee*
 - **Access** *Committee*
 
-![Committee papers menu item](../../../en/images/workflows/example-2-menu-item.png)
+![Committee papers menu item](../../../en/images/workflows/workflow-example-2/06-example-2-menu-item.png)
 
 ## Check the Site
 
@@ -176,7 +183,7 @@ Alice and Bob can also see an Edit link for each article and a **New Article**
 button. This is usually used by Bob to create a Committee paper but Alice can 
 do that too.
 
-![Bob's view of the committee papers category list page](../../../en/images/workflows/example-2-committee-papers.png)
+![Bob's view of the committee papers category list page](../../../en/images/workflows/workflow-example-2/07-example-2-committee-papers.png)
 
 ### To Create and Publish a Committee Paper
 

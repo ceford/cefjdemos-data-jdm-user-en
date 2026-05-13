@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Example Template Override -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Example Template Override ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Field Automatic Display
 

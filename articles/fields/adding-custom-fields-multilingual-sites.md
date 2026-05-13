@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Multilingual_Sites / Display title: Multilingual Sites -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Multilingual Sites ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -72,7 +79,7 @@ overrides for both Site and Administrator pages.
 The following screenshot shows an example of override creation for a German
 language constant.
 
-![Override creation in German](../../../en/images/fields/fields-overrides-creation-de.png)
+![Override creation in German](../../../en/images/fields/adding-custom-fields-multilingual-sites/01-fields-overrides-creation-de.png)
 
 ## Defining the Field Group
 
@@ -108,12 +115,12 @@ With English selected before Administrator login, the Contact data entry
 form should contain a tab with the English name of your field group and
 fields in that group also with English values.
 
-![Data entry in English](../../../en/images/fields/fields-overrides-entry.png)
+![Data entry in English](../../../en/images/fields/adding-custom-fields-multilingual-sites/02-fields-overrides-entry.png)
 
 With German selected before Administrator login you should see the German
 translations of your language constants:
 
-![Data entry in German](../../../en/images/fields/fields-overrides-entry-de.png)
+![Data entry in German](../../../en/images/fields/adding-custom-fields-multilingual-sites/03-fields-overrides-entry-de.png)
 
 Caveat: translation by translate.google.co.uk!
 
@@ -121,8 +128,8 @@ Caveat: translation by translate.google.co.uk!
 
 In English:
 
-![Data display in English](../../../en/images/fields/fields-overrides-display.png)
+![Data display in English](../../../en/images/fields/adding-custom-fields-multilingual-sites/04-fields-overrides-display.png)
 
 And German:
 
-![Data display in German](../../../en/images/fields/fields-overrides-display-de.png)
+![Data display in German](../../../en/images/fields/adding-custom-fields-multilingual-sites/05-fields-overrides-display-de.png)

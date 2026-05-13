@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Calendar Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Calendar Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -22,7 +29,7 @@ is active.
 such as *YYYY-MM-DD* to remind users of the format required and/or a reminder 
 of what the date is for, such as *Date of arrival*.
 
-![calendar field creation](../../../en/images/fields/fields-calendar-edit.png)
+![calendar field creation](../../../en/images/fields/adding-custom-fields-calendar-field/01-fields-calendar-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -36,7 +43,7 @@ of 2024-14-02 is corrected to 2025-02-02.
 
 The following screenshot shows an Acquisition date:
 
-![calendar field data entry](../../../en/images/fields/fields-calendar-data-entry.png)
+![calendar field data entry](../../../en/images/fields/adding-custom-fields-calendar-field/02-fields-calendar-data-entry.png)
 
 Fields only appear in an article if populated in the article data entry form.
 
@@ -46,6 +53,6 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![calendar field site display](../../../en/images/fields/fields-calendar-site.png)
+![calendar field site display](../../../en/images/fields/adding-custom-fields-calendar-field/03-fields-calendar-site.png)
 
 The date formats are localized using language strings.

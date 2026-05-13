@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Upload_Delete_Rename / Display title: Upload Delete Rename -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename",
+  "title": "Upload Delete Rename ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Simple Media Functions
 

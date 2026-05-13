@@ -1,4 +1,11 @@
-<!-- Filename: Verifying_permissions / Display title: File Permissions: Linux -->
+<!--
+{
+  "source": "https://docs.joomla.org/Verifying_permissions",
+  "title": "File Permissions: Linux ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -34,13 +41,13 @@ familiarity with system commands.
 Depending on what you are using, you should see something like this image of
 part of the Joomla root file system as seen in cPanel:
 
-![verifying permissions in cpanel](../../../en/images/test-installations/verifying-permissions-cpanel.png)
+![verifying permissions in cpanel](../../../en/images/test-installations/permissions-linux/01-verifying-permissions-cpanel.png)
 
 The permissions are at the far right and preceded by a zero to indicate that
 they are octal numbers. There should be a form to change the permissions of 
 one or more selected items:
 
-![changing permissions in cpanel](../../../en/images/test-installations/verifying-permissions-cpanel-change.png)
+![changing permissions in cpanel](../../../en/images/test-installations/permissions-linux/02-verifying-permissions-cpanel-change.png)
 
 In a terminal window, file and folder permissions are displayed as letter 
 groups rather than numbers (the leading `d` indicates the item is a directory):

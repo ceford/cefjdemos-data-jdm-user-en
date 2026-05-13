@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=modules&filename=module-styles.md / Display title: Module Styles -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=modules&filename=module-styles.md",
+  "title": "Module Styles ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Style Concepts
 
@@ -79,4 +86,4 @@ Read all about it elsewhere!
 * Change the heading bottom border too.
 * Apply this style to several modules instead of one at a time
 
-![Archived Articles Module Example](../../../en/images/modules/modules-archived-articles.png)
+![Archived Articles Module Example](../../../en/images/modules/module-styles/01-modules-archived-articles.png)

@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=plugins&filename=about-plugins.md / Display title: About Plugins -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=plugins&filename=about-plugins.md",
+  "title": "About Plugins ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -8,7 +15,7 @@ Third party developers provide many more. The following image shows
 the start of the plugins list with the list length set to 5 for the convenience
 of the screenshot.
 
-![Plugins list](../../../en/images/plugins/plugins-list.png)
+![Plugins list](../../../en/images/plugins/about-plugins/01-plugins-list.png)
 
 ## Plugin Types
 

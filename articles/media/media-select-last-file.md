@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Add_a_class_selector_to_the_create_link_dialog / Display title: Select Last File -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog",
+  "title": "Select Last File ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 

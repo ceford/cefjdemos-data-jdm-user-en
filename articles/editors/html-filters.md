@@ -1,4 +1,11 @@
-<!-- Filename: Entering_raw_HTML_in_editors / Display title: HTML Filters -->
+<!--
+{
+  "source": "https://docs.joomla.org/Entering_raw_HTML_in_editors",
+  "title": "HTML Filters ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## HTML Textarea Tag
 
@@ -51,7 +58,7 @@ extra information about a problem, so automatic removal of all HTML tags is
 usually appropriate. Other groups, except Super Users, are restricted by the
 Default Forbidden List. Super Users have no filtering.
 
-![global configuration of text filters](../../../en/images/configuration/global-configuration-filters-tab.png)
+![global configuration of text filters](../../../en/images/editors/html-filters/01-global-configuration-filters-tab.png)
 
 The notes explain what is included in the default forbidden list and how to
 use the other lists.

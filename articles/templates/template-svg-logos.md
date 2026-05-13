@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_SVG_Logos / Display title: Template SVG Logos -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_SVG_Logos",
+  "title": "Template SVG Logos ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Cassioepeia Logo
 
@@ -19,7 +26,7 @@ version for your laptop or desktop computer. Start Inkscape and you are
 ready to create an SVG Brand Logo. The screenshot below shows Inkscape
 part way through creation of a new SVG Logo.
 
-![inkscape logo creation](../../../en/images/templates/templates-svg-logos-inkscape.png)
+![inkscape logo creation](../../../en/images/templates/template-svg-logos/01-templates-svg-logos-inkscape.png)
 
 ## Instructions
 
@@ -70,4 +77,4 @@ high:
     Logo
 27. Save and reload your Site page
 
-![inkscape logo creation result](../../../en/images/templates/templates-svg-logos-inkscape-result.png)
+![inkscape logo creation result](../../../en/images/templates/template-svg-logos/02-templates-svg-logos-inkscape-result.png)

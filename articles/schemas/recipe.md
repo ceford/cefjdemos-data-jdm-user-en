@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Recipe_-_Using_Recipe_Plugin / Display title: Schema.org - Recipe -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Recipe ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -30,4 +37,4 @@ The *Generic Field* section allows *Title* and *Value* pairs to be entered in ad
 
 Below is an example of a Recipe schema in an Article edit form.
 
-![A recipe schema edit form](../../../en/images/schemas/edit-schema-recipe.png)
+![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)

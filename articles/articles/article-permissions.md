@@ -1,4 +1,11 @@
-<!-- Filename:  J6.x:Access_Control / Display title: Article: Edit - Permissions -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Access_Control",
+  "title": "Article: Edit - Permissions ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -13,7 +20,7 @@ Access Control system.
 
 ## Screenshot
 
-![The article permissions tab with author selected](../../../en/images/articles/articles-edit-permissions-tab.png)
+![The article permissions tab with author selected](../../../en/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
 
 It may be surprising that an Author does not appear to have permission to Edit
 an article!

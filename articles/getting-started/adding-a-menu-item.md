@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Adding a Menu Item -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item",
+  "title": "Adding a Menu Item ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -16,7 +23,7 @@ menu item type. There are several ways to create a new menu item:
 
 ## The Menu Edit Page
 
-![Menu item edit form](../../../en/images/getting-started/menu-item-edit-form.png)
+![Menu item edit form](../../../en/images/getting-started/adding-a-menu-item/01-menu-item-edit-form.png)
 
 The *Menus: New Item* form has four compulsory fields to complete:
 
@@ -33,7 +40,7 @@ The *Menus: New Item* form has four compulsory fields to complete:
 That is all that must be done. Everything else is optional. Have a look at the 
 site Home page. The menu item in the Main menu links directly to that page.
 
-![Site view of single article](../../../en/images/getting-started/menu-item-single-article-site-view.png)
+![Site view of single article](../../../en/images/getting-started/adding-a-menu-item/02-menu-item-single-article-site-view.png)
 
 ## Multiple Menu Items
 
@@ -54,7 +61,7 @@ other page layouts.
 Go to the Site Home page and reload. Select the new *Articles about Mammals* menu
 item.
 
-![Category list of Articles on Mammals](../../../en/images/getting-started/menu-item-category-list-site-view.png)
+![Category list of Articles on Mammals](../../../en/images/getting-started/adding-a-menu-item/03-menu-item-category-list-site-view.png)
 
 Select the article title, Mammals, to go to the article view. If you have many
 articles you can find them here so do not need single article menu items.

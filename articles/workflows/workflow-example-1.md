@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_1 / Display title: Workflow Example 1 -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_1",
+  "title": "Workflow Example 1 ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -13,7 +20,7 @@ Joomla default Author, Editor and Publisher user groups. That has a problem: an
 Author can only see Published articles so cannot re-edit Unpublished articles.
 A method to avoid that problem is covered in [Example 2](jdocmanual?article=user/workflows/workflow-example-2).
 
-![Workflows list](../../../en/images/workflows/example-1-workflows-list.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/01-example-1-workflows-list.png)
 
 Notice that the *Basic Workflow* is set as the *Default*. This may have
 troublesome consequences covered later in this article! 
@@ -38,7 +45,7 @@ troublesome consequences covered later in this article!
 
 There are four stages in this Workflow:
 
-![Workflows list](../../../en/images/workflows/example-1-workflow-stages.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/02-example-1-workflow-stages.png)
 
 - **Draft** is the stage created by Arthur for a new article.
 - **Review** is the stage where Eddie takes over to proof read the content.
@@ -55,7 +62,7 @@ if more work is required in the previous stage; and a second to migrate
 to the next stage. Extra transitions are required to handle the demise of
 an article:
 
-![Workflows list](../../../en/images/workflows/example-1-workflow-transitions.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/03-example-1-workflow-transitions.png)
 
 - **Draft/Review** to move the stage form Draft to Review.
 - **Review/Draft** to revert the stage from Review to Draft.
@@ -76,7 +83,7 @@ it is no longer needed.
 
 The date entry form has four tabs starting with the *Transition* tab:
 
-![Workflows list](../../../en/images/workflows/example-1-edit-transition.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/04-example-1-edit-transition.png)
 
 - **Name** It is best to use the Current and Target stages in the name.
 - **Current Stage** The stage before the transition takes place.
@@ -85,7 +92,7 @@ The date entry form has four tabs starting with the *Transition* tab:
 
 #### The *Transition Actions* tab:
 
-![Workflows list](../../../en/images/workflows/example-1-edit-transition-actions.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/05-example-1-edit-transition-actions.png)
 
 - **Featuring State** Define the featured state an item should have after 
   executing this transition. Leave this at *-Non Selected-* if the user likely
@@ -96,7 +103,7 @@ The date entry form has four tabs starting with the *Transition* tab:
 
 #### The *Notifications* tab:
 
-![Workflows list](../../../en/images/workflows/example-1-edit-transition-notification.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/06-example-1-edit-transition-notification.png)
 
 - **Send Notification** Set this to *Yes* where notifications are necessary, for
   example when Arthur needs to notify Eddie that an article is ready for review.
@@ -127,7 +134,7 @@ A new Newsletter category is needed to display the Newsletter as a Category
 Blog and to ensure the Newsletter articles are assigned to the Newsletter
 Workflow.
 
-![Workflows list](../../../en/images/workflows/example-1-newsletter-category.png)
+![Workflows list](../../../en/images/workflows/workflow-example-1/07-example-1-newsletter-category.png)
 
 ## The Newsletter Menu Item
 
@@ -206,11 +213,11 @@ You can allow backend access for all members of these groups as follows:
 This will allow Arthur, Eddie and Pru to login to the backend wih access to
 the Content items. A much reduced Home Dashboard:
 
-![Home dashboard for arthur](../../../en/images/workflows/example-1-backend-home.png)
+![Home dashboard for arthur](../../../en/images/workflows/workflow-example-1/08-example-1-backend-home.png)
 
 But Arthur has access to his draft articles:
 
-![Article list for Arthur](../../../en/images/workflows/example-1-backend-articles.png)
+![Article list for Arthur](../../../en/images/workflows/workflow-example-1/09-example-1-backend-articles.png)
 
 Notice that Arthur cannot edit the last item in the list because it is not
 one of his own articles. The article title is not linked. Similarly, Arthur
@@ -233,7 +240,7 @@ to fix the problem.
 - Select an appropriate target Workflow and Stage.
 - Select the **Process** button.
 
-![Article list for Arthur](../../../en/images/workflows/example-1-backend-batch.png)
+![Article list for Arthur](../../../en/images/workflows/workflow-example-1/10-example-1-backend-batch.png)
 
 ### Fallback Method
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Setup / Display title: Privacy Setup -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Setup",
+  "title": "Privacy Setup ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Privacy Component
 
@@ -27,7 +34,7 @@ and **Privacy Status**. To access:
 
 - Select **Users → Privacy** from the Administrator menu.
 
-![privacy dashboard](../../../en/images/privacy/privacy-dashboard.png)
+![privacy dashboard](../../../en/images/privacy/privacy-setup/01-privacy-dashboard.png)
 
 There are two modules displayed by default in the Privacy Dashboard:
 
@@ -67,7 +74,7 @@ To set up consents:
   the Privacy - Consents plugin).
 - Select to open the plugin data entry form.
 
-![plugin system privacy consent](../../../en/images/privacy/plugin-system-privacy-consent.png)
+![plugin system privacy consent](../../../en/images/privacy/privacy-setup/02-plugin-system-privacy-consent.png)
 
 - Set the **Status** to **Enabled**.
 - Optional: Select or Create an article to link to from the Registration
@@ -126,7 +133,7 @@ displayed in the correct language for the user.
 Together, the two plugins appear on the User Registration form as in the
 following screenshot:
 
-![privacy consents site view](../../../en/images/privacy/privacy-consents-site.png)
+![privacy consents site view](../../../en/images/privacy/privacy-setup/03-privacy-consents-site.png)
 
 ## Menu Item: Privacy Information Request
 
@@ -175,7 +182,7 @@ This screen is the central location for processing and managing user
 information requests. Please sea the related article on Privacy Workflow
 for guidance on processing requests.
 
-![privacy information requests](../../../en/images/privacy/privacy-information-requests.png)
+![privacy information requests](../../../en/images/privacy/privacy-setup/04-privacy-information-requests.png)
 
 ### Extension Capabilities
 
@@ -184,7 +191,7 @@ capabilities reported by individual extensions. It is intended to assist
 in the preparation of documentation such as a privacy policy article or
 a terms of service article.
 
-![privacy information requests](../../../en/images/privacy/privacy-extension-capabilities.png)
+![privacy information requests](../../../en/images/privacy/privacy-setup/05-privacy-extension-capabilities.png)
 
 The page contents come from language strings in the core, in the privacy
 component and in plugins that implement the
@@ -208,4 +215,4 @@ registration. You can search by name for a specific user. Note that
 consent to agree to the site Terms and Conditions is not recorded here.
 That is only in the User Actions Log.
 
-![privacy consents](../../../en/images/privacy/privacy-consents.png)
+![privacy consents](../../../en/images/privacy/privacy-setup/06-privacy-consents.png)

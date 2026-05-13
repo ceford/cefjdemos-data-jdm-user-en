@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Positions / Display title: Menu Positions -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Positions",
+  "title": "Menu Positions ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -8,11 +15,11 @@ menu modules and their positions:
 - Select **Content → Site Modules** from the Administrator menu.
 - Filter with **- Select Type -** set to *Menu* as in the following illustration:
 
-![modules list filtered by type menu](../../../en/images/menus/menus-menu-positions.png)
+![modules list filtered by type menu](../../../en/images/menus/menu-positions/01-menus-menu-positions.png)
 
 For reference, the Cassiopeia template has the following positions:
 
-![Cassiopeia template positions](../../../en/images/templates/cassiopeia-template-positions.png)
+![Cassiopeia template positions](../../../en/images/menus/menu-positions/02-cassiopeia-template-positions.png)
 
 ## To Change a Position
 
@@ -27,7 +34,7 @@ The following illustration shows a menu module with part of the list of
 positions. It is quite long as it contains available positions in the
 Cassiopeia template followed by Active positions in use.
 
-![Menu module edit form](../../../en/images/menus/menus-menu-edit-position.png)
+![Menu module edit form](../../../en/images/menus/menu-positions/03-menus-menu-edit-position.png)
 
 ## Menu Layout
 

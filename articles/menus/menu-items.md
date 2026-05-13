@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Items / Display title: Menu Items -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Items",
+  "title": "Menu Items ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -18,7 +25,7 @@ a total of over 30 types. The following screenshot shows the **Menus:
 All Menu Items** list with a selection of menu item types beneath the
 menu title in the **Title** column:
 
-![menu items list](../../../en/images/menus/menus-all-menu-items-list.png)
+![menu items list](../../../en/images/menus/menu-items/01-menus-all-menu-items-list.png)
 
 ## Adding a Menu Item
 
@@ -35,7 +42,7 @@ In the **Menus: New Item** form:
 - In the **Menu Item Type** field use the **Select** button to open the
   Menu Item Type dialog box.
 
-![menu items select type](../../../en/images/menus/menus-menu-items-select-type.png)
+![menu items select type](../../../en/images/menus/menu-items/02-menus-menu-items-select-type.png)
 
 - Select whichever type you need, in this example a Single Article type.
 
@@ -51,7 +58,7 @@ that are relevant to the type. For the Single Article item type:
   **Ordering** field at the right. By default it is last. You can make
   it **First** or to come after any other menu item you select.
 
-![menu items edit item](../../../en/images/menus/menus-menu-items-edit-item.png)
+![menu items edit item](../../../en/images/menus/menu-items/03-menus-menu-items-edit-item.png)
 
 - View the site to check that it is what you want.
 

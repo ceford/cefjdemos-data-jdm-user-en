@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=system&filename=backup.md / Display title: Backup -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=system&filename=backup.md",
+  "title": "Backup ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Accidents Happen!
 

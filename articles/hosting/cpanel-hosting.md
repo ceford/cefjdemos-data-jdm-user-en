@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Hosting_Setup / Display title: cPanel Hosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
+  "title": "cPanel Hosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -7,7 +14,7 @@
 When you login to your cPanel hosting service, this is what you should
 expect to see:
 
-![cpanel hosting control panel](../../../en/images/hosting/cpanel-hosting.png)
+![cpanel hosting control panel](../../../en/images/hosting/cpanel-hosting/01-cpanel-hosting.png)
 
 ### Database Setup
 
@@ -45,7 +52,7 @@ and upload Joomla there. You could have another folder named *j4test*
 and put another copy of Joomla there. The illustration below shows such
 a set-up with two Joomla websites.
 
-![cpanel hosting file manager](../../../en/images/hosting/cpanel-file-manager.png)
+![cpanel hosting file manager](../../../en/images/hosting/cpanel-hosting/02-cpanel-file-manager.png)
 
 When you have decided on your structure, select you chosen Joomla folder
 in File Manager and click the Upload button. In the upload form, select

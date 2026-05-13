@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Custom -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Custom ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -24,4 +31,4 @@ The *timeRequired* property represents the estimated reading time in ISO 8601 du
 
 Below is an example of a Custom schema field in an Article edit form.
 
-![A custom schema edit form](../../../en/images/schemas/edit-schema-custom.png)
+![A custom schema edit form](../../../en/images/schemas/custom/01-edit-schema-custom.png)

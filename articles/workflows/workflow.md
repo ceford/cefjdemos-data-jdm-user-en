@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Workflow / Display title: Publishing Workflow -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Workflow",
+  "title": "Publishing Workflow ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -42,7 +49,7 @@ workflow: [Workflow Scenarios](jdocmanual?article=user/workflows/workflow-scenar
 When workflows are enabled the list of available workflows can be seen by
 selection of **Content → Workflows** from the Administrator menu.
 
-![Workflows list](../../../en/images/workflows/workflows-list.png)
+![Workflows list](../../../en/images/workflows/workflow/01-workflows-list.png)
 
 - The **Status** of a workflow may be Enabled, Disabled or Trashed.
 - The **Name** is a link to the workflow Edit form.
@@ -59,18 +66,18 @@ selection of **Content → Workflows** from the Administrator menu.
 The stages are accessed via the *Workflows* list. Select the yellow button
 showing the number of stages. 
 
-![Workflow stages list](../../../en/images/workflows/workflow-stages-list.png)
+![Workflow stages list](../../../en/images/workflows/workflow/02-workflow-stages-list.png)
 
 Select the name of a stage to edit it.
 
-![Workflow stage edit form](../../../en/images/workflows/workflow-stage-edit.png)
+![Workflow stage edit form](../../../en/images/workflows/workflow/03-workflow-stage-edit.png)
 
 ## Transitions
 
 In workflows, articles transition from one stage to another. The transitions are
 managed through the *Transitions* list.
 
-![The transitions list](../../../en/images/workflows/workflow-transitions-list.png)
+![The transitions list](../../../en/images/workflows/workflow/04-workflow-transitions-list.png)
 
 - The *Current Stage* defines where this transition starts.
 - The *Target Stage* defines where this transition ends.
@@ -79,12 +86,12 @@ managed through the *Transitions* list.
 
 The *Current* and *Target* stages are set in the *Edit Transition* form:
 
-![Edit transition form](../../../en/images/workflows/workflow-transition-edit.png)
+![Edit transition form](../../../en/images/workflows/workflow/05-workflow-transition-edit.png)
 
 The *Transition Actions* tab is used to define the *State* the item will be in 
 after the transition is complete. 
 
-![Edit transition form actions tab](../../../en/images/workflows/workflow-transition-edit-actions-tab.png)
+![Edit transition form actions tab](../../../en/images/workflows/workflow/06-workflow-transition-edit-actions-tab.png)
 
 - **Featuring State** Whether or not the item will be *Feaured*.
 - **Publishing State** Select from the list the target state.
@@ -93,7 +100,7 @@ The *Transition Notifications* tab is used to define whether a notification is
 sent for that state. For example if an article has been written but needs to 
 be proofread, an email could be sent to notify the editor.
 
-![Edit transition form notifications tab](../../../en/images/workflows/workflow-transition-edit-notifications-tab.png)
+![Edit transition form notifications tab](../../../en/images/workflows/workflow/07-workflow-transition-edit-notifications-tab.png)
 
 - **Send Notification** If set to *Yes* extra fields appear.
 - **Additional Message Text** Add additional message text or use a language
@@ -114,7 +121,7 @@ The workflow plugins are used for actions invoked by transitions. Go to
 **System → Plugins** and change the *- Select Type -* filter to *workflow*.
 Each of this plugins can be disabled if not required.
 
-![Workflow plugins list](../../../en/images/workflows/workflow-plugins.png)
+![Workflow plugins list](../../../en/images/workflows/workflow/08-workflow-plugins.png)
 
 - **Workflow Featuring** This action implements the change of an article's
   *Featured* status from *Yes* to *No*.
@@ -135,7 +142,7 @@ This option is not within the workflows screen. For this option you need
 to go to **Content → Categories**. Once there open any category and you
 will see a *Workflows* tab.
 
-![Articles edit category workflow](../../../en/images/workflows/workflow-categories-blog.png)
+![Articles edit category workflow](../../../en/images/workflows/workflow/09-workflow-categories-blog.png)
 
 ### Example
 

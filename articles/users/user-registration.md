@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Registration / Display title: User Registration -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Registration",
+  "title": "User Registration ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Registration Policy
 
@@ -31,7 +38,7 @@ can be allowed with some simple changes to the *Users: Options* form.
     notified via email. The Site Administrator then needs to activate
     the user's account.
 
-![User configuration user options tab](../../../en/images/users/users-configuration-user-options.png)
+![User configuration user options tab](../../../en/images/users/user-registration/01-users-configuration-user-options.png)
 
 - **Save & Close**
 - Add a *Login* module. Or
@@ -51,7 +58,7 @@ Administrator. Proceed as follows:
 - Fill out the **New User Details** form. Most of the fields have
   suitable default values.
 
-![New user data entry page](../../../en/images/users/users-new-user.png)
+![New user data entry page](../../../en/images/users/user-registration/02-users-new-user.png)
 
 - Select the **Assigned User Groups** tab and check the box against the
   desired user group. Registered is checked by default.
@@ -75,7 +82,7 @@ To block a user:
 - Select the Enabled icon appearing as a green tick adjacent to the user
   name. A **Block** label appears on hover.
 
-![New user data entry page](../../../en/images/users/users-hover-block.png)
+![New user data entry page](../../../en/images/users/user-registration/03-users-hover-block.png)
 
 - Select the *Enabled* icon. The page will reload with the Enabled icon 
   appearing as a grey cross.

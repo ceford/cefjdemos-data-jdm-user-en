@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Multilingual_Associations / Display title: Multilingual Associations -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Multilingual_Associations",
+  "title": "Multilingual Associations ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Multilingual Sites
 
@@ -25,7 +32,7 @@ The following items can be included in associations:
 The following screenshot shows an example list of articles in English
 with their equivalents in other languages.
 
-![multilingual associations list](../../../en/images/languages/multilingual-associations-list.png)
+![multilingual associations list](../../../en/images/languages/multilingual-associations/01-multilingual-associations-list.png)
 
 The last article on Mountains has not yet had equivalent articles
 created in other languages. The missing articles can be translated from
@@ -55,7 +62,7 @@ Google Translate.
 - Select **Close**.
 - Repeat for the other languages.
 
-![multilingual associations edit](../../../en/images/languages/multilingual-associations-edit.png)
+![multilingual associations edit](../../../en/images/languages/multilingual-associations/02-multilingual-associations-edit.png)
 
 ## Creating a Menu Translation
 
@@ -84,4 +91,4 @@ Continuing with the Mountains example:
 Open or reload the site view to check that your menus and articles are
 displayed as expected.
 
-![multilingual associations site view](../../../en/images/languages/multilingual-associations-site.png)
+![multilingual associations site view](../../../en/images/languages/multilingual-associations/03-multilingual-associations-site.png)

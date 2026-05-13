@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Archived Articles Menu -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles",
+  "title": "Archived Articles Menu ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -23,7 +30,7 @@ you could delete **All Categories** and choose one or more categories from
 the dropdown list.
 1. Select **Save & Close** to create the new menu item.
 
-![Archived Articles Menu Form](../../../en/images/menus/menus-articles-archived.png)
+![Archived Articles Menu Form](../../../en/images/menus/menu-item-type-archived-articles/01-menus-articles-archived.png)
 
 There are a number of parameters you can change – you can find out more
 detailed information in the
@@ -37,7 +44,7 @@ added or the order adjusted by drag and drop or in this menu edit form.
 The *Archived Articles* link leads to a page that displays a list of archived
 articles:
 
-![Archived Articles Menu Form](../../../en/images/menus/menus-articles-archived-display.png)
+![Archived Articles Menu Form](../../../en/images/menus/menu-item-type-archived-articles/02-menus-articles-archived-display.png)
 
 This example is the default output. You may choose to alter this so
 that, for example, you only show the linked title and the category –

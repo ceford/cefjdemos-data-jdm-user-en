@@ -1,4 +1,11 @@
-<!-- Filename: Debugging_a_translation / Display title: Debugging a Translation -->
+<!--
+{
+  "source": "https://docs.joomla.org/Debugging_a_translation",
+  "title": "Debugging a Translation ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Joomla Language Files
 
@@ -77,7 +84,7 @@ to translators.
 
 In the **Language** tab:
 
-![plugin system debug](../../../en/images/languages/languages-debug-plugin.png)
+![plugin system debug](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Errors When Parsing Language Files** Display an error if a language file
 fails to load.

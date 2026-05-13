@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Integer_Field / Display title: Integer Field -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Integer Field ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Purpose
 
@@ -16,7 +23,7 @@ Special options for this field:
 - **Field Class** Set to *w-auto* to make the list just wide enough for its
 list of integers.
 
-![Integer field creation](../../../en/images/fields/fields-integer-edit.png)
+![Integer field creation](../../../en/images/fields/adding-custom-fields-integer-field/01-fields-integer-edit.png)
 
 **Note:** In this example, inclusion of the field type in the Title is for
 demonstration purposes only. Leave it out in your own field titles.
@@ -27,7 +34,7 @@ Select the required integer from the list, or more than one from a multiple
 select list. Notice that without w-auto the integer select field is the full
 width of the form.
 
-![Integer field data entry](../../../en/images/fields/fields-integer-data-entry.png)
+![Integer field data entry](../../../en/images/fields/adding-custom-fields-integer-field/02-fields-integer-data-entry.png)
 
 ## Data Display
 
@@ -35,4 +42,4 @@ The following Site screenshot shows the field displayed in an article. The
 option *Automatic display* is responsible for the position of the field and
 your template is responsible for the design of the field.
 
-![Integer field site display](../../../en/images/fields/fields-integer-site.png)
+![Integer field site display](../../../en/images/fields/adding-custom-fields-integer-field/03-fields-integer-site.png)

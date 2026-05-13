@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Page_in_Different_Style / Display title: Home Page in Different Style -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
+  "title": "Home Page in Different Style ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Site Home Page
 
@@ -28,7 +35,7 @@ Articles** menu item type. It is laid out with the appearance in the
 screenshot below (some minor changes were made to individual articles to
 make for a better screenshot here).
 
-![home page using cassiopeia and sample data](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
+![home page using cassiopeia and sample data](../../../en/images/template-tips/home-page-in-different-style/01-templates-home-page-style-cassiopeia-sample-data.png)
 
 This is how the layout is achieved:
 
@@ -37,11 +44,11 @@ This is how the layout is achieved:
 The large image beneath the menu bar is in a custom module named Image
 assigned to the banner position in the Cassiopeia template
 
-![custom module used in sample data style](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
+![custom module used in sample data style](../../../en/images/template-tips/home-page-in-different-style/02-templates-home-page-style-custom-module-image.png)
 
 In the Menu Assignment tab the module is assigned to Home only:
 
-![custom module menu assignment tab](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
+![custom module menu assignment tab](../../../en/images/template-tips/home-page-in-different-style/03-templates-home-page-style-custom-module-menu-assignment.png)
 
 The background image is selected in the Options tab of the Modules:
 Custom edit form.
@@ -71,7 +78,7 @@ the template top-a position. The module is set to display 3 items. Its
 Menu Assignment is Home only. The Advanced tab has Layout set to
 horizontal and Module Style set to noCard.
 
-![newsflash module](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
+![newsflash module](../../../en/images/template-tips/home-page-in-different-style/04-templates-home-page-style-newsflash-module-image.png)
 
 That concludes the explanation of how the Cassiopeia sample data Home
 page was created.

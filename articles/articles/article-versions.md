@@ -1,4 +1,11 @@
-<!-- Filename: Help4.x:Components_Version_History / Display title: Article: Versions -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help4.x:Components_Version_History",
+  "title": "Article: Versions ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introduction
 
@@ -23,7 +30,7 @@ Select the **Versions** button on the Toolbar while editing the item.
 
 ## Screenshot
 
-![Versions popup dialog](../../../en/images/articles/articles-versions.png)
+![Versions popup dialog](../../../en/images/articles/article-versions/01-articles-versions.png)
 
 ## Column Headers
 
@@ -68,14 +75,14 @@ Screenshot above. The functions are:
   or check the check box and click on the Preview button. A separate browser 
   window will load showing the selected version of the item, similar to the 
   screenshot below. After viewing the version, close the browser window.
-![Versions preview dialog](../../../en/images/articles/articles-versions-preview.png)
+![Versions preview dialog](../../../en/images/articles/article-versions/02-articles-versions-preview.png)
 - **Compare** To compare two versions to see what was changed, click
   the check boxes for each of the versions and click on the Compare
   button. A new browser window will open, as shown in the screenshot
   below. The first column is the field name, the second is the older version, 
   the third is the newer version, and the last column highlights the differences 
   between the two versions.
-![Versions compare dialog](../../../en/images/articles/articles-versions-compare.png)
+![Versions compare dialog](../../../en/images/articles/article-versions/03-articles-versions-compare.png)
 - **Keep On/Off** This button allows you to toggle on or off the Keep
   Forever feature for a version. Normally, the oldest version of an item
   will be deleted automatically when the maximum number of versions (set
