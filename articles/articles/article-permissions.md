@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Access_Control",
-  "title": "Article: Edit - Permissions ",
+  "title": "Article: Edit - Permissions",
   "description": "", 
   "author": ""
 }

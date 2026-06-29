@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/localhost",
-  "title": "Note Field ",
+  "title": "Note Field",
   "description": "", 
   "author": ""
 }

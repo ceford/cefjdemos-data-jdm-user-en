@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
-  "title": "Local Hosting on Windows ",
+  "title": "Local Hosting on Windows",
   "description": "", 
   "author": ""
 }

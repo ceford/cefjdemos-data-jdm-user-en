@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Joomla 5 to 6 Step by Step ",
+  "title": "Joomla 5 to 6 Step by Step",
   "description": "", 
   "author": ""
 }

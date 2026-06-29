@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Laragon for Windows ",
+  "title": "Laragon for Windows",
   "description": "", 
   "author": ""
 }

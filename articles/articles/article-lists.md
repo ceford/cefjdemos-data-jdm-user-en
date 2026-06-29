@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Lists",
-  "title": "Article: Edit - Lists ",
+  "title": "Article: Edit - Lists",
   "description": "", 
   "author": ""
 }

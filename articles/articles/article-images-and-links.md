@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Article_Images_and_Links",
-  "title": "Article: Edit - Images and Links ",
+  "title": "Article: Edit - Images and Links",
   "description": "", 
   "author": ""
 }

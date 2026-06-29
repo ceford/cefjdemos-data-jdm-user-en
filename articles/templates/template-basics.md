@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Basics",
-  "title": "Template Basics ",
+  "title": "Template Basics",
   "description": "", 
   "author": ""
 }

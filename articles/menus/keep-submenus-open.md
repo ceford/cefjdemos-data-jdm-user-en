@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Keep Submenus Open ",
+  "title": "Keep Submenus Open",
   "description": "", 
   "author": ""
 }

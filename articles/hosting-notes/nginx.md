@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Nginx",
-  "title": "Nginx ",
+  "title": "Nginx",
   "description": "", 
   "author": ""
 }

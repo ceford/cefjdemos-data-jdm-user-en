@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Monitoring_Site_Speed",
-  "title": "Monitoring Site Speed ",
+  "title": "Monitoring Site Speed",
   "description": "", 
   "author": ""
 }

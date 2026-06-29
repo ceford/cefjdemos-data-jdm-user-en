@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories",
-  "title": "Articles: Categories ",
+  "title": "Articles: Categories",
   "description": "", 
   "author": ""
 }

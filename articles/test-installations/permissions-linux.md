@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Verifying_permissions",
-  "title": "File Permissions: Linux ",
+  "title": "File Permissions: Linux",
   "description": "", 
   "author": ""
 }

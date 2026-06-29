@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Joomla_Standard_Font_Awesome_Fonts",
-  "title": "Font Awesome Fonts ",
+  "title": "Font Awesome Fonts",
   "description": "", 
   "author": ""
 }

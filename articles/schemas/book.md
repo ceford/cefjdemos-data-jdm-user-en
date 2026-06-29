@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Schema_org",
-  "title": "Schema.org - Book ",
+  "title": "Schema.org - Book",
   "description": "", 
   "author": ""
 }

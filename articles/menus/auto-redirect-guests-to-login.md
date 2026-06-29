@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
-  "title": "Auto redirect guests to login ",
+  "title": "Auto redirect guests to login",
   "description": "", 
   "author": ""
 }

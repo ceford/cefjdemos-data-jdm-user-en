@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Changing_user_groups",
-  "title": "Changing User's Groups ",
+  "title": "Changing User's Groups",
   "description": "", 
   "author": ""
 }

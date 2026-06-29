@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Docker Setup ",
+  "title": "Docker Setup",
   "description": "", 
   "author": ""
 }

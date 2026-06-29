@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:System_Dashboard",
-  "title": "System Dashboard ",
+  "title": "System Dashboard",
   "description": "", 
   "author": ""
 }

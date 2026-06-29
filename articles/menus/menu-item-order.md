@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Item_Order",
-  "title": "Menu Item Order ",
+  "title": "Menu Item Order",
   "description": "", 
   "author": ""
 }

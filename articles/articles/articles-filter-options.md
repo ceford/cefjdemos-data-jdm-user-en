@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Articles:_Filter_Options",
-  "title": "Articles: Filter Options ",
+  "title": "Articles: Filter Options",
   "description": "", 
   "author": ""
 }

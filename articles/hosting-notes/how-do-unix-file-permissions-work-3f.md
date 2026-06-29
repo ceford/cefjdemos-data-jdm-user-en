@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F",
-  "title": "UNIX File Permissions ",
+  "title": "UNIX File Permissions",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Multi-factor_Authentication",
-  "title": "Multi-factor Authentication ",
+  "title": "Multi-factor Authentication",
   "description": "", 
   "author": ""
 }

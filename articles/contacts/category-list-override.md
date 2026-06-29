@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Category List Override ",
+  "title": "Category List Override",
   "description": "", 
   "author": ""
 }

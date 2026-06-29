@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
-  "title": "Visual Studio Code Primer ",
+  "title": "Visual Studio Code Primer",
   "description": "", 
   "author": ""
 }

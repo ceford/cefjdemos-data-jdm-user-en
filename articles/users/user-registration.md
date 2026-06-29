@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Registration",
-  "title": "User Registration ",
+  "title": "User Registration",
   "description": "", 
   "author": ""
 }

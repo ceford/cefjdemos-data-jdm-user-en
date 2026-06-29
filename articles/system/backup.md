@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=system&filename=backup.md",
-  "title": "Backup ",
+  "title": "Backup",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_configuration_options",
-  "title": "Smart Search Options ",
+  "title": "Smart Search Options",
   "description": "", 
   "author": ""
 }

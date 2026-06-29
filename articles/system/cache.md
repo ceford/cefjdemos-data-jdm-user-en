@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Cache",
-  "title": "Cache ",
+  "title": "Cache",
   "description": "", 
   "author": ""
 }

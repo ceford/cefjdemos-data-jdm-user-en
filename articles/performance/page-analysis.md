@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=page-analysis.md",
-  "title": "Page Analysis ",
+  "title": "Page Analysis",
   "description": "", 
   "author": ""
 }

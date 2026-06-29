@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=news&filename=news-feeds.md",
-  "title": "News Feeds ",
+  "title": "News Feeds",
   "description": "", 
   "author": ""
 }

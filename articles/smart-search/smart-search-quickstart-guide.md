@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_quickstart_guide",
-  "title": "Smart Search Quickstart ",
+  "title": "Smart Search Quickstart",
   "description": "", 
   "author": ""
 }

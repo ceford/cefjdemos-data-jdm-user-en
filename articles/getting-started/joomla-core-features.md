@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Joomla_Core_Features",
-  "title": "Joomla Core Features ",
+  "title": "Joomla Core Features",
   "description": "", 
   "author": ""
 }

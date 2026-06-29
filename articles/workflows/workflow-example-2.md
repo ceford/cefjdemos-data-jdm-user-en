@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_2",
-  "title": "Workflow Example 2 ",
+  "title": "Workflow Example 2",
   "description": "", 
   "author": ""
 }

@@ -1,0 +1,307 @@
+{
+    "getting-started": {
+        "introduction-to-joomla.md": "Introduction to Joomla!",
+        "joomla-core-features.md": "Joomla Core Features",
+        "hosting-setup.md": "Hosting Setup",
+        "installing-joomla.md": "Installing Joomla",
+        "logging-in-to-joomla.md": "Logging in to Joomla",
+        "basic-concepts.md": "Basic Concepts",
+        "adding-a-category.md": "Adding a Category",
+        "adding-an-article.md": "Adding an Article",
+        "adding-a-menu-item.md": "Adding a Menu Item",
+        "adding-a-module.md": "Adding a Module",
+        "keyboard-shortcuts.md": "Keyboard Shortcuts"
+    },
+    "articles": {
+        "articles-categories.md": "Articles: Categories",
+        "articles-filter-options.md": "Articles: Filter Options",
+        "articles-featured.md": "Articles: Featured",
+        "articles-archive.md": "Articles: Archive",
+        "articles-delete.md": "Articles: Delete",
+        "article-content.md": "Article: Edit - Content",
+        "article-headings.md": "Article: Edit - Headings",
+        "article-images.md": "Article: Edit - Images",
+        "article-links.md": "Article: Edit - Links",
+        "article-link-styles.md": "Article: Edit - Link Styles",
+        "article-lists.md": "Article: Edit - Lists",
+        "article-tables.md": "Article: Edit - Tables",
+        "article-pagination.md": "Article: Edit - Pagination",
+        "article-read-more.md": "Article: Edit - Read More",
+        "article-images-and-links.md": "Article: Edit - Images and Links",
+        "article-options.md": "Article: Edit - Options",
+        "article-publishing.md": "Article: Edit - Publishing",
+        "article-metadata.md": "Article: Edit - Metadata",
+        "article-configure-edit-screen.md": "Article: Edit - Configure Edit Screen",
+        "article-permissions.md": "Article: Edit - Permissions",
+        "article-save-to-menu.md": "Article: Save to Menu",
+        "article-versions.md": "Article: Versions",
+        "article-preview.md": "Article: Preview",
+        "article-accessibility-check.md": "Article: Accessibility Check",
+        "article-access-restriction.md": "Article: Access Restriction",
+        "article-check-in.md": "Article: Check-in"
+    },
+    "banners": {
+        "banners.md": "Banners"
+    },
+    "command-line-interface": {
+        "using-the-cli.md": "Using the CLI",
+        "joomla-cli-installation.md": "Joomla CLI Installation"
+    },
+    "configuration": {
+        "global-configuration.md": "Global Configuration",
+        "site-offline.md": "Site Offline",
+        "smtp-mail-gmail.md": "SMTP mail and Gmail",
+        "the-htaccess-file.md": "The htaccess.txt file",
+        "robots-txt-file.md": "The robots.txt file",
+        "adding-www-to-a-url.md": "Adding www to a URL",
+        "disallow-image-hotlinking.md": "Disallow Image Hotlinking",
+        "disallow-directory-listing.md": "Disallow Directory Listing",
+        "password-protect-directories.md": "Password Protect Directories"
+    },
+    "contacts": {
+        "contacts.md": "Contacts",
+        "category-list-override.md": "Category List Override"
+    },
+    "dashboards": {
+        "home-dashboard.md": "Home Dashboard",
+        "content-dashboard.md": "Content Dashboard",
+        "menu-dashboard.md": "Menu Dashboard",
+        "components-dashboard.md": "Components Dashboard",
+        "users-dashboard.md": "Users Dashboard",
+        "system-dashboard.md": "System Dashboard",
+        "help-dashboard.md": "Help Dashboard"
+    },
+    "editors": {
+        "content-editors.md": "Content Editors",
+        "tinymce-plugin.md": "TinyMCE Plugin",
+        "codemirror-plugin.md": "Codemirror Plugin",
+        "html-filters.md": "HTML Filters"
+    },
+    "extensions": {
+        "installing-an-extension.md": "Installing an extension",
+        "free-and-commercial-extensions.md": "The Joomla Extensions Directory",
+        "vulnerable-extensions.md": "Vulnerable Extensions"
+    },
+    "fields": {
+        "fields-and-field-groups.md": "Fields and Field Groups",
+        "adding-custom-fields-parameters.md": "Field Parameters",
+        "adding-custom-fields-calendar-field.md": "Calendar Field",
+        "adding-custom-fields-checkboxes-field.md": "Checkboxes Field",
+        "adding-custom-fields-color-field.md": "Colour Field",
+        "adding-custom-fields-editor-field.md": "Editor Field",
+        "adding-custom-fields-integer-field.md": "Integer Field",
+        "adding-custom-fields-list-field.md": "List Field",
+        "adding-custom-fields-list-of-images-field.md": "List of Images Field",
+        "adding-custom-fields-media-field.md": "Media Field",
+        "adding-custom-fields-note-field.md": "Note Field",
+        "adding-custom-fields-number-field.md": "Number Field",
+        "adding-custom-fields-radio-field.md": "Radio Field",
+        "adding-custom-fields-sql-field.md": "SQL Field",
+        "adding-custom-fields-text-field.md": "Text Field",
+        "adding-custom-fields-textarea-field.md": "Textarea Field",
+        "adding-custom-fields-url-field.md": "Url Field",
+        "adding-custom-fields-user-field.md": "User Field",
+        "adding-custom-fields-usergroup-field.md": "Usergroup Field",
+        "subforms.md": "Subform Field",
+        "adding-custom-fields-multilingual-sites.md": "Multilingual Sites",
+        "adding-custom-fields-overrides.md": "Example Template Override"
+    },
+    "help": {
+        "guided-tours.md": "Guided Tours",
+        "administrator-help.md": "Administrator Help"
+    },
+    "hosting": {
+        "free-hosting.md": "Free Hosting",
+        "cpanel-hosting.md": "cPanel Hosting",
+        "auto-installer-installation.md": "Auto Installer Installation"
+    },
+    "hosting-local": {
+        "local-environment-setup.md": "Local Environment Setup",
+        "docker-setup.md": "Docker Setup",
+        "laragon-setup-windows.md": "Laragon for Windows",
+        "local-hosting-on-windows.md": "Local Hosting on Windows",
+        "local-hosting-on-linux.md": "Local Hosting on Linux",
+        "local-hosting-with-xampp.md": "Local Hosting with XAMPP",
+        "installing-joomla-using-bitnami-joomla-stack.md": "Bitnami Installation",
+        "installing-joomla-on-a-raspberry-pi.md": "Raspberry Pi Installation"
+    },
+    "hosting-notes": {
+        "moving-the-site-among-directories-sub-directories.md": "Moving Installation Directory",
+        "how-do-unix-file-permissions-work-3f.md": "UNIX File Permissions",
+        "how-do-windows-file-permissions-work-3f.md": "Windows File Permissions",
+        "multiple-domains-and-web-sites-in-a-single-joomla-installation.md": "Multiple Domains and Web Sites in a single Joomla! installation",
+        "what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md": "Sub-Domains, Parked Domains and Add-On Domains",
+        "nginx.md": "Nginx",
+        "apache-php-handler.md": "Apache PHP Handlers",
+        "optional-technical-requirements.md": "Optional Technical Requirements"
+    },
+    "languages": {
+        "setup-a-multilingual-site.md": "Setup a Multilingual Site",
+        "multilingual-associations.md": "Multilingual Associations",
+        "language-overrides.md": "Language Overrides",
+        "debugging-a-translation.md": "Debugging a Translation"
+    },
+    "media": {
+        "managing-media.md": "Managing Media",
+        "media-select-last-file.md": "Select Last File",
+        "media-upload-delete-rename.md": "Upload Delete Rename",
+        "media-image-crop-resize-rotate.md": "Image Crop Resize Rotate",
+        "media-file-locations.md": "Media File Locations",
+        "media-options.md": "Media: Options",
+        "media-uploading-svg-files.md": "Uploading SVG files"
+    },
+    "menus": {
+        "adding-a-new-menu.md": "Adding a New Menu",
+        "menu-items.md": "Menu Items",
+        "menu-item-types.md": "Menu Item Types",
+        "menu-item-order.md": "Menu Item Order",
+        "submenus.md": "Submenus",
+        "keep-submenus-open.md": "Keep Submenus Open",
+        "menu-positions.md": "Menu Positions",
+        "auto-redirect-guests-to-login.md": "Auto redirect guests to login",
+        "menu-item-type-archived-articles.md": "Archived Articles Menu",
+        "adding-a-custom-administrator-menu.md": "Custom Administrator Menu"
+    },
+    "migration": {
+        "migration-basics.md": "Migration Basics",
+        "version-update.md": "Version Update",
+        "joomla-3-x-to-4-x-step-by-step-migration.md": "Joomla 3 to 4 Step by Step",
+        "joomla-5-to-6-steps.md": "Joomla 5 to 6 Step by Step"
+    },
+    "modules": {
+        "site-modules.md": "Site Modules",
+        "administrator-modules.md": "Administrator Modules",
+        "module-positions.md": "Module Positions",
+        "module-display-by-menu-item.md": "Module Display by Menu Item",
+        "how-do-you-put-a-module-inside-an-article-3f.md": "Modules inside Articles",
+        "enabling-the-login-form-module.md": "Login Form",
+        "module-styles.md": "Module Styles",
+        "articles-archived-module.md": "Archived Articles",
+        "how-do-you-create-a-custom-module-3f.md": "Custom Module"
+    },
+    "news-feeds": {
+        "news-feeds.md": "News Feeds",
+        "news-display.md": "News Display"
+    },
+    "performance": {
+        "page-analysis.md": "Page Analysis",
+        "monitoring-server-health.md": "Monitoring Server Health",
+        "monitoring-site-speed.md": "Monitoring Site Speed",
+        "accessibility-checker.md": "Accessibility Checker",
+        "managing-404-errors.md": "Managing 404 Errors"
+    },
+    "plugins": {
+        "about-plugins.md": "About Plugins",
+        "plugin-joomla-update-notification.md": "Joomla! Update Notification"
+    },
+    "privacy": {
+        "privacy-outline.md": "Privacy Outline",
+        "privacy-setup.md": "Privacy Setup",
+        "privacy-workflow.md": "Privacy Workflow",
+        "cookie-notification.md": "Cookies"
+    },
+    "problems": {
+        "assorted-issues.md": "Assorted Issues",
+        "unsupported-php-version.md": "Unsupported PHP Version",
+        "fatalerror.md": "FatalError",
+        "database-table-structure.md": "Database Table Structure",
+        "get-locally-hosted-joomla-website-e-mail-functions-to-work.md": "Local Host Email",
+        "unable-to-connect-to-the-database.md": "Database Connection"
+    },
+    "reference": {
+        "joomla-licenses.md": "Joomla Licenses",
+        "what-has-the-copyright-of-joomla-3f.md": "Joomla! Copyright",
+        "what-are-web-standards-3f.md": "What are web standards?",
+        "where-are-the-web-pages-3f.md": "Where are the web pages?"
+    },
+    "schemas": {
+        "introduction-to-schema-org.md": "Introduction to Schemas",
+        "article.md": "Schema.org - Article",
+        "blogposting.md": "Schema.org - BlogPosting",
+        "book.md": "Schema.org - Book",
+        "custom.md": "Schema.org - Custom",
+        "event.md": "Schema.org - Event",
+        "jobposting.md": "Schema.org - JobPosting",
+        "organisation.md": "Schema.org - Organization",
+        "person.md": "Schema.org - Person",
+        "recipe.md": "Schema.org - Recipe"
+    },
+    "security": {
+        "best-practices.md": "Best Practices",
+        "http-headers.md": "HTTP Headers"
+    },
+    "seo": {
+        "seo-basics.md": "SEO Basics",
+        "search-engine-friendly-urls.md": "Search Engine Friendly URLs",
+        "strict-routing.md": "SEO Strict Routing",
+        "sef-urls-on-apache.md": "SEF URLs on Apache",
+        "sef-urls-on-nginx.md": "SEF URLs on Nginx",
+        "monitoring-seo.md": "Monitoring SEO",
+        "using-a-sitemap.md": "Using A Sitemap"
+    },
+    "smart-search": {
+        "smart-search-quickstart-guide.md": "Smart Search Quickstart",
+        "smart-search-on-large-sites.md": "Smart Search on Large Sites",
+        "customising-the-smart-search-results-page.md": "Smart Search Layout Overrides",
+        "setting-up-automatic-smart-search-indexing.md": "Smart Search Indexing",
+        "smart-search-frequently-asked-questions.md": "Smart Search FAQs",
+        "smart-search-configuration-options.md": "Smart Search Options",
+        "smart-search-content-change-test-plan.md": "Smart Search Test Plan"
+    },
+    "system": {
+        "backup.md": "Backup",
+        "cache.md": "Cache",
+        "purging-expired-cache-files.md": "Purge Expired Cache",
+        "top-10-stupidest-administrator-tricks.md": "Top 10 Stupid Tricks"
+    },
+    "tags": {
+        "content-tags.md": "Content Tags"
+    },
+    "templates": {
+        "template-basics.md": "Template Basics",
+        "cassiopeia-template-customisation.md": "Cassiopeia Customisation",
+        "template-overrides.md": "Template Overrides",
+        "template-layouts.md": "Template Layouts",
+        "child-templates.md": "Child Templates",
+        "mail-templates.md": "Mail Templates",
+        "favicons.md": "Favicons",
+        "template-svg-logos.md": "Template SVG Logos",
+        "cassiopeia-templatedetails-xml.md": "Cassiopeia templateDetails.xml",
+        "switching-templates.md": "",
+        "home-page-in-different-style.md": "",
+        "module-and-menu-styles.md": "",
+        "joomla-standard-font-awesome-fonts.md": ""
+    },
+    "test-installations": {
+        "visual-studio-code-primer.md": "Visual Studio Code Primer",
+        "visual-studio-code-extras.md": "Visual Studio Code Extras",
+        "setting-up-apache-php-and-mysql-manually.md": "Setting up Apache, PHP and MySQL manually",
+        "permissions-linux.md": "File Permissions: Linux",
+        "permissions-windows.md": "File Permissions: Windows"
+    },
+    "users": {
+        "access-control.md": "Access Control",
+        "user-registration.md": "User Registration",
+        "user-profile.md": "User Profile",
+        "user-password-reset.md": "User Password Reset",
+        "admin-password-recovery.md": "Admin Password Recovery",
+        "user-password-security.md": "User Password Security",
+        "webauthn-passwordless-login.md": "WebAuthn Login",
+        "multi-factor-authentication.md": "Multi-factor Authentication",
+        "guest-access.md": "Guest Access",
+        "changing-user-groups.md": "Changing User's Groups",
+        "login-and-logout-redirects.md": "Login and Logout Redirects",
+        "user-actions-log.md": "User Actions Log"
+    },
+    "workflows": {
+        "workflow.md": "Publishing Workflow",
+        "workflow-example-1.md": "Workflow Example 1",
+        "workflow-example-2.md": "Workflow Example 2"
+    },
+    "template-tips": {
+        "home-page-in-different-style.md": "Home Page in Different Style",
+        "switching-templates.md": "Switching Templates",
+        "module-and-menu-styles.md": "Module and Menu Styles",
+        "joomla-standard-font-awesome-fonts.md": "Font Awesome Fonts"
+    }
+}

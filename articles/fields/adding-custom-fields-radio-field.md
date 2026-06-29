@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Radio Field ",
+  "title": "Radio Field",
   "description": "", 
   "author": ""
 }

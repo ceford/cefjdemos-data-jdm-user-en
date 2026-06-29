@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_content_change_test_plan",
-  "title": "Smart Search Test Plan ",
+  "title": "Smart Search Test Plan",
   "description": "", 
   "author": ""
 }

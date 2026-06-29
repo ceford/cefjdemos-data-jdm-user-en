@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Localhost",
-  "title": "Schema.org - Custom ",
+  "title": "Schema.org - Custom",
   "description": "", 
   "author": ""
 }

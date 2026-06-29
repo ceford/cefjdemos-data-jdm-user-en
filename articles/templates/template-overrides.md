@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Overrides",
-  "title": "Template Overrides ",
+  "title": "Template Overrides",
   "description": "", 
   "author": ""
 }

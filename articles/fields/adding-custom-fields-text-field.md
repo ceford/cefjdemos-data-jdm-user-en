@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Text Field ",
+  "title": "Text Field",
   "description": "", 
   "author": ""
 }

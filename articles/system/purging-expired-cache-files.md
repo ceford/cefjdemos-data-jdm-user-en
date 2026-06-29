@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Purging_expired_cache_files",
-  "title": "Purge Expired Cache ",
+  "title": "Purge Expired Cache",
   "description": "", 
   "author": ""
 }

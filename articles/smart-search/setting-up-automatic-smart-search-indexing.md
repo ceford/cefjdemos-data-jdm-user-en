@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Setting_up_automatic_Smart_Search_indexing",
-  "title": "Smart Search Indexing ",
+  "title": "Smart Search Indexing",
   "description": "", 
   "author": ""
 }

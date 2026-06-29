@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Guest_Access",
-  "title": "Guest Access ",
+  "title": "Guest Access",
   "description": "", 
   "author": ""
 }

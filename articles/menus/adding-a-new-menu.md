@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Adding_a_New_Menu",
-  "title": "Adding a New Menu ",
+  "title": "Adding a New Menu",
   "description": "", 
   "author": ""
 }

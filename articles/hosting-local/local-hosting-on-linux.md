@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/No_original_yet",
-  "title": "Local Hosting on Linux ",
+  "title": "Local Hosting on Linux",
   "description": "", 
   "author": ""
 }

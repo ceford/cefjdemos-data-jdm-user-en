@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Favicons",
-  "title": "Favicons ",
+  "title": "Favicons",
   "description": "", 
   "author": ""
 }

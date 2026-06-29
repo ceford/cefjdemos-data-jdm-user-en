@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Adding_a_menu_link_in_an_article",
-  "title": "Article: Save to Menu ",
+  "title": "Article: Save to Menu",
   "description": "", 
   "author": ""
 }

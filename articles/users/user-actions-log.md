@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Actions_Log",
-  "title": "User Actions Log ",
+  "title": "User Actions Log",
   "description": "", 
   "author": ""
 }

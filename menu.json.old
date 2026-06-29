@@ -1,0 +1,301 @@
+{
+    "getting-started" : {
+        "introduction-to-joomla.md": "",
+        "joomla-core-features.md": "",
+        "hosting-setup.md": "",
+        "installing-joomla.md": "",
+        "logging-in-to-joomla.md": "",
+        "basic-concepts.md": "",
+        "adding-a-category.md": "",
+        "adding-an-article.md": "",
+        "adding-a-menu-item.md": "",
+        "adding-a-module.md": "",
+        "keyboard-shortcuts.md": ""
+    },
+    "articles" : {
+        "articles-categories.md": "",
+        "articles-filter-options.md": "",
+        "articles-featured.md": "",
+        "articles-archive.md": "",
+        "articles-delete.md": "",
+        "article-content.md": "",
+        "article-headings.md": "",
+        "article-images.md": "",
+        "article-links.md": "",
+        "article-link-styles.md": "",
+        "article-lists.md": "",
+        "article-tables.md": "",
+        "article-pagination.md": "",
+        "article-read-more.md": "",
+        "article-images-and-links.md": "",
+        "article-options.md": "",
+        "article-publishing.md": "",
+        "article-metadata.md": "",
+        "article-configure-edit-screen.md": "",
+        "article-permissions.md": "",
+        "article-save-to-menu.md": "",
+        "article-versions.md": "",
+        "article-preview.md": "",
+        "article-accessibility-check.md": "",
+        "article-access-restriction.md": "",
+        "article-check-in.md": ""
+    },
+    "banners" : {
+        "banners.md": ""
+    },
+    "command-line-interface" : {
+        "using-the-cli.md": "",
+        "joomla-cli-installation.md": ""
+    },
+    "configuration" : {
+        "global-configuration.md": "",
+        "site-offline.md": "",
+        "smtp-mail-gmail.md": "",
+        "the-htaccess-file.md": "",
+        "robots-txt-file.md": "",
+        "adding-www-to-a-url.md": "",
+        "disallow-image-hotlinking.md": "",
+        "disallow-directory-listing.md": "",
+        "password-protect-directories.md": ""
+    },
+    "contacts" : {
+        "contacts.md": "",
+        "category-list-override.md": ""
+    },
+    "dashboards" : {
+        "home-dashboard.md": "",
+        "content-dashboard.md": "",
+        "menu-dashboard.md": "",
+        "components-dashboard.md": "",
+        "users-dashboard.md": "",
+        "system-dashboard.md": "",
+        "help-dashboard.md": ""
+    },
+    "editors" : {
+        "content-editors.md": "",
+        "tinymce-plugin.md": "",
+        "codemirror-plugin.md": "",
+        "html-filters.md": ""
+    },
+    "extensions" : {
+        "installing-an-extension.md": "",
+        "free-and-commercial-extensions.md": "",
+        "vulnerable-extensions.md": ""
+    },
+    "fields" : {
+        "fields-and-field-groups.md": "",
+        "adding-custom-fields-parameters.md": "",
+        "adding-custom-fields-calendar-field.md": "",
+        "adding-custom-fields-checkboxes-field.md": "",
+        "adding-custom-fields-color-field.md": "",
+        "adding-custom-fields-editor-field.md": "",
+        "adding-custom-fields-integer-field.md": "",
+        "adding-custom-fields-list-field.md": "",
+        "adding-custom-fields-list-of-images-field.md": "",
+        "adding-custom-fields-media-field.md": "",
+        "adding-custom-fields-note-field.md": "",
+        "adding-custom-fields-number-field.md": "",
+        "adding-custom-fields-radio-field.md": "",
+        "adding-custom-fields-sql-field.md": "",
+        "adding-custom-fields-text-field.md": "",
+        "adding-custom-fields-textarea-field.md": "",
+        "adding-custom-fields-url-field.md": "",
+        "adding-custom-fields-user-field.md": "",
+        "adding-custom-fields-usergroup-field.md": "",
+        "subforms.md": "",
+        "adding-custom-fields-multilingual-sites.md": "",
+        "adding-custom-fields-overrides.md": ""
+    },
+    "help" : {
+        "guided-tours.md": "",
+        "administrator-help.md": ""
+    },
+    "hosting" : {
+        "free-hosting.md": "",
+        "cpanel-hosting.md": "",
+        "auto-installer-installation.md": ""
+    },
+    "hosting-local" : {
+        "docker-setup.md": "",
+        "laragon-setup-windows.md": "",
+        "local-hosting-on-windows.md": "",
+        "local-hosting-on-linux.md": "",
+        "local-hosting-with-xampp.md": "",
+        "installing-joomla-using-bitnami-joomla-stack.md": "",
+        "installing-joomla-on-a-raspberry-pi.md": ""
+    },
+    "hosting-notes" : {
+        "moving-the-site-among-directories-sub-directories.md": "",
+        "how-do-unix-file-permissions-work-3f.md": "",
+        "how-do-windows-file-permissions-work-3f.md": "",
+        "multiple-domains-and-web-sites-in-a-single-joomla-installation.md": "",
+        "what-is-the-difference-between-a-sub-domain-parked-domain-and-an-add-on-domain-3f.md": "",
+        "nginx.md": "",
+        "apache-php-handler.md": "",
+        "optional-technical-requirements.md": ""
+    },
+    "languages" : {
+        "setup-a-multilingual-site.md": "",
+        "multilingual-associations.md": "",
+        "language-overrides.md": "",
+        "debugging-a-translation.md": ""
+    },
+    "media" : {
+        "managing-media.md": "",
+        "media-select-last-file.md": "",
+        "media-upload-delete-rename.md": "",
+        "media-image-crop-resize-rotate.md": "",
+        "media-file-locations.md": "",
+        "media-options.md": "",
+        "media-uploading-svg-files.md": ""
+    },
+    "menus" : {
+        "adding-a-new-menu.md": "",
+        "menu-items.md": "",
+        "menu-item-types.md": "",
+        "menu-item-order.md": "",
+        "submenus.md": "",
+        "keep-submenus-open.md": "",
+        "menu-positions.md": "",
+        "auto-redirect-guests-to-login.md": "",
+        "menu-item-type-archived-articles.md": "",
+        "adding-a-custom-administrator-menu.md": ""
+    },
+    "migration" : {
+        "migration-basics.md": "",
+        "version-update.md": "",
+        "joomla-3-x-to-4-x-step-by-step-migration.md": "",
+        "joomla-5-to-6-steps.md": ""
+    },
+    "modules" : {
+        "site-modules.md": "",
+        "administrator-modules.md": "",
+        "module-positions.md": "",
+        "module-display-by-menu-item.md": "",
+        "how-do-you-put-a-module-inside-an-article-3f.md": "",
+        "enabling-the-login-form-module.md": "",
+        "module-styles.md": "",
+        "articles-archived-module.md": "",
+        "how-do-you-create-a-custom-module-3f.md": ""
+    },
+    "news-feeds" : {
+        "news-feeds.md": "",
+        "news-display.md": ""
+    },
+    "performance" : {
+        "page-analysis.md": "",
+        "monitoring-server-health.md": "",
+        "monitoring-site-speed.md": "",
+        "accessibility-checker.md": "",
+        "managing-404-errors.md": ""
+    },
+    "plugins" : {
+        "about-plugins.md": "",
+        "plugin-joomla-update-notification.md": ""
+    },
+    "privacy" : {
+        "privacy-outline.md": "",
+        "privacy-setup.md": "",
+        "privacy-workflow.md": "",
+        "cookie-notification.md": ""
+    },
+    "problems" : {
+        "assorted-issues.md": "",
+        "unsupported-php-version.md": "",
+        "fatalerror.md": "",
+        "database-table-structure.md": "",
+        "get-locally-hosted-joomla-website-e-mail-functions-to-work.md": "",
+        "unable-to-connect-to-the-database.md": ""
+    },
+    "reference" : {
+        "joomla-licenses.md": "",
+        "what-has-the-copyright-of-joomla-3f.md": "",
+        "what-are-web-standards-3f.md": "",
+        "where-are-the-web-pages-3f.md": ""
+    },
+    "schemas" : {
+        "introduction-to-schema-org.md": "",
+        "article.md": "",
+        "blogposting.md": "",
+        "book.md": "",
+        "custom.md": "",
+        "event.md": "",
+        "jobposting.md": "",
+        "organisation.md": "",
+        "person.md": "",
+        "recipe.md": ""
+    },
+    "security" : {
+        "best-practices.md": "",
+        "http-headers.md": ""
+    },
+    "seo" : {
+        "seo-basics.md": "",
+        "search-engine-friendly-urls.md": "",
+        "strict-routing.md": "",
+        "sef-urls-on-apache.md": "",
+        "sef-urls-on-nginx.md": "",
+        "monitoring-seo.md": "",
+        "using-a-sitemap.md": ""
+    },
+    "smart-search" : {
+        "smart-search-quickstart-guide.md": "",
+        "smart-search-on-large-sites.md": "",
+        "customising-the-smart-search-results-page.md": "",
+        "setting-up-automatic-smart-search-indexing.md": "",
+        "smart-search-frequently-asked-questions.md": "",
+        "smart-search-configuration-options.md": "",
+        "smart-search-content-change-test-plan.md": ""
+    },
+    "system" : {
+        "backup.md": "",
+        "cache.md": "",
+        "purging-expired-cache-files.md": "",
+        "top-10-stupidest-administrator-tricks.md": ""
+    },
+    "tags" : {
+        "content-tags.md": ""
+    },
+    "templates" : {
+        "template-basics.md": "",
+        "cassiopeia-template-customisation.md": "",
+        "template-overrides.md": "",
+        "template-layouts.md": "",
+        "child-templates.md": "",
+        "mail-templates.md": "",
+        "favicons.md": "",
+        "template-svg-logos.md": "",
+        "cassiopeia-templatedetails-xml.md": "",
+
+        "switching-templates.md": "",
+        "home-page-in-different-style.md": "",
+        "module-and-menu-styles.md": "",
+        "joomla-standard-font-awesome-fonts.md": ""
+    },
+    "test-installations" : {
+        "visual-studio-code-primer.md": "",
+        "visual-studio-code-extras.md": "",
+        "setting-up-apache-php-and-mysql-manually.md": "",
+        "permissions-linux.md": "",
+        "permissions-windows.md": ""
+    },
+    "users" : {
+        "access-control.md": "",
+        "user-registration.md": "",
+        "user-profile.md": "",
+        "user-password-reset.md": "",
+        "admin-password-recovery.md": "",
+        "user-password-security.md": "",
+        "webauthn-passwordless-login.md": "",
+        "multi-factor-authentication.md": "",
+        "guest-access.md": "",
+        "changing-user-groups.md": "",
+        "login-and-logout-redirects.md": "",
+        "user-actions-log.md": ""
+    },
+    "workflows" : {
+        "workflow.md": "",
+        "workflow-example-1.md": "",
+        "workflow-example-2.md": ""
+    }
+}

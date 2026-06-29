@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md",
-  "title": "Vulnerable Extensions ",
+  "title": "Vulnerable Extensions",
   "description": "", 
   "author": ""
 }

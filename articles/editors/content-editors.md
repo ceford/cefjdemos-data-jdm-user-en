@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Content_editors",
-  "title": "Content Editors ",
+  "title": "Content Editors",
   "description": "", 
   "author": ""
 }

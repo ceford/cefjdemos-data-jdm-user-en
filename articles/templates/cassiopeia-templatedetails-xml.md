@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml",
-  "title": "Cassiopeia templateDetails.xml ",
+  "title": "Cassiopeia templateDetails.xml",
   "description": "", 
   "author": ""
 }

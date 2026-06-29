@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=guided-tours.md",
-  "title": "Guided Tours ",
+  "title": "Guided Tours",
   "description": "", 
   "author": ""
 }

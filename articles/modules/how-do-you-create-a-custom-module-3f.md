@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/How_do_you_create_a_custom_module%3F",
-  "title": "Custom Module ",
+  "title": "Custom Module",
   "description": "", 
   "author": ""
 }

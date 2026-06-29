@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Site_Offline",
-  "title": "Site Offline ",
+  "title": "Site Offline",
   "description": "", 
   "author": ""
 }

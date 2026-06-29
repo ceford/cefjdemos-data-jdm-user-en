@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Schema_org",
-  "title": "Schema.org - JobPosting ",
+  "title": "Schema.org - JobPosting",
   "description": "", 
   "author": ""
 }

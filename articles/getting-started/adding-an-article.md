@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article",
-  "title": "Adding an Article ",
+  "title": "Adding an Article",
   "description": "", 
   "author": ""
 }
