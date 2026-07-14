@@ -272,6 +272,12 @@
         "module-and-menu-styles.md": "",
         "joomla-standard-font-awesome-fonts.md": ""
     },
+    "template-tips": {
+        "home-page-in-different-style.md": "Home Page in Different Style",
+        "switching-templates.md": "Switching Templates",
+        "module-and-menu-styles.md": "Module and Menu Styles",
+        "joomla-standard-font-awesome-fonts.md": "Font Awesome Fonts"
+    },
     "test-installations": {
         "visual-studio-code-primer.md": "Visual Studio Code Primer",
         "visual-studio-code-extras.md": "Visual Studio Code Extras",
@@ -297,11 +303,4 @@
         "workflow.md": "Publishing Workflow",
         "workflow-example-1.md": "Workflow Example 1",
         "workflow-example-2.md": "Workflow Example 2"
-    },
-    "template-tips": {
-        "home-page-in-different-style.md": "Home Page in Different Style",
-        "switching-templates.md": "Switching Templates",
-        "module-and-menu-styles.md": "Module and Menu Styles",
-        "joomla-standard-font-awesome-fonts.md": "Font Awesome Fonts"
-    }
-}
+    }}
