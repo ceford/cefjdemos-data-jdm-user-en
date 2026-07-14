@@ -58,11 +58,19 @@ always worth paying attention and correcting any problems. One example:
 
 [Google support article on using titles for your web pages](http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=35624)
 
-In Joomla, for a single page the article title becomes the page title used in 
-the head and displayed in the browser tab. For a composite page, such as 
-*Featured Articles* or a *Category blog*, the menu item Title becomes the page 
-title. So you need to put some thought into composition of good descriptive 
-titles for both articles and menu items.
+### Page Title Priorities
+
+In Joomla, the metadata Page Title used in the head and displayed in the 
+browser tab is derived from one of the following sources in order:
+
+1. Menu Item > Page Display > Browser Page Title (if set in form)
+2. Article > Options > Browser Page Title (if set in form)
+3. Article Title (for a single article without a menu item)
+4. Menu Item Title (for a composite page such as *Featured Articles* 
+or a *Category blog*)
+
+So you need to put some thought into composition of good descriptive titles
+and page titles for both articles and menu items.
 
 ## The page Description
 
