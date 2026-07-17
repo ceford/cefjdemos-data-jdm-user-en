@@ -102,33 +102,20 @@ to make your life easier. You have to run the commands for the root of
 the repository when you have changed JS or SASS files. Previously you
 needed to run `npm ci` once, to install dependencies.
 
-#### npm run build:css
+#### npm run build:css (up to Joomla 6.1)
 
 It will compile SASS files to CSS and also create the minified files.
 
-#### npm run build:js
+#### npm run build:js (up to Joomla 6.1)
 
 It will compile and transpile the JavaScript files to the correct format
 and create minified files.
 
-#### npm run watch
+#### From Joomla 6.2 use the following commands:
 
-This is the same as the `build:js` command but will watch for changes
-and automatically build updated files in the media directory. SASS files
-are not included yet.
-
-#### npm run lint:js
-
-This will perform a syntax check on all ES6 JavaScript files against the
-JavaScript code standard (for more information on the Joomla codestyle
-standard please read the the coding standards manual at <a
-href="https://developer.joomla.org/coding-standards/introduction.html%7C"
-class="external text" target="_blank" rel="noreferrer noopener">the
-coding standards manual</a>.
-
-#### npm run test
-
-This will run a JavaScript testing suite.
+- npm run build -- -n <extension> to rebuild a specific extension 
+- run npm run builders-list to find the extension name
+- npm run build -- --all to rebuild everything
 
 ## Possible Issues
 
