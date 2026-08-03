@@ -273,7 +273,10 @@
         "home-page-in-different-style.md": "Home Page in Different Style",
         "switching-templates.md": "Switching Templates",
         "module-and-menu-styles.md": "Module and Menu Styles",
-        "joomla-standard-font-awesome-fonts.md": "Font Awesome Fonts"
+        "joomla-standard-font-awesome-fonts.md": "Font Awesome Fonts",
+        "fa-icons-joomla.md":"FA Icons - Joomla",
+        "fa-icons-brand.md":"FA Icons - Brand",
+        "fa-icons-icomoon.md":"FA Icons - IcoMoon"
     },
     "test-installations": {
         "visual-studio-code-primer.md": "Visual Studio Code Primer",
