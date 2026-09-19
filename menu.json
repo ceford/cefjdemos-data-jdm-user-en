@@ -155,7 +155,6 @@
         "menu-items.md": "Menu Items",
         "menu-item-types.md": "Menu Item Types",
         "menu-item-order.md": "Menu Item Order",
-        "submenus.md": "Submenus",
         "keep-submenus-open.md": "Keep Submenus Open",
         "menu-positions.md": "Menu Positions",
         "auto-redirect-guests-to-login.md": "Auto redirect guests to login",
@@ -274,9 +273,9 @@
         "switching-templates.md": "Switching Templates",
         "module-and-menu-styles.md": "Module and Menu Styles",
         "joomla-standard-font-awesome-fonts.md": "Font Awesome Fonts",
-        "fa-icons-joomla.md":"FA Icons - Joomla",
-        "fa-icons-brand.md":"FA Icons - Brand",
-        "fa-icons-icomoon.md":"FA Icons - IcoMoon"
+        "fa-icons-joomla-dnt.md":"FA Icons - Joomla",
+        "fa-icons-brand-dnt.md":"FA Icons - Brand",
+        "fa-icons-icomoon-dnt.md":"FA Icons - IcoMoon"
     },
     "test-installations": {
         "visual-studio-code-primer.md": "Visual Studio Code Primer",

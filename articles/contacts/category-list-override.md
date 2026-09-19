@@ -2,60 +2,34 @@
 {
   "source": "https://docs.joomla.org/category-list-override.md",
   "title": "Category List Override",
-  "description": "", 
+  "description": "Learn how to create a template override to improve the layout of a list of contacts in a category", 
   "author": ""
 }
 -->
 
-## The List Contacts in a Category Menu Item
+## The List of Contacts in a Category
 
-It may be a personal opinion, but for me the default Contact category list
-layout is not quite satisfactory. My problems:
+The default layout of contacts in  a category is controlled by a template in the 
+com_contacts component code. The default layout looks like this:
 
-* The contact photos are too large at just under 500 pixels wide.
+![culture committee using the default layout and style](../../../en/images/contacts/category-list-override/01-contacts-culture-committee.png)
+
+
+It may be a personal opinion, but for me the default contact layout is not quite 
+satisfactory. My problems:
+
+* The original portrait images were 500 pixels wide and much too dominant.
 * The contact name is not sufficiently emphasised.
 * The personal details bullet list has no heading and looks isolated.
-* The Position has no heading so could seem isolated.
+* The individual's role has no heading.
 * The address and post code fields are absent
 * The location data is incomplete.
-* The personal statement is missing.
-* The list is laid out in a table which is a little better on narrow screens
-but rather cramped.
+* The data for each contact are laid out in a table and rather cramped on narrow screens.
 
-So how to fix it to my liking?
+So how to fix it to my liking? My solution is to create a template override 
+and add some custom styles. Here is the result:
 
-## Styling
-
-The image has CSS style `contact-thumbnail img-thumbnail`. The browser
-Developer Tools indicate that img-thumbnail is set to `max-width: 100%;`
-but contact-thumbnail is not used. The only occurrence of the latter style
-in the entire site is in this location so it seems safe to set an override in
-user.css to restrict the image width. And the contact name font size can be
-increased using its enclosing `a` tag:
-
-```
-.contact-thumbnail {
-  max-width: 200px;
-  margin-right: 1rem;
-}
-a:has(.contact-thumbnail) {
-  font-weight: 700;
-  font-size: larger;
-}
-```
-The bullet list of custom fields can be improved by removing the bullets and
-padding by selecting only bullet lists that appear within a tag that has a
-class of contactList:
-```
-#contactList ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-```
-![styled business committee](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
-
-That is as much as can be done with styling. Better but still not good enough.
-To add more items and change the layout will require a layout override.
+![business committee using a template override and custom styles](../../../en/images/contacts/category-list-override/02-contacts-business-committee.png)
 
 ## Template Layout Override
 
@@ -66,17 +40,56 @@ the table layout for the list.
 The override files are created via System / Site Templates / Cassiopeia
 Details and Files / Create Overrides. Select com_contact and then category.
 The html folder then contains com_contact/category with the three template
-files mentioned above. The default_items.php is the one to select for
-editing. Lines 83 to 203 contain the table used for layout.
+files mentioned above. 
 
-It may not be obvious but $this->items is an array of category members and
-each member actually contains all of the data for each item, not just those
-mentioned in the menu settings.
+### Change the default.php file to mydefault.php
 
-The following is a replacement for the `<table>...</table>` section of the
-default_items.php file using a Bootstrap grid. On narrow screens the three
-columns are stacked. On screens wider than 768 pixels the columns are side
-by side. More explanation follows the code.
+The `default.php` file contains a line that specifies which layout to use for 
+each individual record. Select this file for editing and **rename** it to 
+`mydefault.php` (or use any prefix you like instead of `my`). Do not use an 
+underscore in the filename!
+
+When you later go to the Contacts / Category / Edit form, the Options tab
+Layout field lets you choose between the component layout and your override
+layout. It looks like this:
+
+```
+---From Global Options---
+  Use Global
+---From Component---
+  Default
+---From cassiopeia Template---
+  mydefault
+
+```
+### Edit the mydefault.php file
+
+Line 20 of `mydefault.php` contains `$this->subtemplatename = 'items';`.
+Change `items` to `myitems` so lines 18 to 23 are as follows:
+
+```html
+<div class="com-contact-category">
+    <?php
+        $this->subtemplatename = 'myitems';
+        echo LayoutHelper::render('joomla.content.category_default', $this);
+    ?>
+</div>
+```
+
+### Change the default_items.php file to mydefault_myitems.php
+
+The `default_items.php` file contains the layout for each contact. It needs to
+be renamed to preserve the option to use the original layout. The first part
+of the name is unimportant. It is the `myitems` part referred to in the
+`mydefault.php` file that is used for the layout.
+
+### Edit the mydefault_myitems.php file
+
+The `<table>...</table>` section of this file spans lines 85 to 204. For the
+layout override I replaced the table markup with the following Bootstrap grid
+markup. On narrow screens the three columns are stacked. On screens wider than
+768 pixels the columns are side by side. The revised markup has moved the 
+custom fields to beneath the contact name.
 
 ```
 <div class="container-fluid text-center border border-2">
@@ -100,13 +113,16 @@ by side. More explanation follows the code.
                 <?php endif; ?>
             </div>
             <div class="col-12 col-md-3">
+                <div class="parliament-committee-fields">
                 <a href="<?php echo Route::_(RouteHelper::getContactRoute($item->slug, $item->catid, $item->language)); ?>">
                     <span class="fs-2"><?php echo $this->escape($item->name); ?></span>
                 </a>
+                    <?php echo $item->event->beforeDisplayContent; ?>
+                </div>
             </div>
             <div class="col-12 col-md-6 text-start">
                 <?php if ($this->params->get('show_position_headings') && !empty($item->con_position)) : ?>
-                    <strong>Position</strong><br>
+                    <strong><?php echo Text::_('COM_CONTACT_FIELD_INFORMATION_POSITION_LABEL'); ?></strong><br>
                     <?php echo $item->con_position; ?><br>
                 <?php endif; ?>
                 <?php if ($this->params->get('show_suburb_headings')) : ?>
@@ -123,7 +139,7 @@ by side. More explanation follows the code.
                     <?php if (!empty($item->postcode)) : ?>
                         <?php $location[] = $item->postcode; ?>
                     <?php endif; ?>
-                        <strong>Address</strong><br>
+                        <strong><?php echo Text::_('COM_CONTACT_FIELD_INFORMATION_ADDRESS_LABEL'); ?></strong><br>
                     <?php echo implode("<br>\n", $location); ?><br>
                 <?php endif; ?>
                 <?php if (!empty($item->misc)) : ?>
@@ -134,54 +150,46 @@ by side. More explanation follows the code.
     <?php endforeach; ?>
 </div>
 ```
-### Explanation
 
-The contacts list may contain items that are not published, or have publish_up
-and publish_down dates that are not current. They need to excluded from
-display and a separate counter is needed to keep the alternation of background
-colours in each row.
+## Styling
 
-The img tag is rendered as:
-```
-<img src="/j51/images/parliament/Official_portrait_of_Liam_Byrne_crop_2.jpg"
-alt="official image of Liam Byrne" class="contact-thumbnail img-thumbnail"
-width="479" height="639" loading="lazy">
-```
-The `<span class="fs-2">...</span>` class sets the contact name to font size 2,
-which would be the same as Heading 2.
+Bootstrap style classes can be defined in the `mydefault_myitems.php` file.
+For example, `<span class="fs-2">...</span>` is used to increase the font size
+of the contact name. Other styles can be added in the `user.css` file, for
+example, customisation of bullet lists only appearing within a tag that has a
+class of `contactList`.
 
-The `show_suburb_headings` item is being used as a proxy to show the whole
-address as some of the individual address items do not have Show/Hide
-selectors in the menu item.
+Here are the styles entered in the user.css file to obtain the layout
+of the Business Committee illustrated above.
 
-### Extra Styling
-
-The gridded version of the contact list needs additional styling in user.css:
 ```
 .contact-thumbnail {
   max-width: 200px;
   margin-right: 1rem;
 }
-
 a:has(.contact-thumbnail) {
   font-weight: 700;
   font-size: larger;
 }
-
 #contactList ul {
   list-style-type: none;
   padding-left: 0;
 }
-
 .cat-list-row0 {
   background-color: #efefef;
 }
-
 .cat-list-row0:hover, .cat-list-row1:hover  {
   background-color: #ddd;
 }
+div.parliament-committee-fields {
+  text-align: left;
+  margin-top: 1rem;
+}
+div.parliament-committee-fields ul.fields-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+div.parliament-committee-fields ul.fields-container span.field-label {
+  font-weight: 700;
+}
 ```
-
-### Result
-
-![gridded business committee](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)

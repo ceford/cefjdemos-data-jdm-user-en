@@ -170,7 +170,7 @@ giving it an overall more complete appearance.
 
 The following screenshot shows site view of a category blog page in development.
 
-![Mammals category blog page](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
+![Mammals category blog page](../../../en/images/articles/articles-categories/04-category-blog-site-view.png)
 
 ## Tips
 
@@ -185,3 +185,4 @@ The following screenshot shows site view of a category blog page in development.
   sub-categories and provides an efficient way to structure website
   content and provide visitors with more features to navigate 
   website content.
+

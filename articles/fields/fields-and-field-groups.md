@@ -39,7 +39,7 @@ you could use a Nature group.
 For articles on Nature the article category and sub-categories for each branch 
 of the living world might appear as in the following example:
 
-![Article categories for nature](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
+![Article categories for nature](../../../en/images/fields/fields-and-field-groups/01-categories-list.png)
 
 Some obvious features of Nature to note:
 
@@ -68,7 +68,7 @@ Creating Field Groups for Articles is very simple:
   form when *Toggle Inline Help* is selected.
 - Select **Save & Close** from the toolbar. 
 
-![Content field groups list](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
+![Content field groups list](../../../en/images/fields/fields-and-field-groups/02-field-groups-list.png)
 
 ### Ordering
 
@@ -87,7 +87,7 @@ Note that in the screenshot below this field has been assigned to the Nature
 Field Group and to the Nature category. This ensure that it always appears in 
 articles in the Nature category and any sub-category.
 
-![Text field - latin name in nature group](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
+![Text field - latin name in nature group](../../../en/images/fields/fields-and-field-groups/03-latin-name.png)
 
 ### Checkboxes - Flowering Season
 
@@ -100,14 +100,14 @@ Note that in this screenshot the Field has been assigned to the Flowers
 group and to the Flowers Category. That should ensure that the field is
 only present in articles bout flowers.
 
-![Checkbox field - flowering season](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
+![Checkbox field - flowering season](../../../en/images/fields/fields-and-field-groups/04-propagation.png)
 
 ### Colour - Color
 
 Just to be confusing, the name of the field type is Color (US Spelling)
 but the label in documentation is Colour (British Spelling).
 
-![Colour field](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
+![Colour field](../../../en/images/fields/fields-and-field-groups/05-colour.png)
 
 The Colour field is assigned to the Nature field group and the Nature category
 as it is not unique to flowers.
@@ -120,7 +120,7 @@ is no field for a real number so length and width could be integers with a scale
 in the *Options* tab. If there is no obvious upper limit then leave the *Last:*
 field empty.
 
-![Hardiness field](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
+![Hardiness field](../../../en/images/fields/fields-and-field-groups/06-hardiness.png)
 
 RHS Hardiness is a property usually applied to flowers!
 

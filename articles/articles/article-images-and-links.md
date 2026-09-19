@@ -92,11 +92,11 @@ The screenshot below shows a category blog layout with the *Intro Image*. It
 might have been better to use a panorama image with the same height but much
 greater width to use up the vacant white space.
 
-![Amphibians category blog page](../../../en/images/articles/article-images-and-links/02-articles-site-amphibians-blog.png)
+![Example intro image in category blog page](../../../en/images/articles/article-images-and-links/02-site-intro-image.png)
 
 The screenshot below shows the single article page with the *Full Article Image*
 and Link A. The image has been floated to the right and the visible caption says
 something to add to what the Description says so that it sounds logical for
 screen readers.
 
-![Frogs single article page](../../../en/images/articles/article-images-and-links/03-articles-site-amphibians-frogs.png)
+![Example full article image in single article page](../../../en/images/articles/article-images-and-links/03-site-full-article-image.png)
