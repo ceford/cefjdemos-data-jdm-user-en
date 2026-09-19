@@ -100,3 +100,4 @@ something to add to what the Description says so that it sounds logical for
 screen readers.
 
 ![Example full article image in single article page](../../../en/images/articles/article-images-and-links/03-site-full-article-image.png)
+
