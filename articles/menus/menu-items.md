@@ -70,3 +70,4 @@ to many menu item types. For example, Options, Page Display, Link Type,
 Metadata and Menu Assignment are common to most. Blog Layout is common
 to Featured Articles and Category Blog menu item types. Information on
 these tabs may be found elsewhere.
+

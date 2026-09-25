@@ -86,3 +86,4 @@ to apply the same action to all of the selected articles. If you are really sure
 - Joomla keeps previous versions of an article unless Versions is disabled. If
   you are deleting an article because it somehow "broke", try reverting
   it back to a previous version.
+

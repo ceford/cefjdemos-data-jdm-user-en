@@ -44,4 +44,3 @@ any user-defined fields in the selected locations.
 
 Very few of the individual plugins are documented here. They are covered by
 Type in the Help page of each plugin.
-

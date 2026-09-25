@@ -178,7 +178,7 @@ Authentication part of the form after a method has been created. That
 automatically sets the feature to Enabled and shows the option to create
 Backup Codes.
 
-![site view of user multi factor authentication form](../../../en/images/users/multi-factor-authentication/02-multi-factor-authentication-site-profile.jpg)
+![site view of user multi factor authentication form](../../../en/images/users/multi-factor-authentication/02-multi-factor-authentication-site-profile.png)
 
 As mentioned above, you can try each out by selecting the + Add ...
 button, but select Cancel in the subsequent form if you decide not to

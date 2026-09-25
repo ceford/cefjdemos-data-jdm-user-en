@@ -82,3 +82,4 @@ demonstrate how to create a new Category:
 - **Save and Close** to return to the **Articles: Categories** list page.
 
 This category is now available for use with articles.
+

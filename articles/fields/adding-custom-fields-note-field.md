@@ -50,3 +50,4 @@ In the data entry form, the note field appears amongst other fields as text styl
 
 If *Display in Frontend* is set to *Yes* then the Note field appears amongst other fields in the frontend. There it might contain some general information common to a group of articles.
 
+![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)

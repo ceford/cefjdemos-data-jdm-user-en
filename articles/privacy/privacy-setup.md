@@ -216,3 +216,4 @@ consent to agree to the site Terms and Conditions is not recorded here.
 That is only in the User Actions Log.
 
 ![privacy consents](../../../en/images/privacy/privacy-setup/06-privacy-consents.png)
+

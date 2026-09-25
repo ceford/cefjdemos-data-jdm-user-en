@@ -85,13 +85,15 @@
     "fields": {
         "fields-and-field-groups.md": "Fields and Field Groups",
         "adding-custom-fields-parameters.md": "Field Parameters",
+        "adding-custom-fields-audio-field.md": "Audio Field",
         "adding-custom-fields-calendar-field.md": "Calendar Field",
         "adding-custom-fields-checkboxes-field.md": "Checkboxes Field",
         "adding-custom-fields-color-field.md": "Colour Field",
+        "adding-custom-fields-document-field.md": "Document Field",
         "adding-custom-fields-editor-field.md": "Editor Field",
         "adding-custom-fields-integer-field.md": "Integer Field",
         "adding-custom-fields-list-field.md": "List Field",
-        "adding-custom-fields-list-of-images-field.md": "List of Images Field",
+        "adding-custom-fields-images-list-field.md": "Images List Field",
         "adding-custom-fields-media-field.md": "Media Field",
         "adding-custom-fields-note-field.md": "Note Field",
         "adding-custom-fields-number-field.md": "Number Field",
@@ -101,7 +103,8 @@
         "adding-custom-fields-textarea-field.md": "Textarea Field",
         "adding-custom-fields-url-field.md": "Url Field",
         "adding-custom-fields-user-field.md": "User Field",
-        "adding-custom-fields-usergroup-field.md": "Usergroup Field",
+        "adding-custom-fields-usergrouplist-field.md": "Usergrouplist Field",
+        "adding-custom-fields-video-field.md": "Video Field",
         "subforms.md": "Subform Field",
         "adding-custom-fields-multilingual-sites.md": "Multilingual Sites",
         "adding-custom-fields-overrides.md": "Example Template Override"
@@ -174,9 +177,9 @@
         "module-display-by-menu-item.md": "Module Display by Menu Item",
         "how-do-you-put-a-module-inside-an-article-3f.md": "Modules inside Articles",
         "enabling-the-login-form-module.md": "Login Form",
-        "module-styles.md": "Module Styles",
         "articles-archived-module.md": "Archived Articles",
-        "how-do-you-create-a-custom-module-3f.md": "Custom Module"
+        "custom-module.md": "Custom Module",
+        "module-styles.md": "Module Styles"
     },
     "news-feeds": {
         "news-feeds.md": "News Feeds",
@@ -291,7 +294,7 @@
         "user-password-reset.md": "User Password Reset",
         "admin-password-recovery.md": "Admin Password Recovery",
         "user-password-security.md": "User Password Security",
-        "webauthn-passwordless-login.md": "WebAuthn Login",
+        "passkey-login.md": "Passkey Login",
         "multi-factor-authentication.md": "Multi-factor Authentication",
         "guest-access.md": "Guest Access",
         "changing-user-groups.md": "Changing User's Groups",

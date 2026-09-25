@@ -51,6 +51,6 @@ From the Administrator menu:
 
 - Login to the site and use the link to check the User Profile.
 
-![user profile menu item form](../../../en/images/users/user-profile/03-user-profile-summary.png)
+![user profile menu item form](../../../en/images/users/user-profile/03-user-profile-edit.png)
 
 - Try the **Edit Profile** button.

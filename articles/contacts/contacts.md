@@ -134,4 +134,3 @@ available are as follows:
 * **Ordering** This is the order in which contacts appear in the Contacts list.
 * **Featured Contacts Ordering** Featured contacts appear before other contacts
     but otherwise contacts are displayed in list order.
-

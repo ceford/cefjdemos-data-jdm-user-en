@@ -86,4 +86,4 @@ Read all about it elsewhere!
 * Change the heading bottom border too.
 * Apply this style to several modules instead of one at a time
 
-![Archived Articles Module Example](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
+![Archived Articles Module Example](../../../en/images/modules/module-styles/01-modules-site-message.png)

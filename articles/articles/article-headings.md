@@ -75,3 +75,4 @@ headings set in tags with lower case.
   options. *Heading* and *Block quote* selections are applied to the whole 
   paragraph. *Bold*, *Italic* and *Underline* are applied to the selected 
   characters.
+
