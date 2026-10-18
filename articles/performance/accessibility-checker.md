@@ -12,7 +12,7 @@
 This is a core plugin that can be used to check accessibility whilst creating
 article content. The following screenshot shows some plugin settings:
 
-![Plugin form settings](../../../en/images/performance/accessibility-checker/01-performance-jooa11y-plugin-form.png)
+![Plugin form settings](../../../en/images/performance/accessibility-checker/01-jooa11y-plugin.png)
 
 With the **Show Always** option set to *On* the report icon appears on every
 page of the site. That is useful for development but should never be left on
@@ -22,14 +22,11 @@ With the *Show Always* option set to *On* each site page has an icon at the
 bottom right with a count of the number of issues. The following screenshot
 shows the icon selected to show a panel of information. It includes a Page
 Outline, Readability comments and Warnings, which can be selected one by one.
-The first issue has been selected.
+Some examples:
 
-![Site accessibility check](../../../en/images/performance/accessibility-checker/02-performance-jooa11y-site-display.png)
+![Site accessibility check](../../../en/images/performance/accessibility-checker/02-jooa11y-problem-1.png)
 
-The *Articles: Edit* form has an **Accessibikity Check** button in the Toolbar.
-It shows the check for an individual article in a popup window:
-
-![Editor accessibility check](../../../en/images/performance/accessibility-checker/03-performance-jooa11y-admin-display.png)
+![Editor accessibility check](../../../en/images/performance/accessibility-checker/03-jooa11y-problem-2.png)
 
 ## Fixing Problems
 
@@ -43,7 +40,7 @@ For more information see the Sa11y Overview
 
 For example, on Readability, it says:
 
->Sa11y can estimate the readability score from all paragraphs and list content.
+> Sa11y can estimate the readability score from all paragraphs and list content.
 A good readability score is an indication that your writing is understandable
 and easy to digest. It is based on the average length of sentences and words
 on your page, using a formula known as the Flesch reading-ease test
