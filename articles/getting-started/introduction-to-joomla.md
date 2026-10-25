@@ -105,3 +105,4 @@ Joomla! code consists of several different types of Extension:
 Joomla! has all the core Extensions you need for most types of personal
 and community websites. You only need to look for third party Extensions
 for more complex requirements such as sales and marketing.
+
