@@ -116,7 +116,8 @@
     "hosting": {
         "free-hosting.md": "Free Hosting",
         "cpanel-hosting.md": "cPanel Hosting",
-        "auto-installer-installation.md": "Auto Installer Installation"
+        "auto-installer-installation.md": "Auto Installer Installation",
+        "laptop-hosting.md":"Laptop Hosting"
     },
     "hosting-local": {
         "local-environment-setup.md": "Local Environment Setup",
