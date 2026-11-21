@@ -1,15 +1,15 @@
 <!--
 {
   "source": "https://jdocmanual.org/",
-  "title": "Laptop Hosting",
-  "description": "Learn how to set up a laptop for Joomla development and testing", 
+  "title": "DDEV Hosting: Mac",
+  "description": "Learn how to set up a laptop for Joomla development and testing with DDEV and Docker containers that allow quick change of PHP Version, database and Web Server",
   "author": ""
 }
 -->
 
 ## Background
 
-It is not practicable to host a website on a laptop! However, many site developers use a laptop or desktop for testing and experimentation. It can be free and not difficult for anyone willing to learn. This article sets out the basic steps. But beware, you may come across many other articles on this topic, some of which describe out-of-date technologies!
+It is not practicable to host a public website on a laptop! However, many site developers use a laptop or desktop for testing and experimentation. It can be free and not difficult for anyone willing to learn. This article sets out the basic steps. But beware, you may come across many other articles on this topic, some of which describe out-of-date technologies!
 
 At the end, you will be able to create as many web sites as you need for testing and development purposes. When satisfied, you can deploy a development site to a public web server. That part is not covered here.
 
@@ -31,13 +31,15 @@ DDEV is a Docker based, PHP and Node.js development platform providing isolated 
 - DDEV is free ...
 - Instructions are available [online](https://ddev.com/get-started).
 
-![DDEV Site](../../../en/images/hosting/laptop-hosting/01-ddev-site.png)
+![DDEV Site](../../../en/images/hosting-local/ddev-hosting/01-ddev-site.png)
 
 Do not worry if you already have a web server, databases and PHP installed. DDEV will not be interfere with them.
 
 ### 1. Install Orbstack Docker Provider with Homebrew
 
-Orbstack is a Mac only application that is not free for prefessional use. Other platforms have other choices.
+Homebrew is a free, open-source package manager for macOS (and Linux/WSL) that installs, updates, and removes software and developer tools from the Terminal using the brew command. It resolves complex dependency chains and automates software management through single terminal commands. It installs packages into its own directory structure—typically under /opt/homebrew on Apple Silicon Macs or /usr/local on Intel Macs—without scattering files across your system. See the [Homebrew Site](https://brew.sh/) for more information and installation instructions.
+
+OrbStack is a lightweight macOS app that runs Docker containers, Linux virtual machines, and single-node Kubernetes clusters with lower memory and CPU overhead than Docker Desktop. It is a Mac only application that is not free for professional use. Other platforms have other choices. To install it with Homebrew:
 
 ```
 brew install orbstack docker
@@ -45,9 +47,7 @@ brew install orbstack docker
 
 This is what it looks like as an App:
 
-![Orbstack screenshot](../../../en/images/hosting/laptop-hosting/02-orbstack.png)
-
-
+![Orbstack screenshot](../../../en/images/hosting-local/ddev-hosting/02-orbstack.png)
 
 ### 2. Confirm docker is installed
 
@@ -203,7 +203,7 @@ jddev-status -- Show the ddev-joomla configuration and the state of the installa
 
 An example, change php version then check with `joomlainfo`:
 
-![screenshot of joomlainfo data](../../../en/images/hosting/laptop-hosting/04-joomlainfo.png)
+![screenshot of joomlainfo data](../../../en/images/hosting-local/ddev-hosting/04-joomlainfo.png)
 
 ## DDevUI
 
@@ -217,11 +217,11 @@ brew install --cask shiv122/tap/ddevui
 
 Then start it from the list of available apps.
 
-![ddevui screenshot](../../../en/images/hosting/laptop-hosting/03-ddevui.png)
+![ddevui screenshot](../../../en/images/hosting-local/ddev-hosting/03-ddevui.png)
 
 ## Debugging with Xdebug
 
-Debugging involves setting a breakpoint in the code with your favourite IDE and then running the code up to that point by loading a web page. Caommands to obtain status and enable or disable xdebug:
+Debugging involves setting a breakpoint in the code with your favourite IDE and then running the code up to that point by loading a web page. Commands to obtain status and enable or disable xdebug:
 ```
 jxdb
     response: xdebug disabled
